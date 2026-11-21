@@ -11,6 +11,7 @@ import type { CardSummary } from "@/lib/cards";
 import { apiFetch, localDay, localMidnightIso } from "@/lib/client/api";
 import { useT } from "@/lib/i18n/client";
 import { useAutoReadPref } from "@/lib/tts/prefs";
+import { useCardFlip } from "@/lib/client/useCardFlip";
 import { useReadAloud } from "@/lib/tts/useReadAloud";
 
 type FeedCard = CardSummary & { discovery?: boolean; reread?: boolean; read_count?: number | null };
@@ -139,6 +140,8 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
   }, [load]);
 
   const current = cards[index];
+  const cardFlip = useCardFlip();
+  const shownCard = cardFlip.show(current);
   const [autoRead, setAutoRead] = useAutoReadPref();
   const audio = useReadAloud(current ? toSpeakable(current) : undefined, { autoPlay: autoRead });
   const nextCard = cards[index + 1];
@@ -279,7 +282,14 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
           aria-live="polite"
         >
           <p className="sr-only">{t.feed.position(index + 1, cards.length)}</p>
-          <LectioCard key={current.id} card={current} discovery={current.discovery} headingLevel="h2" reading={audio.reading}>
+          <LectioCard
+            key={`${current.id}-${shownCard?.language}`}
+            card={shownCard ?? current}
+            discovery={current.discovery}
+            headingLevel="h2"
+            reading={audio.reading}
+            onFlipLanguage={() => void cardFlip.flip(current)}
+          >
             {current.reread && <ReadMeta cardId={current.id} readCount={current.read_count ?? 1} />}
           </LectioCard>
         </div>

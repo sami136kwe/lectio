@@ -102,3 +102,16 @@ export const reviewLaterBodySchema = z.object({ cardId: uuidSchema });
 
 export const readingBodySchema = z.object({ cardId: uuidSchema, day: daySchema });
 export const readingResetBodySchema = z.object({ book: z.string().regex(/^[1-3A-Z]{3}$/) });
+
+export const deckQuerySchema = z.object({ day: daySchema, today: z.enum(["1", "0"]).default("1") });
+export const deckPositionBodySchema = z.object({ day: daySchema, position: z.number().int().min(1).max(10_000), today: daySchema });
+export const cardsQuerySchema = z.object({
+  ids: z.string().max(400).transform((v) => v.split(",").filter(Boolean)).pipe(z.array(uuidSchema).min(1).max(10)),
+  lang: z.enum(["fr", "en"]),
+});
+export const learnBodySchema = z.object({ cardId: uuidSchema });
+export const learnReviewBodySchema = z.object({
+  cardId: uuidSchema,
+  rating: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
+  day: daySchema,
+});

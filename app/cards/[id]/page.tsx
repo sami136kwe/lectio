@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ReadableCard } from "@/components/ReadableCard";
+import { LearnButton } from "@/components/LearnButton";
 import { StashButton } from "@/components/StashButton";
 import { cardById } from "@/lib/cards";
 import { getViewer } from "@/lib/session";
@@ -34,7 +35,14 @@ export default async function CardPage({ params }: Params) {
   }
   return (
     <div className="mx-auto max-w-2xl">
-      <ReadableCard card={card}>{user && <StashButton cardId={card.id} initiallyStashed={stashed} />}</ReadableCard>
+      <ReadableCard card={card}>
+        {user && (
+          <>
+            <StashButton cardId={card.id!} initiallyStashed={stashed} />
+            <LearnButton cardId={card.id!} />
+          </>
+        )}
+      </ReadableCard>
     </div>
   );
 }
