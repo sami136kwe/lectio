@@ -52,9 +52,13 @@ export default async function BookPage({ params, searchParams }: Params) {
         <p className="max-w-2xl text-muted">{BOOK_SUMMARIES[book.code]?.[locale]}</p>
         {book.code === "PSA" && <p className="text-sm text-muted">{t.books.psalmNumbering}</p>}
         <div className="flex flex-wrap items-center gap-3">
-          {(all ?? []).length > 0 && (
+          {(all ?? []).length > 0 ? (
             <Link href={`/books/${book.code}/read`} className="btn-primary" data-testid="read-in-order">
               {read > 0 ? t.books.continueReading : t.books.readInOrder}
+            </Link>
+          ) : (
+            <Link href={`/books/${book.code}/1`} className="btn-primary" data-testid="read-first-chapter">
+              {t.books.readFirstChapter}
             </Link>
           )}
           {user && (all ?? []).length > 0 && <span className="text-sm text-muted">{t.books.progress(read, (all ?? []).length)}</span>}
@@ -62,6 +66,7 @@ export default async function BookPage({ params, searchParams }: Params) {
       </div>
       <section className="flex flex-col gap-3">
         <h2 className="text-xl font-semibold">{t.books.allChapters}</h2>
+        <p className="text-sm text-muted">{t.books.chaptersHint}</p>
         <nav aria-label={t.books.chaptersNav} className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-10">
           {Array.from({ length: book.code === "PSA" ? 150 : book.chapters }, (_, i) => i + 1).map((c) => {
             const n = perChapter.get(c) ?? 0;
@@ -81,7 +86,7 @@ export default async function BookPage({ params, searchParams }: Params) {
         </nav>
       </section>
       {cards.length > 0 && <h2 className="text-xl font-semibold">{t.books.commented}</h2>}
-      {cards.length > 0 ? <CardGrid cards={cards} /> : <p className="text-muted">{t.books.noCards}</p>}
+      {cards.length > 0 && <CardGrid cards={cards} />}
     </div>
   );
 }
