@@ -75,6 +75,7 @@ Ouvrez http://localhost:3000.
 | `npm run import:bible` | Import déterministe du texte biblique (`--dry-run`, `--version=WEB`) |
 | `npm run import:sources` | Pères de l'Église (traductions du domaine public, vérifiés mot pour mot) et liturgie (`--only=patristic`, `--only=liturgy`, `--embed`) |
 | `npm run seed:demo` | Les 17 cartes d'exemple |
+| `npm run seed:content` | Les cartes rédigées dans `content/cards/*.json` (gratuit, hors ligne, mêmes contrôles que le pipeline ; `--book=MRK`) |
 | `npm run seed:cards` | **Premier lot** de cartes générées (Marc 1-2, Psaumes 1-5, Jean 1, 1-18, Matthieu 16, 13-20), avec estimation du coût et confirmation |
 | `npm run seed:cards -- --all` | Tout le Nouveau Testament et les Psaumes (2 551 passages) |
 | `npm run seed:cards -- --dry-run` | Planifie et estime le coût, sans appel au modèle |

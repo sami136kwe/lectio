@@ -26,7 +26,8 @@
     "seed:cards": "tsx scripts/seed-cards.ts",
     "check:db": "tsx scripts/check-db.ts",
     "export:cards": "tsx scripts/export-cards.ts",
-    "review:import": "tsx scripts/import-review.ts"
+    "review:import": "tsx scripts/import-review.ts",
+    "seed:content": "tsx scripts/seed-content.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

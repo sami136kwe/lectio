@@ -27,7 +27,7 @@ async function sourceId(db: ScriptDb, s: DemoCard["sources"][number], key: strin
   return match.id;
 }
 
-async function seedCard(db: ScriptDb, c: DemoCard, categories: Map<string, string>) {
+export async function seedCard(db: ScriptDb, c: DemoCard, categories: Map<string, string>, origin: "manual" | "seed" = "manual") {
   const categoryId = categories.get(c.category);
   if (!categoryId) throw new Error(`${c.key}: unknown category ${c.category}`);
   const range = { book: c.book, chapterStart: c.chapterStart, verseStart: c.verseStart, chapterEnd: c.chapterEnd, verseEnd: c.verseEnd };
@@ -45,9 +45,9 @@ async function seedCard(db: ScriptDb, c: DemoCard, categories: Map<string, strin
         difficulty: c.difficulty,
         status: "published",
         quality_score: 9,
-        content_hash: createHash("sha256").update(`manual:${c.key}`).digest("hex"),
+        content_hash: createHash("sha256").update(`${origin === "manual" ? "manual" : "content"}:${c.key}`).digest("hex"),
         passage_text_hash: passageTextHash(reference),
-        source_type: "manual",
+        source_type: origin,
       },
       { onConflict: "content_hash" },
     )

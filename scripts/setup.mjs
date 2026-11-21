@@ -103,6 +103,8 @@ say("Import des sources vérifiées et de la liturgie (la première fois : deux 
 if (run("npm", ["run", "import:sources"]).status !== 0) fail("L'import des sources a échoué.");
 say("Chargement des cartes d'exemple…");
 if (run("npm", ["run", "seed:demo"]).status !== 0) fail("Le chargement des cartes d'exemple a échoué.");
+say("Chargement des cartes rédigées (content/cards)…");
+if (run("npm", ["run", "seed:content"]).status !== 0) console.log("   certaines cartes n'ont pas passé les contrôles (voir ci-dessus) ; les autres sont chargées.");
 
 console.log(`
 ✔ Tout est prêt.
