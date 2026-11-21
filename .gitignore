@@ -53,3 +53,4 @@ next-env.d.ts
 
 # Lectio: downloaded Bible and source files
 /.cache/
+/exports/

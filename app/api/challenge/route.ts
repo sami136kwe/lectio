@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { parseJson, parseQuery, requireApiUser, serverError } from "@/lib/api";
 import { recordActivity } from "@/lib/activity";
+import { cardsByIds, type CardSummary } from "@/lib/cards";
 import { challengeBodySchema, challengeQuerySchema } from "@/lib/validation/api";
 
 function dayBounds(day: string, offsetMinutes: number) {
@@ -23,7 +24,13 @@ export async function GET(request: Request) {
 
   const { data, error } = await supabase.rpc("daily_challenge", { p_day: query.data.day });
   if (error) return serverError("challenge", error);
-  const card = data[0] ?? null;
+  const row = data[0] ?? null;
+  let card: CardSummary | null = null;
+  try {
+    if (row) [card = null] = await cardsByIds(supabase, [row.id!], row.language === "en" ? "en" : "fr");
+  } catch (e) {
+    return serverError("challenge:card", e);
+  }
 
   let completed = false;
   if (card) {
@@ -32,7 +39,7 @@ export async function GET(request: Request) {
       .from("card_views")
       .select("id", { count: "exact", head: true })
       .eq("user_id", user.id)
-      .eq("card_id", card.id)
+      .eq("card_id", card.id!)
       .eq("action", "completed")
       .gte("created_at", start)
       .lt("created_at", end);

@@ -19,11 +19,11 @@ test("new user can sign up, browse the feed, save and review a card", async ({ p
   await expect(page).toHaveURL(/\/onboarding/);
   await page.getByRole("radio", { name: "Français" }).click();
   await page.getByRole("button", { name: "Suivant" }).click();
-  await page.getByRole("checkbox", { name: /Psychologie/ }).check();
-  await page.getByRole("checkbox", { name: /Communication/ }).check();
+  await page.getByRole("checkbox", { name: /^Jésus/ }).check();
+  await page.getByRole("checkbox", { name: /^Prière/ }).check();
   await page.getByRole("button", { name: "Suivant" }).click();
-  await page.getByRole("radio", { name: /3 cartes/ }).click();
-  await page.getByRole("button", { name: "C'est parti" }).click();
+  await page.getByRole("radio", { name: /3 passages/ }).click();
+  await page.getByRole("button", { name: "Commencer la lecture" }).click();
 
   // Feed
   await expect(page).toHaveURL(/\/feed/);
@@ -34,8 +34,8 @@ test("new user can sign up, browse the feed, save and review a card", async ({ p
   await expect(page.getByText("1 / 3 aujourd'hui")).toBeVisible();
 
   // Save the card
-  await page.getByRole("button", { name: /Sauvegarder/ }).click();
-  await expect(page.getByRole("button", { name: /Sauvegardée/ })).toBeVisible();
+  await page.getByRole("button", { name: /^★?\s*Garder$/ }).click();
+  await expect(page.getByRole("button", { name: /Gardé$/ })).toBeVisible();
 
   // Next card via the button
   await page.getByRole("button", { name: "Suivant" }).click();
@@ -51,15 +51,15 @@ test("new user can sign up, browse the feed, save and review a card", async ({ p
   // Review session: reveal then rate
   await page.goto("/review");
   await expect(page.getByRole("heading", { name: savedTitle })).toBeVisible();
-  await page.getByRole("button", { name: "Voir l'idée" }).click();
-  await expect(page.getByText("À faire aujourd'hui")).toBeVisible();
+  await page.getByRole("button", { name: "Voir le passage" }).click();
+  await expect(page.getByText("À vivre ou à méditer")).toBeVisible();
   await page.getByRole("button", { name: "Bien" }).click();
   await expect(page.getByText("Session terminée")).toBeVisible();
 
   // Daily challenge
   await page.goto("/challenge");
   await page.getByRole("checkbox", { name: "C'est fait" }).check();
-  await expect(page.getByText("Bravo, défi relevé aujourd'hui !")).toBeVisible();
+  await expect(page.getByText("Défi du jour accompli.")).toBeVisible();
   await expect(page.getByText(/Série : 1 jour/)).toBeVisible();
 
   // Progress

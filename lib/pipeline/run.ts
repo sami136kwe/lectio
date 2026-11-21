@@ -272,6 +272,8 @@ async function storeCard(
       language,
       plain_explanation: out[language].explanation,
       action_step: out[language].action,
+      // Rule-based style score: cards reach this point only when no style rule is broken.
+      style_score: 10,
       status,
       embedding: vectors ? vectors[language === "fr" ? "frExp" : "enExp"] : null,
     })),

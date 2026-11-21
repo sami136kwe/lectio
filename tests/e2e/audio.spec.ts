@@ -33,9 +33,9 @@ test("a card is read without long waits or gaps, with the sentence highlighted",
   await page.getByLabel("Mot de passe").fill("correct-horse-battery");
   await page.getByRole("button", { name: "Créer mon compte" }).click();
   await page.getByRole("button", { name: "Suivant" }).click();
-  await page.getByRole("checkbox", { name: /Psychologie/ }).check();
+  await page.getByRole("checkbox", { name: /^Jésus/ }).check();
   await page.getByRole("button", { name: "Suivant" }).click();
-  await page.getByRole("button", { name: "C'est parti" }).click();
+  await page.getByRole("button", { name: "Commencer la lecture" }).click();
   await expect(page.locator("article h2").first()).toBeVisible();
 
   // The fast local voice is offered and chosen by default.

@@ -5,7 +5,8 @@
  *  1. checks Node and Docker
  *  2. starts the local Supabase (database, auth, ...) with the migrations
  *  3. creates .env.local from the keys Supabase prints (never overwrites a value you already set)
- *  4. loads the categories and the demo cards
+ *  4. loads the categories, the Bible text (7 public-domain versions), the verified
+ *     sources and liturgy (two git clones of about 450 MB each, once), and the demo cards
  *
  * Options:
  *   --admin=you@example.com   e-mail allowed to open /admin
@@ -79,7 +80,6 @@ const wanted = {
   SUPABASE_SERVICE_ROLE_KEY: serviceKey,
   NEXT_PUBLIC_SITE_URL: "http://localhost:3000",
   EMBEDDING_FUNCTION_SECRET: embeddingSecret,
-  CRON_SECRET: existing.get("CRON_SECRET") || randomBytes(16).toString("hex"),
   ADMIN_EMAILS: option("admin") ?? "",
 };
 const added = [];
@@ -95,10 +95,14 @@ if (added.length) writeFileSync(ENV_FILE, `${lines.join("\n")}\n`);
 console.log(added.length ? `   ajouté : ${added.join(", ")}` : "   déjà complet, rien à changer.");
 
 // 4. Content
-say("Chargement des catégories…");
+say("Chargement des thèmes, des traditions et des temps liturgiques…");
 if (run("npm", ["run", "seed:categories"]).status !== 0) fail("Le chargement des catégories a échoué.");
-say("Chargement des cartes de démo…");
-if (run("npm", ["run", "seed:demo"]).status !== 0) fail("Le chargement des cartes de démo a échoué.");
+say("Import du texte biblique (7 versions du domaine public, vérifiées)…");
+if (run("npm", ["run", "import:bible"]).status !== 0) fail("L'import du texte biblique a échoué (voir les contrôles ci-dessus).");
+say("Import des sources vérifiées et de la liturgie (la première fois : deux téléchargements d'environ 450 Mo)…");
+if (run("npm", ["run", "import:sources"]).status !== 0) fail("L'import des sources a échoué.");
+say("Chargement des cartes d'exemple…");
+if (run("npm", ["run", "seed:demo"]).status !== 0) fail("Le chargement des cartes d'exemple a échoué.");
 
 console.log(`
 ✔ Tout est prêt.
