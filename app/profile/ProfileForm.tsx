@@ -8,7 +8,20 @@ import type { MainCategory } from "@/lib/categories";
 import { apiFetch } from "@/lib/client/api";
 import { useLocale, useT } from "@/lib/i18n/client";
 
-type Values = { display_name: string; language: "fr" | "en"; interests: string[]; daily_goal: 3 | 5 | 10 };
+type Values = {
+  display_name: string;
+  language: "fr" | "en";
+  interests: string[];
+  daily_goal: 3 | 5 | 10;
+  daily_limit: "50" | "unlimited";
+  tradition_view: "both" | "catholic" | "orthodox" | "neutral";
+  bible_version_fr: "LSG1910";
+  bible_version_en: "WEB" | "KJV" | "DRC";
+  show_greek: boolean;
+  reviewed_only: boolean;
+};
+
+const VERSION_NAMES: Record<string, string> = { LSG1910: "Louis Segond 1910", WEB: "World English Bible", KJV: "King James Version", DRC: "Douay-Rheims (Challoner)" };
 
 export function ProfileForm({ categories, initial }: { categories: MainCategory[]; initial: Values }) {
   const t = useT();
@@ -85,6 +98,56 @@ export function ProfileForm({ categories, initial }: { categories: MainCategory[
                 {t.onboarding.goalOption(g)}
               </label>
             ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="flex flex-col gap-4 rounded-2xl border border-line p-4">
+          <legend className="px-1 text-sm font-semibold">{t.profile.reading}</legend>
+          <div className="flex flex-col gap-2">
+            <span className="text-sm">{t.profile.traditionView}</span>
+            <div className="flex flex-wrap gap-2">
+              {(["both", "catholic", "orthodox", "neutral"] as const).map((v) => (
+                <label key={v} className={`btn-ghost cursor-pointer ${values.tradition_view === v ? "border-accent text-accent" : ""}`}>
+                  <input type="radio" name="tradition_view" className="sr-only" checked={values.tradition_view === v} onChange={() => update("tradition_view", v)} />
+                  {t.card.views[v]}
+                </label>
+              ))}
+            </div>
+          </div>
+          <label className="flex flex-col gap-1.5 text-sm">
+            {t.profile.versionFr}
+            <select className="input" value={values.bible_version_fr} onChange={(e) => update("bible_version_fr", e.target.value as Values["bible_version_fr"])}>
+              <option value="LSG1910">{VERSION_NAMES.LSG1910}</option>
+            </select>
+          </label>
+          <label className="flex flex-col gap-1.5 text-sm">
+            {t.profile.versionEn}
+            <select className="input" value={values.bible_version_en} onChange={(e) => update("bible_version_en", e.target.value as Values["bible_version_en"])}>
+              {(["WEB", "KJV", "DRC"] as const).map((v) => (
+                <option key={v} value={v}>
+                  {VERSION_NAMES[v]}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={values.show_greek} onChange={(e) => update("show_greek", e.target.checked)} />
+            {t.profile.showGreek}
+          </label>
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={values.reviewed_only} onChange={(e) => update("reviewed_only", e.target.checked)} />
+            {t.profile.reviewedOnly}
+          </label>
+          <div className="flex flex-col gap-2">
+            <span className="text-sm">{t.deck.limitLabel}</span>
+            <div className="flex flex-wrap gap-2">
+              {(["unlimited", "50"] as const).map((v) => (
+                <label key={v} className={`btn-ghost cursor-pointer ${values.daily_limit === v ? "border-accent text-accent" : ""}`} data-testid={`limit-${v}`}>
+                  <input type="radio" name="daily_limit" className="sr-only" checked={values.daily_limit === v} onChange={() => update("daily_limit", v)} />
+                  {t.deck.limits[v]}
+                </label>
+              ))}
+            </div>
           </div>
         </fieldset>
 

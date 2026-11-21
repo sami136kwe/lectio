@@ -151,7 +151,8 @@ export function byzantineRows(data: Record<string, unknown>, years: number[], ke
     const readings = (value as [string, [string, string][]])[1];
     const date = fromIso(iso);
     const offset = daysBetween(orthodoxPascha(date.year), date);
-    const paschal = offset === 0 ? { fr: " · Pascha", en: " · Pascha" } : Math.abs(offset) <= 56 ? { fr: ` · ${offset > 0 ? "Pascha + " : "Pascha − "}${Math.abs(offset)} jours`, en: ` · Pascha ${offset > 0 ? "+" : "−"} ${Math.abs(offset)} days` } : { fr: "", en: "" };
+    // Only Pascha itself is named: a fixed feast near Pascha must not look like a day of the Paschal cycle.
+    const paschal = offset === 0 ? { fr: " · Pascha", en: " · Pascha" } : { fr: "", en: "" };
     for (const [type, citation] of readings) {
       const label = BYZ_TYPE[type];
       if (!label) continue;

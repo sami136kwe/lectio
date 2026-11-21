@@ -6,6 +6,7 @@ import { InterestPicker } from "@/components/InterestPicker";
 import type { MainCategory } from "@/lib/categories";
 import { apiFetch } from "@/lib/client/api";
 import { MESSAGES, type Locale } from "@/lib/i18n/messages";
+import { TRADITION_VIEWS, type TraditionView } from "@/lib/reading/views";
 
 type Goal = 3 | 5 | 10;
 type Props = { categories: MainCategory[]; initial: { language: Locale; interests: string[]; dailyGoal: Goal } };
@@ -16,6 +17,7 @@ export function Onboarding({ categories, initial }: Props) {
   const [language, setLanguage] = useState<Locale>(initial.language);
   const [interests, setInterests] = useState<string[]>(initial.interests);
   const [goal, setGoal] = useState<Goal>(initial.dailyGoal);
+  const [view, setView] = useState<TraditionView>("both");
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const t = MESSAGES[language];
@@ -31,7 +33,7 @@ export function Onboarding({ categories, initial }: Props) {
     try {
       await apiFetch("/api/profile", {
         method: "PATCH",
-        json: { language, interests, daily_goal: goal, onboarded: true },
+        json: { language, interests, daily_goal: goal, tradition_view: view, onboarded: true },
       });
       router.replace("/feed");
       router.refresh();
@@ -73,6 +75,24 @@ export function Onboarding({ categories, initial }: Props) {
               {l === "fr" ? "Français" : "English"}
             </button>
           ))}
+          <div className="flex flex-col gap-2 sm:col-span-2">
+            <h3 className="mt-4 text-lg font-semibold">{t.onboarding.stepTradition}</h3>
+            <p className="text-sm text-muted">{t.onboarding.traditionHint}</p>
+            <div role="radiogroup" aria-label={t.onboarding.stepTradition} className="flex flex-wrap gap-2">
+              {TRADITION_VIEWS.map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  role="radio"
+                  aria-checked={view === v}
+                  onClick={() => setView(v)}
+                  className={`rounded-full border px-4 py-2 font-medium ${view === v ? "border-accent bg-accent-soft" : "border-line bg-surface hover:bg-surface-2"}`}
+                >
+                  {t.card.views[v]}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       )}
 

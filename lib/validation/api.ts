@@ -99,3 +99,6 @@ export const historyQuerySchema = z.object({
 });
 
 export const reviewLaterBodySchema = z.object({ cardId: uuidSchema });
+
+export const readingBodySchema = z.object({ cardId: uuidSchema, day: daySchema });
+export const readingResetBodySchema = z.object({ book: z.string().regex(/^[1-3A-Z]{3}$/) });

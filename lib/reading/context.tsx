@@ -2,8 +2,9 @@
 
 import { createContext, useContext } from "react";
 
-export type TraditionView = "both" | "catholic" | "orthodox" | "neutral";
-export const TRADITION_VIEWS: TraditionView[] = ["both", "catholic", "orthodox", "neutral"];
+import type { TraditionView } from "./views";
+
+export { TRADITION_VIEWS, type TraditionView } from "./views";
 
 type ReadingPrefs = { view: TraditionView; reviewedOnly: boolean; showGreek: boolean };
 
@@ -16,8 +17,4 @@ export function ReadingPrefsProvider({ view, reviewedOnly, showGreek, children }
 
 export function useReadingPrefs(): ReadingPrefs {
   return useContext(ReadingContext);
-}
-
-export function isTraditionView(v: unknown): v is TraditionView {
-  return v === "both" || v === "catholic" || v === "orthodox" || v === "neutral";
 }

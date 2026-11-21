@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { parseQuery, serverError } from "@/lib/api";
 import { book } from "@/lib/bible/books";
 import { bibleVersions, referenceText, textWithFallback } from "@/lib/bible/passage";
+import { lxxLabel, psalmTitle } from "@/lib/bible/psalms";
 import { formatReference, parseReference, type Range } from "@/lib/bible/reference";
 import { cardsByIds, versionPlan } from "@/lib/cards";
 import { resolveLocale } from "@/lib/i18n/server";
@@ -61,8 +62,9 @@ export async function GET(request: Request) {
       const text = ref.verseStart !== null && refText.verses.length ? await textWithFallback(supabase, versionPlan(locale, prefs, ref.book === "PSA").neutral, range, refText) : null;
       const shown: Range =
         ref.verseStart === null ? { ...range, verseStart: 1, verseEnd: refText.verses.at(-1)?.verse ?? 1 } : { ...range, verseEnd: ref.verseEnd ?? ref.verseStart };
-      const label =
-        ref.verseStart === null
+      const label = ref.book === "PSA" && ref.verseStart === null
+        ? psalmTitle(ref.chapterStart <= 150 ? ref.chapterStart : null, ref.chapterStart <= 150 ? lxxLabel(ref.chapterStart) : "151", locale)
+        : ref.verseStart === null
           ? `${ref.book === "PSA" ? (locale === "fr" ? "Psaume" : "Psalm") : locale === "fr" ? book(ref.book).name_fr : book(ref.book).name_en} ${ref.chapterStart}`
           : formatReference(shown, locale);
       reference = { label, cardIds: [...new Set(cardRows.map((c) => c.id!))], text };
