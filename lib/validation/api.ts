@@ -40,12 +40,19 @@ export const challengeBodySchema = z.object({ cardId: uuidSchema, day: daySchema
 export const profileBodySchema = z
   .object({
     display_name: z.string().trim().max(60).nullable(),
-    interests: z.array(uuidSchema).max(12),
+    interests: z.array(uuidSchema).max(16),
     daily_goal: z.union([z.literal(3), z.literal(5), z.literal(10)]),
     language: z.enum(["fr", "en"]),
     onboarded: z.boolean(),
     include_reread: z.boolean(),
     reread_ratio: z.union([z.literal(10), z.literal(20), z.literal(30), z.literal(50)]),
+    daily_limit: z.enum(["50", "unlimited"]),
+    timezone: z.string().min(1).max(64).regex(/^[A-Za-z_]+(?:\/[A-Za-z0-9_+-]+)*$/),
+    tradition_view: z.enum(["both", "catholic", "orthodox", "neutral"]),
+    bible_version_fr: z.enum(["LSG1910"]),
+    bible_version_en: z.enum(["WEB", "KJV", "DRC"]),
+    show_greek: z.boolean(),
+    reviewed_only: z.boolean(),
   })
   .partial()
   .refine((v) => Object.keys(v).length > 0, "empty update");
@@ -57,7 +64,19 @@ export const adminCardBodySchema = z.object({
   status: z.enum(["published", "rejected"]),
 });
 
-export const adminRerunBodySchema = z.object({ categoryId: uuidSchema });
+export const adminPerspectiveBodySchema = z.object({
+  perspectiveId: uuidSchema,
+  review_status: z.enum(["reviewed", "corrected", "rejected"]),
+  body: z.string().trim().min(80).max(1400).optional(),
+  reviewer_note: z.string().trim().max(2000).nullable().optional(),
+});
+
+export const adminQueueQuerySchema = z.object({
+  tradition: z.enum(["catholic", "orthodox"]).optional(),
+  book: z.string().regex(/^[1-3A-Z]{3}$/).optional(),
+  divergence: z.enum(["1", "0"]).default("0"),
+  status: z.enum(["unreviewed", "reviewed", "corrected", "rejected"]).default("unreviewed"),
+});
 
 export const rereadModeSchema = z.enum(["random", "oldest", "least", "stashed"]);
 

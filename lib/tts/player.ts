@@ -8,6 +8,8 @@ export type PlayerState = "idle" | "loading" | "playing";
 type Options = {
   language: TtsLanguage;
   voice: string;
+  /** Voice for the Bible text (segments with role "scripture"). */
+  scriptureVoice: string;
   onUnit: (unit: ReadingUnit | null) => void;
   onState: (state: PlayerState) => void;
 };
@@ -64,8 +66,12 @@ export class ReadAloudPlayer {
 
   constructor(private options: Options) {}
 
-  setVoice(voice: string) {
-    this.options = { ...this.options, voice };
+  setVoice(voice: string, scriptureVoice: string = voice) {
+    this.options = { ...this.options, voice, scriptureVoice };
+  }
+
+  private voiceFor(segment: Segment): string {
+    return segment.role === "scripture" ? this.options.scriptureVoice : this.options.voice;
   }
 
   /** Must be called from a user gesture (click) to be allowed on Safari. */
@@ -92,7 +98,7 @@ export class ReadAloudPlayer {
   private request(index: number): Promise<string> | null {
     const segment = this.segments[index];
     if (!segment) return null;
-    const promise = prefetchAudio(segment.text, this.options.voice);
+    const promise = prefetchAudio(segment.text, this.voiceFor(segment));
     promise.catch(() => undefined);
     return promise;
   }

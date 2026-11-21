@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ReadableMemoCard } from "@/components/ReadableMemoCard";
+import { ReadableCard } from "@/components/ReadableCard";
 import { StashButton } from "@/components/StashButton";
 import { cardById } from "@/lib/cards";
 import { getViewer } from "@/lib/session";
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { locale } = await getViewer();
   const card = await loadCard((await params).id, locale);
   if (!card) return {};
-  return { title: card.title, description: card.action_step, openGraph: { title: card.title, description: card.body } };
+  return { title: card.reference, description: card.action_step ?? undefined, openGraph: { title: card.reference, description: card.plain_explanation ?? undefined } };
 }
 
 export default async function CardPage({ params }: Params) {
@@ -34,7 +34,7 @@ export default async function CardPage({ params }: Params) {
   }
   return (
     <div className="mx-auto max-w-2xl">
-      <ReadableMemoCard card={card}>{user && <StashButton cardId={card.id} initiallyStashed={stashed} />}</ReadableMemoCard>
+      <ReadableCard card={card}>{user && <StashButton cardId={card.id} initiallyStashed={stashed} />}</ReadableCard>
     </div>
   );
 }

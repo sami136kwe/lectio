@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { MemoCard } from "@/components/MemoCard";
+import { LectioCard } from "@/components/LectioCard";
 import { EmptyState } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
 import type { MainCategory } from "@/lib/categories";
@@ -74,7 +74,7 @@ export function StashList({ initialCards, initialNotes, categories }: Props) {
     return cards.filter(
       (c) =>
         (!category || c.main_category_id === category) &&
-        (!q || fold(`${c.title} ${c.body} ${c.action_step} ${c.book_title ?? ""} ${initialNotes[c.id] ?? ""}`).includes(q)),
+        (!q || fold(`${c.reference} ${c.passage?.verses.map((v) => v.text).join(" ") ?? ""} ${c.plain_explanation} ${c.action_step} ${initialNotes[c.id!] ?? ""}`).includes(q)),
     );
   }, [cards, category, query, initialNotes]);
 
@@ -110,7 +110,7 @@ export function StashList({ initialCards, initialNotes, categories }: Props) {
         <ul className="grid gap-4 lg:grid-cols-2">
           {visible.map((card) => (
             <li key={card.id}>
-              <MemoCard card={card} variant="compact" headingLevel="h2">
+              <LectioCard card={card} variant="compact" headingLevel="h2">
                 <NoteEditor cardId={card.id} initial={initialNotes[card.id] ?? ""} />
                 <button
                   type="button"
@@ -127,7 +127,7 @@ export function StashList({ initialCards, initialNotes, categories }: Props) {
                 >
                   {t.stash.remove}
                 </button>
-              </MemoCard>
+              </LectioCard>
             </li>
           ))}
         </ul>

@@ -48,3 +48,10 @@ export function defaultVoice(language: TtsLanguage, kokoroAvailable = false): st
 export function validVoice(language: TtsLanguage, id: string | null | undefined, kokoroAvailable = false): string {
   return voicesFor(language, kokoroAvailable).some((v) => v.id === id) ? id! : defaultVoice(language, kokoroAvailable);
 }
+
+/** Second voice of the same engine, used for the Bible text so it is heard apart from the commentary. */
+export function companionVoice(language: TtsLanguage, voice: string, kokoroAvailable = false): string {
+  const current = VOICES.find((v) => v.id === voice);
+  const other = voicesFor(language, kokoroAvailable).find((v) => v.id !== voice && v.engine === current?.engine);
+  return other?.id ?? voice;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "stash",
+  "name": "lectio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test --trace off",
-    "seed": "tsx scripts/seed.ts",
     "seed:categories": "tsx scripts/seed-categories.ts",
     "seed:demo": "tsx scripts/seed-demo.ts",
-    "ingest": "tsx scripts/ingest.ts",
     "db:start": "supabase start",
     "db:reset": "supabase db reset",
     "db:types": "supabase gen types typescript --local > types/database.ts",
@@ -22,7 +20,13 @@
     "test:db": "vitest run --config vitest.integration.config.mts",
     "tts:kokoro": "cd tts-server && ./venv/bin/python kokoro_server.py",
     "tts:kokoro:setup": "cd tts-server && python3 -m venv venv && ./venv/bin/pip install -r requirements.txt",
-    "setup": "node scripts/setup.mjs"
+    "setup": "node scripts/setup.mjs",
+    "import:bible": "tsx scripts/import-bible.ts",
+    "import:sources": "tsx scripts/import-sources.ts",
+    "seed:cards": "tsx scripts/seed-cards.ts",
+    "check:db": "tsx scripts/check-db.ts",
+    "export:cards": "tsx scripts/export-cards.ts",
+    "review:import": "tsx scripts/import-review.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

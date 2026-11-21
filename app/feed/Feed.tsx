@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { MemoCard } from "@/components/MemoCard";
+import { LectioCard, toSpeakable } from "@/components/LectioCard";
 import { ReadMeta } from "@/components/ReadMeta";
 import { SpeakButton } from "@/components/SpeakButton";
 import { VoicePicker } from "@/components/VoicePicker";
@@ -140,13 +140,13 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
 
   const current = cards[index];
   const [autoRead, setAutoRead] = useAutoReadPref();
-  const audio = useReadAloud(current, { autoPlay: autoRead });
+  const audio = useReadAloud(current ? toSpeakable(current) : undefined, { autoPlay: autoRead });
   const nextCard = cards[index + 1];
   const prefetchNext = audio.prefetch;
   const wantsAudio = autoRead || audio.state !== "idle";
   useEffect(() => {
     // While listening (or with auto-read on), the next card's voice is requested in advance.
-    if (wantsAudio && nextCard) prefetchNext(nextCard);
+    if (wantsAudio && nextCard) prefetchNext(toSpeakable(nextCard));
   }, [wantsAudio, nextCard, prefetchNext]);
 
   const go = useCallback(
@@ -194,7 +194,7 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
     const url = `${window.location.origin}/cards/${current.id}`;
     try {
       if (navigator.share) {
-        await navigator.share({ title: current.title, text: current.action_step, url });
+        await navigator.share({ title: current.reference, text: current.action_step ?? "", url });
       } else {
         await navigator.clipboard.writeText(url);
         showToast(t.feed.linkCopied);
@@ -279,9 +279,9 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
           aria-live="polite"
         >
           <p className="sr-only">{t.feed.position(index + 1, cards.length)}</p>
-          <MemoCard key={current.id} card={current} discovery={current.discovery} headingLevel="h2" reading={audio.reading}>
+          <LectioCard key={current.id} card={current} discovery={current.discovery} headingLevel="h2" reading={audio.reading}>
             {current.reread && <ReadMeta cardId={current.id} readCount={current.read_count ?? 1} />}
-          </MemoCard>
+          </LectioCard>
         </div>
       )}
 

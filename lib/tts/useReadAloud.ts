@@ -5,10 +5,10 @@ import { useT } from "@/lib/i18n/client";
 import { useTtsCapabilities } from "./capabilities";
 import { prefetchAudio, ReadAloudPlayer, type PlayerState } from "./player";
 import { useVoicePref } from "./prefs";
-import { buildSegments, buildUnits, type ReadingPosition } from "./segment";
-import type { TtsLanguage } from "./voices";
+import { buildSegments, buildUnits, type ReadingPosition, type SpeakableCard } from "./segment";
+import { companionVoice, type TtsLanguage } from "./voices";
 
-type Card = { title: string; body: string; action_step: string; language: string };
+type Card = SpeakableCard & { language: string };
 
 /** Read-aloud state for one card: toggle, current sentence, voice choice. */
 export function useReadAloud(card: Card | undefined, options: { autoPlay?: boolean } = {}) {
@@ -16,15 +16,17 @@ export function useReadAloud(card: Card | undefined, options: { autoPlay?: boole
   const language: TtsLanguage = card?.language === "en" ? "en" : "fr";
   const { kokoro } = useTtsCapabilities();
   const [voice, setVoice] = useVoicePref(language, kokoro);
+  const scriptureVoice = companionVoice(language, voice, kokoro);
   const [state, setState] = useState<PlayerState>("idle");
   const [reading, setReading] = useState<ReadingPosition | null>(null);
   const playerRef = useRef<ReadAloudPlayer | null>(null);
 
+  const versesKey = card?.verses.join("\n");
   const units = useMemo(
     () => (card ? buildUnits(card, t.common.actionToday, language) : []),
     // Rebuild only when the card text changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [card?.title, card?.body, card?.action_step, language, t.common.actionToday],
+    [card?.reference, versesKey, card?.plain_explanation, card?.action_step, language, t.common.actionToday],
   );
 
   const getPlayer = useCallback(() => {
@@ -32,13 +34,14 @@ export function useReadAloud(card: Card | undefined, options: { autoPlay?: boole
       playerRef.current = new ReadAloudPlayer({
         language,
         voice,
+        scriptureVoice,
         onUnit: (unit) => setReading(unit ? { part: unit.part, index: unit.index } : null),
         onState: setState,
       });
     }
-    playerRef.current.setVoice(voice);
+    playerRef.current.setVoice(voice, scriptureVoice);
     return playerRef.current;
-  }, [language, voice]);
+  }, [language, voice, scriptureVoice]);
 
   const stop = useCallback(() => playerRef.current?.stop(), []);
   const segments = useMemo(() => buildSegments(units), [units]);
@@ -50,9 +53,9 @@ export function useReadAloud(card: Card | undefined, options: { autoPlay?: boole
       if (!next) return;
       const nextLanguage: TtsLanguage = next.language === "en" ? "en" : "fr";
       const nextSegments = buildSegments(buildUnits(next, t.common.actionToday, nextLanguage));
-      for (const segment of nextSegments.slice(0, 2)) prefetchAudio(segment.text, voice).catch(() => undefined);
+      for (const segment of nextSegments.slice(0, 2)) prefetchAudio(segment.text, segment.role === "scripture" ? scriptureVoice : voice).catch(() => undefined);
     },
-    [t, voice],
+    [t, voice, scriptureVoice],
   );
   const toggle = useCallback(() => (state === "idle" ? start() : stop()), [state, start, stop]);
 
@@ -60,7 +63,7 @@ export function useReadAloud(card: Card | undefined, options: { autoPlay?: boole
   useEffect(() => {
     const player = playerRef.current;
     return () => player?.stop();
-  }, [card?.title]);
+  }, [card?.reference]);
   useEffect(
     () => () => {
       playerRef.current?.destroy();
@@ -75,7 +78,7 @@ export function useReadAloud(card: Card | undefined, options: { autoPlay?: boole
     const timer = window.setTimeout(start, 500);
     return () => window.clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autoPlay, card?.title]);
+  }, [autoPlay, card?.reference]);
 
   return { state, reading, toggle, stop, prefetch, voice, setVoice, language };
 }

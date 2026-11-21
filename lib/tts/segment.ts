@@ -5,7 +5,10 @@
  */
 import type { TtsLanguage } from "./voices";
 
-export type UnitPart = "title" | "body" | "label" | "action";
+export type UnitPart = "title" | "passage" | "body" | "label" | "action";
+/** Who speaks: the Bible text and the commentary are read with two different voices. */
+export type VoiceRole = "scripture" | "commentary";
+export const roleOf = (part: UnitPart): VoiceRole => (part === "title" || part === "passage" ? "scripture" : "commentary");
 export type ReadingUnit = { part: UnitPart; index: number; text: string };
 export type ReadingPosition = { part: UnitPart; index: number };
 
@@ -34,15 +37,14 @@ export function splitSentences(text: string, language: TtsLanguage, max: number 
   return sentences.flatMap((s) => (s.length > max ? hardSplit(s, max) : [s]));
 }
 
-export function buildUnits(
-  card: { title: string; body: string; action_step: string },
-  actionLabel: string,
-  language: TtsLanguage,
-): ReadingUnit[] {
-  const title = splitSentences(card.title, language).join(" ");
+export type SpeakableCard = { reference: string; verses: string[]; plain_explanation: string; action_step: string };
+
+/** Units of a card: reference, each verse, the explanation, then the "to live" block. */
+export function buildUnits(card: SpeakableCard, actionLabel: string, language: TtsLanguage): ReadingUnit[] {
   return [
-    ...(title ? [{ part: "title" as const, index: 0, text: title }] : []),
-    ...splitSentences(card.body, language).map((text, index) => ({ part: "body" as const, index, text })),
+    ...(card.reference ? [{ part: "title" as const, index: 0, text: card.reference }] : []),
+    ...card.verses.flatMap((verse, index) => splitSentences(verse, language).length ? [{ part: "passage" as const, index, text: verse }] : []),
+    ...splitSentences(card.plain_explanation, language).map((text, index) => ({ part: "body" as const, index, text })),
     { part: "label" as const, index: 0, text: actionLabel },
     ...splitSentences(card.action_step, language).map((text, index) => ({ part: "action" as const, index, text })),
   ];
@@ -57,7 +59,7 @@ export function speakable(text: string): string {
 // Audio segments: a card is read as a few requests, not one per sentence.
 // ---------------------------------------------------------------------------
 
-export type Segment = { text: string; units: ReadingUnit[] };
+export type Segment = { text: string; units: ReadingUnit[]; role: VoiceRole };
 
 /** Text sent to the voice for one unit: always ends with a stop so the intonation closes. */
 export function spoken(text: string): string {
@@ -76,7 +78,7 @@ export function buildSegments(units: ReadingUnit[], firstMax = 170, restMax = 42
   let length = 0;
   const flush = () => {
     if (current.length === 0) return;
-    segments.push({ units: current, text: current.map((u) => spoken(u.text)).join(" ") });
+    segments.push({ units: current, role: roleOf(current[0]!.part), text: current.map((u) => spoken(u.text)).join(" ") });
     current = [];
     length = 0;
   };
@@ -84,7 +86,8 @@ export function buildSegments(units: ReadingUnit[], firstMax = 170, restMax = 42
     const size = spoken(unit.text).length + 1;
     const max = segments.length === 0 ? firstMax : restMax;
     const gluedToNext = current[current.length - 1]?.part === "label";
-    if (current.length > 0 && !gluedToNext && length + size > max) flush();
+    const roleChanges = current.length > 0 && roleOf(current[0]!.part) !== roleOf(unit.part);
+    if (current.length > 0 && (roleChanges || (!gluedToNext && length + size > max))) flush();
     current.push(unit);
     length += size;
   }

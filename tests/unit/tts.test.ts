@@ -26,10 +26,26 @@ describe("sentence splitting", () => {
 });
 
 describe("reading units", () => {
-  it("orders title, body sentences, action label and action", () => {
-    const units = buildUnits({ title: "Un titre", body: "Phrase un. Phrase deux.", action_step: "Fais ça." }, "À faire", "fr");
-    expect(units.map((u) => `${u.part}:${u.index}`)).toEqual(["title:0", "body:0", "body:1", "label:0", "action:0"]);
-    expect(units[1]!.text).toBe("Phrase un.");
+  it("orders reference, verses, explanation sentences, label and action", () => {
+    const units = buildUnits(
+      { reference: "Jean 3, 16-17", verses: ["Car Dieu a tant aimé le monde.", "Dieu n'a pas envoyé son Fils."], plain_explanation: "Phrase un. Phrase deux.", action_step: "Relis ce verset ce soir." },
+      "À vivre",
+      "fr",
+    );
+    expect(units.map((u) => `${u.part}:${u.index}`)).toEqual(["title:0", "passage:0", "passage:1", "body:0", "body:1", "label:0", "action:0"]);
+    expect(units[3]!.text).toBe("Phrase un.");
+  });
+
+  it("never mixes the Bible text and the commentary in one segment (two voices)", () => {
+    const units = buildUnits(
+      { reference: "Psaume 23, 1-2", verses: ["Cantique de David. L'Éternel est mon berger.", "Il me fait reposer."], plain_explanation: "Un psaume de confiance.", action_step: "Relis-le lentement." },
+      "À vivre",
+      "fr",
+    );
+    const segments = buildSegments(units);
+    for (const s of segments) expect(new Set(s.units.map((u) => (u.part === "title" || u.part === "passage" ? "scripture" : "commentary"))).size).toBe(1);
+    expect(segments[0]!.role).toBe("scripture");
+    expect(segments.at(-1)!.role).toBe("commentary");
   });
 
   it("makes speech text safe for the service", () => {
@@ -66,8 +82,9 @@ describe("audio cache", () => {
 
 describe("audio segments", () => {
   const card = {
-    title: "Le coût déjà payé",
-    body: "Tu as déjà fini un film nul juste parce que tu avais payé la place ? C'est le piège des coûts irrécupérables. L'argent est parti quoi que tu fasses, et la seule vraie question, c'est ce que tu veux faire des deux prochaines heures. Franchement, partir au milieu est souvent la décision la plus lucide de la soirée.",
+    reference: "Matthieu 6, 34",
+    verses: [],
+    plain_explanation: "Tu as déjà fini un film nul juste parce que tu avais payé la place ? C'est le piège des coûts irrécupérables. L'argent est parti quoi que tu fasses, et la seule vraie question, c'est ce que tu veux faire des deux prochaines heures. Franchement, partir au milieu est souvent la décision la plus lucide de la soirée.",
     action_step: "Choisis un projet ou un abonnement que tu gardes parce que tu as déjà investi et demande-toi si tu le reprendrais à zéro aujourd'hui.",
   };
   const units = buildUnits(card, "À faire aujourd'hui", "fr");
@@ -94,7 +111,7 @@ describe("audio segments", () => {
   it("closes every unit with a stop so the voice's intonation ends properly", () => {
     expect(spoken("Le coût déjà payé")).toBe("Le coût déjà payé.");
     expect(spoken("Tu sais quoi ?")).toBe("Tu sais quoi ?");
-    expect(buildSegments(units)[0]!.text).toContain("Le coût déjà payé. ");
+    expect(buildSegments(units)[0]!.text).toBe("Matthieu 6, 34.");
   });
 
   it("finds the sentence being spoken from the playback position", () => {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CardGrid } from "@/components/CardGrid";
-import { CARD_FIELDS } from "@/lib/cards";
+import { assembleCards, CARD_FIELDS } from "@/lib/cards";
 import { messagesFor } from "@/lib/i18n/server";
 import { getViewer } from "@/lib/session";
 import { createClient } from "@/lib/supabase/server";
@@ -38,8 +38,9 @@ export default async function CategoryPage({ params }: Params) {
     .in("category_id", ids)
     .eq("status", "published")
     .eq("language", locale)
-    .order("quality_score", { ascending: false, nullsFirst: false })
+    .order("sort_key")
     .limit(40);
+  const assembled = await assembleCards(supabase, cards ?? [], locale);
 
   let parent: { slug: string; name_fr: string; name_en: string } | null = null;
   if (category.parent_id) {
@@ -76,7 +77,7 @@ export default async function CategoryPage({ params }: Params) {
           ))}
         </ul>
       )}
-      {cards && cards.length > 0 ? <CardGrid cards={cards} /> : <p className="text-muted">{t.category.empty}</p>}
+      {assembled.length > 0 ? <CardGrid cards={assembled} /> : <p className="text-muted">{t.category.empty}</p>}
     </div>
   );
 }

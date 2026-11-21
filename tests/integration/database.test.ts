@@ -1,6 +1,7 @@
 /**
  * Database integration tests (RLS, RPC functions) against a running Supabase:
- *   npx supabase start && npm run seed:demo && npm run test:db
+ *   npx supabase start && npm run setup && npm run test:db
+ * (setup loads the categories, the Bible text, the sources and the demo cards).
  */
 import { config } from "dotenv";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
@@ -40,21 +41,23 @@ let draftId: string;
 beforeAll(async () => {
   alice = await signedInClient("alice");
   bob = await signedInClient("bob");
-  const { data } = await admin.from("card_details").select("id, category_id").eq("status", "published").eq("language", "fr").limit(1).single();
-  if (!data) throw new Error("run `npm run seed:demo` first");
-  cardId = data.id;
-  const { data: draft, error } = await admin.from("cards").insert({ category_id: data.category_id, status: "draft" }).select("id").single();
+  const { data } = await admin.from("card_details").select("id, category_id, passage_id").eq("status", "published").eq("language", "fr").limit(1).single();
+  if (!data) throw new Error("run `npm run setup` first (demo cards)");
+  cardId = data.id!;
+  const { data: draft, error } = await admin
+    .from("cards")
+    .insert({ category_id: data.category_id!, passage_id: data.passage_id!, status: "draft", content_hash: `test-draft-${Date.now()}`, passage_text_hash: "x" })
+    .select("id")
+    .single();
   if (error) throw error;
   draftId = draft.id;
   const { error: translationError } = await admin.from("card_translations").insert(
     (["fr", "en"] as const).map((language) => ({
       card_id: draftId,
       language,
-      title: "Brouillon de test",
-      body: "Ceci est une carte brouillon utilisée par les tests d'intégration. Elle ne doit jamais être visible.",
+      plain_explanation: "Ceci est une carte brouillon utilisée par les tests d'intégration. Elle ne doit jamais être visible par les utilisateurs.",
       action_step: "Ne rien faire du tout aujourd'hui.",
       status: "draft",
-      content_hash: `test-draft-${language}-${Date.now()}`,
     })),
   );
   if (translationError) throw translationError;
@@ -83,15 +86,30 @@ describe("row level security", () => {
     expect(both!.map((t) => t.language).sort()).toEqual(["en", "fr"]);
   });
 
-  it("forbids users from writing cards or books", async () => {
+  it("forbids users from writing cards, readings, sources or Bible text", async () => {
     const { error } = await alice.db.from("cards").update({ difficulty: 3 }).eq("id", cardId);
     expect(error).not.toBeNull();
-    const { error: translationError } = await alice.db.from("card_translations").update({ title: "hacked" }).eq("card_id", cardId);
+    const { error: translationError } = await alice.db.from("card_translations").update({ action_step: "hacked hacked" }).eq("card_id", cardId);
     expect(translationError).not.toBeNull();
-    const { data: after } = await admin.from("card_translations").select("title").eq("card_id", cardId);
-    expect(after!.every((t) => t.title !== "hacked")).toBe(true);
-    const { error: bookError } = await alice.db.from("books").insert({ dedup_key: "x|y", title: "x", author: "y" });
-    expect(bookError).not.toBeNull();
+    const { error: perspectiveError } = await alice.db.from("card_perspectives").update({ review_status: "reviewed" }).eq("card_id", cardId);
+    expect(perspectiveError).not.toBeNull();
+    const { data: after } = await admin.from("card_translations").select("action_step").eq("card_id", cardId);
+    expect(after!.every((t) => t.action_step !== "hacked hacked")).toBe(true);
+    const { error: verseError } = await alice.db.from("bible_verses").update({ text: "hacked" }).eq("book_code", "JHN").eq("chapter", 3).eq("verse", 16);
+    expect(verseError).not.toBeNull();
+    const { error: sourceError } = await alice.db.from("sources").update({ verified: true }).eq("verified", false);
+    expect(sourceError).not.toBeNull();
+  });
+
+  it("exposes only verified sources and verified liturgical uses", async () => {
+    const anon = createClient<Database>(url, anonKey, { auth: { persistSession: false } });
+    const { data: hidden } = await anon.from("sources").select("id").eq("verified", false).limit(1);
+    expect(hidden).toHaveLength(0);
+    const { data: visible } = await anon.from("sources").select("id").eq("verified", true).limit(1);
+    expect(visible).toHaveLength(1);
+    const { data: uses } = await anon.from("liturgical_uses").select("verified, source_id").limit(50);
+    expect(uses!.length).toBeGreaterThan(0);
+    expect(uses!.every((u) => u.verified && u.source_id)).toBe(true);
   });
 
   it("keeps stashes private to their owner", async () => {
@@ -108,10 +126,10 @@ describe("row level security", () => {
     expect(error).not.toBeNull();
   });
 
-  it("hides ingestion tables and the dedup function from users", async () => {
+  it("hides ingestion tables and the dedup functions from users", async () => {
     const { data } = await alice.db.from("ingestion_runs").select("id");
     expect(data ?? []).toHaveLength(0);
-    const { error } = await alice.db.rpc("match_cards", { query_embedding: `[${Array(384).fill(0).join(",")}]`, match_language: "fr" });
+    const { error } = await alice.db.rpc("match_translations", { query_embedding: `[${Array(384).fill(0).join(",")}]`, match_language: "fr" });
     expect(error).not.toBeNull();
   });
 });
@@ -164,21 +182,21 @@ describe("reading history and decks", () => {
 
 describe("re-reading", () => {
   let carol: { db: Db; id: string };
-  let a: { id: string; main: string; title: string };
-  let b: { id: string; main: string; title: string };
+  let a: { id: string; main: string; text: string };
+  let b: { id: string; main: string; text: string };
 
   beforeAll(async () => {
     carol = await signedInClient("carol");
     const { data } = await admin
       .from("card_details")
-      .select("id, main_category_id, title")
+      .select("id, main_category_id, plain_explanation")
       .eq("language", "fr")
       .eq("status", "published")
       .order("created_at");
     const first = data![0]!;
     const other = data!.find((c) => c.main_category_id !== first.main_category_id)!;
-    a = { id: first.id, main: first.main_category_id!, title: first.title };
-    b = { id: other.id, main: other.main_category_id!, title: other.title };
+    a = { id: first.id!, main: first.main_category_id!, text: first.plain_explanation! };
+    b = { id: other.id!, main: other.main_category_id!, text: other.plain_explanation! };
     await carol.db.from("card_views").insert({ user_id: carol.id, card_id: a.id, action: "seen" });
     await new Promise((r) => setTimeout(r, 20));
     await carol.db.from("card_views").insert({ user_id: carol.id, card_id: b.id, action: "seen" });
@@ -225,7 +243,7 @@ describe("re-reading", () => {
     expect(Number(all.data![0]!.total_count)).toBe(2);
     expect(ids((await call({ p_stashed: true })).data)).toEqual([b.id]);
     expect(ids((await call({ p_category: a.main })).data)).toEqual([a.id]);
-    const word = b.title.split(/\s+/).sort((x, y) => y.length - x.length)[0]!;
+    const word = b.text.split(/[\s,.;:!?«»()"]+/).sort((x, y) => y.length - x.length)[0]!;
     expect(ids((await call({ p_q: word })).data)).toContain(b.id);
     expect(ids((await call({ p_q: "zzzzzznotaword" })).data)).toEqual([]);
     const future = new Date(Date.now() + 3_600_000).toISOString();
@@ -262,22 +280,29 @@ describe("rpc functions", () => {
     expect(a.data?.[0]?.id).toBe(b.data?.[0]?.id);
   });
 
-  it("reports progress for the twelve main categories", async () => {
+  it("reports progress for the eight main themes", async () => {
     const { data, error } = await bob.db.rpc("category_progress");
     expect(error).toBeNull();
-    expect(data).toHaveLength(12);
+    expect(data).toHaveLength(8);
     expect(data!.reduce((s, r) => s + Number(r.seen), 0)).toBeGreaterThanOrEqual(1);
   });
 
-  it("finds near-duplicate embeddings with match_cards (service role)", async () => {
+  it("finds near-duplicate embeddings with match_translations (service role)", async () => {
     const v = Array.from({ length: 384 }, (_, i) => (i === 0 ? 1 : 0));
     await admin.from("card_translations").update({ embedding: `[${v.join(",")}]` }).eq("card_id", draftId).eq("language", "fr");
     const close = Array.from({ length: 384 }, (_, i) => (i === 0 ? 1 : i === 1 ? 0.1 : 0));
-    const { data, error } = await admin.rpc("match_cards", { query_embedding: `[${close.join(",")}]`, match_language: "fr" });
+    const { data, error } = await admin.rpc("match_translations", { query_embedding: `[${close.join(",")}]`, match_language: "fr" });
     expect(error).toBeNull();
-    expect(data?.[0]?.id).toBe(draftId);
+    expect(data?.[0]?.card_id).toBe(draftId);
     const far = Array.from({ length: 384 }, (_, i) => (i === 5 ? 1 : 0));
-    const none = await admin.rpc("match_cards", { query_embedding: `[${far.join(",")}]`, match_language: "fr" });
-    expect(none.data?.some((c) => c.id === draftId)).toBe(false);
+    const none = await admin.rpc("match_translations", { query_embedding: `[${far.join(",")}]`, match_language: "fr" });
+    expect(none.data?.some((c) => c.card_id === draftId)).toBe(false);
+  });
+
+  it("reports reading progress per book", async () => {
+    const { data, error } = await bob.db.rpc("book_progress", { p_language: "fr" });
+    expect(error).toBeNull();
+    const john = data!.find((r) => r.book_code === "JHN");
+    expect(Number(john!.total)).toBeGreaterThanOrEqual(1);
   });
 });

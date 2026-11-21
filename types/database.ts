@@ -23,24 +23,90 @@ export type Database = {
           }
         },"public": {
           Tables: {
-            "books": {
+            "bible_chapter_stats": {
                   Row: {
-                    "author": string,"average_rating": number | null,"cover_url": string | null,"created_at": string,"dedup_key": string,"description": string | null,"google_books_id": string | null,"id": string,"info_link": string | null,"is_public_domain": boolean,"language": string | null,"open_library_id": string | null,"popularity_score": number,"process_attempts": number,"processed_at": string | null,"published_year": number | null,"ratings_count": number,"source_category_id": string | null,"title": string
+                    "aligned": boolean,"book_code": string,"chapter": number,"expected_count": number,"verse_count": number,"version_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "author": string,"average_rating"?: number | null,"cover_url"?: string | null,"created_at"?: string,"dedup_key": string,"description"?: string | null,"google_books_id"?: string | null,"id"?: string,"info_link"?: string | null,"is_public_domain"?: boolean,"language"?: string | null,"open_library_id"?: string | null,"popularity_score"?: number,"process_attempts"?: number,"processed_at"?: string | null,"published_year"?: number | null,"ratings_count"?: number,"source_category_id"?: string | null,"title": string
+                    "aligned": boolean,"book_code": string,"chapter": number,"expected_count": number,"verse_count": number,"version_id": string
                   }
                   Update: {
-                    "author"?: string,"average_rating"?: number | null,"cover_url"?: string | null,"created_at"?: string,"dedup_key"?: string,"description"?: string | null,"google_books_id"?: string | null,"id"?: string,"info_link"?: string | null,"is_public_domain"?: boolean,"language"?: string | null,"open_library_id"?: string | null,"popularity_score"?: number,"process_attempts"?: number,"processed_at"?: string | null,"published_year"?: number | null,"ratings_count"?: number,"source_category_id"?: string | null,"title"?: string
+                    "aligned"?: boolean,"book_code"?: string,"chapter"?: number,"expected_count"?: number,"verse_count"?: number,"version_id"?: string
                   }
                   Relationships: [
                     {
-      foreignKeyName: "books_source_category_id_fkey"
-      columns: ["source_category_id"]
+      foreignKeyName: "bible_chapter_stats_version_id_fkey"
+      columns: ["version_id"]
 isOneToOne: false
-      referencedRelation: "categories"
+      referencedRelation: "bible_versions"
       referencedColumns: ["id"]
+    }
+                  ]
+                },"bible_verses": {
+                  Row: {
+                    "book_code": string,"chapter": number,"id": number,"language": string,"search": unknown,"text": string,"verse": number,"version_id": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "book_code": string,"chapter": number,"id"?: never,"language": string,"search"?: never,"text": string,"verse": number,"version_id": string
+                  }
+                  Update: {
+                    "book_code"?: string,"chapter"?: number,"id"?: never,"language"?: string,"search"?: never,"text"?: string,"verse"?: number,"version_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "bible_verses_version_id_fkey"
+      columns: ["version_id"]
+isOneToOne: false
+      referencedRelation: "bible_versions"
+      referencedColumns: ["id"]
+    }
+                  ]
+                },"bible_versions": {
+                  Row: {
+                    "attribution": string,"code": string,"id": string,"imported_at": string | null,"language": string,"license": string,"name": string,"scope": string,"source_sha256": string,"source_url": string,"textual_tradition": string,"verse_count": number,"versification": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "attribution": string,"code": string,"id"?: string,"imported_at"?: string | null,"language": string,"license": string,"name": string,"scope": string,"source_sha256": string,"source_url": string,"textual_tradition": string,"verse_count"?: number,"versification": string
+                  }
+                  Update: {
+                    "attribution"?: string,"code"?: string,"id"?: string,"imported_at"?: string | null,"language"?: string,"license"?: string,"name"?: string,"scope"?: string,"source_sha256"?: string,"source_url"?: string,"textual_tradition"?: string,"verse_count"?: number,"versification"?: string
+                  }
+                  Relationships: [
+                    
+                  ]
+                },"card_perspectives": {
+                  Row: {
+                    "body": string,"card_id": string,"created_at": string,"divergence_summary": string | null,"divergence_topic": string | null,"divergence_type": string,"embedding": string | null,"id": string,"language": string,"review_status": string,"reviewed_at": string | null,"reviewer_note": string | null,"search": unknown,"tradition": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "body": string,"card_id": string,"created_at"?: string,"divergence_summary"?: string | null,"divergence_topic"?: string | null,"divergence_type"?: string,"embedding"?: string | null,"id"?: string,"language": string,"review_status"?: string,"reviewed_at"?: string | null,"reviewer_note"?: string | null,"search"?: never,"tradition": string
+                  }
+                  Update: {
+                    "body"?: string,"card_id"?: string,"created_at"?: string,"divergence_summary"?: string | null,"divergence_topic"?: string | null,"divergence_type"?: string,"embedding"?: string | null,"id"?: string,"language"?: string,"review_status"?: string,"reviewed_at"?: string | null,"reviewer_note"?: string | null,"search"?: never,"tradition"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "card_perspectives_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "card_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "card_perspectives_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "cards"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "card_perspectives_tradition_fkey"
+      columns: ["tradition"]
+isOneToOne: false
+      referencedRelation: "traditions"
+      referencedColumns: ["code"]
     }
                   ]
                 },"card_reviews": {
@@ -69,16 +135,48 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
-                },"card_translations": {
+                },"card_seasons": {
                   Row: {
-                    "action_step": string,"body": string,"card_id": string,"content_hash": string,"created_at": string,"embedding": string | null,"id": string,"language": string,"quote": string | null,"quote_author": string | null,"rejection_reason": string | null,"search": unknown,"status": string,"style_score": number | null,"title": string
+                    "card_id": string,"season_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "action_step": string,"body": string,"card_id": string,"content_hash": string,"created_at"?: string,"embedding"?: string | null,"id"?: string,"language": string,"quote"?: string | null,"quote_author"?: string | null,"rejection_reason"?: string | null,"search"?: never,"status"?: string,"style_score"?: number | null,"title": string
+                    "card_id": string,"season_id": string
                   }
                   Update: {
-                    "action_step"?: string,"body"?: string,"card_id"?: string,"content_hash"?: string,"created_at"?: string,"embedding"?: string | null,"id"?: string,"language"?: string,"quote"?: string | null,"quote_author"?: string | null,"rejection_reason"?: string | null,"search"?: never,"status"?: string,"style_score"?: number | null,"title"?: string
+                    "card_id"?: string,"season_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "card_seasons_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "card_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "card_seasons_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "cards"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "card_seasons_season_id_fkey"
+      columns: ["season_id"]
+isOneToOne: false
+      referencedRelation: "liturgical_seasons"
+      referencedColumns: ["id"]
+    }
+                  ]
+                },"card_translations": {
+                  Row: {
+                    "action_step": string,"card_id": string,"created_at": string,"embedding": string | null,"id": string,"key_words": NonNullable<Json>,"language": string,"plain_explanation": string,"search": unknown,"status": string,"style_score": number | null
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "action_step": string,"card_id": string,"created_at"?: string,"embedding"?: string | null,"id"?: string,"key_words"?: NonNullable<Json>,"language": string,"plain_explanation": string,"search"?: never,"status"?: string,"style_score"?: number | null
+                  }
+                  Update: {
+                    "action_step"?: string,"card_id"?: string,"created_at"?: string,"embedding"?: string | null,"id"?: string,"key_words"?: NonNullable<Json>,"language"?: string,"plain_explanation"?: string,"search"?: never,"status"?: string,"style_score"?: number | null
                   }
                   Relationships: [
                     {
@@ -123,23 +221,17 @@ isOneToOne: false
                   ]
                 },"cards": {
                   Row: {
-                    "book_id": string | null,"category_id": string,"created_at": string,"difficulty": number,"human_reviewed": boolean,"id": string,"ingestion_run_id": string | null,"quality_score": number | null,"rejection_reason": string | null,"source_type": string,"stash_count": number,"status": string
+                    "category_id": string,"content_hash": string,"created_at": string,"difficulty": number,"id": string,"ingestion_run_id": string | null,"passage_id": string,"passage_text_hash": string,"quality_score": number | null,"rejection_reason": string | null,"source_type": string,"stash_count": number,"status": string,"theology_score": number | null
                   }
                   ComputedFields: never
                   Insert: {
-                    "book_id"?: string | null,"category_id": string,"created_at"?: string,"difficulty"?: number,"human_reviewed"?: boolean,"id"?: string,"ingestion_run_id"?: string | null,"quality_score"?: number | null,"rejection_reason"?: string | null,"source_type"?: string,"stash_count"?: number,"status"?: string
+                    "category_id": string,"content_hash": string,"created_at"?: string,"difficulty"?: number,"id"?: string,"ingestion_run_id"?: string | null,"passage_id": string,"passage_text_hash": string,"quality_score"?: number | null,"rejection_reason"?: string | null,"source_type"?: string,"stash_count"?: number,"status"?: string,"theology_score"?: number | null
                   }
                   Update: {
-                    "book_id"?: string | null,"category_id"?: string,"created_at"?: string,"difficulty"?: number,"human_reviewed"?: boolean,"id"?: string,"ingestion_run_id"?: string | null,"quality_score"?: number | null,"rejection_reason"?: string | null,"source_type"?: string,"stash_count"?: number,"status"?: string
+                    "category_id"?: string,"content_hash"?: string,"created_at"?: string,"difficulty"?: number,"id"?: string,"ingestion_run_id"?: string | null,"passage_id"?: string,"passage_text_hash"?: string,"quality_score"?: number | null,"rejection_reason"?: string | null,"source_type"?: string,"stash_count"?: number,"status"?: string,"theology_score"?: number | null
                   }
                   Relationships: [
                     {
-      foreignKeyName: "cards_book_id_fkey"
-      columns: ["book_id"]
-isOneToOne: false
-      referencedRelation: "books"
-      referencedColumns: ["id"]
-    },{
       foreignKeyName: "cards_category_id_fkey"
       columns: ["category_id"]
 isOneToOne: false
@@ -150,6 +242,12 @@ isOneToOne: false
       columns: ["ingestion_run_id"]
 isOneToOne: false
       referencedRelation: "ingestion_runs"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "cards_passage_id_fkey"
+      columns: ["passage_id"]
+isOneToOne: false
+      referencedRelation: "passages"
       referencedColumns: ["id"]
     }
                   ]
@@ -213,53 +311,185 @@ isOneToOne: false
                   Relationships: [
                     
                   ]
-                },"ingestion_queries": {
+                },"ingestion_runs": {
                   Row: {
-                    "category_id": string,"created_at": string,"id": string,"last_run_at": string | null,"query_text": string
+                    "cards_created": number,"cards_rejected": number,"cost_usd": number,"details": NonNullable<Json>,"errors": NonNullable<Json>,"finished_at": string | null,"id": string,"model_calls": number,"scope": string | null,"source": string,"started_at": string,"status": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "category_id": string,"created_at"?: string,"id"?: string,"last_run_at"?: string | null,"query_text": string
+                    "cards_created"?: number,"cards_rejected"?: number,"cost_usd"?: number,"details"?: NonNullable<Json>,"errors"?: NonNullable<Json>,"finished_at"?: string | null,"id"?: string,"model_calls"?: number,"scope"?: string | null,"source": string,"started_at"?: string,"status"?: string
                   }
                   Update: {
-                    "category_id"?: string,"created_at"?: string,"id"?: string,"last_run_at"?: string | null,"query_text"?: string
+                    "cards_created"?: number,"cards_rejected"?: number,"cost_usd"?: number,"details"?: NonNullable<Json>,"errors"?: NonNullable<Json>,"finished_at"?: string | null,"id"?: string,"model_calls"?: number,"scope"?: string | null,"source"?: string,"started_at"?: string,"status"?: string
+                  }
+                  Relationships: [
+                    
+                  ]
+                },"liturgical_seasons": {
+                  Row: {
+                    "description_en": string | null,"description_fr": string | null,"id": string,"name_en": string,"name_fr": string,"slug": string,"sort_order": number
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "description_en"?: string | null,"description_fr"?: string | null,"id"?: string,"name_en": string,"name_fr": string,"slug": string,"sort_order"?: number
+                  }
+                  Update: {
+                    "description_en"?: string | null,"description_fr"?: string | null,"id"?: string,"name_en"?: string,"name_fr"?: string,"slug"?: string,"sort_order"?: number
+                  }
+                  Relationships: [
+                    
+                  ]
+                },"liturgical_uses": {
+                  Row: {
+                    "book_code": string,"calendar": string,"chapter_end": number,"chapter_start": number,"description_en": string,"description_fr": string,"id": string,"occasion_type": string,"passage_id": string | null,"rite": string,"season_id": string | null,"source_id": string | null,"tradition": string,"verified": boolean,"verse_end": number,"verse_start": number
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "book_code": string,"calendar": string,"chapter_end": number,"chapter_start": number,"description_en": string,"description_fr": string,"id"?: string,"occasion_type": string,"passage_id"?: string | null,"rite": string,"season_id"?: string | null,"source_id"?: string | null,"tradition": string,"verified"?: boolean,"verse_end": number,"verse_start": number
+                  }
+                  Update: {
+                    "book_code"?: string,"calendar"?: string,"chapter_end"?: number,"chapter_start"?: number,"description_en"?: string,"description_fr"?: string,"id"?: string,"occasion_type"?: string,"passage_id"?: string | null,"rite"?: string,"season_id"?: string | null,"source_id"?: string | null,"tradition"?: string,"verified"?: boolean,"verse_end"?: number,"verse_start"?: number
                   }
                   Relationships: [
                     {
-      foreignKeyName: "ingestion_queries_category_id_fkey"
-      columns: ["category_id"]
+      foreignKeyName: "liturgical_uses_passage_id_fkey"
+      columns: ["passage_id"]
 isOneToOne: false
-      referencedRelation: "categories"
+      referencedRelation: "passages"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "liturgical_uses_season_id_fkey"
+      columns: ["season_id"]
+isOneToOne: false
+      referencedRelation: "liturgical_seasons"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "liturgical_uses_source_id_fkey"
+      columns: ["source_id"]
+isOneToOne: false
+      referencedRelation: "sources"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "liturgical_uses_tradition_fkey"
+      columns: ["tradition"]
+isOneToOne: false
+      referencedRelation: "traditions"
+      referencedColumns: ["code"]
+    }
+                  ]
+                },"passages": {
+                  Row: {
+                    "book_code": string,"chapter_end": number,"chapter_start": number,"created_at": string,"id": string,"psalm_number_hebrew": number | null,"psalm_number_lxx": string | null,"sort_key": number,"verse_end": number,"verse_start": number
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "book_code": string,"chapter_end": number,"chapter_start": number,"created_at"?: string,"id"?: string,"psalm_number_hebrew"?: number | null,"psalm_number_lxx"?: string | null,"sort_key": number,"verse_end": number,"verse_start": number
+                  }
+                  Update: {
+                    "book_code"?: string,"chapter_end"?: number,"chapter_start"?: number,"created_at"?: string,"id"?: string,"psalm_number_hebrew"?: number | null,"psalm_number_lxx"?: string | null,"sort_key"?: number,"verse_end"?: number,"verse_start"?: number
+                  }
+                  Relationships: [
+                    
+                  ]
+                },"perspective_sources": {
+                  Row: {
+                    "perspective_id": string,"quote": string | null,"source_id": string,"usage": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "perspective_id": string,"quote"?: string | null,"source_id": string,"usage": string
+                  }
+                  Update: {
+                    "perspective_id"?: string,"quote"?: string | null,"source_id"?: string,"usage"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "perspective_sources_perspective_id_fkey"
+      columns: ["perspective_id"]
+isOneToOne: false
+      referencedRelation: "card_perspectives"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "perspective_sources_source_id_fkey"
+      columns: ["source_id"]
+isOneToOne: false
+      referencedRelation: "sources"
       referencedColumns: ["id"]
     }
                   ]
-                },"ingestion_runs": {
+                },"profiles": {
                   Row: {
-                    "books_found": number,"cards_created": number,"cards_rejected": number,"details": NonNullable<Json>,"errors": NonNullable<Json>,"finished_at": string | null,"id": string,"model_calls": number,"source": string,"started_at": string,"status": string
+                    "bible_version_en": string,"bible_version_fr": string,"created_at": string,"daily_goal": number,"daily_limit": string,"display_name": string | null,"id": string,"include_reread": boolean,"interests": (string)[],"language": string,"last_active_date": string | null,"longest_streak": number,"onboarded": boolean,"reread_ratio": number,"reviewed_only": boolean,"show_greek": boolean,"streak_count": number,"timezone": string,"tradition_view": string,"updated_at": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "books_found"?: number,"cards_created"?: number,"cards_rejected"?: number,"details"?: NonNullable<Json>,"errors"?: NonNullable<Json>,"finished_at"?: string | null,"id"?: string,"model_calls"?: number,"source": string,"started_at"?: string,"status"?: string
+                    "bible_version_en"?: string,"bible_version_fr"?: string,"created_at"?: string,"daily_goal"?: number,"daily_limit"?: string,"display_name"?: string | null,"id": string,"include_reread"?: boolean,"interests"?: (string)[],"language"?: string,"last_active_date"?: string | null,"longest_streak"?: number,"onboarded"?: boolean,"reread_ratio"?: number,"reviewed_only"?: boolean,"show_greek"?: boolean,"streak_count"?: number,"timezone"?: string,"tradition_view"?: string,"updated_at"?: string
                   }
                   Update: {
-                    "books_found"?: number,"cards_created"?: number,"cards_rejected"?: number,"details"?: NonNullable<Json>,"errors"?: NonNullable<Json>,"finished_at"?: string | null,"id"?: string,"model_calls"?: number,"source"?: string,"started_at"?: string,"status"?: string
+                    "bible_version_en"?: string,"bible_version_fr"?: string,"created_at"?: string,"daily_goal"?: number,"daily_limit"?: string,"display_name"?: string | null,"id"?: string,"include_reread"?: boolean,"interests"?: (string)[],"language"?: string,"last_active_date"?: string | null,"longest_streak"?: number,"onboarded"?: boolean,"reread_ratio"?: number,"reviewed_only"?: boolean,"show_greek"?: boolean,"streak_count"?: number,"timezone"?: string,"tradition_view"?: string,"updated_at"?: string
                   }
                   Relationships: [
                     
                   ]
-                },"profiles": {
+                },"psalm_numbering": {
                   Row: {
-                    "created_at": string,"daily_goal": number,"daily_limit": string,"display_name": string | null,"id": string,"include_reread": boolean,"interests": (string)[],"language": string,"last_active_date": string | null,"longest_streak": number,"onboarded": boolean,"reread_ratio": number,"streak_count": number,"timezone": string,"updated_at": string
+                    "hebrew_psalm": number,"hebrew_verse_end": number,"hebrew_verse_start": number,"id": number,"lxx_psalm": number,"lxx_verse_offset": number,"note": string | null
                   }
                   ComputedFields: never
                   Insert: {
-                    "created_at"?: string,"daily_goal"?: number,"daily_limit"?: string,"display_name"?: string | null,"id": string,"include_reread"?: boolean,"interests"?: (string)[],"language"?: string,"last_active_date"?: string | null,"longest_streak"?: number,"onboarded"?: boolean,"reread_ratio"?: number,"streak_count"?: number,"timezone"?: string,"updated_at"?: string
+                    "hebrew_psalm": number,"hebrew_verse_end": number,"hebrew_verse_start": number,"id": number,"lxx_psalm": number,"lxx_verse_offset"?: number,"note"?: string | null
                   }
                   Update: {
-                    "created_at"?: string,"daily_goal"?: number,"daily_limit"?: string,"display_name"?: string | null,"id"?: string,"include_reread"?: boolean,"interests"?: (string)[],"language"?: string,"last_active_date"?: string | null,"longest_streak"?: number,"onboarded"?: boolean,"reread_ratio"?: number,"streak_count"?: number,"timezone"?: string,"updated_at"?: string
+                    "hebrew_psalm"?: number,"hebrew_verse_end"?: number,"hebrew_verse_start"?: number,"id"?: number,"lxx_psalm"?: number,"lxx_verse_offset"?: number,"note"?: string | null
                   }
                   Relationships: [
                     
+                  ]
+                },"reading_progress": {
+                  Row: {
+                    "book_code": string,"last_card_id": string | null,"last_sort_key": number,"updated_at": string,"user_id": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "book_code": string,"last_card_id"?: string | null,"last_sort_key"?: number,"updated_at"?: string,"user_id": string
+                  }
+                  Update: {
+                    "book_code"?: string,"last_card_id"?: string | null,"last_sort_key"?: number,"updated_at"?: string,"user_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "reading_progress_last_card_id_fkey"
+      columns: ["last_card_id"]
+isOneToOne: false
+      referencedRelation: "card_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "reading_progress_last_card_id_fkey"
+      columns: ["last_card_id"]
+isOneToOne: false
+      referencedRelation: "cards"
+      referencedColumns: ["id"]
+    }
+                  ]
+                },"sources": {
+                  Row: {
+                    "author": string,"bible_refs": (string)[],"content_hash": string,"embedding": string | null,"id": string,"imported_at": string,"kind": string,"language": string,"license": string,"region": string | null,"search": unknown,"section": string,"text": string | null,"tradition": string,"url": string,"verified": boolean,"work": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "author": string,"bible_refs"?: (string)[],"content_hash": string,"embedding"?: string | null,"id"?: string,"imported_at"?: string,"kind": string,"language": string,"license": string,"region"?: string | null,"search"?: never,"section": string,"text"?: string | null,"tradition": string,"url": string,"verified"?: boolean,"work": string
+                  }
+                  Update: {
+                    "author"?: string,"bible_refs"?: (string)[],"content_hash"?: string,"embedding"?: string | null,"id"?: string,"imported_at"?: string,"kind"?: string,"language"?: string,"license"?: string,"region"?: string | null,"search"?: never,"section"?: string,"text"?: string | null,"tradition"?: string,"url"?: string,"verified"?: boolean,"work"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "sources_tradition_fkey"
+      columns: ["tradition"]
+isOneToOne: false
+      referencedRelation: "traditions"
+      referencedColumns: ["code"]
+    }
                   ]
                 },"stashes": {
                   Row: {
@@ -287,6 +517,20 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
+                },"traditions": {
+                  Row: {
+                    "code": string,"name_en": string,"name_fr": string,"sort_order": number
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "code": string,"name_en": string,"name_fr": string,"sort_order"?: number
+                  }
+                  Update: {
+                    "code"?: string,"name_en"?: string,"name_fr"?: string,"sort_order"?: number
+                  }
+                  Relationships: [
+                    
+                  ]
                 },"user_card_state": {
                   Row: {
                     "card_id": string,"first_read_at": string,"is_stashed": boolean,"last_read_at": string,"read_count": number,"user_id": string
@@ -313,33 +557,64 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
+                },"verse_memory": {
+                  Row: {
+                    "card_id": string,"created_at": string,"ease_factor": number,"interval_days": number,"last_reviewed_at": string | null,"mask_level": number,"next_review_at": string,"rating": number | null,"repetitions": number,"user_id": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "card_id": string,"created_at"?: string,"ease_factor"?: number,"interval_days"?: number,"last_reviewed_at"?: string | null,"mask_level"?: number,"next_review_at"?: string,"rating"?: number | null,"repetitions"?: number,"user_id": string
+                  }
+                  Update: {
+                    "card_id"?: string,"created_at"?: string,"ease_factor"?: number,"interval_days"?: number,"last_reviewed_at"?: string | null,"mask_level"?: number,"next_review_at"?: string,"rating"?: number | null,"repetitions"?: number,"user_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "verse_memory_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "card_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "verse_memory_card_id_fkey"
+      columns: ["card_id"]
+isOneToOne: false
+      referencedRelation: "cards"
+      referencedColumns: ["id"]
+    }
+                  ]
                 }
           }
           Views: {
             "card_details": {
                   Row: {
-                    "action_step": string,"body": string,"book_author": string | null,"book_cover_url": string | null,"book_id": string | null,"book_info_link": string | null,"book_title": string | null,"category_icon": string | null,"category_id": string,"category_name_en": string,"category_name_fr": string,"category_slug": string,"created_at": string,"difficulty": number,"id": string,"language": string,"main_category_id": string | null,"quality_score": number | null,"quote": string | null,"quote_author": string | null,"source_type": string,"stash_count": number,"status": string,"style_score": number | null,"title": string,"translation_id": string
+                    "action_step": string,"book_code": string,"category_icon": string | null,"category_id": string,"category_name_en": string,"category_name_fr": string,"category_slug": string,"chapter_end": number,"chapter_start": number,"created_at": string,"difficulty": number,"id": string,"key_words": NonNullable<Json>,"language": string,"main_category_id": string | null,"passage_id": string,"plain_explanation": string,"psalm_number_hebrew": number | null,"psalm_number_lxx": string | null,"quality_score": number | null,"sort_key": number,"source_type": string,"stash_count": number,"status": string,"style_score": number | null,"theology_score": number | null,"translation_id": string,"verse_end": number,"verse_start": number
                   }
                   ComputedFields: never
                   Relationships: [
                     {
-      foreignKeyName: "cards_book_id_fkey"
-      columns: ["book_id"]
-isOneToOne: false
-      referencedRelation: "books"
-      referencedColumns: ["id"]
-    },{
       foreignKeyName: "cards_category_id_fkey"
       columns: ["category_id"]
 isOneToOne: false
       referencedRelation: "categories"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "cards_passage_id_fkey"
+      columns: ["passage_id"]
+isOneToOne: false
+      referencedRelation: "passages"
       referencedColumns: ["id"]
     }
                   ]
                 }
           }
           Functions: {
-            "category_card_counts":
+            "book_progress":
+{ Args: { "p_language": string }; Returns: {
+              "book_code": string,"read": number,"total": number
+            }[]
+                           },
+"category_card_counts":
 { Args: Record<PropertyKey, never>; Returns: {
               "category_id": string,"language": string,"slug": string,"status": string,"total": number
             }[]
@@ -352,31 +627,34 @@ isOneToOne: false
 "daily_challenge":
 { Args: { "p_day": string }; Returns: {
               "action_step": string,
-"body": string,
-"book_author": string | null,
-"book_cover_url": string | null,
-"book_id": string | null,
-"book_info_link": string | null,
-"book_title": string | null,
+"book_code": string,
 "category_icon": string | null,
 "category_id": string,
 "category_name_en": string,
 "category_name_fr": string,
 "category_slug": string,
+"chapter_end": number,
+"chapter_start": number,
 "created_at": string,
 "difficulty": number,
 "id": string,
+"key_words": NonNullable<Json>,
 "language": string,
 "main_category_id": string | null,
+"passage_id": string,
+"plain_explanation": string,
+"psalm_number_hebrew": number | null,
+"psalm_number_lxx": string | null,
 "quality_score": number | null,
-"quote": string | null,
-"quote_author": string | null,
+"sort_key": number,
 "source_type": string,
 "stash_count": number,
 "status": string,
 "style_score": number | null,
-"title": string,
-"translation_id": string
+"theology_score": number | null,
+"translation_id": string,
+"verse_end": number,
+"verse_start": number
             }[]
                           SetofOptions: {
         from: "*"
@@ -394,9 +672,19 @@ isOneToOne: false
               "card_id": string,"first_read_at": string,"is_stashed": boolean,"last_read_at": string,"read_count": number,"total_count": number
             }[]
                            },
-"match_cards":
+"match_perspectives":
+{ Args: { "match_count"?: number,"match_language": string,"match_threshold"?: number,"match_tradition": string,"query_embedding": string }; Returns: {
+              "card_id": string,"similarity": number
+            }[]
+                           },
+"match_sources":
+{ Args: { "match_count"?: number,"match_tradition": string,"query_embedding": string }; Returns: {
+              "id": string,"similarity": number
+            }[]
+                           },
+"match_translations":
 { Args: { "match_count"?: number,"match_language": string,"match_threshold"?: number,"query_embedding": string }; Returns: {
-              "id": string,"similarity": number,"title": string
+              "card_id": string,"similarity": number
             }[]
                            },
 "record_activity":

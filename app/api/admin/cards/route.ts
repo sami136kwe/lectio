@@ -16,7 +16,6 @@ export async function PATCH(request: Request) {
     .from("cards")
     .update({
       status,
-      human_reviewed: true,
       rejection_reason: status === "rejected" ? `human_review:${auth.user.email ?? auth.user.id}` : null,
     })
     .eq("id", cardId)
@@ -27,7 +26,7 @@ export async function PATCH(request: Request) {
   // Both versions follow the card: they are published or rejected together.
   const { error: translationError } = await admin
     .from("card_translations")
-    .update({ status, rejection_reason: status === "rejected" ? `human_review:${auth.user.email ?? auth.user.id}` : null })
+    .update({ status })
     .eq("card_id", cardId);
   if (translationError) return serverError("admin:translations", translationError);
   return NextResponse.json({ card: data });

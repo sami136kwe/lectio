@@ -1,24 +1,17 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { LectioCard } from "@/components/LectioCard";
+import type { QueueItem } from "@/lib/admin/queue";
+import type { CardSummary } from "@/lib/cards";
 import { apiFetch } from "@/lib/client/api";
 import { useT } from "@/lib/i18n/client";
 
-export type ReviewCard = {
-  id: string;
-  translationId: string;
-  title: string;
-  body: string;
-  action_step: string;
-  language: string;
-  status: string;
-  quality_score: number | null;
-  style_score: number | null;
-  rejection_reason: string | null;
-};
+export type AdminCard = { card: CardSummary; status: string; scores: (number | null)[] };
 
-export function AdminReview({ cards }: { cards: ReviewCard[] }) {
+/** Sample and drafts: the whole card with its sources, and publish / reject. */
+export function AdminCards({ cards }: { cards: AdminCard[] }) {
   const t = useT();
   const [statuses, setStatuses] = useState<Record<string, string>>({});
   if (cards.length === 0) return <p className="text-muted">{t.admin.empty}</p>;
@@ -34,34 +27,25 @@ export function AdminReview({ cards }: { cards: ReviewCard[] }) {
   }
 
   return (
-    <ul className="grid gap-3 lg:grid-cols-2">
-      {cards.map((card) => {
-        const status = statuses[card.id] || card.status;
+    <ul className="grid gap-4 xl:grid-cols-2">
+      {cards.map(({ card, status: initial, scores }) => {
+        const status = statuses[card.id!] || initial;
         return (
-          <li key={card.translationId} className="card-surface flex flex-col gap-2 p-4 text-sm" lang={card.language}>
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="chip uppercase">{card.language}</span>
-              <span className={`chip ${status === "published" ? "text-ok" : status === "rejected" ? "text-danger" : ""}`}>{status}</span>
-              <span className="chip">
-                {t.admin.scores}: {card.quality_score ?? "–"} / {card.style_score ?? "–"}
-              </span>
-            </div>
-            <h3 className="font-serif text-lg font-bold">{card.title}</h3>
-            <p>{card.body}</p>
-            <p className="rounded-xl bg-accent-soft p-2 font-medium">{card.action_step}</p>
-            {card.rejection_reason && (
-              <p className="text-xs text-muted">
-                {t.admin.reason}: {card.rejection_reason}
-              </p>
-            )}
-            <div className="flex gap-2">
-              <button type="button" className="btn-ghost py-1.5" disabled={status === "published"} onClick={() => decide(card.id, "published")}>
-                {t.admin.approve}
-              </button>
-              <button type="button" className="btn-danger py-1.5" disabled={status === "rejected"} onClick={() => decide(card.id, "rejected")}>
-                {t.admin.reject}
-              </button>
-            </div>
+          <li key={card.id}>
+            <LectioCard card={card} variant="compact" headingLevel="h3">
+              <div className="flex flex-wrap items-center gap-2 text-sm">
+                <span className={`chip ${status === "published" ? "text-ok" : status === "rejected" ? "text-danger" : ""}`}>{status}</span>
+                <span className="chip">
+                  {t.admin.scores}: {scores.map((s) => s ?? "–").join(" / ")}
+                </span>
+                <button type="button" className="btn-ghost py-1.5" disabled={status === "published"} onClick={() => decide(card.id!, "published")}>
+                  {t.admin.approve}
+                </button>
+                <button type="button" className="btn-ghost py-1.5 text-danger" disabled={status === "rejected"} onClick={() => decide(card.id!, "rejected")}>
+                  {t.admin.reject}
+                </button>
+              </div>
+            </LectioCard>
           </li>
         );
       })}
@@ -69,46 +53,113 @@ export function AdminReview({ cards }: { cards: ReviewCard[] }) {
   );
 }
 
-export function RerunForm({ categories }: { categories: { id: string; label: string }[] }) {
+function QueueEntry({ item }: { item: QueueItem }) {
   const t = useT();
-  const router = useRouter();
-  const [categoryId, setCategoryId] = useState(categories[0]?.id ?? "");
-  const [state, setState] = useState<{ kind: "idle" | "running" | "done" | "error"; text?: string }>({ kind: "idle" });
+  const [body, setBody] = useState(item.body);
+  const [note, setNote] = useState(item.reviewer_note ?? "");
+  const [status, setStatus] = useState(item.review_status);
+  const [busy, setBusy] = useState(false);
+
+  async function save(review_status: "reviewed" | "corrected" | "rejected") {
+    setBusy(true);
+    try {
+      await apiFetch("/api/admin/perspectives", {
+        method: "PATCH",
+        json: { perspectiveId: item.id, review_status, ...(review_status === "corrected" ? { body } : {}), reviewer_note: note || null },
+      });
+      setStatus(review_status);
+    } finally {
+      setBusy(false);
+    }
+  }
 
   return (
-    <form
-      className="flex flex-col gap-3 sm:flex-row sm:items-end"
-      onSubmit={async (e) => {
-        e.preventDefault();
-        setState({ kind: "running" });
-        try {
-          const res = await apiFetch<{ status: string; cardsCreated: number; cardsRejected: number; booksFound: number }>("/api/admin/rerun", {
-            method: "POST",
-            json: { categoryId },
-          });
-          setState({ kind: "done", text: `${t.admin.rerunStarted}: ${res.status} · +${res.booksFound} / ${res.cardsCreated} / ${res.cardsRejected}` });
-          router.refresh();
-        } catch (error) {
-          setState({ kind: "error", text: error instanceof Error ? error.message : t.common.error });
-        }
-      }}
-    >
-      <label className="flex flex-col gap-1.5 text-sm font-semibold">
-        {t.admin.rerunCategory}
-        <select className="input font-normal sm:w-72" value={categoryId} onChange={(e) => setCategoryId(e.target.value)}>
-          {categories.map((c) => (
-            <option key={c.id} value={c.id}>
-              {c.label}
-            </option>
-          ))}
-        </select>
+    <li className="card-surface grid gap-4 p-4 text-sm lg:grid-cols-2" lang={item.language} data-testid="review-item">
+      <div className="flex flex-col gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="font-semibold">{item.reference}</span>
+          <span className="chip uppercase">{item.language}</span>
+          <span className="chip">{item.tradition === "catholic" ? t.card.catholic : t.card.orthodox}</span>
+          {item.divergence_type === "differ" && <span className="chip">{t.card.differ}{item.divergence_topic ? ` · ${item.divergence_topic}` : ""}</span>}
+          <span className="chip">{t.admin.reviewStatus[status]}</span>
+          <span className="chip">θ {item.theology_score ?? "–"}</span>
+        </div>
+        <label className="flex flex-col gap-1">
+          <span className="sr-only">{t.card.view}</span>
+          <textarea className="input min-h-40" value={body} onChange={(e) => setBody(e.target.value)} maxLength={1400} />
+        </label>
+        <label className="flex flex-col gap-1">
+          {t.admin.note}
+          <textarea className="input min-h-16" value={note} onChange={(e) => setNote(e.target.value)} maxLength={2000} />
+        </label>
+        <div className="flex flex-wrap gap-2">
+          <button type="button" className="btn-ghost py-1.5" disabled={busy} onClick={() => save("reviewed")}>
+            {t.admin.markReviewed}
+          </button>
+          <button type="button" className="btn-ghost py-1.5" disabled={busy || body === item.body || body.length < 80} onClick={() => save("corrected")}>
+            {t.admin.saveCorrection}
+          </button>
+          <button type="button" className="btn-ghost py-1.5 text-danger" disabled={busy} onClick={() => save("rejected")}>
+            {t.admin.rejectReading}
+          </button>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-muted">{t.admin.sourcesUsed}</h3>
+        {item.sources.length === 0 ? (
+          <p className="text-muted">{t.admin.noSources}</p>
+        ) : (
+          <ul className="flex flex-col gap-3">
+            {item.sources.map((s) => (
+              <li key={`${s.author}${s.work}${s.section}`} className="rounded-xl bg-surface-2 p-3">
+                <a href={s.url} target="_blank" rel="noreferrer" className="font-medium underline">
+                  {s.author}, {s.work}, {s.section}
+                </a>{" "}
+                <span className="text-muted">({s.usage})</span>
+                {s.quote && <p className="mt-1 italic">« {s.quote} »</p>}
+                {s.text && <p className="mt-1 max-h-48 overflow-y-auto whitespace-pre-wrap text-xs text-muted">{s.text}</p>}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </li>
+  );
+}
+
+/** Theological review queue, with CSV re-import. */
+export function ReviewQueue({ items }: { items: QueueItem[] }) {
+  const t = useT();
+  const router = useRouter();
+  const [message, setMessage] = useState<string | null>(null);
+
+  async function importCsv(file: File) {
+    const res = await fetch("/api/admin/review/import", { method: "POST", headers: { "Content-Type": "text/csv" }, body: await file.text() });
+    const data = (await res.json()) as { updated?: number; errors?: string[]; error?: string };
+    setMessage(res.ok ? `${t.admin.imported(data.updated ?? 0)}${data.errors?.length ? ` · ${data.errors.slice(0, 5).join(" · ")}` : ""}` : (data.error ?? t.common.error));
+    router.refresh();
+  }
+
+  return (
+    <div className="flex flex-col gap-3">
+      <label className="flex w-fit items-center gap-2 text-sm">
+        <span className="btn-ghost py-1.5">{t.admin.importCsv}</span>
+        <input type="file" accept=".csv,text/csv" className="sr-only" onChange={(e) => e.target.files?.[0] && void importCsv(e.target.files[0])} />
       </label>
-      <button type="submit" className="btn-primary" disabled={state.kind === "running" || !categoryId}>
-        {state.kind === "running" ? "…" : t.admin.rerun}
-      </button>
-      <span role="status" className={`text-sm ${state.kind === "error" ? "text-danger" : "text-muted"}`}>
-        {state.text}
-      </span>
-    </form>
+      {message && (
+        <p role="status" className="text-sm text-muted">
+          {message}
+        </p>
+      )}
+      {items.length === 0 ? (
+        <p className="text-muted">{t.admin.empty}</p>
+      ) : (
+        <ul className="flex flex-col gap-3">
+          {items.map((i) => (
+            <QueueEntry key={i.id} item={i} />
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }

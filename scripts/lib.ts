@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 import type { Database } from "@/types/database";
-import { CATEGORY_SEED } from "@/supabase/seed/categories";
+import { CATEGORY_SEED, SEASON_SEED, TRADITION_SEED } from "@/supabase/seed/categories";
 
 config({ path: ".env.local" });
 config();
@@ -26,10 +26,9 @@ export function hasFlag(name: string): boolean {
   return process.argv.includes(`--${name}`);
 }
 
-/** Upserts every category, subcategory and discovery query (idempotent). */
-export async function seedCategories(db: ScriptDb): Promise<{ categories: number; queries: number }> {
+/** Upserts every category and subcategory, the traditions and the liturgical seasons (idempotent). */
+export async function seedCategories(db: ScriptDb): Promise<{ categories: number; traditions: number; seasons: number }> {
   let categories = 0;
-  let queries = 0;
   for (const [index, main] of CATEGORY_SEED.entries()) {
     const { data: parent, error } = await db
       .from("categories")
@@ -50,24 +49,15 @@ export async function seedCategories(db: ScriptDb): Promise<{ categories: number
       .single();
     if (error) throw new Error(`category ${main.slug}: ${error.message}`);
     categories += 1;
-
-    const subs = main.subcategories.map((sub, subIndex) => ({
-      slug: sub.slug,
-      name_fr: sub.name_fr,
-      name_en: sub.name_en,
-      parent_id: parent.id,
-      sort_order: subIndex,
-    }));
+    const subs = main.subcategories.map((sub, subIndex) => ({ ...sub, parent_id: parent.id, sort_order: subIndex }));
     const { error: subError } = await db.from("categories").upsert(subs, { onConflict: "slug" });
     if (subError) throw new Error(`subcategories of ${main.slug}: ${subError.message}`);
     categories += subs.length;
-
-    const rows = main.queries.map((query_text) => ({ category_id: parent.id, query_text }));
-    const { error: qError } = await db
-      .from("ingestion_queries")
-      .upsert(rows, { onConflict: "category_id,query_text", ignoreDuplicates: true });
-    if (qError) throw new Error(`queries of ${main.slug}: ${qError.message}`);
-    queries += rows.length;
   }
-  return { categories, queries };
+  const { error: tError } = await db.from("traditions").upsert(TRADITION_SEED, { onConflict: "code" });
+  if (tError) throw new Error(`traditions: ${tError.message}`);
+  const seasons = SEASON_SEED.map((s, i) => ({ ...s, sort_order: i }));
+  const { error: sError } = await db.from("liturgical_seasons").upsert(seasons, { onConflict: "slug" });
+  if (sError) throw new Error(`seasons: ${sError.message}`);
+  return { categories, traditions: TRADITION_SEED.length, seasons: seasons.length };
 }
