@@ -1,738 +1,176 @@
-# Stash : documentation complète
+# Lectio : documentation complète
 
-Ce document raconte **comment Stash a été pensé, construit et piloté**. Il est écrit pour quelqu'un qui découvre le projet : pas besoin d'être développeur pour suivre les grandes lignes, et les parties techniques sont là pour ceux qui veulent les détails.
-
-Pour simplement **lancer l'application**, lis le [README](../README.md) : cinq minutes suffisent.
+Lectio est une application de microlecture biblique : un passage du Nouveau Testament ou des Psaumes, une explication simple, la lecture catholique et la lecture orthodoxe, l'usage liturgique vérifié, et une piste à méditer. Elle reprend le socle technique de Stash et remplace tout ce qui touche au contenu.
 
 ## Sommaire
 
-1. [L'idée en deux minutes](#1-lidée-en-deux-minutes)
-2. [Vue d'ensemble de l'architecture](#2-vue-densemble-de-larchitecture)
-3. [Les données](#3-les-données)
-4. [Ce qui se passe quand tu utilises l'app](#4-ce-qui-se-passe-quand-tu-utilises-lapp)
-5. [Fabriquer le contenu : le pipeline d'ingestion](#5-fabriquer-le-contenu--le-pipeline-dingestion)
-6. [La lecture audio](#6-la-lecture-audio)
-7. [Sécurité et vie privée](#7-sécurité-et-vie-privée)
-8. [Les grandes décisions, et pourquoi](#8-les-grandes-décisions-et-pourquoi)
-9. [Comment le projet a été mené : les prompts](#9-comment-le-projet-a-été-mené--les-prompts)
-10. [Gestion de projet](#10-gestion-de-projet)
-11. [Qualité : tests et bugs trouvés en route](#11-qualité--tests-et-bugs-trouvés-en-route)
-12. [Mettre en ligne](#12-mettre-en-ligne)
-13. [Limites connues et risques](#13-limites-connues-et-risques)
-14. [Lexique](#14-lexique)
+1. L'idée et les règles de fond
+2. Architecture
+3. Les données
+4. Le texte biblique
+5. Les sources et la liturgie
+6. Fabriquer les cartes : le pipeline
+7. L'application
+8. Relecture humaine
+9. Tests
+10. Mettre en ligne
+11. Écarts avec le cahier des charges, limites et risques
 
 ---
 
-## 1. L'idée en deux minutes
+## 1. L'idée et les règles de fond
 
-**Stash** est une application de microapprentissage. Tu fais défiler des **cartes** : chacune contient une idée courte et utile (psychologie, communication, négociation, discipline, santé…), inspirée des meilleurs livres de développement personnel, et **une action concrète à faire aujourd'hui**. L'objectif : apprendre quelque chose d'utile en cinq minutes par jour, le sauvegarder, et le revoir au bon moment.
+Une personne curieuse ou croyante lit un court passage, comprend ce qu'il dit, voit comment chaque Église le lit, repère où il est proclamé, et repart avec une piste à vivre. Cinq règles structurent tout le projet :
 
-Trois principes guident tout le reste :
-
-| Principe | Ce que ça change concrètement |
+| Règle | Comment elle est tenue |
 |---|---|
-| **Des idées reformulées, jamais copiées** | Les cartes sont écrites avec des mots originaux. Une carte qui ressemble trop au texte d'un livre est refusée automatiquement. Chaque carte garde sa source pour qu'on puisse lire l'original. |
-| **Un style humain** | Tutoiement, exemples de la vie courante, phrases de longueurs variées, pas de formules de dépliant. Des règles automatiques refusent les cartes qui sonnent « générées ». |
-| **Apprendre, pas seulement lire** | Sauvegarde, répétition espacée, défi du jour, série de jours, relecture : tout est fait pour que l'idée reste. |
+| Le texte biblique ne vient jamais de la mémoire d'un modèle | Il est importé par script depuis des fichiers figés (commit + SHA-256), lu en base à l'affichage. Le modèle reçoit le texte exact et n'écrit que le commentaire. Toute citation de 4 mots ou plus entre guillemets doit se retrouver dans le texte fourni, sinon la carte est rejetée. Chaque carte garde l'empreinte du texte lu au moment de l'écriture ; `check:db` la recalcule. |
+| Aucune citation de Père ou de document inventée | Un nom de Père, de concile ou de document dans une lecture doit correspondre à une source **vérifiée** liée à cette lecture (`perspective_sources`). Les citations font moins de 25 mots et sont retrouvées mot pour mot dans la source ; aucune suite de 8 mots copiés hors citation. |
+| Fidélité à chaque tradition, sans polémique | Règles dans le prompt, vocabulaire polémique filtré, étiquette de divergence cohérente (lectures de longueur équivalente à 30 % près quand elles divergent), second appel du modèle pour noter la fidélité théologique (publication à 8/10), relecture humaine. |
+| Aucune invention liturgique | Le bloc liturgique de chaque carte vient uniquement des données importées, avec leur source. Les lectures n'ont pas le droit de mentionner un dimanche, une fête ou un office. |
+| Relecture humaine | Chaque lecture est publiée « non encore relue » et le dit ; file de relecture, export et réimport CSV. |
 
-### Les 12 grandes catégories
+## 2. Architecture
 
-Psychologie · Communication · Négociation et persuasion · Lecture des gens et langage corporel · Autodiscipline et habitudes · Productivité et gestion du temps · Corps, santé et performance · Mentalité et développement personnel · Leadership et carrière · Relations et vie sociale · Argent et réussite financière · Pensée critique et créativité.
-
-Elles se découpent en **67 sous-catégories** (par exemple « Biais cognitifs », « Écoute active », « Sommeil »).
-
-### Le parcours d'une personne qui utilise l'app
-
-```mermaid
-flowchart LR
-    A["Je crée un compte<br/>e-mail ou Google"] --> B["Je choisis<br/>ma langue, mes thèmes,<br/>mon objectif du jour"]
-    B --> C["Je fais défiler<br/>mon fil de cartes"]
-    C --> D{"Une carte<br/>me parle ?"}
-    D -- oui --> E["Je la sauvegarde<br/>et j'ajoute une note"]
-    D -- non --> F["Je passe"]
-    E --> G["Elle revient plus tard<br/>en révision espacée"]
-    C --> H["Défi du jour<br/>et série de jours"]
-    C --> I["Je peux l'écouter<br/>à voix haute"]
-    G --> J["Historique<br/>et mode Relire"]
+```
+Navigateur ── Next.js (App Router, React 19, Tailwind) ── Supabase (Postgres + RLS + pgvector, Auth, Edge Function « embed »)
+                    │
+Scripts (tsx) ──────┤  import:bible · import:sources · seed:demo · seed:cards · check:db · export:cards
+                    │
+                    └─ API Claude (Message Batches, sorties structurées) : génération uniquement, jamais dans l'app
 ```
 
----
+| Dossier | Contenu |
+|---|---|
+| `lib/bible/` | Livres, numérotation des Psaumes, parseurs, validation, références, chargement des passages |
+| `lib/sources/` | Sources patristiques : liste blanche, lecteur TOML, preuve mot pour mot |
+| `lib/liturgy/` | Calendrier (Pâques, conversion julien/grégorien, temps liturgiques), citations de lectionnaire |
+| `lib/content/` | Contrôles de contenu (style, attributions, citations, divergence) |
+| `lib/pipeline/` | Découpage en passages, prompts, schémas, modèle (batches), évaluation, exécution |
+| `lib/admin/` | File de relecture, CSV |
+| `components/LectioCard.tsx` | La carte |
+| `supabase/migrations/` | Schéma, RLS, fonctions |
+| `supabase/seed/` | Thèmes, traditions, temps liturgiques, cartes d'exemple |
 
-## 2. Vue d'ensemble de l'architecture
-
-Stash est une application web composée de trois grands blocs : ce que voit la personne (le navigateur), le serveur de l'application (Next.js) et les services de données (Supabase). À côté, une chaîne de fabrication de contenu s'appuie sur l'IA et sur des catalogues de livres.
-
-```mermaid
-flowchart TB
-    subgraph Navigateur
-        UI["Pages et composants<br/>fil, stash, révision, historique,<br/>profil, admin"]
-        Audio["Lecteur audio<br/>segments et surlignage"]
-    end
-
-    subgraph Serveur["Serveur Next.js (Vercel)"]
-        Proxy["Proxy<br/>rafraîchit la session,<br/>redirige vers /login"]
-        Pages["Pages serveur"]
-        API["Routes API<br/>validées avec Zod"]
-        Cron["Route cron<br/>/api/cron/ingest"]
-    end
-
-    subgraph Supabase
-        Auth["Authentification<br/>e-mail + Google"]
-        DB[("PostgreSQL<br/>RLS + pgvector")]
-        Embed["Edge Function embed<br/>vecteurs gte-small"]
-    end
-
-    subgraph Contenu["Fabrication du contenu"]
-        Pipe["Pipeline d'ingestion"]
-        Claude["API Anthropic<br/>génération, réécriture, notation"]
-        Books["Google Books<br/>Open Library"]
-        Wiki["Wikipedia<br/>Wikiquote"]
-    end
-
-    subgraph Voix["Voix"]
-        Edge["Edge TTS<br/>en ligne"]
-        Kokoro["Kokoro<br/>local, optionnel"]
-    end
-
-    UI --> Proxy --> Pages
-    UI --> API
-    Audio --> API
-    Pages --> DB
-    API --> DB
-    API --> Auth
-    API --> Edge
-    API --> Kokoro
-    Cron --> Pipe
-    Pipe --> Claude
-    Pipe --> Books
-    Pipe --> Wiki
-    Pipe --> Embed
-    Pipe --> DB
-    Embed --> DB
-```
-
-### Les dossiers, en une phrase chacun
-
-```text
-app/                 les pages et les routes d'API (une page = un dossier)
-components/          les briques d'interface : carte, navigation, boutons, états vides
-lib/
-  supabase/          les trois façons de parler à la base : navigateur, serveur, administrateur
-  ingestion/         tout ce qui fabrique et contrôle les cartes
-  ai/                les consignes données à Claude
-  srs/               la répétition espacée (algorithme SM-2)
-  feed/              le mélange des cartes du fil
-  tts/               la lecture audio (découpage, lecteur, moteurs de voix)
-  i18n/              les textes de l'interface en français et en anglais
-supabase/
-  migrations/        l'histoire du schéma de la base, fichier par fichier
-  functions/embed/   la fonction qui transforme un texte en vecteur
-  seed/              les catégories et les cartes de démonstration
-scripts/             setup, seed, ingest : les commandes de mise en route
-tts-server/          le serveur de voix locale Kokoro (optionnel)
-tests/               unit (logique), integration (base de données), e2e (navigateur)
-```
-
-### Les technologies
-
-| Besoin | Choix | Pourquoi |
-|---|---|---|
-| Interface et serveur | Next.js 16 (App Router), React 19, TypeScript strict | Un seul projet pour les pages et l'API, très bien supporté par Vercel. |
-| Style | Tailwind CSS 4 | Rapide à écrire, thème clair/sombre simple. |
-| Base de données et connexion | Supabase (PostgreSQL, Auth) | Base solide, connexion toute faite, règles de sécurité écrites dans la base elle-même (RLS). |
-| Recherche de doublons | pgvector | Comparer le sens de deux cartes directement en SQL. |
-| Génération de texte | API Anthropic (Claude), côté serveur uniquement | La clé ne quitte jamais le serveur. |
-| Validation | Zod | Chaque entrée (API, réponse de l'IA, variables d'environnement) est vérifiée. |
-| Tests | Vitest et Playwright | La logique d'un côté, le parcours réel dans un navigateur de l'autre. |
-
----
+Réutilisé de Stash sans changement de fond : authentification, profil, fil et mélange des thèmes, stash et notes, révision SM-2, défi du jour, série, historique et relecture, export et suppression du compte, mode sombre, audio Edge TTS / Kokoro, i18n.
 
 ## 3. Les données
 
-### Le schéma en un coup d'œil
+Migrations : `20261201000001_schema.sql`, `…002_rls_and_functions.sql`, `…003_sources_region.sql`.
 
-Une idée est représentée par **une carte** (`cards`) qui porte son identité : sa catégorie, son livre, sa difficulté, ses scores. Le **texte** vit dans les **traductions** (`card_translations`) : une ligne en français, une ligne en anglais. Une carte n'est publiée que si ses deux versions sont publiées.
-
-```mermaid
-erDiagram
-    categories ||--o{ categories : "sous-catégories"
-    categories ||--o{ cards : "classe"
-    books ||--o{ cards : "inspire"
-    cards ||--|{ card_translations : "fr et en"
-    auth_users ||--|| profiles : "a un profil"
-    auth_users ||--o{ stashes : "sauvegarde"
-    cards ||--o{ stashes : ""
-    auth_users ||--o{ card_reviews : "révise"
-    cards ||--o{ card_reviews : ""
-    auth_users ||--o{ card_views : "journal de lecture"
-    cards ||--o{ card_views : ""
-    auth_users ||--o{ user_card_state : "historique"
-    cards ||--o{ user_card_state : ""
-    auth_users ||--o{ daily_deck : "paquet du jour"
-    cards ||--o{ daily_deck : ""
-    ingestion_runs ||--o{ cards : "a produit"
-    categories ||--o{ ingestion_queries : "requêtes de découverte"
-
-    categories {
-        uuid id PK
-        text slug
-        text name_fr
-        text name_en
-        uuid parent_id FK
-    }
-    books {
-        uuid id PK
-        text title
-        text author
-        boolean is_public_domain
-        numeric popularity_score
-    }
-    cards {
-        uuid id PK
-        uuid category_id FK
-        uuid book_id FK
-        int difficulty
-        text status
-        numeric quality_score
-    }
-    card_translations {
-        uuid id PK
-        uuid card_id FK
-        text language
-        text title
-        text body
-        text action_step
-        numeric style_score
-        text status
-        vector embedding
-    }
-    profiles {
-        uuid id PK
-        text language
-        uuid_array interests
-        int daily_goal
-        int streak_count
-        text daily_limit
-        boolean include_reread
-    }
-    stashes {
-        uuid user_id PK
-        uuid card_id PK
-        text note
-    }
-    card_reviews {
-        uuid user_id PK
-        uuid card_id PK
-        timestamptz next_review_at
-        int interval_days
-        numeric ease_factor
-    }
-    card_views {
-        bigint id PK
-        uuid user_id FK
-        uuid card_id FK
-        text action
-    }
-    user_card_state {
-        uuid user_id PK
-        uuid card_id PK
-        int read_count
-        boolean is_stashed
-    }
-    daily_deck {
-        uuid user_id PK
-        date deck_date PK
-        int position PK
-        uuid card_id FK
-    }
-    ingestion_runs {
-        uuid id PK
-        text status
-        int cards_created
-        int cards_rejected
-    }
-    ingestion_queries {
-        uuid id PK
-        uuid category_id FK
-        text query_text
-    }
-```
-
-Deux tables ne sont pas dessinées pour garder le schéma lisible : `daily_deck_state` (la position courante dans le paquet du jour) et `profiles.timezone`. Elles sont prêtes dans la base, mais l'écran « paquet du jour » n'est pas encore construit (voir [la feuille de route](#10-gestion-de-projet)).
-
-### Le cycle de vie d'une carte
-
-```mermaid
-stateDiagram-v2
-    [*] --> draft: générée, en attente
-    draft --> published: tous les filtres passés<br/>(ou approuvée par un admin)
-    draft --> rejected: un filtre échoue
-    published --> rejected: retirée par un admin
-    rejected --> published: réhabilitée par un admin
-    published --> [*]
-```
-
-Les cartes rejetées ne sont pas supprimées : on garde le **motif** (par exemple « phrase interdite », « trop proche d'une carte existante »). C'est utile pour comprendre ce qui coince et ajuster les règles.
-
-### Pourquoi une table de traductions ?
-
-Au départ, chaque langue était une carte séparée. Mais l'idée, elle, est la même : si on veut apprendre le vocabulaire en retournant la carte dans l'autre langue, il faut que ce soit **la même carte**. D'où la séparation : l'identité de l'idée d'un côté, ses deux textes de l'autre. La vue SQL `card_details` recolle le tout : une ligne par carte et par langue, ce qui a permis de ne presque rien changer dans le reste du code.
-
-### Les fonctions SQL importantes
-
-| Fonction | Rôle |
+| Table | Rôle |
 |---|---|
-| `feed_candidates` | Propose des cartes jamais vues, classées par qualité, style, popularité et un peu de hasard. |
-| `daily_challenge` | Choisit la carte du défi du jour, la même toute la journée pour une personne donnée. |
-| `record_activity` | Met à jour la série de jours avec la date locale de la personne. |
-| `category_progress` | Compte, par catégorie, les cartes vues, sauvegardées et réussies. |
-| `history_cards` | Liste l'historique avec filtres, recherche plein texte et pagination. |
-| `reread_candidates` | Choisit les cartes à relire (au hasard, plus anciennes, moins relues, sauvegardées). |
-| `match_cards` | Trouve les cartes au sens trop proche (déduplication). |
+| `bible_versions` | Une version : code, langue, tradition textuelle, numérotation (`mt`, `eng`, `lxx`), licence, URL et SHA-256 du fichier |
+| `bible_verses` | Un verset par ligne, dans la numérotation propre à la version ; index plein texte |
+| `bible_chapter_stats` | Versets trouvés / attendus par chapitre et version ; `aligned = false` interdit la correspondance verset par verset |
+| `psalm_numbering` | Correspondance hébreu → grec au niveau du verset (9-10, 114-115, 116, 147) |
+| `passages` | Plage de versets dans la numérotation de référence (hébraïque, titres comptés), double numéro des psaumes |
+| `cards` | Passage, thème, difficulté, statut, scores, empreinte du texte biblique |
+| `card_translations` | Explication et piste « à vivre », par langue |
+| `card_perspectives` | Lecture par langue et par tradition (la tradition est une donnée : table `traditions`), divergence, statut de relecture |
+| `sources`, `perspective_sources` | Sources vérifiées et liens lecture → source (citation, paraphrase, référence) |
+| `liturgical_uses`, `liturgical_seasons`, `card_seasons` | Usages liturgiques vérifiés et temps liturgiques |
+| `daily_deck`, `daily_deck_state` | Paquet du jour et position |
+| `reading_progress` | Lecture dans l'ordre : dernière carte lue par livre |
+| `verse_memory` | « Apprendre ce verset » : SM-2 et niveau de masquage |
+| `profiles` | Champs de Stash + `tradition_view`, `bible_version_fr/en`, `show_greek`, `reviewed_only` |
 
----
+**RLS** : lecture publique des cartes publiées, des lectures non rejetées, des sources et usages liturgiques **vérifiés** ; écriture réservée au rôle service ; données personnelles visibles par leur seul propriétaire. Les tests `tests/integration/database.test.ts` le vérifient.
 
-## 4. Ce qui se passe quand tu utilises l'app
+## 4. Le texte biblique
 
-### Le fil de cartes
+`npm run import:bible` télécharge chaque fichier depuis un commit figé, vérifie son SHA-256, le lit, puis contrôle : encodage, doublons, couverture complète des 7 957 versets du NT (seules les variantes textuelles listées dans `lib/bible/versions.ts` peuvent manquer), présence des 150 psaumes, versets connus, alignement chapitre par chapitre. Rien n'est écrit si un seul contrôle échoue. Détail des versions et licences : [SOURCES.md](SOURCES.md).
 
-Quand tu ouvres le fil, le navigateur demande dix cartes. Le serveur ne se contente pas de piocher au hasard :
+**Numérotation des Psaumes.** La référence est la numérotation hébraïque avec les titres comptés comme versets (LSG). `lib/bible/psalms.ts` convertit vers :
+- `eng` (WEB, KJV) : même psaume, verset moins le nombre de versets de titre (0, 1 ou 2 ; 2 pour les Ps 51, 52, 54, 60). La table est prouvée par l'import : LSG − WEB = titres, pour les 150 psaumes.
+- `lxx` (Brenton, Giguet, Douay-Rheims) : numérotation grecque. Testée sur tous les versets des 150 psaumes (aller-retour).
 
-```mermaid
-sequenceDiagram
-    actor Toi
-    participant Navigateur
-    participant API as /api/feed
-    participant SQL as Base de données
+Un chapitre dont la division des versets diffère dans une version (`aligned = false`) n'est jamais converti : l'application prend la version suivante et l'indique.
 
-    Toi->>Navigateur: j'ouvre le fil
-    Navigateur->>API: demande 10 cartes
-    API->>SQL: ton profil (langue, thèmes, réglage de relecture)
-    API->>SQL: feed_candidates (cartes dans mes thèmes)
-    API->>SQL: feed_candidates (cartes hors thèmes = découverte)
-    Note over API: mixFeed : alterne les catégories,<br/>20 % de découverte
-    alt aucune nouvelle carte
-        API->>SQL: reread_candidates (le fil passe en relecture)
-    else relecture activée
-        API->>SQL: reread_candidates (une part de cartes relues)
-    end
-    API-->>Navigateur: les cartes, dans l'ordre
-    Navigateur->>API: carte affichée, donc "seen" (ou "reread")
-    Note over Navigateur,API: une carte relue ne compte ni pour<br/>l'objectif du jour ni pour la série
+## 5. Les sources et la liturgie
+
+**Pères de l'Église.** 10 734 extraits, en anglais, des traductions du XIXe siècle (Schaff, Newman, Pusey, Payne Smith). Chaque extrait n'est marqué `verified` que si (1) son œuvre est sur la liste blanche du domaine public, (2) chaque paragraphe se retrouve mot pour mot dans le texte complet de l'œuvre, (3) cette œuvre n'est pas une traduction automatique. Les extraits sont rattachés aux versets commentés (`bible_refs`) et à une région (Orient grec et syriaque, Occident latin) : la lecture orthodoxe reçoit d'abord des Pères orientaux.
+
+**Liturgie.** Lectionnaire romain des dimanches et solennités (cycle A) et lectures quotidiennes de l'Archidiocèse grec orthodoxe d'Amérique pour 2026-2027. Les descriptions sont produites à partir des données ; le jour de Pascha est nommé, aucune autre position dans le cycle pascal n'est déduite.
+
+**Calendrier.** Meeus/Jones/Butcher (grégorien), Meeus julien converti par le jour julien (orthodoxe), temps liturgiques romain et byzantin (`lib/liturgy/calendar.ts`).
+
+## 6. Fabriquer les cartes : le pipeline
+
+```
+découpage déterministe ─▶ contexte (textes exacts + sources vérifiées) ─▶ lot d'écriture (Batch API)
+  ─▶ contrôles par règles ─▶ déduplication (embeddings) ─▶ lot de fidélité théologique ─▶ enregistrement
 ```
 
-**Le classement** d'une carte nouvelle combine : sa note de qualité (50 %), sa note de style (30 %), sa popularité auprès des autres (logarithme du nombre de sauvegardes) et un peu de hasard pour varier. Les cartes déjà vues ou sauvegardées sont exclues.
+1. **Découpage** (`lib/pipeline/segment.ts`) : 3 à 8 versets, coupure en fin de phrase, strophes des psaumes à « Pause », titres rattachés à la première strophe. Couverture vérifiée (aucun verset sauté ni dupliqué). 2 551 passages pour le NT et les Psaumes.
+2. **Contexte** : texte LSG, WEB, et pour les psaumes Douay-Rheims, Brenton, Giguet ; jusqu'à 4 sources orientales et 4 occidentales qui commentent ces versets.
+3. **Écriture** : `claude-sonnet-5-5` par défaut (`LECTIO_WRITER_MODEL`), via Message Batches (moitié prix), sortie JSON validée par Zod, les deux langues dans le même appel. Prompt : `lib/pipeline/prompt.ts` (règles, structure, un bon et un mauvais exemple).
+4. **Contrôles** (`lib/pipeline/evaluate.ts`, `lib/content/checks.ts`) : style, vocabulaire polémique, longueurs, étiquette de divergence et équilibre à 30 %, attributions, citations exactes et courtes, 8 mots copiés au plus, aucune citation biblique hors du texte fourni, thème valide, sources connues.
+5. **Déduplication** : similarité d'embedding inférieure à 0,90 avec les explications et les lectures existantes (par langue et tradition).
+6. **Fidélité théologique** : second lot ; notes catholique, orthodoxe et globale, caricature, faits douteux. Publication si la plus basse des notes est d'au moins 8 et qu'aucun fait douteux n'est signalé ; sinon brouillon pour la relecture.
+7. **Enregistrement** : cartes, traductions, lectures (`unreviewed`), liens vers les sources, temps liturgiques ; chaque exécution est tracée dans `ingestion_runs` (coût, appels, erreurs).
 
-**Le mélange** prend ces cartes classées et les répartit **en tournant entre les catégories** (jamais dix cartes de suite sur le même thème), puis glisse environ 20 % de cartes **hors de tes thèmes** pour que tu découvres autre chose.
+**Coût.** Estimation affichée avant tout lancement, confirmation demandée, plafond `MAX_BUDGET_USD` vérifié avant chaque lot. Estimations actuelles : premier lot ≈ 1 $, tout le corpus ≈ 83 $ (Sonnet 5.5, prix batch).
 
-### La série de jours (streak)
+**Premier lot d'abord.** `npm run seed:cards` sans option ne traite que Marc 1-2, Psaumes 1-5, Jean 1, 1-18 et Matthieu 16, 13-20, puis affiche 15 cartes au hasard avec leurs sources.
 
-La série compte les jours consécutifs où tu as fait quelque chose d'utile (lire une nouvelle carte, sauvegarder, réviser, faire le défi). Le navigateur envoie **sa date locale**, et la base accepte seulement une date à un jour près de la sienne. Relire des cartes ne compte volontairement pas : c'est un bonus, pas un moyen de gonfler sa série.
+## 7. L'application
 
-### La révision espacée
-
-Quand tu sauvegardes une carte, elle entre dans la file de révision. L'algorithme **SM-2** décide quand elle revient, selon ce que tu réponds :
-
-```mermaid
-flowchart TD
-    A["Une carte à réviser"] --> B{"Ta réponse"}
-    B -- "Oublié" --> C["Elle revient dans 10 minutes<br/>(on repart de zéro)"]
-    B -- "Difficile" --> D["Intervalle un peu plus long<br/>facilité réduite"]
-    B -- "Bien" --> E["Intervalle x facilité<br/>(1 jour, puis 6, puis x2,5...)"]
-    B -- "Facile" --> F["Intervalle encore plus long<br/>(jusqu'à 365 jours maximum)"]
-```
-
-Le bouton **« Revoir plus tard »**, sur une carte déjà lue, la remet dans cette file, due tout de suite.
-
-### Historique et relecture
-
-Chaque carte vue est notée dans `user_card_state` par des **déclencheurs de base de données** : première lecture, dernière lecture, nombre de lectures, sauvegardée ou non. Une carte seulement sauvegardée (par exemple depuis un lien partagé) compte zéro lecture : sa première vraie lecture ne sera pas comptée en double.
-
-La page **Historique** permet de filtrer (catégorie, sous-catégorie, sauvegardées, dates) et de chercher du texte. Le mode **Relire** propose quatre ordres : au hasard, les plus anciennes d'abord, les moins relues d'abord, seulement les sauvegardées.
-
----
-
-## 5. Fabriquer le contenu : le pipeline d'ingestion
-
-C'est la partie qui remplit la base de cartes, et qui doit le faire **sans copier de livre, sans doublons et avec un style humain**. Elle tourne tous les jours en tâche planifiée, et peut aussi se lancer à la main.
-
-```mermaid
-flowchart TD
-    A["1. Découverte<br/>requêtes sur Google Books et Open Library"] --> B["Filtre de popularité<br/>au moins 10 avis, note 3,6 ou plus<br/>livres déjà connus ignorés"]
-    B --> C["2. Enrichissement<br/>description, couverture, année<br/>domaine public via Wikipedia"]
-    C --> D["3. Génération (Claude)<br/>5 à 10 idées, en français ET en anglais<br/>réponse JSON validée par Zod"]
-    D --> E["4. Réécriture (Claude)<br/>faire sonner comme une vraie personne"]
-    E --> F["5. Notation (Claude)<br/>qualité et style de 1 à 10<br/>seuil de publication : 7"]
-    F --> G{"6. Contrôles par règles<br/>qualité + style, pour CHAQUE langue"}
-    G -- "un filtre échoue" --> R["Carte rejetée<br/>motif conservé"]
-    G -- "tout passe" --> H{"7. Doublon ?<br/>similarité des vecteurs > seuil"}
-    H -- oui --> R
-    H -- non --> P["8. Publication<br/>une carte + deux traductions"]
-    P --> L["Journal : ingestion_runs<br/>cartes créées, rejetées, appels, erreurs"]
-    R --> L
-```
-
-### Les garde-fous
-
-**Droits d'auteur.** Le prompt interdit de recopier. En plus, les règles refusent toute carte qui partage une trop longue suite de mots avec la description du livre. Une citation n'est gardée que si elle fait moins de 15 mots **et** qu'on la retrouve mot pour mot sur Wikiquote ; au plus une par livre. Le statut « domaine public » est volontairement prudent : publié il y a plus de 95 ans **et** auteur mort depuis plus de 70 ans.
-
-**Style humain.** Des règles sans IA refusent : les expressions interdites (« Il est important de noter », « En effet », « crucial », « paradigme »…), les phrases toutes de la même longueur, plus de deux phrases qui commencent par le même mot, les listes de trois adjectifs, les tirets longs en série, une première phrase qui reformule le titre, l'absence de tutoiement, et une structure identique à plus de 30 % des cartes récentes de la catégorie. Ces règles ont déjà attrapé un défaut dans l'une des cartes écrites à la main pour la démo.
-
-**Doublons.** D'abord une empreinte exacte du texte, puis la comparaison du **sens** : chaque texte devient un vecteur de 384 nombres (modèle `gte-small`, calculé gratuitement dans une Edge Function Supabase), et pgvector compare les vecteurs. Une carte trop proche d'une carte existante, **dans la même langue**, est rejetée.
-
-**Coût et robustesse.** Un plafond d'appels au modèle par exécution, un budget de temps, trois tentatives maximum par livre, des pauses entre les appels, et un « backoff exponentiel » (on attend de plus en plus longtemps après chaque échec). Si une étape plante, le travail déjà fait est conservé.
-
-### Comment on l'a testé sans dépenser un centime
-
-Le pipeline complet est testé avec un **faux modèle** et de **fausses API de livres** : on vérifie qu'une bonne carte est publiée dans les deux langues, qu'une mauvaise est rejetée avec ses motifs, qu'un doublon est refusé, que le plafond d'appels arrête proprement l'exécution, et que tout est journalisé. En revanche, **le pipeline n'a jamais tourné avec le vrai modèle Claude** : la qualité réelle des cartes n'est donc pas encore connue.
-
----
-
-## 6. La lecture audio
-
-Chaque carte peut être lue à voix haute. L'enjeu : **démarrer vite et ne jamais avoir de silence** entre deux morceaux.
-
-### Le principe
-
-Une carte est découpée en **2 à 4 segments**. Le premier est court (pour démarrer vite). Pendant qu'un segment joue, les suivants, et le début de la carte d'après, sont déjà demandés. La phrase en cours de lecture est surlignée, d'après la position dans le son.
-
-```mermaid
-sequenceDiagram
-    actor Toi
-    participant Lecteur as Lecteur (navigateur)
-    participant API as /api/tts
-    participant Voix as Moteur de voix
-
-    Toi->>Lecteur: clic sur Écouter
-    Lecteur->>API: segment 1 (court)
-    Lecteur->>API: segments 2 et 3, en avance
-    API->>Voix: synthèse
-    Voix-->>API: audio
-    API-->>Lecteur: segment 1
-    Lecteur->>Toi: lecture du segment 1 + surlignage
-    API-->>Lecteur: segments 2 et 3 (déjà prêts)
-    Lecteur->>Toi: segment 2 enchaîné sans pause
-    Note over Lecteur,Voix: si un segment n'arrive pas en 15 s,<br/>il est lu avec la voix du navigateur
-```
-
-### Deux moteurs de voix
-
-| Moteur | Avantages | Inconvénients |
-|---|---|---|
-| **Edge TTS** (par défaut) | Rien à installer, voix neuronales Microsoft naturelles | Besoin d'Internet, service non officiel (Microsoft peut le changer ou le bloquer), 1 à 3 secondes par segment |
-| **Kokoro** (optionnel, local) | Gratuit, hors ligne, rapide, aucune dépendance externe | Une installation Python à faire, une seule voix française, ne fonctionne pas sur Vercel |
-
-Quand le serveur Kokoro répond, ses voix apparaissent dans le sélecteur et deviennent le choix par défaut.
-
-### D'où vient cette conception ?
-
-Une première version envoyait **une requête par phrase** : chaque petite unité (le titre, « À faire aujourd'hui », chaque phrase) ouvrait sa propre connexion. Les unités courtes se jouaient plus vite qu'elles ne se généraient, d'où des trous de plusieurs secondes. En voyant le code d'un autre projet (un lecteur de PDF) qui utilisait Kokoro en local, il est devenu clair qu'il fallait **moins de requêtes, plus grosses, préchargées**, et un moteur local en option. Cette explication est une déduction à partir du code : la latence réelle d'Edge sur une connexion donnée n'a pas pu être mesurée pendant le développement.
-
-Pour mesurer soi-même, la réponse de `POST /api/tts` contient un en-tête `Server-Timing` (visible dans l'onglet Réseau du navigateur) et le terminal affiche une ligne `[tts] ...`.
-
----
-
-## 7. Sécurité et vie privée
-
-### Les règles sont dans la base, pas seulement dans le code
-
-Toutes les tables ont la **sécurité au niveau des lignes (RLS)** activée : même si une page oubliait de vérifier qui tu es, la base refuserait de te montrer les données d'un autre.
-
-| Table | Qui peut lire | Qui peut écrire |
-|---|---|---|
-| `categories`, `books` | tout le monde | personne côté application (service uniquement) |
-| `cards`, `card_translations` | tout le monde, mais **seulement les cartes publiées** | personne côté application (service uniquement) |
-| `profiles` | toi seul | toi seul, et **pas** les colonnes de série (modifiées uniquement par `record_activity`) |
-| `stashes`, `card_reviews`, `daily_deck…` | toi seul | toi seul |
-| `card_views` | toi seul | toi seul, ajout uniquement (journal) |
-| `user_card_state` | toi seul | personne : uniquement les déclencheurs de la base |
-| `ingestion_runs`, `ingestion_queries` | personne côté application | service uniquement |
-
-Ces règles sont **testées** : un test crée deux utilisateurs et vérifie que l'un ne voit rien de l'autre, qu'on ne peut pas modifier une carte, ni forger l'historique d'un autre, ni tricher sur sa série.
-
-### Les secrets
-
-- La clé de l'API Anthropic et la clé « service » de Supabase ne sont lues que **côté serveur**. Seules les variables préfixées `NEXT_PUBLIC_` arrivent dans le navigateur.
-- Toutes les routes API valident leurs entrées avec Zod.
-- La route de la tâche planifiée exige un secret (`CRON_SECRET`), comparé de manière sûre.
-- La page admin est réservée aux adresses listées dans `ADMIN_EMAILS`.
-- La route audio exige d'être connecté (elle consomme du temps de calcul) et n'accepte que les voix d'une liste.
-
-### Respect des données personnelles
-
-L'utilisateur peut **exporter** toutes ses données en JSON et **supprimer son compte** : tout ce qui le concerne est supprimé en cascade.
-
-### Un défaut corrigé en route
-
-En développement, ouvrir l'app par l'adresse réseau de l'ordinateur (et non `localhost`) bloquait le JavaScript. Le formulaire de connexion partait alors comme un formulaire HTML classique, **avec l'e-mail et le mot de passe dans l'adresse de la page**. Le formulaire est maintenant forcé en `POST`, ce qui empêche cette fuite même sans JavaScript.
-
----
-
-## 8. Les grandes décisions, et pourquoi
-
-Chaque fois qu'il y avait plusieurs bonnes options, la plus simple a été choisie, avec la raison.
-
-| Décision | Pourquoi |
+| Page | Contenu |
 |---|---|
-| **Pages rendues à la demande** (pas de cache de pages) | Presque tout est personnel (fil, historique, révision) : mettre en cache n'apporterait que de la complexité. |
-| **Règles de sécurité dans la base (RLS)** | Une seule source de vérité, testable, qui protège même en cas d'oubli dans le code. |
-| **Une carte = une idée + deux traductions** | Permet de retourner une carte dans l'autre langue et d'avoir le même sens et la même action dans les deux. |
-| **Vecteurs calculés par une Edge Function Supabase** | Le modèle `gte-small` est intégré et gratuit : pas de service supplémentaire à payer. |
-| **Relire est une action à part (`reread`)** | Pour ne jamais fausser l'objectif du jour ni la série. |
-| **Lecture audio en segments, avec préchargement** | Moins de requêtes, pas de silence. Voir [section 6](#6-la-lecture-audio). |
-| **Edge par défaut, Kokoro en option** | L'app marche partout sans installation, et devient rapide si on installe la voix locale. |
-| **Textes d'interface dans nos propres dictionnaires fr/en** | Complets et typés ; ajouter une bibliothèque de plus n'apportait rien pour deux langues. |
-| **Les cartes rejetées sont conservées avec leur motif** | On peut comprendre pourquoi, et ajuster les règles. |
-| **Un seul script de mise en route (`npm run setup`)** | Quelqu'un qui télécharge le projet doit pouvoir le lancer sans lire dix pages. |
+| `/feed` | Fil (thèmes + 20 % de découvertes, relectures optionnelles), bouton FR/EN par carte |
+| `/deck`, `/deck/history` | Paquet du jour (50 ou illimité, illimité par défaut), avant/arrière, position gardée ; jours précédents |
+| `/books`, `/books/[code]`, `/books/[code]/read` | Livres par groupe et progression ; page livre (résumé, chapitres, cartes dans l'ordre) ; lecture dans l'ordre avec reprise |
+| `/cards/[id]` | Une carte, audio à deux voix, garder, apprendre le verset |
+| `/search` | Références FR/EN, double numérotation des psaumes, plein texte |
+| `/psalm`, `/seasons`, `/compare` | Psaume du jour, temps liturgiques, divergences par sujet |
+| `/learn` | Apprendre un verset (SM-2, 6 niveaux de masquage) |
+| `/stash`, `/review`, `/challenge`, `/progress`, `/history`, `/reread` | Repris de Stash |
+| `/profile` | Lecture affichée, traductions, grec, lectures relues seulement, taille du paquet, thèmes, données |
+| `/about` | Avertissement, méthode, sources |
+| `/admin` | Relecture théologique, échantillon, brouillons, exécutions, export/import |
 
----
+**La carte** (`components/LectioCard.tsx`) : référence et double numéro des psaumes, versets numérotés, version affichée (et mention si une autre a été prise), grec optionnel, explication, sélecteur Catholique / Orthodoxe / Les deux / Neutre (côte à côte sur grand écran, l'une sous l'autre sur téléphone), lectures avec mention « non encore relue » et références, texte de la Vulgate ou de la Septante sous chaque lecture pour les psaumes, étiquette de divergence, liturgie, piste à vivre.
 
-## 9. Comment le projet a été mené : les prompts
+**Audio** : la carte est découpée en segments ; le texte biblique et le commentaire ne sont jamais dans le même segment et sont lus par deux voix du même moteur.
 
-Stash a été construit **avec un assistant IA (Claude Code)**, en pilotant le travail par des *prompts* : des consignes écrites. Cette section explique la méthode, parce que c'est elle qui a fait avancer le projet vite et dans le bon sens.
+## 8. Relecture humaine
 
-### La méthode en une image
+- Chaque lecture a un `review_status` (`unreviewed`, `reviewed`, `corrected`, `rejected`). Une lecture rejetée n'est plus visible.
+- `/admin` : file filtrable par tradition, livre, divergence et statut, avec le texte des sources à côté ; boutons « Relue, correcte », « Enregistrer la correction », « Rejeter ».
+- Export CSV de la file (formules de tableur neutralisées) et réimport : un texte modifié devient `corrected`.
+- Échantillon de 20 cartes de la dernière exécution, avec leurs sources.
+- Réglage « N'afficher que les lectures relues ».
 
-```mermaid
-flowchart LR
-    A["Un prompt structuré<br/>objectif, règles, données,<br/>phases, critères d'acceptation"] --> B["L'assistant construit<br/>une phase"]
-    B --> C["Vérifications automatiques<br/>build, lint, tests"]
-    C --> D{"Tout est vert ?"}
-    D -- non --> B
-    D -- oui --> E["Résumé : ce qui marche,<br/>ce qui reste, comment tester"]
-    E --> F["Essai réel par la personne<br/>sur son ordinateur"]
-    F --> G["Retour : message d'erreur,<br/>remarque, nouvelle idée"]
-    G --> A
-```
+## 9. Tests
 
-### Les prompts, dans l'ordre
-
-| # | Le prompt | Ce qu'il demandait | Ce qui en est sorti |
-|---|---|---|---|
-| 1 | **Le prompt fondateur** : « application web de memo cards pour s'améliorer » | Un produit complet en 10 sections : objectif, stack, règles de droits d'auteur, règles de style humain, modèle de données, 12 catégories et 67 sous-catégories, pipeline d'ingestion, fonctionnalités, qualité, plan en 6 phases, critères d'acceptation | L'application complète : base, sécurité, comptes, fil, stash, révision, défi, série, recherche, admin, pipeline, tests |
-| 2 | **L'audio** : « lire les cartes à voix haute avec les librairies Edge » | Une lecture vocale avec des voix naturelles | D'abord une version avec la voix du navigateur, puis, après le détail de l'architecture donné par la personne (découpage, préchargement, repli), une version `edge-tts` côté serveur |
-| 3 | **Des retours de terminal** (Docker éteint, navigateur Playwright manquant, erreurs de la console) | Débloquer l'installation sur un vrai Mac | Un guide pas à pas, puis le script `npm run setup` |
-| 4 | **Le prompt « 10 000 cartes »** : base de contenu + relecture + bilingue + paquet du jour | Générer 10 000 cartes, relire les cartes déjà lues, version fr/en de chaque carte, paquet du jour navigable | Découpé en 5 phases. Les phases 1 (données) et 2 (relecture) sont faites. Voir [la feuille de route](#10-gestion-de-projet) |
-| 5 | **La plainte sur l'audio** : « le chargement est beaucoup trop long » + le code d'un autre projet | Corriger la lenteur, en s'inspirant d'un projet qui marchait | Lecture en segments, préchargement, serveur Kokoro local en option |
-| 6 | **Cette documentation** | Expliquer le projet, le lancer simplement, documenter conception et gestion | Ce fichier et le README |
-
-### Ce qui rendait les prompts efficaces
-
-En relisant les prompts, voici ce qui a bien marché, et qu'il vaut la peine de reproduire :
-
-1. **Un objectif clair et des chiffres.** « 100 cartes par catégorie », « seuil de publication : 7 », « moins de 15 mots » : on peut vérifier si c'est fait.
-2. **Les règles écrites noir sur blanc.** Le tableau « style IA à éviter / style humain à viser » a été transformé presque tel quel en règles automatiques et en consignes pour le modèle.
-3. **Un exemple mauvais et un exemple bon.** Ils servent à la fois de consigne et de test (les deux exemples du prompt sont dans les tests).
-4. **Un découpage en phases avec des critères d'acceptation.** Chaque phase se termine par un résumé et des commandes pour vérifier.
-5. **Des contraintes d'architecture.** « Aucune clé secrète côté client », « RLS partout », « pas de TODO » évitent des erreurs coûteuses.
-6. **Des retours concrets.** Coller la sortie du terminal permet de trouver la cause en une étape plutôt que de deviner.
-7. **Du code existant comme référence.** Montrer un projet qui marche a permis de comprendre en quelques minutes pourquoi la première version de l'audio était lente.
-
-### Les moments où il a fallu corriger le tir
-
-Piloter par prompts ne veut pas dire tout accepter sans vérifier. Quelques moments où l'assistant a **signalé un écart plutôt que de l'exécuter tel quel** :
-
-- Le prompt « 10 000 cartes » disait que le style avait déjà été validé sur un échantillon et demandait de lancer sans essai. **Aucune carte réelle n'avait jamais été générée** : l'affirmation était fausse, et le prompt demandait lui-même, plus loin, d'afficher le coût et de demander confirmation. Le script gardera donc la confirmation et le plafond `MAX_BUDGET_USD`.
-- Le prompt demandait plus de 8 mots consécutifs copiés comme limite, et 0,90 de similarité, alors que l'application était réglée sur 15 mots et 0,92. L'écart est noté dans la feuille de route plutôt qu'ignoré.
-- Les cartes de démonstration sont écrites à la main et marquées `manual` dans la base, pour ne jamais les confondre avec du contenu généré.
-
----
-
-## 10. Gestion de projet
-
-### La méthode
-
-- **Travail par phases courtes**, chacune livrée avec un résumé : ce qui marche, ce qui reste, comment tester.
-- **Définition de « terminé »** : le build passe sans avertissement, le lint est propre, tous les tests passent (unitaires, base de données, navigateur). Une fonctionnalité sans test n'est pas terminée.
-- **Les bugs trouvés par les tests sont corrigés avant de passer à la suite**, et le test reste en place pour qu'ils ne reviennent pas.
-- **Livraison par correctifs (patchs)** : chaque phase est un fichier `.patch` qui s'applique sur le dossier de la personne, avec les commandes pour l'appliquer et vérifier.
-- **Les écarts sont signalés, pas cachés** : ce qui n'a pas pu être testé (par exemple Edge TTS, le déploiement) est dit clairement.
-
-### Feuille de route
-
-```mermaid
-flowchart LR
-    P0["Application complète<br/>6 phases du prompt fondateur"]:::done --> P1["Audio Edge<br/>lecture des cartes"]:::done
-    P1 --> P2["Données bilingues<br/>historique, paquet du jour"]:::done
-    P2 --> P3["Relecture<br/>historique, mode Relire"]:::done
-    P3 --> P4["Audio rapide<br/>segments, Kokoro local"]:::done
-    P4 --> P5["Paquet du jour<br/>navigation avant/arrière,<br/>position reprise, limite 50"]:::todo
-    P5 --> P6["Interface bilingue<br/>bouton FR/EN,<br/>retourner une carte"]:::todo
-    P6 --> P7["Génération du contenu<br/>plan d'idées, 10 000 cartes,<br/>contrôle de cohérence, export"]:::todo
-
-    classDef done fill:#d1fae5,stroke:#047857,color:#064e3b
-    classDef todo fill:#fef3c7,stroke:#b45309,color:#78350f
-```
-
-### État détaillé
-
-| Chantier | État | Remarque |
+| Suite | Commande | Contenu |
 |---|---|---|
-| Base de données, sécurité (RLS), catégories | ✅ fait | 4 migrations, testé |
-| Comptes (e-mail), onboarding, profil, export, suppression | ✅ fait | Connexion Google configurée mais **non testée** (demande des identifiants Google) |
-| Fil, stash, notes, recherche | ✅ fait | |
-| Révision espacée (SM-2), défi du jour, série, progression | ✅ fait | |
-| Pages livre, carte, catégorie, admin | ✅ fait | |
-| Pipeline d'ingestion et seed | ✅ fait, testé avec un faux modèle | **Jamais lancé avec le vrai modèle** |
-| Cartes bilingues liées (`card_translations`) | ✅ fait | |
-| Historique, mode Relire, relectures dans le fil | ✅ fait | |
-| Lecture audio (Edge + Kokoro) | ✅ fait | Latence Edge réelle non mesurée |
-| **Paquet du jour** (navigation façon histoire, 50 ou illimité, jours précédents) | ⏳ à faire | Les tables existent déjà |
-| **Bouton FR/EN** dans l'en-tête et sur chaque carte | ⏳ à faire | La langue est déjà stockée dans le profil |
-| **Génération de 10 000 cartes** (`seed:cards`, `check:db`, export CSV/JSON, budget) | ⏳ à faire | Dépend de la clé Anthropic de la personne |
-| Régénérer une seule langue quand l'autre échoue | ⏳ à faire | Aujourd'hui, la carte entière est rejetée |
-| Filtres plus stricts du prompt « 10 000 cartes » (8 mots, 0,90) | ⏳ à faire | Aujourd'hui : 15 mots, 0,92 |
-| Mise en ligne (Vercel + Supabase hébergé) | ⏳ non testée | Voir [section 12](#12-mettre-en-ligne) |
+| Unitaires (166) | `npm test` | Références, numérotation des psaumes (table entière), parseurs et validation, Pâques et conversion de calendrier, citations de lectionnaire, sources (liste blanche, preuve mot pour mot), découpage, contrôles de contenu sur les 17 cartes d'exemple, règles d'attribution, équilibre, CSV, paquet du jour, masquage, coûts, audio |
+| Base de données (33) | `npm run test:db` | RLS, comptes de versets par livre, versets connus, table des titres prouvée par les données, correspondance et repli des psaumes, cartes d'exemple (texte inchangé, aucune citation de mémoire, citations exactes), fil, historique, relecture, dédoublonnage, pipeline complet avec des modèles factices |
+| Bout en bout (24) | `npm run test:e2e` | Mobile et ordinateur : inscription, fil, garder, révision, défi ; lecture catholique/orthodoxe/les deux/neutre ; recherche par référence ; lecture dans l'ordre ; paquet du jour avant/arrière, 50 ou illimité ; FR/EN sans perte de position ; apprendre un verset ; audio ; historique et relecture |
 
-### Dépendances entre les chantiers restants
+Les tests de base de données et de bout en bout supposent `npm run setup`. En environnement isolé, Playwright peut utiliser un Chromium déjà installé : `PLAYWRIGHT_CHROMIUM_PATH=/chemin/vers/chromium npm run test:e2e`.
 
-```mermaid
-flowchart TD
-    A["Génération des 10 000 cartes"] --> B["Vérification finale<br/>check:db"]
-    C["Régénération d'une langue"] --> A
-    D["Filtres plus stricts"] --> A
-    E["Clé Anthropic<br/>et budget confirmé"] --> A
-    F["Paquet du jour"] --> G["Écran de fin<br/>et jours précédents"]
-    H["Bouton FR/EN"] --> I["Retourner une carte<br/>sans perdre la position"]
-    F --> I
-```
+## 10. Mettre en ligne
 
-Le paquet du jour et le bouton FR/EN sont indépendants de la génération : on peut les construire et les tester avec les cartes de démonstration.
+> Non testé de bout en bout pendant le développement.
 
-### Les risques, et comment on les gère
+1. **Supabase** (formule gratuite) : `npx supabase link --project-ref VOTRE_REF`, `npx supabase db push`, `npx supabase functions deploy embed --no-verify-jwt`, `npx supabase secrets set EMBEDDING_FUNCTION_SECRET=…`. Authentification : URL du site et `https://VOTRE-APP.vercel.app/auth/callback`.
+2. **Contenu**, depuis votre ordinateur, avec les variables de production dans `.env.local` : `npm run seed:categories`, `npm run import:bible`, `npm run import:sources -- --embed`, `npm run seed:demo`, puis `npm run seed:cards` (premier lot), relecture, et `npm run seed:cards -- --all`.
+3. **Vercel** (Hobby) : importer le dépôt, variables `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_SITE_URL`, `ADMIN_EMAILS` (et `KOKORO_URL` si besoin). La clé Anthropic n'est **pas** nécessaire sur Vercel : la génération tourne en script.
 
-| Risque | Gravité | Comment on le gère |
-|---|---|---|
-| **Le vrai contenu n'a jamais été généré** : qualité et coût inconnus | Haute | Confirmation du coût avant de lancer, plafond d'appels, relecture d'un échantillon de 20 cartes dans `/admin`, mode « brouillon » (`INGEST_PUBLISH_MODE=review`) |
-| **Edge TTS est un service non officiel** | Moyenne | Kokoro en alternative locale, repli sur la voix du navigateur |
-| **Droits d'auteur** | Haute si négligé | Reformulation imposée, détection de copie, citations vérifiées sur Wikiquote, une par livre, domaine public déterminé prudemment |
-| **Conseils de santé ou d'argent** | Moyenne | Consignes « informatif seulement » dans le prompt ; la relecture humaine reste utile |
-| **Dépendre d'un modèle d'IA qui change** | Moyenne | Le nom du modèle est un réglage (`ANTHROPIC_MODEL`), les réponses sont validées par Zod |
-| **Coût de l'API** | Moyenne | Plafonds configurables, traitement par lots, cache |
-| **Données personnelles** | Moyenne | RLS testée, export et suppression du compte |
+Volume : environ 55 000 versets, 10 700 sources et quelques milliers de cartes tiennent dans la base gratuite de Supabase (500 Mo).
 
----
+## 11. Écarts avec le cahier des charges, limites et risques
 
-## 11. Qualité : tests et bugs trouvés en route
-
-### Trois niveaux de tests
-
-```mermaid
-pie showData title Tests automatiques (nombre de tests)
-    "Unitaires : la logique" : 62
-    "Intégration : base de données" : 23
-    "Bout en bout : navigateur (6 scénarios x 2 appareils)" : 12
-```
-
-| Niveau | Outil | Ce qu'il vérifie |
-|---|---|---|
-| **Unitaires** | Vitest | SM-2, mélange du fil, règles de qualité et de style, similarité, découverte de livres, découpage audio, cache |
-| **Intégration** | Vitest + vraie base locale | Sécurité (RLS), fonctions SQL, déclencheurs de l'historique, pipeline complet avec faux modèle |
-| **Bout en bout** | Playwright, mobile et ordinateur | Inscription, fil, sauvegarde, révision, défi, historique, relecture, lecture audio avec un faux serveur de voix |
-
-Commandes : `npm test`, `npm run test:db`, `npm run test:e2e` (voir le README).
-
-### Ce que les tests ont attrapé
-
-C'est la meilleure preuve que les tests servent. Chaque ligne est un vrai défaut trouvé **avant** que l'utilisateur ne le rencontre :
-
-| Défaut | Découvert par |
-|---|---|
-| Une carte de démonstration répétait trois fois le même début de phrase | Le filtre de style, lors de l'exécution des tests |
-| La case « défi fait » ne se cochait pas visuellement tant que le serveur n'avait pas répondu | Le test de bout en bout |
-| Une carte seulement sauvegardée comptait déjà une lecture, doublant la première vraie lecture | Un test de base de données |
-| La bannière « plus de nouvelles cartes, voici des cartes à relire » ne s'affichait qu'au premier chargement | Un test de bout en bout |
-| En fin de session, le fil proposait comme « à relire » les cartes qu'on venait de voir | Un test de bout en bout |
-| Deux éléments portaient le même nom d'accessibilité | Un test de bout en bout |
-| La route audio n'avait pas de délai d'attente, donc attendait 30 s au lieu de basculer sur le repli | Un test sur la route, avec un service injoignable |
-| Mon outil de mesure des silences audio se trompait d'ordre (le test, pas le code) | Lecture du journal brut avant de conclure |
-
----
-
-## 12. Mettre en ligne
-
-> ⚠️ **Cette partie n'a pas été testée de bout en bout** : l'application n'a jamais été déployée pendant le développement. Les étapes ci-dessous sont celles que prévoit le projet.
-
-### Créer le projet Supabase
-
-1. Créez un projet sur https://supabase.com (formule gratuite).
-2. Liez le dépôt et envoyez les migrations :
-
-   ```bash
-   npx supabase login
-   npx supabase link --project-ref VOTRE_REF
-   npx supabase db push
-   ```
-
-3. Déployez la fonction d'embeddings et son secret :
-
-   ```bash
-   npx supabase functions deploy embed --no-verify-jwt
-   npx supabase secrets set EMBEDDING_FUNCTION_SECRET=une-longue-valeur-aleatoire
-   ```
-
-4. **Authentification** (Dashboard, Authentication) : renseignez l'URL du site et ajoutez `https://VOTRE-APP.vercel.app/auth/callback` aux adresses de redirection. Pour Google : créez un client OAuth « Application Web » dans Google Cloud Console avec l'adresse de redirection `https://VOTRE_REF.supabase.co/auth/v1/callback`, puis collez l'identifiant et le secret dans Supabase.
-
-### Déployer sur Vercel
-
-1. Importez le dépôt sur https://vercel.com (formule Hobby gratuite).
-2. Ajoutez les variables d'environnement (liste dans [`.env.example`](../.env.example)) : URL et clés Supabase, `NEXT_PUBLIC_SITE_URL`, `ADMIN_EMAILS`, `ANTHROPIC_API_KEY`, `EMBEDDING_FUNCTION_SECRET`, `CRON_SECRET` et les plafonds `INGEST_*`.
-3. Déployez, puis mettez à jour l'URL du site dans Supabase.
-4. Lancez le chargement du contenu **depuis votre ordinateur**, avec les variables du projet de production dans `.env.local`.
-
-### La tâche quotidienne
-
-`vercel.json` déclare un appel quotidien à `/api/cron/ingest` (04:17 UTC). Quand `CRON_SECRET` est défini, Vercel envoie automatiquement `Authorization: Bearer <CRON_SECRET>`. Une alternative, `supabase/cron/daily_ingest.sql`, fait la même chose avec pg_cron, à exécuter une fois dans l'éditeur SQL de Supabase.
-
-### Les variables d'environnement
-
-| Variable | Rôle |
-|---|---|
-| `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Adresse et clé publique du projet Supabase (protégée par la RLS) |
-| `SUPABASE_SERVICE_ROLE_KEY` | Clé secrète : routes serveur et scripts. **Jamais côté navigateur** |
-| `NEXT_PUBLIC_SITE_URL` | Adresse publique de l'app |
-| `ADMIN_EMAILS` | Adresses autorisées sur `/admin` |
-| `ANTHROPIC_API_KEY`, `ANTHROPIC_MODEL` | Génération du contenu (modèle par défaut : `claude-opus-5-5`) |
-| `ANTHROPIC_FALLBACKS` | `default` active le repli automatique côté serveur si le modèle refuse de répondre |
-| `GOOGLE_BOOKS_API_KEY` | Optionnelle : plus de quota |
-| `EMBEDDING_FUNCTION_SECRET`, `EMBEDDING_FUNCTION_URL` | Secret partagé avec la fonction d'embeddings |
-| `CRON_SECRET` | Protège la route de la tâche quotidienne |
-| `INGEST_MAX_MODEL_CALLS`, `INGEST_MAX_BOOKS_PER_RUN`, `INGEST_QUERIES_PER_RUN`, `INGEST_TIME_BUDGET_SECONDS` | Plafonds de l'exécution quotidienne |
-| `INGEST_PUBLISH_MODE` | `auto` publie ce qui passe les filtres ; `review` garde tout en brouillon |
-| `SEED_CARDS_PER_CATEGORY`, `SEED_BOOKS_PER_CATEGORY`, `SEED_MAX_MODEL_CALLS` | Objectifs et plafond du seed initial |
-| `KOKORO_URL` | Adresse du serveur de voix locale (optionnel) |
-
----
-
-## 13. Limites connues et risques
-
-À lire avant de présenter ou de déployer le projet :
-
-- **Le contenu réel n'existe pas encore.** La base ne contient que 12 cartes de démonstration, écrites à la main (chacune en français et en anglais). L'objectif de 10 000 cartes passe par la phase « génération », pas encore construite dans sa version finale.
-- **Aucune carte n'a été produite par le vrai modèle.** Le pipeline est testé avec des simulations, mais la qualité réelle du style, le taux de rejet et le coût réel sont inconnus tant qu'un premier lot n'a pas été généré et relu.
-- **La connexion Google n'a pas été testée**, ni le déploiement sur Vercel, ni la fonction d'embeddings en conditions réelles (elle doit télécharger un modèle).
-- **Edge TTS n'est pas garanti** : c'est un service non officiel, adapté à un projet personnel plutôt qu'à un produit commercial.
-- **Le script `npm run setup`** a été vérifié pour la création de `.env.local` et le chargement des données ; son premier démarrage de Supabase dépend de Docker et de la connexion Internet de la personne.
-- **Contenu de santé, d'argent, de psychologie** : informatif uniquement, jamais un conseil médical ou financier personnalisé.
-
----
-
-## 14. Lexique
-
-| Mot | Signification |
-|---|---|
-| **Carte (memo card)** | Une idée courte avec une action concrète |
-| **Stash** | Ta collection de cartes sauvegardées |
-| **Fil (feed)** | La suite de cartes que tu fais défiler |
-| **Pipeline d'ingestion** | La chaîne qui fabrique et contrôle les cartes |
-| **RLS** | Sécurité au niveau des lignes : la base décide qui voit quoi |
-| **Migration** | Un fichier qui modifie la structure de la base, daté et rejouable |
-| **Embedding / vecteur** | Une liste de nombres qui représente le sens d'un texte ; deux textes proches ont des vecteurs proches |
-| **pgvector** | L'extension PostgreSQL qui compare ces vecteurs |
-| **SM-2** | Algorithme de répétition espacée : plus tu connais une carte, plus elle revient tard |
-| **Edge Function** | Un petit programme hébergé par Supabase |
-| **Seed** | Charger des données de départ dans la base |
-| **Patch** | Un fichier qui décrit des modifications à appliquer à un dossier |
-| **Prompt** | La consigne écrite donnée à l'assistant IA |
-| **Série (streak)** | Le nombre de jours d'affilée avec de l'activité |
-| **TTS** | Text-to-speech : synthèse vocale |
+- **Grec byzantin** : édition patriarcale de 1904 (domaine public, licence explicite) au lieu de Robinson-Pierpont.
+- **Pas de traduction française libre de la Vulgate** : la lecture catholique des psaumes montre la Douay-Rheims anglaise, avec une mention. La Septante française (Giguet) n'est utilisée que pour les psaumes où sa numérotation est alignée.
+- **Liturgie** : cycle A seulement pour le lectionnaire romain (B et C sont vides dans la source) ; lectures byzantines de 2026-2027 de l'archidiocèse grec d'Amérique ; pas encore de Liturgie des Heures, de kathismes, de prokimena ni de tons, faute de source vérifiable.
+- **Documents catholiques** (Catéchisme, conciles) : aucune source vérifiable par script n'est importée ; ils ne sont pas nommés.
+- **Lexiques** : aucun lexique libre importé ; le panneau « Mots du texte » reste vide.
+- **Sources patristiques des Psaumes** : non importées (numérotation non documentée dans la source) ; les lectures des psaumes sont écrites sans nom d'auteur.
+- **Catena Aurea** : quelques citations y sont aujourd'hui reconnues comme apocryphes ; la relecture humaine doit y veiller.
+- **Le corpus de cartes n'est pas encore généré** : seules les 17 cartes d'exemple existent tant que `seed:cards` n'a pas tourné. `check:db` signale la couverture manquante.
+- **Embeddings** : la fonction `embed` télécharge le modèle gte-small au premier appel ; dans un environnement sans accès à huggingface.co, utiliser `--skip-dedup` (déduplication par plage seulement).
+- **Risque théologique** : un modèle peut se tromper. Les contrôles automatiques réduisent ce risque, la relecture humaine reste nécessaire, et l'application l'affiche.
