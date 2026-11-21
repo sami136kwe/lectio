@@ -8,27 +8,9 @@
  */
 import { createHash } from "node:crypto";
 import { passageTextHash, referenceText } from "@/lib/bible/passage";
-import { lxxLabelForRange } from "@/lib/bible/psalms";
-import { sortKey } from "@/lib/bible/books";
+import { seasonsFor, upsertPassage } from "@/lib/pipeline/run";
 import { DEMO_CARDS, type DemoCard } from "@/supabase/seed/demo-cards";
 import { createServiceClient, type ScriptDb } from "./lib";
-
-export async function upsertPassage(db: ScriptDb, c: Pick<DemoCard, "book" | "chapterStart" | "verseStart" | "chapterEnd" | "verseEnd">): Promise<string> {
-  const isPsalm = c.book === "PSA";
-  const row = {
-    book_code: c.book,
-    chapter_start: c.chapterStart,
-    verse_start: c.verseStart,
-    chapter_end: c.chapterEnd,
-    verse_end: c.verseEnd,
-    psalm_number_hebrew: isPsalm && c.chapterStart <= 150 ? c.chapterStart : null,
-    psalm_number_lxx: isPsalm ? (c.chapterStart === 151 ? "151" : lxxLabelForRange(c.chapterStart, c.verseStart, c.verseEnd)) : null,
-    sort_key: sortKey(c.book, c.chapterStart, c.verseStart),
-  };
-  const { data, error } = await db.from("passages").upsert(row, { onConflict: "book_code,chapter_start,verse_start,chapter_end,verse_end" }).select("id").single();
-  if (error) throw new Error(`passage: ${error.message}`);
-  return data.id;
-}
 
 async function sourceId(db: ScriptDb, s: DemoCard["sources"][number], key: string): Promise<string> {
   const { data, error } = await db
@@ -45,25 +27,11 @@ async function sourceId(db: ScriptDb, s: DemoCard["sources"][number], key: strin
   return match.id;
 }
 
-/** Seasons of a passage, from the liturgical uses that cover it. */
-export async function seasonsFor(db: ScriptDb, c: Pick<DemoCard, "book" | "chapterStart" | "verseStart" | "chapterEnd" | "verseEnd">): Promise<string[]> {
-  const { data, error } = await db
-    .from("liturgical_uses")
-    .select("season_id, chapter_start, verse_start, chapter_end, verse_end")
-    .eq("book_code", c.book)
-    .lte("chapter_start", c.chapterEnd)
-    .gte("chapter_end", c.chapterStart)
-    .not("season_id", "is", null);
-  if (error) throw new Error(error.message);
-  const start = c.chapterStart * 1000 + c.verseStart;
-  const end = c.chapterEnd * 1000 + c.verseEnd;
-  return [...new Set(data.filter((u) => u.chapter_start * 1000 + u.verse_start <= end && u.chapter_end * 1000 + u.verse_end >= start).map((u) => u.season_id!))];
-}
-
 async function seedCard(db: ScriptDb, c: DemoCard, categories: Map<string, string>) {
   const categoryId = categories.get(c.category);
   if (!categoryId) throw new Error(`${c.key}: unknown category ${c.category}`);
-  const passageId = await upsertPassage(db, c);
+  const range = { book: c.book, chapterStart: c.chapterStart, verseStart: c.verseStart, chapterEnd: c.chapterEnd, verseEnd: c.verseEnd };
+  const passageId = await upsertPassage(db, range);
   const reference = await referenceText(db, { book: c.book, chapterStart: c.chapterStart, verseStart: c.verseStart, chapterEnd: c.chapterEnd, verseEnd: c.verseEnd });
   const expected = (c.chapterEnd - c.chapterStart) * 1000 + c.verseEnd - c.verseStart + 1;
   if (c.chapterEnd === c.chapterStart && reference.verses.length !== expected) throw new Error(`${c.key}: ${reference.verses.length} verses found, ${expected} expected`);
@@ -127,7 +95,7 @@ async function seedCard(db: ScriptDb, c: DemoCard, categories: Map<string, strin
       }
     }
   }
-  const seasons = await seasonsFor(db, c);
+  const seasons = await seasonsFor(db, range);
   if (seasons.length) {
     const { error: sError } = await db.from("card_seasons").insert(seasons.map((season_id) => ({ card_id: card.id, season_id })));
     if (sError) throw new Error(`${c.key} seasons: ${sError.message}`);
