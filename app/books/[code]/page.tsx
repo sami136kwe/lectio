@@ -31,7 +31,8 @@ export default async function BookPage({ params, searchParams }: Params) {
   if (chapter) query = query.eq("chapter_start", chapter);
   const { data: rows } = await query.limit(60);
   const { data: all } = await supabase.from("card_details").select("id, chapter_start").eq("book_code", book.code).eq("status", "published").eq("language", locale);
-  const chapters = [...new Set((all ?? []).map((r) => r.chapter_start!))].sort((a, b) => a - b);
+  const perChapter = new Map<number, number>();
+  for (const r of all ?? []) perChapter.set(r.chapter_start!, (perChapter.get(r.chapter_start!) ?? 0) + 1);
   const cards = await cardsByIds(supabase, (rows ?? []).map((r) => r.id!), locale);
 
   let read = 0;
@@ -59,15 +60,27 @@ export default async function BookPage({ params, searchParams }: Params) {
           {user && (all ?? []).length > 0 && <span className="text-sm text-muted">{t.books.progress(read, (all ?? []).length)}</span>}
         </div>
       </div>
-      {chapters.length > 1 && (
-        <nav aria-label={t.books.chaptersNav} className="flex flex-wrap gap-1.5">
-          {chapters.map((c) => (
-            <Link key={c} href={`/books/${book.code}?chapter=${c}`} aria-current={chapter === c ? "page" : undefined} className={`chip ${chapter === c ? "bg-accent-soft text-accent" : "hover:text-ink"}`}>
-              {c}
-            </Link>
-          ))}
+      <section className="flex flex-col gap-3">
+        <h2 className="text-xl font-semibold">{t.books.allChapters}</h2>
+        <nav aria-label={t.books.chaptersNav} className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-10">
+          {Array.from({ length: book.code === "PSA" ? 150 : book.chapters }, (_, i) => i + 1).map((c) => {
+            const n = perChapter.get(c) ?? 0;
+            return (
+              <Link
+                key={c}
+                href={`/books/${book.code}/${c}`}
+                className={`card-surface relative flex h-12 items-center justify-center font-semibold hover:bg-surface-2 ${n ? "text-accent" : ""}`}
+                title={n ? t.books.chapterHasCards(n) : t.books.readChapter}
+                data-testid={`chapter-${c}`}
+              >
+                {c}
+                {n > 0 && <span aria-hidden="true" className="absolute right-1.5 top-1.5 h-1.5 w-1.5 rounded-full bg-accent" />}
+              </Link>
+            );
+          })}
         </nav>
-      )}
+      </section>
+      {cards.length > 0 && <h2 className="text-xl font-semibold">{t.books.commented}</h2>}
       {cards.length > 0 ? <CardGrid cards={cards} /> : <p className="text-muted">{t.books.noCards}</p>}
     </div>
   );

@@ -121,6 +121,20 @@ test("a verse can be learnt with progressive masking", async ({ page }, testInfo
   await expect(page.getByText("Session terminée")).toBeVisible();
 });
 
+test("every chapter of a book can be read, with readings or the Fathers' commentary", async ({ page }) => {
+  await page.goto("/books/MAT");
+  await expect(page.getByTestId("chapter-28")).toBeVisible();
+  await page.getByTestId("chapter-6").click();
+  await expect(page).toHaveURL(/\/books\/MAT\/6$/);
+  const passages = page.getByTestId("chapter-passage");
+  expect(await passages.count()).toBeGreaterThan(4);
+  await expect(page.getByText("Notre Père qui es aux cieux", { exact: false }).first()).toBeVisible();
+  await expect(page.getByText("Lecture catholique").first()).toBeVisible(); // Mt 6:9-13 has a card
+  await expect(page.getByTestId("father-extract").first()).toBeVisible();
+  await page.getByTestId("chapter-next").first().click();
+  await expect(page.getByTestId("chapter-title")).toHaveText("Matthieu 7");
+});
+
 test("the about page carries the disclaimer", async ({ page }) => {
   await page.goto("/about");
   await expect(page.getByTestId("disclaimer")).toContainText("pas un enseignement officiel d'une Église");

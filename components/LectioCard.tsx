@@ -15,6 +15,8 @@ type Props = {
   variant?: "full" | "compact";
   /** Show only the reference (review mode before reveal). */
   hideContent?: boolean;
+  /** The passage is already shown around the card (chapter reader). */
+  hidePassage?: boolean;
   headingLevel?: "h1" | "h2" | "h3";
   /** Sentence being read aloud. `undefined` = no read-aloud on this card, `null` = nothing playing. */
   reading?: ReadingPosition | null;
@@ -123,7 +125,7 @@ function Reading({ perspective, tradition, text, reviewedOnly, cardLanguage }: {
   );
 }
 
-export function LectioCard({ card, discovery, variant = "full", hideContent, headingLevel = "h2", reading, onFlipLanguage, children }: Props) {
+export function LectioCard({ card, discovery, variant = "full", hideContent, hidePassage, headingLevel = "h2", reading, onFlipLanguage, children }: Props) {
   const t = useT();
   const prefs = useReadingPrefs();
   const [view, setView] = useState<TraditionView>(prefs.view);
@@ -159,7 +161,7 @@ export function LectioCard({ card, discovery, variant = "full", hideContent, hea
         {card.psalm_title && <p className="mt-1 text-sm text-muted">{card.psalm_title}</p>}
       </div>
 
-      {!hideContent && card.passage && (
+      {!hideContent && !hidePassage && card.passage && (
         <div className="flex flex-col gap-1">
           <Verses text={card.passage} highlight={(i) => on("passage", i)} />
           <p className="text-xs text-muted">
