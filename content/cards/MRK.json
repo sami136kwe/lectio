@@ -1769,5 +1769,588 @@
     "quote": "For if they had had faith, they would have believed that even when sleeping, He could preserve them safe"
    }
   ]
+ },
+ {
+  "key": "mrk-5-1-4",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 1,
+  "chapterEnd": 5,
+  "verseEnd": 4,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus arrive sur l'autre rive, en terre païenne. Un homme possédé sort des tombeaux pour venir à sa rencontre. Personne ne peut plus le lier, même avec des chaînes. Il les a toutes brisées, et nul n'a la force de le maîtriser. Marc décrit un homme coupé de tout, vivant parmi les morts.",
+   "en": "Jesus reaches the other shore, in pagan territory. A possessed man comes out of the tombs to meet him. No one can bind him any more, not even with chains. He has broken them all, and no one is strong enough to tame him. Mark describes a man cut off from everything, living among the dead."
+  },
+  "action": {
+   "fr": "Pense à une personne isolée de ton entourage et fais aujourd'hui un pas vers elle.",
+   "en": "Think of someone isolated around you and take a step towards them today."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cet homme l'image de l'humanité enchaînée par le mal, que nulle force humaine ne peut délivrer. Saint Augustin, cité dans la Catena Aurea, explique que Matthieu parle de deux possédés et Marc d'un seul, sans doute le plus connu. Le Christ vient chercher l'homme jusque dans les lieux de mort.",
+   "en": "The Catholic tradition sees in this man an image of humanity chained by evil, which no human strength can set free. Saint Augustine, quoted in the Catena Aurea, explains that Matthew speaks of two possessed men and Mark of one, probably the better known. Christ comes to seek man even in the places of death."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le Christ franchit les frontières pour rejoindre les païens. Théophylacte d'Ohrid, cité dans la Catena Aurea, remarque que les disciples se demandaient qui il était, et que ses ennemis eux-mêmes vont maintenant le révéler. Le démoniaque va bientôt le confesser Fils de Dieu.",
+   "en": "The Orthodox tradition stresses that Christ crosses borders to reach the pagans. Theophylact of Ohrid, quoted in the Catena Aurea, notes that the disciples were asking who he was, and that his enemies themselves will now reveal it. The demoniac will indeed confess him as Son of God."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ qui vient délivrer l'homme enchaîné, jusqu'en terre païenne.",
+    "en": "Both traditions see here Christ coming to free the chained man, even in pagan territory."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:2",
+    "usage": "quote",
+    "quote": "Though Matthew says that there were two, Mark and Luke mention one"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:2",
+    "usage": "quote",
+    "quote": "now it is made known Who He is by the testimony of His enemies"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-5-8",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 5,
+  "chapterEnd": 5,
+  "verseEnd": 8,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Nuit et jour, l'homme crie et se blesse avec des pierres. Voyant Jésus de loin, il court se prosterner devant lui. Le démon crie : « Qu'y a-t-il entre moi et toi, Jésus, Fils du Dieu Très-Haut? » C'est Jésus qui lui ordonne de sortir. Le mal reconnaît celui qui le domine.",
+   "en": "Night and day the man cries out and cuts himself with stones. Seeing Jesus from afar, he runs and bows down before him. The demon cries out, asking what it has to do with Jesus, Son of the Most High God. It is Jesus who orders it to come out. Evil recognises the one who has power over it."
+  },
+  "action": {
+   "fr": "Si tu te fais du mal par tes pensées, arrête-toi et invoque simplement le nom de Jésus.",
+   "en": "If you hurt yourself with your thoughts, stop and simply call on the name of Jesus."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce cri la vérité arrachée au démon par la présence du Christ. Bède le Vénérable, cité dans la Catena Aurea, écrit que c'est un grand tourment pour le diable de cesser de nuire à un homme. Plus son emprise est forte, plus il le lâche à contrecœur.",
+   "en": "The Catholic tradition sees in this cry the truth wrung from the demon by Christ's presence. The Venerable Bede, quoted in the Catena Aurea, writes that it is a great torment for a devil to stop hurting a man. The stronger his grip, the more reluctantly he lets go."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit la puissance divine qui fait trembler les forces du mal. Saint Cyrille d'Alexandrie, cité dans la Catena Aurea, montre le diable partagé entre deux passions, la peur et l'audace. Saint Grégoire de Nysse ajoute que les démons, prêts à résister, proclament sa puissance quand il approche.",
+   "en": "The Orthodox tradition reads here the divine power that makes the forces of evil tremble. Saint Cyril of Alexandria, quoted in the Catena Aurea, shows the devil divided between two passions, fear and audacity. Saint Gregory of Nyssa adds that the demons, ready to resist, proclaim his power as he draws near."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le démon contraint de reconnaître le Fils de Dieu et de lâcher sa proie.",
+    "en": "Both traditions see here the demon forced to recognise the Son of God and release its prey."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:8",
+    "usage": "quote",
+    "quote": "it is a great torment for a devil to cease to hurt a man"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Cyril of Alexandria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:7",
+    "usage": "quote",
+    "quote": "See how the devil is divided between two passions, fear and audacity"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Gregory of Nyssa",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:6",
+    "usage": "quote",
+    "quote": "Now the assembly of the devils had prepared itself to resist the Divine power"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-9-12",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 9,
+  "chapterEnd": 5,
+  "verseEnd": 12,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus demande son nom à l'esprit, qui répond : « Légion », car ils sont nombreux. Les démons le supplient de ne pas les chasser du pays. Près de là paît un grand troupeau de porcs. Ils demandent à y entrer. Le mal se montre multiple, et il cherche toujours un lieu où s'installer.",
+   "en": "Jesus asks the spirit its name, and it answers \"Legion\", for they are many. The demons beg him not to send them out of the country. Nearby a large herd of pigs is feeding. They ask to enter them. Evil shows itself as many, and it always seeks somewhere to settle."
+  },
+  "action": {
+   "fr": "Nomme devant Dieu, en une phrase, ce qui te divise intérieurement.",
+   "en": "Name before God, in one sentence, what divides you inside."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que Jésus demande le nom pour révéler l'ampleur du mal et la grandeur de la délivrance. Bède le Vénérable, cité dans la Catena Aurea, écrit que la déclaration publique du fléau rend plus éclatante la puissance de celui qui guérit. L'Église pratique encore l'exorcisme au nom du Christ.",
+   "en": "The Catholic tradition notes that Jesus asks the name to reveal the scale of the evil and the greatness of the deliverance. The Venerable Bede, quoted in the Catena Aurea, writes that the public declaration of the scourge makes the Healer's power appear more gracious. The Church still practises exorcism in Christ's name."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans la légion la fragmentation de l'homme livré aux passions. Les prières d'exorcisme du baptême byzantin rappellent cette victoire du Christ sur les esprits. Le Christ rend à l'homme son unité intérieure.",
+   "en": "The Orthodox tradition also sees in the legion the fragmentation of a person given over to the passions. The prayers of exorcism in the Byzantine baptism recall this victory of Christ over the spirits. Christ restores to a person their inner unity."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ maître des esprits, qui rend l'homme à lui-même.",
+    "en": "Both traditions see here Christ as master of the spirits, who gives a person back to themselves."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:9",
+    "usage": "quote",
+    "quote": "by the public declaration of the scourge which the madman suffered, the virtue of the Healer appears more gracious"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-13-16",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 13,
+  "chapterEnd": 5,
+  "verseEnd": 16,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus le leur permet. Les esprits entrent dans les porcs, et le troupeau, environ deux mille bêtes, se jette dans la mer. Les gardiens s'enfuient et racontent la chose. Les gens accourent et trouvent l'ancien possédé assis, vêtu, dans son bon sens. Ils sont saisis de crainte.",
+   "en": "Jesus gives them leave. The spirits enter the pigs, and the herd, about two thousand animals, rushes into the sea. The herdsmen flee and tell the story. People hurry out and find the former demoniac sitting, clothed and in his right mind. They are seized with fear."
+  },
+  "action": {
+   "fr": "Remercie Dieu aujourd'hui pour une paix retrouvée, même petite, dans ta vie.",
+   "en": "Thank God today for some peace you have found again, however small, in your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'homme assis et vêtu l'image du baptisé guéri et revêtu du Christ. Bède le Vénérable, cité dans la Catena Aurea, écrit que Jésus le permit pour que, par la mort des porcs, le salut des hommes soit avancé. La valeur d'une personne dépasse celle de tout un troupeau.",
+   "en": "The Catholic tradition sees in the man sitting and clothed an image of the baptised, healed and clothed with Christ. The Venerable Bede, quoted in the Catena Aurea, writes that Jesus allowed it so that, by the death of the swine, the salvation of men might be furthered. A person's worth goes beyond that of a whole herd."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la peur qui saisit les témoins. Tite de Bostra, cité dans la Catena Aurea, note que les gardiens s'enfuirent de peur de périr avec les porcs et répandirent cette peur dans la ville. Le contraste entre l'homme apaisé et la foule effrayée invite à accueillir la paix du Christ.",
+   "en": "The Orthodox tradition stresses the fear that grips the witnesses. Titus of Bostra, quoted in the Catena Aurea, notes that the herdsmen fled lest they should perish with the swine, and spread that fear through the town. The contrast between the calmed man and the frightened crowd invites us to welcome Christ's peace."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le prix d'une personne sauvée et la paix que le Christ rend.",
+    "en": "Both traditions see here the worth of a person saved and the peace that Christ restores."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:13",
+    "usage": "quote",
+    "quote": "that by the killing of the swine, the salvation of men might be furthered"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Titus of Bostra",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:14",
+    "usage": "quote",
+    "quote": "the herdsmen also took to flight, lest they should perish with the swine"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-17-20",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 17,
+  "chapterEnd": 5,
+  "verseEnd": 20,
+  "category": "apotres",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Les habitants supplient Jésus de quitter leur territoire. L'homme guéri, lui, demande à rester avec lui. Jésus refuse et l'envoie chez les siens : « Raconte-leur tout ce que le Seigneur t'a fait. » Il devient ainsi le premier messager de Jésus dans la Décapole, une région païenne.",
+   "en": "The people beg Jesus to leave their territory. The healed man asks to stay with him. Jesus says no and sends him home: \"Tell them what great things the Lord has done for you.\" He thus becomes Jesus' first messenger in the Decapolis, a pagan region."
+  },
+  "action": {
+   "fr": "Raconte aujourd'hui à un proche, avec simplicité, un bienfait de Dieu dans ta vie.",
+   "en": "Today, tell someone close to you, simply, of one good thing God has done in your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cet envoi la mission de tout baptisé dans son milieu ordinaire. Bède le Vénérable, cité dans la Catena Aurea, explique que chacun, après le pardon de ses péchés, doit servir l'Évangile pour le salut des autres. Le témoignage commence dans sa propre maison.",
+   "en": "The Catholic tradition sees in this sending the mission of every baptised person in their ordinary setting. The Venerable Bede, quoted in the Catena Aurea, explains that each one, after the forgiveness of their sins, must serve the Gospel for the salvation of others. Witness begins in one's own home."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe remarque que l'homme voulait rester par crainte que les démons ne reviennent. Théophylacte d'Ohrid, cité dans la Catena Aurea, le dit ainsi. Le Christ lui confie une mission qui le fortifie : annoncer la miséricorde reçue.",
+   "en": "The Orthodox tradition notes that the man wanted to stay for fear that the demons might return. Theophylact of Ohrid, quoted in the Catena Aurea, says so. Christ entrusts him with a mission that strengthens him: to proclaim the mercy he has received."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'homme guéri envoyé comme témoin de la miséricorde de Dieu.",
+    "en": "Both traditions see here the healed man sent out as a witness of God's mercy."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:19",
+    "usage": "quote",
+    "quote": "every one after the remission of his sins should remember"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:18",
+    "usage": "quote",
+    "quote": "For he feared lest some time or other the devils should find him, and enter into him a second time."
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-21-24",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 21,
+  "chapterEnd": 5,
+  "verseEnd": 24,
+  "category": "miracles",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "De retour sur l'autre rive, Jésus est entouré par la foule. Jaïrus, un chef de synagogue, se jette à ses pieds. « Ma petite fille est à l'extrémité », dit-il, et il supplie Jésus de venir lui imposer les mains. Jésus part avec lui, pressé par la foule.",
+   "en": "Back on the other shore, Jesus is surrounded by the crowd. Jairus, a leader of the synagogue, falls at his feet. His little daughter is dying, he says, and he begs Jesus to come and lay his hands on her. Jesus goes with him, pressed by the crowd."
+  },
+  "action": {
+   "fr": "Présente aujourd'hui à Dieu une personne malade, en la nommant comme Jaïrus.",
+   "en": "Today, present to God someone who is ill, naming them as Jairus did."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Jaïrus le modèle de la prière d'intercession : un père qui s'humilie pour son enfant. Son geste inspire la prière pour les malades et le sacrement de l'onction. Le Christ se met en route sans délai.",
+   "en": "The Catholic tradition sees in Jairus the model of intercessory prayer: a father humbling himself for his child. His gesture inspires prayer for the sick and the sacrament of anointing. Christ sets off without delay."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne l'enchaînement des miracles. Théophylacte d'Ohrid, cité dans la Catena Aurea, note qu'après le démoniaque, le Seigneur accomplit un autre miracle en ressuscitant la fille du chef de la synagogue. L'imposition des mains reste un geste de guérison dans l'Église.",
+   "en": "The Orthodox tradition stresses the sequence of miracles. Theophylact of Ohrid, quoted in the Catena Aurea, notes that after the demoniac the Lord works another miracle, raising the daughter of the synagogue leader. The laying on of hands remains a gesture of healing in the Church."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient en Jaïrus un modèle d'intercession, et dans l'imposition des mains un geste de guérison.",
+    "en": "Both traditions see in Jairus a model of intercession, and in the laying on of hands a gesture of healing."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:22",
+    "usage": "quote",
+    "quote": "After the miracle of the demoniac, the Lord works another miracle"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-25-28",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 25,
+  "chapterEnd": 5,
+  "verseEnd": 28,
+  "category": "foi-doute",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Depuis douze ans, une femme souffre de pertes de sang. Tout son argent est passé chez les médecins, et son état n'a fait qu'empirer. Selon la Loi, cette maladie la rendait impure et l'écartait des autres. Cachée dans la foule, elle s'approche de Jésus par derrière et touche son vêtement. Si je le touche, se dit-elle, je serai guérie.",
+   "en": "For twelve years a woman has suffered from bleeding. All her money has gone on doctors. She has only grown worse. Under the Law, this illness made her unclean and kept her apart from others, even from prayer in common. Hidden in the crowd, she comes up behind Jesus and touches his garment. If I touch it, she tells herself, I will be healed."
+  },
+  "action": {
+   "fr": "Ose aujourd'hui une prière humble pour une souffrance ancienne que tu n'oses plus présenter.",
+   "en": "Today, dare a humble prayer for an old suffering you no longer dare to bring."
+  },
+  "catholic": {
+   "fr": "La tradition catholique admire la foi discrète de cette femme qui croit que la puissance du Christ passe par son humanité. Son geste éclaire la logique des sacrements, où le contact visible donne une grâce invisible. Elle attend tout de Jésus après avoir tout essayé.",
+   "en": "The Catholic tradition admires the quiet faith of this woman, who believes that Christ's power passes through his humanity. Her gesture sheds light on the logic of the sacraments, where visible contact gives invisible grace. She hopes for everything from Jesus after trying everything else."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne son humilité. Saint Jean Chrysostome, cité dans la Catena Aurea, explique qu'elle n'osait pas s'approcher ouvertement, parce que la Loi la déclarait impure. Elle touche par derrière, et cette humilité même ouvre la voie à la guérison.",
+   "en": "The Orthodox tradition stresses her humility. Saint John Chrysostom, quoted in the Catena Aurea, explains that she did not dare approach openly, because the Law declared her unclean. She touches him from behind, and that very humility opens the way to healing."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions admirent la foi humble de cette femme qui attend tout du contact avec le Christ.",
+    "en": "Both traditions admire the humble faith of this woman who hopes for everything from contact with Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:27",
+    "usage": "quote",
+    "quote": "did not dare to approach the Saviour openly"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-29-32",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 29,
+  "chapterEnd": 5,
+  "verseEnd": 32,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Aussitôt, l'hémorragie s'arrête et la femme sent dans son corps qu'elle est guérie. Jésus sait qu'une force est sortie de lui. Il se retourne. Qui a touché mes vêtements, demande-t-il ? Les disciples s'étonnent de la question, puisque la foule le presse de tous côtés, mais Jésus cherche du regard celle qui l'a touché.",
+   "en": "At once the bleeding stops and the woman feels that she is healed. Jesus knows that power has gone out of him. He turns round and asks who touched his garments. The disciples are surprised, since the crowd is pressing on him from every side. But Jesus looks around for the one who touched him."
+  },
+  "action": {
+   "fr": "Dans la foule de ta journée, cherche une occasion de toucher le Christ par une vraie prière, même courte.",
+   "en": "In the crowd of your day, look for a chance to touch Christ with a real prayer, however short."
+  },
+  "catholic": {
+   "fr": "La tradition catholique distingue la foule qui presse Jésus et la femme qui le touche avec foi. Être proche de lui ne suffit pas : il faut une rencontre personnelle. Jésus veut que la guérison devienne une relation, et non un simple bienfait reçu en secret.",
+   "en": "The Catholic tradition distinguishes the crowd pressing on Jesus from the woman who touches him with faith. Being near him is not enough: a personal encounter is needed. Jesus wants the healing to become a relationship, not just a favour received in secret."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe admire la foi de cette femme. Théophylacte d'Ohrid, cité dans la Catena Aurea, la dit très fidèle, elle qui espérait la guérison de ses vêtements. Il ajoute que le Seigneur la fait connaître pour approuver sa foi, encourager Jaïrus et la délivrer de la peur.",
+   "en": "The Orthodox tradition admires this woman's faith. Theophylact of Ohrid, quoted in the Catena Aurea, calls her most faithful, since she hoped for healing from his garments. He adds that the Lord makes her known to approve her faith, encourage Jairus and free her from fear."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la foi personnelle qui touche vraiment le Christ, au-delà de la simple proximité.",
+    "en": "Both traditions see here personal faith that truly touches Christ, beyond mere closeness."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:29",
+    "usage": "quote",
+    "quote": "Most faithful indeed is this woman, who hoped for healing from His garments"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:32",
+    "usage": "quote",
+    "quote": "first to give His approbation to her faith"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-33-36",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 33,
+  "chapterEnd": 5,
+  "verseEnd": 36,
+  "category": "foi-doute",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "La femme, tremblante, vient se jeter aux pieds de Jésus et lui dit toute la vérité. Il lui répond : « Ma fille, ta foi t'a sauvée; va en paix. » À ce moment arrive la nouvelle que la fille de Jaïrus est morte. Jésus dit au père : « Ne crains pas, crois seulement. » La foi est mise à l'épreuve.",
+   "en": "The woman, trembling, comes and falls at Jesus' feet and tells him the whole truth. He answers, \"Daughter, your faith has made you well. Go in peace.\" Just then news comes that Jairus' daughter has died. Jesus says to the father, \"Don't be afraid, only believe.\" Faith is put to the test."
+  },
+  "action": {
+   "fr": "Quand une mauvaise nouvelle arrive, répète intérieurement : « Ne crains pas, crois seulement. »",
+   "en": "When bad news comes, repeat inwardly: \"Don't be afraid, only believe.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'aveu de la femme le passage de la guérison au salut. Bède le Vénérable, cité dans la Catena Aurea, explique que la question de Jésus visait à ce qu'elle confesse la vérité et soit affermie dans la foi. Saint Augustin ajoute que la parole à Jaïrus vient fortifier sa foi, non la reprocher.",
+   "en": "The Catholic tradition sees in the woman's confession the step from healing to salvation. The Venerable Bede, quoted in the Catena Aurea, explains that Jesus' question aimed at her confessing the truth and being confirmed in faith. Saint Augustine adds that the word to Jairus strengthens his faith rather than rebukes it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime la paix que le Christ donne. Théophylacte d'Ohrid, cité dans la Catena Aurea, comprend cette paix comme un repos, après tant d'années de douleurs. La liturgie byzantine reprend souvent cet envoi dans la paix.",
+   "en": "The Orthodox tradition loves the peace Christ gives. Theophylact of Ohrid, quoted in the Catena Aurea, takes this peace to mean rest, after so many years of pain. The Byzantine liturgy often takes up this sending out in peace."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une foi qui sauve et qui reçoit la paix du Christ, même au cœur de l'épreuve.",
+    "en": "Both traditions see here a faith that saves and receives the peace of Christ, even in the midst of trial."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:33",
+    "usage": "quote",
+    "quote": "the object of His question was that the woman should confess the truth"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:36",
+    "usage": "quote",
+    "quote": "is not a rebuke for his want of faith"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:34",
+    "usage": "quote",
+    "quote": "Go in peace, that is, in rest"
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-37-40",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 37,
+  "chapterEnd": 5,
+  "verseEnd": 40,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus ne prend avec lui que Pierre, Jacques et Jean. Dans la maison, on pleure et on crie. Il dit : « L'enfant n'est pas morte, mais elle dort. » On se moque de lui. Il fait sortir tout le monde et entre avec les parents et ses trois disciples.",
+   "en": "Jesus takes with him only Peter, James and John. In the house, people are weeping and wailing. He says, \"The child is not dead, but is asleep.\" They laugh at him. He puts everyone out and goes in with the parents and his three disciples."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un défunt en confiant qu'il « dort » dans l'attente de la résurrection.",
+   "en": "Today, pray for someone who has died, trusting that they \"sleep\" awaiting the resurrection."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le sommeil de la mort l'espérance de la résurrection. Bède le Vénérable, cité dans la Catena Aurea, écrit que, pour Dieu, elle dormait, son âme vivante et sa chair reposant pour se relever. De là vient l'usage chrétien d'appeler les défunts des endormis.",
+   "en": "The Catholic tradition sees in the sleep of death the hope of the resurrection. The Venerable Bede, quoted in the Catena Aurea, writes that to God she was asleep, her soul living and her flesh resting to rise again. From this comes the Christian custom of calling the dead those who sleep."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne l'humilité du Christ, qui écarte la foule. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Christ dans son abaissement ne voulait rien faire pour se montrer. Les moqueries témoignent malgré elles que l'enfant était vraiment morte.",
+   "en": "The Orthodox tradition stresses the humility of Christ, who sends the crowd away. Theophylact of Ohrid, quoted in the Catena Aurea, writes that Christ in his lowliness would not do anything for display. The mockery bears witness, in spite of itself, that the child was truly dead."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la mort un sommeil pour Dieu et dans ce passage l'annonce de la résurrection.",
+    "en": "Both traditions see death as a sleep in God's eyes and this passage as a foretaste of the resurrection."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:39",
+    "usage": "quote",
+    "quote": "to God she was asleep"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:37",
+    "usage": "quote",
+    "quote": "For Christ in His lowliness would not do any thing for display."
+   }
+  ]
+ },
+ {
+  "key": "mrk-5-41-43",
+  "book": "MRK",
+  "chapterStart": 5,
+  "verseStart": 41,
+  "chapterEnd": 5,
+  "verseEnd": 43,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus prend l'enfant par la main et lui dit en araméen : « Talitha koumi », « Jeune fille, lève-toi. » Aussitôt elle se lève et marche ; elle a douze ans. Tous sont stupéfaits. Jésus demande le silence et dit de lui donner à manger, un détail très concret qui montre qu'elle est bien vivante.",
+   "en": "Jesus takes the child by the hand and says to her in Aramaic, \"Talitha cumi\", \"Girl, I tell you, get up.\" At once she gets up and walks; she is twelve years old. Everyone is astonished. Jesus asks for silence and tells them to give her something to eat, a very concrete detail showing she is truly alive."
+  },
+  "action": {
+   "fr": "Aide aujourd'hui quelqu'un à se relever, par un geste concret : un repas, un appel, une main tendue.",
+   "en": "Help someone get back up today with a concrete gesture: a meal, a call, a hand held out."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce miracle à deux niveaux. Saint Jérôme, cité dans la Catena Aurea, explique les mots araméens. Saint Grégoire le Grand voit dans la jeune fille ressuscitée à la maison l'âme dont le péché est encore caché, que le Christ relève par sa grâce.",
+   "en": "The Catholic tradition reads this miracle on two levels. Saint Jerome, quoted in the Catena Aurea, explains the Aramaic words. Saint Gregory the Great sees in the girl raised in the house the soul whose sin is still hidden, whom Christ raises by his grace."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la discrétion du Christ, qui choisit quelques témoins. Saint Jean Chrysostome, cité dans la Catena Aurea, explique qu'il écarte tout éclat tout en laissant des témoins de sa puissance divine. La main tendue du Christ annonce la résurrection de tous.",
+   "en": "The Orthodox tradition stresses Christ's discretion, who chooses a few witnesses. Saint John Chrysostom, quoted in the Catena Aurea, explains that he removes all display while leaving witnesses of his divine power. The outstretched hand of Christ announces the resurrection of all."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ce miracle la puissance du Christ sur la mort et l'annonce de la résurrection.",
+    "en": "Both traditions see in this miracle Christ's power over death and the announcement of the resurrection."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Jerome",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:41",
+    "usage": "quote",
+    "quote": "when in Hebrew, Talitha cumi only means, Damsel, arise"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:42",
+    "usage": "quote",
+    "quote": "our Redeemer raised the damsel in the house"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 5",
+    "ref": "MRK 5:40",
+    "usage": "quote",
+    "quote": "to take away all display, He suffered not all to be with Him"
+   }
+  ]
  }
 ]
