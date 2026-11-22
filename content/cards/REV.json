@@ -1445,5 +1445,655 @@
     "quote": "And that I might not extend my discourse, beloved brother"
    }
   ]
+ },
+ {
+  "key": "rev-8-1-4",
+  "book": "REV",
+  "chapterStart": 8,
+  "verseStart": 1,
+  "chapterEnd": 8,
+  "verseEnd": 4,
+  "category": "silence-confiance",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Quand l'agneau ouvre le septième sceau, un silence d'environ une demi-heure se fait dans le ciel. Sept anges reçoivent sept trompettes. Un autre ange, avec un encensoir d'or, offre beaucoup de parfums sur l'autel, avec les prières des saints. La fumée de l'encens monte devant Dieu avec ces prières.",
+   "en": "When the lamb opens the seventh seal, there is silence in heaven for about half an hour. Seven angels receive seven trumpets. Another angel, with a golden censer, offers much incense on the altar, with the prayers of the saints. The smoke of the incense rises before God with these prayers."
+  },
+  "action": {
+   "fr": "Garde aujourd'hui cinq minutes de silence complet avant de prier.",
+   "en": "Today, keep five minutes of complete silence before you pray."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce silence le recueillement qui précède l'action de Dieu, comme le silence de la liturgie. Victorin de Pettau y voit le commencement du repos éternel, décrit comme partiel parce que le silence est bref. Les prières des saints montrent la valeur de l'intercession.",
+   "en": "The Catholic tradition sees in this silence the recollection that comes before God's action, like the silence of the liturgy. Victorinus of Pettau sees in it the beginning of everlasting rest, described as partial because the silence is brief. The prayers of the saints show the value of intercession."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe encense l'autel, les icônes et les fidèles à chaque office, en chantant que la prière monte comme l'encens. Le silence est aussi le cœur de l'hésychasme, la prière du repos intérieur. L'ange à l'encensoir évoque la liturgie céleste.",
+   "en": "The Orthodox tradition censes the altar, the icons and the faithful at every service, singing that prayer rises like incense. Silence is also the heart of hesychasm, the prayer of inner stillness. The angel with the censer evokes the heavenly liturgy."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le silence de l'adoration et les prières des saints qui montent comme l'encens.",
+    "en": "Both traditions see here the silence of adoration and the prayers of the saints rising like incense."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 8:1",
+    "usage": "quote",
+    "quote": "Whereby is signified the beginning of everlasting rest"
+   }
+  ]
+ },
+ {
+  "key": "rev-8-5-7",
+  "book": "REV",
+  "chapterStart": 8,
+  "verseStart": 5,
+  "chapterEnd": 8,
+  "verseEnd": 7,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "L'ange remplit l'encensoir du feu de l'autel et le jette sur la terre : tonnerres, éclairs et séisme suivent. Les sept anges se préparent à sonner. Au premier son, grêle et feu mêlés de sang tombent, et le tiers de la terre brûle. Les prières des saints et l'action de Dieu dans l'histoire sont liées.",
+   "en": "The angel fills the censer with fire from the altar and throws it on the earth: thunder, lightning and an earthquake follow. The seven angels prepare to sound. At the first blast, hail and fire mixed with blood fall, and a third of the earth burns. The prayers of the saints and God's action in history are linked."
+  },
+  "action": {
+   "fr": "Confie aujourd'hui dans la prière une situation du monde qui te paraît injuste.",
+   "en": "Today, entrust in prayer a situation in the world that seems unjust to you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les trompettes un écho des plaies d'Égypte : des appels à la conversion plus que des destructions aveugles. Le tiers indique une limite, non une destruction totale. La prière des saints participe au jugement de Dieu sur le mal.",
+   "en": "The Catholic tradition sees in the trumpets an echo of the plagues of Egypt: calls to conversion more than blind destruction. The third indicates a limit, not total destruction. The prayer of the saints shares in God's judgement on evil."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ces visions comme un appel au repentir adressé à chaque génération. Le feu de l'autel, qui purifie, peut aussi juger. Dieu reste maître de chaque fléau.",
+   "en": "The Orthodox tradition also reads these visions as a call to repentance addressed to every generation. The fire of the altar, which purifies, can also judge. God remains master of every plague."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent les trompettes comme des appels à la conversion, limités par Dieu.",
+    "en": "Both traditions read the trumpets as calls to conversion, limited by God."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-8-8-13",
+  "book": "REV",
+  "chapterStart": 8,
+  "verseStart": 8,
+  "chapterEnd": 8,
+  "verseEnd": 13,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les deuxième, troisième et quatrième anges sonnent : une montagne embrasée tombe dans la mer, une étoile nommée Absinthe rend amères les eaux, puis le tiers du soleil, de la lune et des étoiles s'obscurcit. Un aigle crie malheur aux habitants de la terre. Trois trompettes doivent encore sonner. La création elle-même porte le poids du péché.",
+   "en": "The second, third and fourth angels sound: a burning mountain falls into the sea, a star named Wormwood makes the waters bitter, then a third of the sun, moon and stars is darkened. An eagle cries woe to the inhabitants of the earth. Three trumpets are still to sound. Creation itself bears the weight of sin."
+  },
+  "action": {
+   "fr": "Pose aujourd'hui un geste concret de respect pour la création : l'eau, la nourriture, un lieu naturel.",
+   "en": "Today, make a concrete gesture of respect for creation: water, food, a natural place."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces images le lien entre le péché humain et la souffrance de la création. Victorin de Pettau voit dans l'ange qui vole au milieu du ciel l'Esprit Saint, qui rend témoignage par les prophètes. Les avertissements précèdent toujours le jugement.",
+   "en": "The Catholic tradition sees in these images the link between human sin and the suffering of creation. Victorinus of Pettau sees in the angel flying in mid-heaven the Holy Spirit, bearing witness through the prophets. Warnings always come before judgement."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que la création attend elle aussi sa délivrance. Les eaux amères rappellent celles de Mara, adoucies par le bois, figure de la croix. La bénédiction des eaux à la Théophanie dit leur sanctification.",
+   "en": "The Orthodox tradition stresses that creation too awaits its deliverance. The bitter waters recall those of Marah, made sweet by the wood, a figure of the cross. The blessing of the waters at Theophany expresses their sanctification."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la création blessée par le péché et appelée à être renouvelée.",
+    "en": "Both traditions see here creation wounded by sin and called to be renewed."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 8:13",
+    "usage": "quote",
+    "quote": "is signified the Holy Spirit"
+   }
+  ]
+ },
+ {
+  "key": "rev-9-1-4",
+  "book": "REV",
+  "chapterStart": 9,
+  "verseStart": 1,
+  "chapterEnd": 9,
+  "verseEnd": 4,
+  "category": "combat-spirituel",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Au cinquième son, une étoile tombée du ciel reçoit la clé du puits de l'abîme. Elle l'ouvre, et une fumée obscurcit le soleil. Des sauterelles en sortent. Elles ne doivent nuire ni à l'herbe ni aux arbres, mais seulement aux hommes qui n'ont pas le sceau de Dieu sur le front. Le mal reçoit une permission limitée.",
+   "en": "At the fifth blast, a star fallen from heaven receives the key to the shaft of the abyss. It opens it, and smoke darkens the sun. Locusts come out of it. They are to harm neither grass nor trees, but only those who do not have God's seal on their foreheads. Evil receives a limited permission."
+  },
+  "action": {
+   "fr": "Si une tentation t'obscurcit aujourd'hui, invoque le Christ et rappelle-toi que tu portes son sceau.",
+   "en": "If a temptation darkens you today, call on Christ and remember that you bear his seal."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit souvent dans l'étoile tombée un ange déchu, qui ne peut agir qu'avec la permission de Dieu. Saint Cyprien rapproche ces visions de la condamnation des idoles, que les païens prennent pour des dieux. Les marqués du sceau sont protégés.",
+   "en": "The Catholic tradition often sees in the fallen star a fallen angel, who can act only with God's permission. Saint Cyprian links these visions with the condemnation of idols, which the Gentiles take for gods. Those marked with the seal are protected."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi les sauterelles comme des forces spirituelles du mal, qui tourmentent sans pouvoir détruire ceux que Dieu garde. La fumée qui obscurcit figure les passions qui aveuglent l'âme. La prière et les sacrements sont des remparts.",
+   "en": "The Orthodox tradition also reads the locusts as spiritual forces of evil, which torment without being able to destroy those whom God keeps. The darkening smoke figures the passions that blind the soul. Prayer and the sacraments are ramparts."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le mal limité par Dieu et la protection de ceux qui portent son sceau.",
+    "en": "Both traditions see here evil limited by God and the protection of those who bear his seal."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 12",
+    "section": "Treatise XII Three Books of Testimonies Against the Jews",
+    "ref": "REV 9:1",
+    "usage": "quote",
+    "quote": "Of the idols which the Gentiles think to be gods."
+   }
+  ]
+ },
+ {
+  "key": "rev-9-5-8",
+  "book": "REV",
+  "chapterStart": 9,
+  "verseStart": 5,
+  "chapterEnd": 9,
+  "verseEnd": 8,
+  "category": "patience-epreuve",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les sauterelles ne doivent pas tuer, mais tourmenter pendant cinq mois, comme une piqûre de scorpion. En ces jours-là, dit Jean, les hommes chercheront la mort sans la trouver. Elles ressemblent à des chevaux. Leurs cheveux sont comme ceux des femmes, leurs dents comme des dents de lion.",
+   "en": "The locusts are not to kill, but to torment for five months, like a scorpion's sting. In those days, says John, people will seek death and not find it. The locusts look like war horses, crowned, with human faces. Their hair is like women's hair, their teeth like lions' teeth."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour une personne qui traverse une souffrance psychique ou désespère de vivre.",
+   "en": "Today, pray for someone going through mental suffering or who despairs of living."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces images monstrueuses la description symbolique du mal qui ronge l'homme sans Dieu. La durée limitée, cinq mois, rappelle que l'épreuve a une fin. Le désespoir de ceux qui cherchent la mort appelle la compassion.",
+   "en": "The Catholic tradition sees in these monstrous images a symbolic description of the evil that eats away at a person without God. The limited duration, five months, recalls that the trial has an end. The despair of those who seek death calls for compassion."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit l'image des passions, qui tourmentent l'âme comme des bêtes armées. Les Pères parlent du combat contre les démons qui se présentent sous des formes trompeuses. La grâce limite leur pouvoir.",
+   "en": "The Orthodox tradition reads here an image of the passions, which torment the soul like armed beasts. The Fathers speak of the struggle against demons that come in deceptive forms. Grace limits their power."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ces images comme le tourment du mal sans Dieu, toujours limité dans le temps.",
+    "en": "Both traditions read these images as the torment of evil without God, always limited in time."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-9-9-12",
+  "book": "REV",
+  "chapterStart": 9,
+  "verseStart": 9,
+  "chapterEnd": 9,
+  "verseEnd": 12,
+  "category": "combat-spirituel",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les sauterelles portent des cuirasses de fer, et le bruit de leurs ailes ressemble à celui de chars courant au combat. Leurs queues piquent comme celles des scorpions. Elles ont pour roi l'ange de l'abîme, appelé Abaddon en hébreu et Apollyon en grec, c'est-à-dire le Destructeur. Le premier malheur est passé.",
+   "en": "The locusts wear iron breastplates, and the sound of their wings is like chariots rushing into battle. Their tails sting like scorpions. Their king is the angel of the abyss, called Abaddon in Hebrew and Apollyon in Greek, that is, the Destroyer. The first woe has passed."
+  },
+  "action": {
+   "fr": "Nomme aujourd'hui ce qui « détruit » en toi la paix, et oppose-lui une prière précise.",
+   "en": "Name today what \"destroys\" your peace within, and set a specific prayer against it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le nom de Destructeur l'œuvre propre de Satan, opposée à celle du Christ qui sauve. Le mal est organisé, mais il n'est pas tout-puissant. Le premier malheur passe, comme passent toutes les épreuves.",
+   "en": "The Catholic tradition sees in the name Destroyer the proper work of Satan, opposed to that of Christ who saves. Evil is organised, but it is not all-powerful. The first woe passes, as all trials pass."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe oppose aussi le Destructeur au Sauveur, nom de Jésus. Les prières d'exorcisme du baptême renoncent à Satan et à ses œuvres. Le combat spirituel se mène par la confiance au Christ.",
+   "en": "The Orthodox tradition also contrasts the Destroyer with the Saviour, the meaning of Jesus' name. The exorcism prayers of baptism renounce Satan and his works. Spiritual combat is waged through trust in Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions opposent ici le Destructeur au Christ Sauveur, plus fort que le mal.",
+    "en": "Both traditions set the Destroyer against Christ the Saviour, stronger than evil."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-9-13-16",
+  "book": "REV",
+  "chapterStart": 9,
+  "verseStart": 13,
+  "chapterEnd": 9,
+  "verseEnd": 16,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Au sixième son, une voix sort des cornes de l'autel d'or. Elle ordonne de délier les quatre anges liés au grand fleuve, l'Euphrate. Ils étaient prêts pour l'heure, le jour, le mois et l'année, pour tuer le tiers des hommes. Le nombre de leurs cavaliers est immense, deux cents millions. Tout cela reste soumis au moment fixé par Dieu.",
+   "en": "At the sixth blast, a voice comes from the horns of the golden altar. It orders the four angels bound at the great river Euphrates to be released. They were prepared for the hour, day, month and year, to kill a third of humanity. The number of their horsemen is vast, two hundred million. All this remains subject to the moment fixed by God."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les victimes d'une guerre actuelle et pour ceux qui la décident.",
+   "en": "Today, pray for the victims of a current war and for those who decide it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce passage comme l'image des grandes invasions et guerres que l'histoire a connues. La voix venue de l'autel rappelle que ces jugements répondent à la prière des martyrs. Même la violence la plus massive n'échappe pas au temps fixé par Dieu.",
+   "en": "The Catholic tradition reads this passage as an image of the great invasions and wars history has known. The voice from the altar recalls that these judgements answer the prayer of the martyrs. Even the most massive violence does not escape the time fixed by God."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y voit aussi un appel à la vigilance plutôt qu'une carte des événements. L'Euphrate, frontière de l'Empire, symbolise les menaces venues de loin. Dieu garde la maîtrise de l'histoire.",
+   "en": "The Orthodox tradition also sees here a call to vigilance rather than a map of events. The Euphrates, the empire's frontier, symbolises threats from afar. God keeps mastery over history."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ce passage comme l'image des violences de l'histoire, que Dieu domine.",
+    "en": "Both traditions read this passage as an image of the violence of history, over which God is master."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-9-17-21",
+  "book": "REV",
+  "chapterStart": 9,
+  "verseStart": 17,
+  "chapterEnd": 9,
+  "verseEnd": 21,
+  "category": "repentir-pardon",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les chevaux crachent feu, fumée et soufre, et le tiers des hommes périt. Les autres, qui survivent, ne se repentent pas des œuvres de leurs mains. Ils continuent d'adorer les démons et les idoles d'or, d'argent, de pierre et de bois, qui ne voient ni n'entendent. Ils ne se repentent ni de leurs meurtres, ni de leurs sortilèges, ni de leurs vols.",
+   "en": "The horses breathe fire, smoke and sulphur, and a third of humanity perishes. The rest, who survive, do not repent of the works of their hands. They go on worshipping demons and idols of gold, silver, stone and wood, which neither see nor hear. They repent neither of their murders, nor their sorceries, nor their thefts."
+  },
+  "action": {
+   "fr": "Repère une « idole » moderne dans ta vie (argent, image, écran) et remets-la à sa place.",
+   "en": "Spot a modern \"idol\" in your life (money, image, screens) and put it back in its place."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce verset le cœur du livre : les épreuves visent la conversion. Le drame est que beaucoup ne se repentent pas. L'idolâtrie prend aujourd'hui d'autres formes, comme l'argent ou le pouvoir.",
+   "en": "The Catholic tradition sees in this verse the heart of the book: the trials aim at conversion. The tragedy is that many do not repent. Idolatry today takes other forms, such as money or power."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que Dieu attend toujours le repentir, même au milieu des fléaux. Les idoles sont tout ce que l'homme place au-dessus de Dieu. Le repentir, la metanoia, est un changement d'esprit.",
+   "en": "The Orthodox tradition stresses that God always waits for repentance, even amid plagues. Idols are whatever a person places above God. Repentance, metanoia, is a change of mind."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici que les épreuves appellent à la conversion et dénoncent toute idolâtrie.",
+    "en": "Both traditions see here that trials call to conversion and denounce all idolatry."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-10-1-4",
+  "book": "REV",
+  "chapterStart": 10,
+  "verseStart": 1,
+  "chapterEnd": 10,
+  "verseEnd": 4,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean voit un ange puissant descendre du ciel, enveloppé d'une nuée, l'arc-en-ciel sur la tête, le visage comme le soleil. Il tient un petit livre ouvert. Il pose un pied sur la mer et l'autre sur la terre, et crie comme un lion. Sept tonnerres font entendre leurs voix, mais une voix du ciel ordonne à Jean de ne pas écrire ce qu'ils ont dit.",
+   "en": "John sees a mighty angel come down from heaven, wrapped in a cloud, a rainbow over his head, his face like the sun. He holds a little scroll, open. He sets one foot on the sea and the other on the land, and cries out like a lion. Seven thunders speak, but a voice from heaven orders John not to write what they said."
+  },
+  "action": {
+   "fr": "Accepte aujourd'hui de ne pas tout comprendre de la volonté de Dieu, et fais-lui confiance.",
+   "en": "Today, accept that you do not understand all of God's will, and trust him."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit avec Victorin de Pettau dans cet ange puissant le Seigneur lui-même, messager du Père. Victorin voit dans les sept tonnerres l'Esprit Saint aux sept dons, qui a tout annoncé par les prophètes. Ce qui reste scellé rappelle que Dieu ne révèle pas tout.",
+   "en": "The Catholic tradition sees with Victorinus of Pettau in this mighty angel the Lord himself, messenger of the Father. Victorinus sees in the seven thunders the Holy Spirit of sevenfold power, who announced all things through the prophets. What remains sealed recalls that God does not reveal everything."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans ce messager glorieux une figure du Christ, l'Ange du grand conseil. Le livre ouvert est la révélation donnée à l'Église. Le silence imposé sur les tonnerres invite à l'humilité devant le mystère.",
+   "en": "The Orthodox tradition also sees in this glorious messenger a figure of Christ, the Angel of great counsel. The open scroll is the revelation given to the Church. The silence imposed on the thunders invites humility before the mystery."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cet ange une figure du Christ et dans le silence des tonnerres l'humilité devant le mystère.",
+    "en": "Both traditions see in this angel a figure of Christ and in the silence of the thunders humility before the mystery."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 10:1",
+    "usage": "quote",
+    "quote": "is our Lord, as we have above narrated"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 10:3",
+    "usage": "quote",
+    "quote": "the Holy Spirit of sevenfold power"
+   }
+  ]
+ },
+ {
+  "key": "rev-10-5-8",
+  "book": "REV",
+  "chapterStart": 10,
+  "verseStart": 5,
+  "chapterEnd": 10,
+  "verseEnd": 8,
+  "category": "esperance",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "L'ange lève la main vers le ciel et jure par celui qui vit pour les siècles, le Créateur de toutes choses. Il n'y aura plus de délai. Au son du septième ange, le mystère de Dieu s'accomplira, comme il l'a annoncé à ses serviteurs les prophètes. La voix du ciel dit à Jean d'aller prendre le petit livre ouvert.",
+   "en": "The angel raises his hand to heaven and swears by the one who lives forever, the Creator of all things. There will be no more delay. At the sound of the seventh angel, the mystery of God will be fulfilled, as he announced to his servants the prophets. The voice from heaven tells John to go and take the little open scroll."
+  },
+  "action": {
+   "fr": "Relis aujourd'hui une promesse de Dieu dans l'Écriture et fais-lui confiance, même si elle tarde.",
+   "en": "Today, reread one of God's promises in Scripture and trust it, even if it seems slow."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le mystère de Dieu le dessein de salut accompli dans le Christ. Le serment solennel garantit que Dieu tiendra ses promesses. L'attente n'est pas vaine.",
+   "en": "The Catholic tradition sees in the mystery of God the plan of salvation fulfilled in Christ. The solemn oath guarantees that God will keep his promises. The waiting is not in vain."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime ce mot de mystère, qui désigne aussi les sacrements. Le mystère caché depuis les siècles est révélé dans le Christ. L'Église vit déjà de cet accomplissement.",
+   "en": "The Orthodox tradition loves this word mystery, which also refers to the sacraments. The mystery hidden for ages is revealed in Christ. The Church already lives from this fulfilment."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'assurance que Dieu accomplira son dessein de salut.",
+    "en": "Both traditions see here the assurance that God will fulfil his plan of salvation."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-10-9-11",
+  "book": "REV",
+  "chapterStart": 10,
+  "verseStart": 9,
+  "chapterEnd": 10,
+  "verseEnd": 11,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean demande le petit livre. L'ange lui dit de le manger : il sera doux comme le miel dans sa bouche, mais amer dans ses entrailles. Jean le mange, et il en est ainsi. On lui dit alors qu'il doit prophétiser encore sur beaucoup de peuples, de nations, de langues et de rois. La parole reçue doit être annoncée.",
+   "en": "John asks for the little scroll. The angel tells him to eat it: it will be sweet as honey in his mouth, but bitter in his stomach. John eats it, and so it is. He is then told he must prophesy again about many peoples, nations, languages and kings. The word received must be proclaimed."
+  },
+  "action": {
+   "fr": "Choisis un verset aujourd'hui, « mange-le » en le mémorisant, puis partage-le.",
+   "en": "Choose a verse today, \"eat it\" by memorising it, then share it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce geste l'assimilation de la parole de Dieu, douce à recevoir et exigeante à vivre. Victorin de Pettau explique que prendre le livre et le manger, c'est le confier à la mémoire. Il ajoute que Jean devait encore prophétiser après son exil.",
+   "en": "The Catholic tradition sees in this gesture the assimilation of God's word, sweet to receive and demanding to live. Victorinus of Pettau explains that taking the book and eating it means committing it to memory. He adds that John was to prophesy again after his exile."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y voit aussi le chemin du prophète, qui goûte la douceur de la parole et l'amertume de l'annoncer. La lecture priante de l'Écriture est une nourriture. Le témoignage coûte, mais il est nécessaire.",
+   "en": "The Orthodox tradition also sees here the prophet's path, who tastes the sweetness of the word and the bitterness of proclaiming it. Prayerful reading of Scripture is food. Witness costs, but it is necessary."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la parole de Dieu reçue comme nourriture et transmise malgré son exigence.",
+    "en": "Both traditions see here God's word received as food and passed on despite its demands."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 10:10",
+    "usage": "quote",
+    "quote": "To take the book and eat it up, is"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 10:11",
+    "usage": "quote",
+    "quote": "when John said these things he was in the island of Pat"
+   }
+  ]
+ },
+ {
+  "key": "rev-11-1-4",
+  "book": "REV",
+  "chapterStart": 11,
+  "verseStart": 1,
+  "chapterEnd": 11,
+  "verseEnd": 4,
+  "category": "unite-eglise",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "On donne à Jean un roseau pour mesurer le temple de Dieu, l'autel et ceux qui adorent. Le parvis extérieur, lui, est livré aux nations, qui fouleront la ville sainte pendant quarante-deux mois. Dieu donnera à ses deux témoins de prophétiser, vêtus de sacs. Ce sont les deux oliviers et les deux chandeliers qui se tiennent devant le Seigneur.",
+   "en": "John is given a reed to measure the temple of God, the altar and those who worship. The outer court is given over to the nations, who will trample the holy city for forty-two months. God will grant his two witnesses to prophesy, clothed in sackcloth. They are the two olive trees and the two lampstands standing before the Lord."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour ceux qui témoignent de la foi dans des lieux hostiles.",
+   "en": "Today, pray for those who bear witness to the faith in hostile places."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le temple mesuré l'Église protégée par Dieu au milieu des épreuves. Victorin de Pettau voit dans le roseau la mesure de la foi et dans le parvis livré ceux qui ne devaient pas être gardés dans l'Église. Les quarante-deux mois symbolisent un temps limité d'épreuve.",
+   "en": "The Catholic tradition sees in the measured temple the Church protected by God amid trials. Victorinus of Pettau sees in the reed the measure of faith and in the court given over those who were not to be kept in the Church. The forty-two months symbolise a limited time of trial."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit souvent dans les deux témoins Hénoch et Élie, qui n'ont pas connu la mort, revenus avant la fin. Les oliviers évoquent l'onction de l'Esprit, les chandeliers la lumière. L'Église reste gardée même quand elle est foulée.",
+   "en": "The Orthodox tradition often sees in the two witnesses Enoch and Elijah, who did not taste death, returning before the end. The olive trees evoke the Spirit's anointing, the lampstands light. The Church remains kept even when trampled."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'Église gardée par Dieu et deux témoins fidèles au temps de l'épreuve.",
+    "en": "Both traditions see here the Church kept by God and two faithful witnesses in the time of trial."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 11:1",
+    "usage": "quote",
+    "quote": "A reed was shown like to a rod"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 11:2",
+    "usage": "quote",
+    "quote": "The space which is called the court is the empty altar within the walls"
+   }
+  ]
+ },
+ {
+  "key": "rev-11-5-8",
+  "book": "REV",
+  "chapterStart": 11,
+  "verseStart": 5,
+  "chapterEnd": 11,
+  "verseEnd": 8,
+  "category": "martyrs-temoins",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Un feu les protège. Ils ont le pouvoir de fermer le ciel et de changer les eaux en sang, comme Élie et Moïse. Quand ils auront achevé leur témoignage, la bête qui monte de l'abîme les combattra et les tuera. Leurs corps resteront sur la place de la grande ville, là où leur Seigneur a été crucifié.",
+   "en": "Fire protects them. They have power to shut the sky and turn the waters into blood, like Elijah and Moses. When they have finished their testimony, the beast that rises from the abyss will fight them and kill them. Their bodies will lie in the square of the great city, where their Lord was crucified."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un témoin de la foi mort récemment, en demandant son intercession.",
+   "en": "Pray today for a witness to the faith who died recently, asking for their intercession."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le sort des deux témoins celui du Christ, partagé par ses disciples. Victorin de Pettau explique que le feu qui sort de leur bouche désigne la puissance de leur parole contre leurs adversaires. Il voit dans la bête qui monte de l'abîme l'Antichrist des derniers temps.",
+   "en": "The Catholic tradition sees in the fate of the two witnesses that of Christ, shared by his disciples. Victorinus of Pettau explains that the fire from their mouths signifies the power of their word against their adversaries. He sees in the beast rising from the abyss the Antichrist of the last times."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi le chemin des martyrs, configurés au Christ jusque dans la mort. La grande ville est une image du monde hostile à Dieu. Le témoignage semble vaincu, mais il ne l'est pas.",
+   "en": "The Orthodox tradition also reads here the path of the martyrs, conformed to Christ even in death. The great city is an image of the world hostile to God. The witness seems defeated, but is not."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans les deux témoins des martyrs configurés au Christ, dont la défaite apparente n'est pas la fin.",
+    "en": "Both traditions see in the two witnesses martyrs conformed to Christ, whose apparent defeat is not the end."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 11:5",
+    "usage": "quote",
+    "quote": "bespeaks the power of the"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 11:7",
+    "usage": "quote",
+    "quote": "After many plagues completed in the world, in the end he says that a beast ascended from the abyss"
+   }
+  ]
+ },
+ {
+  "key": "rev-11-9-12",
+  "book": "REV",
+  "chapterStart": 11,
+  "verseStart": 9,
+  "chapterEnd": 11,
+  "verseEnd": 12,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Pendant trois jours et demi, des gens de tous peuples regardent leurs cadavres et refusent qu'on les enterre. Les habitants de la terre se réjouissent et s'envoient des présents. Mais après trois jours et demi, un souffle de vie venant de Dieu entre en eux, et ils se tiennent debout. Une voix les appelle à monter au ciel, et ils montent dans la nuée.",
+   "en": "For three and a half days, people from every nation look at their corpses and refuse to let them be buried. The inhabitants of the earth rejoice and send each other gifts. But after three and a half days, a breath of life from God enters them, and they stand up. A voice calls them to come up to heaven, and they go up in the cloud."
+  },
+  "action": {
+   "fr": "Quand le mal semble triompher, rappelle-toi aujourd'hui que Dieu a le dernier mot.",
+   "en": "When evil seems to triumph, remember today that God has the last word."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la résurrection des témoins l'écho de celle du Christ et l'annonce de la résurrection des justes. La joie des ennemis ne dure pas. Le souffle de Dieu rappelle celui qui ranima les ossements desséchés chez Ézéchiel.",
+   "en": "The Catholic tradition sees in the witnesses' resurrection an echo of Christ's and a foretaste of the resurrection of the righteous. The enemies' joy does not last. God's breath recalls the one that revived the dry bones in Ezekiel."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante la victoire de la vie sur la mort, au cœur de la foi pascale. L'Esprit est le donateur de vie confessé dans le Credo. Les martyrs sont vivants auprès de Dieu.",
+   "en": "The Orthodox tradition sings the victory of life over death, at the heart of Easter faith. The Spirit is the giver of life confessed in the Creed. The martyrs are alive with God."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la résurrection des témoins la victoire de la vie de Dieu sur la mort.",
+    "en": "Both traditions see in the witnesses' resurrection the victory of God's life over death."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-11-13-15",
+  "book": "REV",
+  "chapterStart": 11,
+  "verseStart": 13,
+  "chapterEnd": 11,
+  "verseEnd": 15,
+  "category": "royaume-de-dieu",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "À cette heure, un grand tremblement de terre fait tomber le dixième de la ville, et les survivants, effrayés, rendent gloire au Dieu du ciel. Le deuxième malheur est passé. Le septième ange sonne, et de fortes voix proclament dans le ciel : « Le royaume du monde est remis à notre Seigneur et à son Christ ; et il régnera aux siècles des siècles. »",
+   "en": "At that hour, a great earthquake brings down a tenth of the city, and the survivors, terrified, give glory to the God of heaven. The second woe has passed. The seventh angel sounds, and loud voices proclaim in heaven, \"The kingdom of the world has become the Kingdom of our Lord, and of his Christ. He will reign forever and ever!\""
+  },
+  "action": {
+   "fr": "Redis aujourd'hui, au milieu de tes soucis, que le Seigneur règne pour toujours.",
+   "en": "Today, amid your worries, repeat that the Lord reigns forever."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce cri la victoire définitive du Christ, chantée aussi dans le célèbre Alléluia de Haendel. Pour la première fois, des hommes rendent gloire à Dieu après l'épreuve : la conversion est possible. Le règne du Christ n'aura pas de fin.",
+   "en": "The Catholic tradition sees in this cry the final victory of Christ, also sung in Handel's famous Hallelujah. For the first time, people give glory to God after the trial: conversion is possible. Christ's reign will have no end."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse dans le Credo que le règne du Christ n'aura pas de fin. La royauté du Christ est déjà célébrée à chaque liturgie, qui commence par bénir le Royaume. L'histoire s'achève dans la louange.",
+   "en": "The Orthodox tradition confesses in the Creed that Christ's reign will have no end. Christ's kingship is already celebrated at every liturgy, which begins by blessing the Kingdom. History ends in praise."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent ici la royauté éternelle du Christ, dont le règne n'aura pas de fin.",
+    "en": "Both traditions confess here the eternal kingship of Christ, whose reign will have no end."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-11-16-19",
+  "book": "REV",
+  "chapterStart": 11,
+  "verseStart": 16,
+  "chapterEnd": 11,
+  "verseEnd": 19,
+  "category": "marie-vie-de-jesus",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les vingt-quatre vieillards se prosternent et rendent grâce au Seigneur Dieu tout-puissant, qui a saisi sa grande puissance pour régner. Le temps est venu de juger les morts et de récompenser les prophètes, les saints et ceux qui craignent son nom. Le temple de Dieu s'ouvre dans le ciel, et l'arche de son alliance apparaît. Puis viennent des éclairs, des tonnerres et une forte grêle.",
+   "en": "The twenty-four elders fall down and give thanks to the Lord God Almighty, who has taken his great power and reigned. The time has come to judge the dead and to reward the prophets, the saints and those who fear his name. God's temple in heaven opens, and the ark of his covenant appears. Then come lightning, thunder and heavy hail."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui Marie, arche de la nouvelle alliance, de te conduire au Christ.",
+   "en": "Today, pray to Mary, ark of the new covenant, to lead you to Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce verset avec le suivant, la femme vêtue de soleil, à la fête de l'Assomption. Marie y est vue comme l'arche de la nouvelle alliance, qui a porté le Verbe fait chair. L'action de grâce des vieillards annonce le jugement et la récompense des justes.",
+   "en": "The Catholic tradition reads this verse with the next one, the woman clothed with the sun, at the feast of the Assumption. Mary is seen there as the ark of the new covenant, who carried the Word made flesh. The elders' thanksgiving announces the judgement and reward of the righteous."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi Marie comme l'arche sanctifiée, notamment à la fête de sa Dormition. L'arche contenait la manne et la Loi ; Marie a porté le Pain de vie et le Verbe. La liturgie céleste s'ouvre sur cette présence.",
+   "en": "The Orthodox tradition also sings of Mary as the sanctified ark, notably at the feast of her Dormition. The ark held the manna and the Law; Mary carried the Bread of life and the Word. The heavenly liturgy opens onto this presence."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions chantent Marie comme l'arche de la nouvelle alliance, qui a porté le Verbe.",
+    "en": "Both traditions sing of Mary as the ark of the new covenant, who carried the Word."
+   }
+  },
+  "sources": []
  }
 ]
