@@ -6731,5 +6731,643 @@
     "quote": "Reckoners use the word 'quadrans'"
    }
   ]
+ },
+ {
+  "key": "mrk-13-1-4",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 1,
+  "chapterEnd": 13,
+  "verseEnd": 4,
+  "category": "fin-des-temps",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "En sortant du Temple, un disciple admire ses pierres et ses constructions. Jésus annonce qu'il n'en restera pas pierre sur pierre. Plus tard, assis sur le mont des Oliviers, Pierre, Jacques, Jean et André lui demandent quand cela arrivera et quel en sera le signe. Le Temple fut bien détruit par les Romains en l'an 70.",
+   "en": "Coming out of the Temple, a disciple admires its stones and buildings. Jesus announces that not one stone will be left on another. Later, sitting on the Mount of Olives, Peter, James, John and Andrew ask him when this will happen and what the sign will be. The Temple was indeed destroyed by the Romans in the year 70."
+  },
+  "action": {
+   "fr": "Demande-toi sur quoi tu bâtis ta sécurité, et confie-la au Christ, qui demeure.",
+   "en": "Ask yourself what you build your security on, and entrust it to Christ, who remains."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce discours à deux niveaux : la ruine de Jérusalem et la fin des temps. Saint Augustin, cité dans la Catena Aurea, explique que le Seigneur annonce ce qui devait suivre, que ce soit la destruction de Jérusalem, sa venue dans l'Église ou sa venue finale. Bède note que les disciples l'interrogent en privé.",
+   "en": "The Catholic tradition reads this discourse on two levels: the ruin of Jerusalem and the end of time. Saint Augustine, quoted in the Catena Aurea, explains that the Lord announces what was to follow, whether the destruction of Jerusalem, his coming in the Church, or his final coming. Bede notes that the disciples question him in private."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce chapitre pendant la Semaine sainte, comme un appel à la vigilance. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que les disciples s'étonnaient que des bâtiments si nombreux et si beaux doivent être détruits. Le seul temple qui ne passe pas est le Corps du Christ.",
+   "en": "The Orthodox tradition also reads this chapter during Holy Week, as a call to watchfulness. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the disciples wondered that such numerous and beautiful buildings were to be destroyed. The only temple that does not pass away is the Body of Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ce discours comme l'annonce de la ruine du Temple et de la venue finale du Christ.",
+    "en": "Both traditions read this discourse as the announcement of the Temple's ruin and of Christ's final coming."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:2",
+    "usage": "quote",
+    "quote": "In answer to the disciples, the Lord tells them of things which were from that time forth to have their course"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:3",
+    "usage": "quote",
+    "quote": "the disciples privately enquired"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:1",
+    "usage": "quote",
+    "quote": "His disciples wondered, that such numerous and beautiful buildings were to be destroyed"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-5-8",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 5,
+  "chapterEnd": 13,
+  "verseEnd": 8,
+  "category": "fin-des-temps",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus commence par une mise en garde : prenez garde que personne ne vous égare. Beaucoup viendront en son nom en disant : c'est moi. On entendra parler de guerres, de séismes et de famines. Il ne faut pas s'alarmer : ce n'est pas encore la fin, mais le commencement des douleurs.",
+   "en": "Jesus begins with a warning: take care that no one leads you astray. Many will come in his name, saying: it is I. There will be talk of wars, earthquakes and famines. Do not be alarmed: this is not yet the end, but the beginning of birth pains."
+  },
+  "action": {
+   "fr": "Face aux nouvelles inquiétantes, choisis aujourd'hui la prière plutôt que l'angoisse.",
+   "en": "Faced with worrying news, choose prayer over anxiety today."
+  },
+  "catholic": {
+   "fr": "La tradition catholique invite à lire ces signes sans peur ni calcul de dates. Bède le Vénérable, cité dans la Catena Aurea, rappelle que beaucoup se sont présentés comme des christs avant la chute de Jérusalem, et que beaucoup de maîtres d'erreur ont suivi. Le discernement protège la foi.",
+   "en": "The Catholic tradition invites us to read these signs without fear or date-setting. The Venerable Bede, quoted in the Catena Aurea, recalls that many presented themselves as christs before the fall of Jerusalem, and that many teachers of error followed. Discernment protects faith."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la pédagogie du Christ. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'avant de répondre, il affermit leur esprit pour qu'ils ne soient pas trompés. Les douleurs de l'enfantement annoncent une naissance, non une simple destruction.",
+   "en": "The Orthodox tradition stresses Christ's way of teaching. Theophylact of Ohrid, quoted in the Catena Aurea, writes that before answering, he strengthens their minds so that they would not be deceived. Birth pains announce a birth, not mere destruction."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici un appel au discernement et à la paix au milieu des bouleversements.",
+    "en": "Both traditions see here a call to discernment and peace amid upheavals."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:6",
+    "usage": "quote",
+    "quote": "For many came forward, when destruction was hanging over Jerusalem, saying that they were Christs"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:5",
+    "usage": "quote",
+    "quote": "He strengthens their minds that they may not be deceived"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-9-12",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 9,
+  "chapterEnd": 13,
+  "verseEnd": 12,
+  "category": "martyrs-temoins",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus annonce aux disciples qu'ils seront livrés aux tribunaux et comparaîtront devant gouverneurs et rois à cause de lui, pour rendre témoignage. Il faut d'abord que l'Évangile soit annoncé à toutes les nations. Quand on les arrêtera, ils ne devront pas s'inquiéter de ce qu'ils diront : l'Esprit Saint parlera en eux. Même des proches se livreront les uns les autres.",
+   "en": "Jesus tells the disciples they will be handed over to courts and stand before governors and kings for his sake, to bear witness. The Gospel must first be preached to all the nations. When they are arrested, they must not worry about what to say: the Holy Spirit will speak in them. Even relatives will betray one another."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les chrétiens persécutés dans le monde.",
+   "en": "Today, pray for persecuted Christians around the world."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces versets l'histoire des martyrs, de l'Église primitive à aujourd'hui. Saint Augustin, cité dans la Catena Aurea, explique que le mot « d'abord » signifie avant la fin. Bède note que les persécutions ont souvent divisé les familles quand la foi les séparait.",
+   "en": "The Catholic tradition sees in these verses the story of the martyrs, from the early Church to today. Saint Augustine, quoted in the Catena Aurea, explains that the word \"first\" means before the end. Bede notes that persecutions have often divided families when faith set them apart."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe, qui a connu de nombreux martyrs au XXe siècle, lit ces paroles avec une gravité particulière. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que les épreuves n'empêcheront pas la prédication, car l'Évangile doit être publié parmi toutes les nations. L'Esprit donne au témoin les mots justes.",
+   "en": "The Orthodox tradition, which knew many martyrs in the twentieth century, reads these words with particular seriousness. Theophylact of Ohrid, quoted in the Catena Aurea, writes that trials will not hinder preaching, for the Gospel must be published among all nations. The Spirit gives the witness the right words."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le témoignage des martyrs, soutenus par l'Esprit Saint.",
+    "en": "Both traditions see here the witness of the martyrs, upheld by the Holy Spirit."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:10",
+    "usage": "quote",
+    "quote": "Mark, however, by the word first means before the end come"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:12",
+    "usage": "quote",
+    "quote": "This has often been seen in time of persecution"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:10",
+    "usage": "quote",
+    "quote": "that they might not think that their preaching should be impeded by troubles and dangers"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-13-16",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 13,
+  "chapterEnd": 13,
+  "verseEnd": 16,
+  "category": "patience-epreuve",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Vous serez haïs de tous à cause de mon nom, dit Jésus, mais celui qui persévérera jusqu'à la fin sera sauvé. Il annonce l'abomination de la désolation installée là où elle ne doit pas être. Alors ceux de Judée devront fuir dans les montagnes, sans redescendre chercher leurs affaires. L'urgence est telle qu'il ne faut pas revenir en arrière.",
+   "en": "You will be hated by all for my name's sake, says Jesus, but whoever endures to the end will be saved. He announces the abomination of desolation set up where it ought not to be. Then those in Judea must flee to the mountains, without going back down for their belongings. The urgency is such that one must not turn back."
+  },
+  "action": {
+   "fr": "Choisis aujourd'hui une fidélité simple (une prière, un engagement) et tiens-la jusqu'au soir.",
+   "en": "Today, choose one simple faithfulness (a prayer, a commitment) and keep it until evening."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la persévérance la grâce décisive du salut. Bède le Vénérable, cité dans la Catena Aurea, lit le toit comme l'image d'un esprit élevé au-dessus des actes charnels, qui ne doit pas redescendre vers les œuvres basses. La Glose ajoute qu'il vaut mieux sauver sa vie que ses biens.",
+   "en": "The Catholic tradition sees in perseverance the decisive grace of salvation. The Venerable Bede, quoted in the Catena Aurea, reads the housetop as an image of a mind raised above carnal deeds, which must not come down to base acts. The Gloss adds that it is better to save one's life than one's goods."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne aussi la patience dans l'épreuve, vertu des ascètes et des martyrs. La fuite sans retour en arrière évoque le détachement nécessaire au moment de choisir le Christ. La haine du monde n'est pas un échec, mais une participation à la croix.",
+   "en": "The Orthodox tradition also stresses patience in trial, the virtue of ascetics and martyrs. Fleeing without turning back evokes the detachment needed when the moment comes to choose Christ. The world's hatred is not a failure, but a share in the cross."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'appel à persévérer jusqu'au bout et à ne pas revenir en arrière.",
+    "en": "Both traditions see here the call to persevere to the end and not to turn back."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:15",
+    "usage": "quote",
+    "quote": "whose mind rises above carnal deeds"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:15",
+    "usage": "quote",
+    "quote": "for it is a desirable thing to be"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-17-20",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 17,
+  "chapterEnd": 13,
+  "verseEnd": 20,
+  "category": "patience-epreuve",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Jésus plaint les femmes enceintes et celles qui allaitent en ces jours-là, car la fuite sera pour elles beaucoup plus dure. Qu'on prie pour l'hiver. La détresse sera telle qu'il n'y en a pas eu de pareille depuis le commencement. Mais à cause des élus qu'il a choisis, le Seigneur abrégera ces jours.",
+   "en": "Jesus pities those who are pregnant and those nursing in those days. He asks them to pray that it may not happen in winter. The distress will be such as there has not been since the beginning. But for the sake of the chosen ones whom he chose, the Lord will shorten those days."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les mères et les familles qui vivent la guerre ou l'exil.",
+   "en": "Today, pray for mothers and families living through war or exile."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces paroles la compassion du Christ pour les plus vulnérables au milieu des catastrophes. Bède le Vénérable, cité dans la Catena Aurea, explique que les femmes chargées d'enfants sont gênées dans une fuite forcée. Il ajoute que le seul refuge est que Dieu, qui donne la force de souffrir, abrège le pouvoir de nuire.",
+   "en": "The Catholic tradition sees in these words Christ's compassion for the most vulnerable in the midst of disasters. The Venerable Bede, quoted in the Catena Aurea, explains that women burdened with children are hindered in a forced flight. He adds that the only refuge is that God, who gives strength to suffer, should shorten the power to harm."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi la miséricorde de Dieu qui limite l'épreuve. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique la prière pour que la fuite n'ait pas lieu en hiver : que les difficultés de la saison n'empêchent pas de fuir. Dieu n'abandonne pas les siens dans la détresse.",
+   "en": "The Orthodox tradition also reads here God's mercy, which limits the trial. Theophylact of Ohrid, quoted in the Catena Aurea, explains the prayer that the flight not be in winter: lest the difficulties of the season hinder those who wish to flee. God does not abandon his own in distress."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la compassion du Christ et la miséricorde de Dieu, qui abrège l'épreuve.",
+    "en": "Both traditions see here Christ's compassion and God's mercy, which shortens the trial."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:17",
+    "usage": "quote",
+    "quote": "they whose wombs or whose hands, overladen with the burden of children"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:20",
+    "usage": "quote",
+    "quote": "The only refuge in such evils is, that God who gives strength to suffer, should abridge the power of inflicting"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:18",
+    "usage": "quote",
+    "quote": "lest they who wish to fly should be impeded by the difficulties of the season"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-21-23",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 21,
+  "chapterEnd": 13,
+  "verseEnd": 23,
+  "category": "fin-des-temps",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Si quelqu'un vous dit alors que le Christ est ici ou là, ne le croyez pas. De faux christs et de faux prophètes se lèveront. Ils feront des signes et des prodiges pour égarer, si c'était possible, même les élus. Soyez sur vos gardes, dit Jésus : je vous ai tout annoncé d'avance.",
+   "en": "If anyone tells you then that the Christ is here or there, do not believe it. False christs and false prophets will arise. They will show signs and wonders to lead astray, if possible, even the chosen ones. Be on your guard, says Jesus: I have told you everything beforehand."
+  },
+  "action": {
+   "fr": "Avant de croire une rumeur religieuse spectaculaire, confronte-la à l'Évangile et à l'enseignement de l'Église.",
+   "en": "Before believing a spectacular religious rumour, test it against the Gospel and the Church's teaching."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cet avertissement un appel au discernement face aux faux prophètes de toute époque. Saint Augustin, cité dans la Catena Aurea, écrit que le Seigneur n'a pas seulement annoncé les biens promis aux saints, mais aussi les malheurs du monde. Bède rapporte certaines lectures à l'époque de la chute de Jérusalem.",
+   "en": "The Catholic tradition sees in this warning a call to discernment before false prophets in every age. Saint Augustine, quoted in the Catena Aurea, writes that the Lord foretold to his disciples the good things he would give his saints, and also the woes of this world. Bede refers some readings to the time of the fall of Jerusalem."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y voit l'annonce de l'Antichrist. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'après avoir parlé de Jérusalem, le Seigneur parle maintenant de la venue de l'Antichrist. Le Christ véritable ne viendra pas en cachette, mais dans la gloire.",
+   "en": "The Orthodox tradition sees here the announcement of the Antichrist. Theophylact of Ohrid, quoted in the Catena Aurea, writes that after speaking of Jerusalem, the Lord now speaks of the coming of the Antichrist. The true Christ will not come in secret, but in glory."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici un appel à la vigilance face aux faux christs et aux faux prophètes.",
+    "en": "Both traditions see here a call to vigilance against false christs and false prophets."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:23",
+    "usage": "quote",
+    "quote": "For He did not only foretel to His disciples the good things"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:22",
+    "usage": "quote",
+    "quote": "Some however refer this to the time of the Jewish captivity"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:21",
+    "usage": "quote",
+    "quote": "He now speaks of the coming of Antichrist"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-24-27",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 24,
+  "chapterEnd": 13,
+  "verseEnd": 27,
+  "category": "fin-des-temps",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Après cette détresse, le soleil s'obscurcira, la lune perdra son éclat, les étoiles tomberont et les puissances des cieux seront ébranlées. Alors on verra le Fils de l'homme venir sur les nuées avec grande puissance et gloire. Il enverra ses anges rassembler ses élus des quatre vents. La création entière accueille son Seigneur.",
+   "en": "After that distress, the sun will be darkened, the moon will lose its light, the stars will fall and the powers in the heavens will be shaken. Then the Son of Man will be seen coming on the clouds with great power and glory. He will send his angels to gather his chosen ones from the four winds. All creation welcomes its Lord."
+  },
+  "action": {
+   "fr": "Dis aujourd'hui, comme les premiers chrétiens : « Viens, Seigneur Jésus. »",
+   "en": "Say today, as the first Christians did: \"Come, Lord Jesus.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique confesse dans le Credo que le Christ reviendra dans la gloire pour juger les vivants et les morts. Bède le Vénérable, cité dans la Catena Aurea, écrit que les puissances angéliques elles-mêmes tremblent devant ce jugement. Saint Augustin note que le Fils exerce ce pouvoir en envoyant ses anges.",
+   "en": "The Catholic tradition confesses in the Creed that Christ will come again in glory to judge the living and the dead. The Venerable Bede, quoted in the Catena Aurea, writes that the angelic powers themselves tremble at this judgement. Saint Augustine notes that the Son exercises this power by sending his angels."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse la même venue glorieuse et voit ici la divinité du Fils. Théophylacte d'Ohrid, cité dans la Catena Aurea, fait remarquer que le Christ envoie les anges comme le Père : il lui est donc égal. Il ajoute qu'on le verra comme Fils de l'homme, c'est-à-dire dans son corps.",
+   "en": "The Orthodox tradition confesses the same glorious coming and sees here the divinity of the Son. Theophylact of Ohrid, quoted in the Catena Aurea, points out that Christ sends the angels as the Father does: he is therefore equal to him. He adds that he will be seen as Son of Man, that is, in his body."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent le retour glorieux du Christ, qui rassemblera ses élus.",
+    "en": "Both traditions confess Christ's glorious return, when he will gather his chosen ones."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:25",
+    "usage": "quote",
+    "quote": "the sight of which makes the very Angelic powers to tremble"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:27",
+    "usage": "quote",
+    "quote": "Concerning the execution of which power"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:27",
+    "usage": "quote",
+    "quote": "Observe that Christ sends the Angels as well as the Father"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:26",
+    "usage": "quote",
+    "quote": "But they shall see the Lord as the Son of Man, that is, in the body"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-28-31",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 28,
+  "chapterEnd": 13,
+  "verseEnd": 31,
+  "category": "esperance",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus prend l'image du figuier : quand ses branches deviennent tendres et que les feuilles poussent, on sait que l'été est proche. De même, quand on verra ces choses, il faudra savoir que le Fils de l'homme est proche. Cette génération ne passera pas avant que tout cela n'arrive. Le ciel et la terre passeront, mais ses paroles ne passeront pas.",
+   "en": "Jesus uses the image of the fig tree: when its branches grow tender and the leaves come out, you know that summer is near. In the same way, when these things are seen, one must know that the Son of Man is near. This generation will not pass away until all this happens. Heaven and earth will pass away, but his words will not."
+  },
+  "action": {
+   "fr": "Choisis aujourd'hui une parole du Christ qui « ne passera pas » et appuie-toi sur elle.",
+   "en": "Today, choose one word of Christ that \"will not pass away\" and lean on it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le figuier l'annonce de l'été du Royaume, au-delà des épreuves. Bède le Vénérable, cité dans la Catena Aurea, explique que par génération on peut entendre tout le genre humain. Il précise que le ciel qui passera est celui de l'air, non le ciel des étoiles.",
+   "en": "The Catholic tradition sees in the fig tree the announcement of the Kingdom's summer, beyond the trials. The Venerable Bede, quoted in the Catena Aurea, explains that by generation one may understand the whole human race. He specifies that the heaven that will pass away is the heaven of the air, not that of the stars."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la solidité de la parole du Christ. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que les éléments immobiles faibliront avant que les paroles du Christ ne faiblissent. Il ajoute qu'après les épreuves de l'Antichrist viendra aussitôt la venue du Seigneur.",
+   "en": "The Orthodox tradition stresses the firmness of Christ's word. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the immovable elements will fail before Christ's words fail. He adds that after the woes of the Antichrist the Lord's coming will follow at once."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une espérance fondée sur la parole du Christ, qui ne passera pas.",
+    "en": "Both traditions see here a hope grounded in Christ's word, which will not pass away."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:30",
+    "usage": "quote",
+    "quote": "By generation He either means the whole race of mankind"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:31",
+    "usage": "quote",
+    "quote": "The heaven which shall pass away is not the ethereal or starry heaven"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:31",
+    "usage": "quote",
+    "quote": "For the immoveable elements shall first fail, before the words of Christ fail"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:29",
+    "usage": "quote",
+    "quote": "As when the fig tree puts forth its leaves, summer follows at once"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-32-34",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 32,
+  "chapterEnd": 13,
+  "verseEnd": 34,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Quant au jour et à l'heure, personne ne les connaît, ni les anges, ni le Fils, mais le Père seul. Prenez garde, veillez et priez, car vous ne savez pas quand ce sera. Il en est comme d'un homme parti en voyage. Il laisse sa maison à ses serviteurs, confie à chacun sa tâche et ordonne au portier de veiller.",
+   "en": "As for that day and hour, no one knows it, not the angels, not the Son, but only the Father. Take heed, watch and pray, for you do not know when the time will come. It is like a man who went on a journey. He leaves his house to his servants, gives each one his task and commands the doorkeeper to keep watch."
+  },
+  "action": {
+   "fr": "Accomplis aujourd'hui avec soin la tâche qui t'est confiée, comme un serviteur qui attend son maître.",
+   "en": "Today, carry out carefully the task entrusted to you, like a servant awaiting his master."
+  },
+  "catholic": {
+   "fr": "La tradition catholique explique que le Fils, selon sa divinité, connaît toutes choses, mais que cette connaissance ne faisait pas partie de sa mission de révéler. Bède le Vénérable, cité dans la Catena Aurea, voit dans l'homme parti en voyage le Christ monté vers le Père, qui a laissé son Église à ses serviteurs. Saint Grégoire le Grand voit dans le voyage la chair du Christ placée au ciel.",
+   "en": "The Catholic tradition explains that the Son, according to his divinity, knows all things, but that this knowledge was not part of what his mission was to reveal. The Venerable Bede, quoted in the Catena Aurea, sees in the man who went on a journey Christ ascended to the Father, who left his Church to his servants. Saint Gregory the Great sees in the journey Christ's flesh placed in heaven."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce verset dans le sens où le Christ ne veut pas révéler ce jour. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que le Seigneur voulait empêcher ses disciples de l'interroger sur ce jour et cette heure. Il ajoute qu'il enseigne deux choses : la veille et la prière.",
+   "en": "The Orthodox tradition also reads this verse as meaning that Christ does not wish to reveal that day. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the Lord wished to prevent his disciples from asking about that day and hour. He adds that he teaches two things: watching and prayer."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici un appel à veiller et à prier, sans chercher à connaître le jour.",
+    "en": "Both traditions see here a call to watch and pray, without trying to know the day."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:34",
+    "usage": "quote",
+    "quote": "is Christ, who ascending as a conqueror to His Father after the resurrection, left His Church"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:34",
+    "usage": "quote",
+    "quote": "For the earth is properly the place for the flesh"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:32",
+    "usage": "quote",
+    "quote": "The Lord wishing to prevent His disciples from asking about that day and hour"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:33",
+    "usage": "quote",
+    "quote": "But He teaches us two things, watching and prayer"
+   }
+  ]
+ },
+ {
+  "key": "mrk-13-35-37",
+  "book": "MRK",
+  "chapterStart": 13,
+  "verseStart": 35,
+  "chapterEnd": 13,
+  "verseEnd": 37,
+  "category": "esperance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Veillez donc, dit Jésus, car vous ne savez pas quand viendra le maître de la maison : le soir, à minuit, au chant du coq ou le matin. Il ne faut pas qu'il vous trouve endormis en arrivant à l'improviste. Ce que je vous dis, je le dis à tous : veillez. La veille est une attente pleine d'amour.",
+   "en": "Watch therefore, says Jesus, for you do not know when the master of the house is coming: in the evening, at midnight, at cockcrow or in the morning. He must not find you sleeping when he comes suddenly. What I say to you, I say to all: watch. Watching is a waiting full of love."
+  },
+  "action": {
+   "fr": "Ce soir, avant de dormir, fais un court examen de ta journée devant Dieu.",
+   "en": "Tonight, before you sleep, make a short review of your day before God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette veille l'attitude de toute la vie chrétienne, que l'Avent rappelle chaque année. Saint Grégoire le Grand, cité dans la Catena Aurea, écrit que les pasteurs, et avec eux tous les fidèles, doivent garder la porte de leur cœur. Saint Augustin souligne que cette parole s'adresse à toutes les générations, jusqu'à nous.",
+   "en": "The Catholic tradition sees in this watching the attitude of the whole Christian life, which Advent recalls each year. Saint Gregory the Great, quoted in the Catena Aurea, writes that pastors, and with them all the faithful, must guard the door of their hearts. Saint Augustine stresses that this saying is addressed to every generation, down to us."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante pendant la Semaine sainte l'hymne de l'Époux qui vient au milieu de la nuit. Théophylacte d'Ohrid, cité dans la Catena Aurea, remarque que le Christ parle de notre ignorance, non de la sienne, car il était meilleur pour nous de ne pas savoir. Les quatre veilles figurent tous les âges de la vie.",
+   "en": "The Orthodox tradition sings during Holy Week the hymn of the Bridegroom who comes at midnight. Theophylact of Ohrid, quoted in the Catena Aurea, notes that Christ speaks of our ignorance, not his own, for it was better for us not to know. The four watches stand for all the ages of life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la veille l'attitude de toute la vie chrétienne, dans l'attente du Seigneur.",
+    "en": "Both traditions see in watching the attitude of the whole Christian life, awaiting the Lord."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:37",
+    "usage": "quote",
+    "quote": "but all are required to watch the doors of their hearts"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:37",
+    "usage": "quote",
+    "quote": "For He not only speaks to those in whose hearing He then spake"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:35",
+    "usage": "quote",
+    "quote": "See again that He has not said, I know not when the time will be, but, Ye know not"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 13",
+    "ref": "MRK 13:35",
+    "usage": "quote",
+    "quote": "Now all these ages must look out for the end"
+   }
+  ]
  }
 ]
