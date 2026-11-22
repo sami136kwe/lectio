@@ -3165,5 +3165,446 @@
     "quote": "For they did not call Him to their houses that He might heal them"
    }
   ]
+ },
+ {
+  "key": "mrk-7-1-4",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 1,
+  "chapterEnd": 7,
+  "verseEnd": 4,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Des pharisiens et des scribes venus de Jérusalem remarquent que des disciples mangent sans s'être lavé les mains. Marc explique ces rites de purification à ses lecteurs non juifs : on lavait les mains, les coupes et les vases. Ces gestes exprimaient le désir d'être pur devant Dieu. La question est de savoir où se trouve la vraie pureté.",
+   "en": "Pharisees and scribes from Jerusalem notice that some disciples eat without washing their hands. Mark explains these purification rites to his non-Jewish readers: hands, cups and pots were washed. These gestures expressed the wish to be pure before God. The question is where true purity lies."
+  },
+  "action": {
+   "fr": "Avant un repas aujourd'hui, demande à Dieu de purifier aussi ton cœur, pas seulement tes mains.",
+   "en": "Before a meal today, ask God to purify your heart too, not just your hands."
+  },
+  "catholic": {
+   "fr": "La tradition catholique respecte les rites qui expriment le désir de pureté, tout en rappelant qu'ils servent le cœur. Bède le Vénérable, cité dans la Catena Aurea, oppose les gens simples de Génésareth, qui apportent leurs malades au Seigneur, à ceux qui viennent pour discuter. La foi humble précède les débats sur les pratiques.",
+   "en": "The Catholic tradition respects rites that express the wish for purity, while recalling that they serve the heart. The Venerable Bede, quoted in the Catena Aurea, contrasts the simple people of Gennesaret, who bring their sick to the Lord, with those who come to argue. Humble faith comes before debates about practices."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe, très attachée aux rites, voit ici leur juste place. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que les disciples, formés seulement à la pratique de la vertu, mangeaient simplement. Le rite reste précieux tant qu'il conduit à la pureté intérieure.",
+   "en": "The Orthodox tradition, deeply attached to rites, sees here their right place. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the disciples, taught only the practice of virtue, ate in a simple way. Rite remains precious as long as it leads to inner purity."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici que les rites sont au service de la pureté du cœur.",
+    "en": "Both traditions see here that rites serve the purity of the heart."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:1",
+    "usage": "quote",
+    "quote": "The people of the land of Gennesareth, who seemed to be unlearned men"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:2",
+    "usage": "quote",
+    "quote": "who were taught only the practice of virtue, used to eat in a simple way"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-5-8",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 5,
+  "chapterEnd": 7,
+  "verseEnd": 8,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les pharisiens demandent pourquoi les disciples ne suivent pas la tradition des anciens. Jésus répond en citant Isaïe : « Ce peuple m'honore des lèvres, mais son cœur est éloigné de moi. » Il leur reproche de laisser le commandement de Dieu pour s'attacher à des traditions humaines. Le critère reste la Parole de Dieu.",
+   "en": "The Pharisees ask why the disciples do not follow the tradition of the elders. Jesus answers by quoting Isaiah: \"This people honors me with their lips, but their heart is far from me.\" He reproaches them for setting aside God's commandment to hold to human traditions. The measure remains the Word of God."
+  },
+  "action": {
+   "fr": "Pendant ta prière aujourd'hui, arrête-toi un instant pour vérifier que ton cœur suit tes lèvres.",
+   "en": "During your prayer today, stop for a moment to check that your heart is following your lips."
+  },
+  "catholic": {
+   "fr": "La tradition catholique distingue la Tradition apostolique, transmise avec l'Écriture, des coutumes humaines qui peuvent changer. Saint Jérôme, cité dans la Catena Aurea, s'étonne qu'on accuse le Fils de Dieu de ne pas garder des préceptes humains. Ce passage invite chaque génération à examiner ses habitudes religieuses.",
+   "en": "The Catholic tradition distinguishes the apostolic Tradition, handed on with Scripture, from human customs that can change. Saint Jerome, quoted in the Catena Aurea, marvels that the Son of God is accused of not keeping human precepts. This passage invites every generation to examine its religious habits."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe, qui se définit par la fidélité à la Tradition, distingue elle aussi la Tradition vivante de l'Église des simples coutumes. Pour elle, la Tradition est la vie de l'Esprit Saint dans l'Église, et non un ensemble d'usages extérieurs. L'honneur des lèvres doit devenir prière du cœur.",
+   "en": "The Orthodox tradition, which defines itself by faithfulness to Tradition, also distinguishes the living Tradition of the Church from mere customs. For it, Tradition is the life of the Holy Spirit in the Church, not a set of outward usages. Honour with the lips must become prayer of the heart."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions distinguent la Tradition reçue des apôtres des coutumes humaines, et appellent à une prière qui vienne du cœur.",
+    "en": "Both traditions distinguish the Tradition received from the apostles from human customs, and call for prayer that comes from the heart."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Jerome",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:5",
+    "usage": "quote",
+    "quote": "they accuse the Son of God, because He keeps not the traditions and precepts of men"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-9-13",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 9,
+  "chapterEnd": 7,
+  "verseEnd": 13,
+  "category": "amour-du-prochain",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus donne un exemple. Moïse a dit d'honorer son père et sa mère. Or certains déclaraient « corban », c'est-à-dire offert à Dieu, ce qu'ils auraient dû donner à leurs parents. Ils se dispensaient ainsi de les aider. Jésus y voit une manière d'annuler la parole de Dieu par une tradition humaine.",
+   "en": "Jesus gives an example. Moses said to honour one's father and mother. Yet some people declared \"Corban\", that is, offered to God, what they should have given their parents. They thus excused themselves from helping them. Jesus sees in this a way of cancelling God's word by a human tradition."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un geste concret pour un de tes parents ou une personne âgée de ta famille.",
+   "en": "Today, do something concrete for one of your parents or an elderly relative."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage le lien entre piété et devoirs de justice. Bède le Vénérable, cité dans la Catena Aurea, explique que, dans l'Écriture, honorer veut dire surtout aider et donner, plus que saluer. On ne peut servir Dieu en délaissant ses proches.",
+   "en": "The Catholic tradition sees in this passage the link between piety and duties of justice. The Venerable Bede, quoted in the Catena Aurea, explains that in Scripture honouring means above all helping and giving, more than greeting. One cannot serve God while neglecting one's own family."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne aussi que l'amour de Dieu se vérifie dans l'amour du prochain le plus proche. Les Pères rappellent qu'une offrande faite au détriment des parents ne plaît pas à Dieu. Le quatrième commandement reste un chemin de sainteté.",
+   "en": "The Orthodox tradition also stresses that love of God is proved in love of the nearest neighbour. The Fathers recall that an offering made at the expense of one's parents does not please God. The commandment to honour parents remains a path of holiness."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici que l'honneur dû aux parents passe par une aide concrète, que la piété ne peut remplacer.",
+    "en": "Both traditions see here that the honour owed to parents means concrete help, which piety cannot replace."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:10",
+    "usage": "quote",
+    "quote": "The sense of the word honour in Scripture is not so much the saluting and paying court to men, as alms-giving"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-14-17",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 14,
+  "chapterEnd": 7,
+  "verseEnd": 17,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus rappelle la foule et dit : « Écoutez-moi tous, et comprenez. » Rien de ce qui entre dans l'homme depuis l'extérieur ne peut le rendre impur. C'est ce qui sort de lui qui le rend impur. De retour à la maison, les disciples l'interrogent sur cette parole, qui leur paraît une énigme.",
+   "en": "Jesus calls the crowd again and says, \"Hear me, all of you, and understand.\" Nothing that enters a person from outside can make them unclean. It is what comes out of them that makes them unclean. Back in the house, the disciples question him about this saying, which seems a riddle to them."
+  },
+  "action": {
+   "fr": "Observe aujourd'hui les paroles qui sortent de ta bouche, et retiens-en une qui blesse.",
+   "en": "Watch the words that come out of your mouth today, and hold back one that hurts."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces versets le passage de la pureté rituelle à la pureté morale. Bède le Vénérable, cité dans la Catena Aurea, note qu'est mauvais auditeur celui qui prend une parole obscure pour claire, ou une parole claire pour obscure. Les disciples ont raison d'interroger Jésus.",
+   "en": "The Catholic tradition sees in these verses the move from ritual purity to moral purity. The Venerable Bede, quoted in the Catena Aurea, notes that a faulty hearer takes an obscure saying for a clear one, or a clear saying for an obscure one. The disciples are right to question Jesus."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y voit l'ouverture du sens spirituel de la Loi. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Seigneur enseignait que les règles alimentaires ne devaient pas être prises au sens charnel. Le jeûne orthodoxe garde son sens : il purifie le cœur, non la nourriture.",
+   "en": "The Orthodox tradition sees here the opening of the spiritual meaning of the Law. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the Lord taught that food laws should not be taken in a carnal sense. Orthodox fasting keeps its meaning: it purifies the heart, not the food."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la vraie pureté située dans le cœur et le sens spirituel de la Loi.",
+    "en": "Both traditions see here true purity located in the heart, and the spiritual meaning of the Law."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:17",
+    "usage": "quote",
+    "quote": "that man is a faulty hearer who considers what is obscure to be a clear speech"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:15",
+    "usage": "quote",
+    "quote": "should not be taken in a carnal sense"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-18-20",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 18,
+  "chapterEnd": 7,
+  "verseEnd": 20,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus s'étonne que les disciples ne comprennent pas. Ce qui entre dans l'homme va dans son ventre, non dans son cœur, puis est évacué. Marc ajoute que Jésus déclarait ainsi purs tous les aliments. Ce qui rend l'homme impur, c'est ce qui sort de lui.",
+   "en": "Jesus is surprised that the disciples do not understand. What enters a person goes into the stomach, not the heart, and then passes out. Mark adds that Jesus thus declared all foods clean. What makes a person unclean is what comes out of them."
+  },
+  "action": {
+   "fr": "Rends grâce aujourd'hui pour la nourriture reçue, comme un don bon de Dieu.",
+   "en": "Give thanks today for the food you have received, as a good gift from God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage la liberté chrétienne à l'égard des interdits alimentaires. Bède le Vénérable, cité dans la Catena Aurea, conclut que ce n'est pas la nourriture qui rend impur, mais la méchanceté qui agit en nous. Saint Augustin médite aussi sur la nourriture transformée en notre corps.",
+   "en": "The Catholic tradition sees in this passage Christian freedom with regard to food laws. The Venerable Bede, quoted in the Catena Aurea, concludes that it is not food that makes us unclean, but the wickedness at work in us. Saint Augustine also reflects on food being turned into our body."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe, qui pratique de nombreux jeûnes, comprend aussi que la nourriture n'est pas impure en elle-même. Le jeûne est une ascèse pour la liberté intérieure, non une règle de pureté. Toute nourriture est bénie et reçue avec action de grâce.",
+   "en": "The Orthodox tradition, which keeps many fasts, also understands that food is not unclean in itself. Fasting is an ascetic practice for inner freedom, not a rule of purity. All food is blessed and received with thanksgiving."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici tous les aliments déclarés purs et le jeûne comme une ascèse, non une règle de pureté.",
+    "en": "Both traditions see here all foods declared clean, and fasting as an ascetic practice, not a purity rule."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:20",
+    "usage": "quote",
+    "quote": "it is not meat that makes men unclean, but wickedness"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:19",
+    "usage": "quote",
+    "quote": "food, losing its former appearance, is both itself turned into our body"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-21-24",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 21,
+  "chapterEnd": 7,
+  "verseEnd": 24,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "C'est du cœur que sortent les mauvaises pensées, puis les actes qui en découlent : adultères, vols, meurtres, cupidité, fraude, envie, calomnie, orgueil. Tout cela rend l'homme impur. Puis Jésus part vers la région de Tyr. Il voudrait rester caché, mais il ne peut pas.",
+   "en": "From the heart come evil thoughts, then the acts that follow: adultery, theft, murder, greed, deceit, envy, slander, pride. All of this makes a person unclean. Then Jesus leaves for the region of Tyre. He would like to stay hidden, but he cannot."
+  },
+  "action": {
+   "fr": "Ce soir, repère une mauvaise pensée de la journée et dis-la à Dieu avant qu'elle ne devienne un acte.",
+   "en": "Tonight, spot one bad thought from the day and tell it to God before it turns into an act."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette liste l'origine du péché dans la liberté humaine. Bède le Vénérable, cité dans la Catena Aurea, précise que le diable peut exciter et aider les mauvaises pensées, mais qu'il ne peut en être l'auteur. L'examen de conscience commence par le cœur.",
+   "en": "The Catholic tradition sees in this list the origin of sin in human freedom. The Venerable Bede, quoted in the Catena Aurea, makes clear that the devil may excite and help on evil thoughts, but cannot be their author. The examination of conscience begins with the heart."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe a développé une grande science des pensées, les logismoi, à partir de ces versets. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que le regard mauvais désigne la haine et la flatterie. La vigilance du cœur arrête la pensée avant qu'elle ne devienne passion.",
+   "en": "The Orthodox tradition developed a deep science of thoughts, the logismoi, from these verses. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the evil eye means hatred and flattery. Watchfulness of the heart stops the thought before it becomes a passion."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le cœur comme la source du bien et du mal, et la vigilance comme un remède.",
+    "en": "Both traditions see here the heart as the source of good and evil, and watchfulness as a remedy."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:21",
+    "usage": "quote",
+    "quote": "The devil may excite and help on evil thoughts, he cannot be their author."
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:22",
+    "usage": "quote",
+    "quote": "An evil eye, that is, hatred and flattery"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-25-28",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 25,
+  "chapterEnd": 7,
+  "verseEnd": 28,
+  "category": "foi-doute",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Une femme païenne, d'origine syro-phénicienne, se jette aux pieds de Jésus et le supplie de délivrer sa fille. Jésus lui répond par une image dure : on ne donne pas le pain des enfants aux petits chiens. Elle ne se décourage pas. Même les petits chiens, dit-elle, mangent les miettes sous la table. Sa réponse est pleine d'humilité et d'esprit.",
+   "en": "A pagan woman of Syrophoenician origin falls at Jesus' feet and begs him to free her daughter. Jesus answers with a harsh image: the children's bread is not thrown to the little dogs. She does not lose heart. Even the little dogs, she says, eat the crumbs under the table. Her reply is full of humility and wit."
+  },
+  "action": {
+   "fr": "Quand ta prière semble sans réponse, persévère comme cette mère, avec humilité.",
+   "en": "When your prayer seems unanswered, persevere like this mother, with humility."
+  },
+  "catholic": {
+   "fr": "La tradition catholique admire la foi persévérante de cette femme, qui reçoit plus qu'elle ne demande. Bède le Vénérable, cité dans la Catena Aurea, explique que le salut devait être offert d'abord à Israël, puis aux nations. La parole de Jésus éprouve la foi pour la révéler.",
+   "en": "The Catholic tradition admires the persevering faith of this woman, who receives more than she asks for. The Venerable Bede, quoted in the Catena Aurea, explains that salvation was to be offered first to Israel, then to the nations. Jesus' word tests faith in order to reveal it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi en elle un modèle de prière humble. Théophylacte d'Ohrid, cité dans la Catena Aurea, lui fait dire qu'elle demande seulement les miettes, c'est-à-dire une petite part du bienfait. Cette humilité ouvre la porte à la grâce.",
+   "en": "The Orthodox tradition also sees in her a model of humble prayer. Theophylact of Ohrid, quoted in the Catena Aurea, has her say that she asks only for the crumbs, that is, a small portion of the benefit. This humility opens the door to grace."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions admirent la foi humble et persévérante de cette païenne, qui annonce le salut offert à toutes les nations.",
+    "en": "Both traditions admire the humble, persevering faith of this pagan woman, which announces salvation offered to all nations."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:27",
+    "usage": "quote",
+    "quote": "The time will come when even you who are Gentiles will obtain salvation"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:28",
+    "usage": "quote",
+    "quote": "I ask for the crumbs, that is, a small portion of the benefit"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-29-32",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 29,
+  "chapterEnd": 7,
+  "verseEnd": 32,
+  "category": "bapteme",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "À cause de cette parole, Jésus lui annonce que le démon a quitté sa fille. Rentrée chez elle, elle trouve l'enfant couchée sur le lit, délivrée. Jésus revient vers la mer de Galilée par la Décapole. On lui amène un sourd qui parle difficilement, et on le prie de lui imposer la main.",
+   "en": "Because of her words, Jesus tells her that the demon has left her daughter. Back home, she finds the child lying on the bed, set free. Jesus returns to the Sea of Galilee through the Decapolis. They bring him a deaf man who can hardly speak, and beg him to lay his hand on him."
+  },
+  "action": {
+   "fr": "Présente aujourd'hui à Dieu un enfant ou un proche qui ne peut pas prier par lui-même.",
+   "en": "Today, present to God a child or a relative who cannot pray for themselves."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la foi de la mère, qui obtient la guérison de sa fille, un appui pour le baptême des petits enfants. Bède le Vénérable, cité dans la Catena Aurea, y voit un précédent : par la foi et la confession des parents, les enfants sont libérés dans le baptême. Ceux qui amènent le sourd jouent le même rôle.",
+   "en": "The Catholic tradition sees in the mother's faith, which obtains her daughter's healing, support for the baptism of little children. The Venerable Bede, quoted in the Catena Aurea, sees here a precedent: through the faith and confession of the parents, infants are freed in baptism. Those who bring the deaf man play the same role."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe baptise aussi les petits enfants, dans la foi de leurs parents et parrains. Elle les fait communier dès le baptême, ce qui exprime pleinement leur place dans l'Église. Intercéder pour ceux qui ne peuvent pas parler est un service de l'amour.",
+   "en": "The Orthodox tradition also baptises little children, in the faith of their parents and godparents. It gives them communion from baptism onward, which fully expresses their place in the Church. Interceding for those who cannot speak is a service of love."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions baptisent les petits enfants dans la foi de l'Église ; l'Orient leur donne aussi la communion dès le baptême.",
+    "en": "Both traditions baptise little children in the faith of the Church; the East also gives them communion from baptism onward."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:30",
+    "usage": "quote",
+    "quote": "here is given a precedent for catechising and baptizing infants"
+   }
+  ]
+ },
+ {
+  "key": "mrk-7-33-37",
+  "book": "MRK",
+  "chapterStart": 7,
+  "verseStart": 33,
+  "chapterEnd": 7,
+  "verseEnd": 37,
+  "category": "bapteme",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus prend le sourd à part, lui met les doigts dans les oreilles et lui touche la langue avec sa salive. Levant les yeux au ciel, il soupire et dit : « Éphphatha », c'est-à-dire « ouvre-toi ». Aussitôt l'homme entend et parle correctement. Jésus demande le silence, mais plus il insiste, plus on le proclame. « Il fait entendre les sourds et parler les muets. »",
+   "en": "Jesus takes the deaf man aside, puts his fingers in his ears and touches his tongue with his saliva. Looking up to heaven, he sighs and says, \"Ephphatha!\", that is, \"Be opened!\" At once the man hears and speaks clearly. Jesus asks for silence, but the more he insists, the more they proclaim it. \"He makes even the deaf hear, and the mute speak!\""
+  },
+  "action": {
+   "fr": "Demande aujourd'hui que s'ouvrent en toi l'oreille pour écouter Dieu et la bouche pour le louer.",
+   "en": "Ask today that your ear be opened to listen to God and your mouth to praise him."
+  },
+  "catholic": {
+   "fr": "La tradition catholique a repris ce geste dans la liturgie du baptême, avec le rite de l'Effetah sur les oreilles et la bouche. Les gestes concrets de Jésus montrent que la grâce passe par son corps, comme elle passe par les sacrements. Le soupir de Jésus exprime sa compassion.",
+   "en": "The Catholic tradition took up this gesture in the baptismal liturgy, with the Ephphatha rite over the ears and mouth. Jesus' concrete gestures show that grace passes through his body, as it passes through the sacraments. Jesus' sigh expresses his compassion."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe oint du saint chrême, à la chrismation, les oreilles et la bouche des nouveaux baptisés. Théophylacte d'Ohrid, cité dans la Catena Aurea, tire une leçon de la consigne de silence : ne pas chercher la louange quand on fait du bien, mais louer ses bienfaiteurs. La création est guérie par le contact du Verbe incarné.",
+   "en": "The Orthodox tradition anoints the ears and mouth of the newly baptised with holy chrism at chrismation. Theophylact of Ohrid, quoted in the Catena Aurea, draws a lesson from the order to keep silent: do not seek praise when doing good, but praise your benefactors. Creation is healed by the touch of the incarnate Word."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions retrouvent ce geste dans leurs rites d'initiation et y voient la grâce donnée par l'humanité du Christ.",
+    "en": "Both traditions find this gesture in their rites of initiation and see in it grace given through Christ's humanity."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 7",
+    "ref": "MRK 7:36",
+    "usage": "quote",
+    "quote": "when we confer benefits on any, by no means to seek for applause and praise"
+   }
+  ]
  }
 ]
