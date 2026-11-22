@@ -776,5 +776,442 @@
     "quote": "the true King and Priest, and Lord of the sabbath"
    }
   ]
+ },
+ {
+  "key": "mrk-3-1-4",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 1,
+  "chapterEnd": 3,
+  "verseEnd": 4,
+  "category": "miracles",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Dans la synagogue se trouve un homme à la main paralysée. Certains observent Jésus pour voir s'il le guérira le jour du sabbat, afin de l'accuser. Jésus place l'homme au milieu. Puis il pose la question : « Est-il permis, le jour du sabbat, de faire du bien ou de faire du mal, de sauver une personne ou de la tuer? » Personne ne répond.",
+   "en": "In the synagogue there is a man with a withered hand. Some watch Jesus to see whether he will heal him on the Sabbath, so as to accuse him. Jesus puts the man in the middle. Then he asks: \"Is it lawful on the Sabbath day to do good or to do harm? To save a life or to kill?\" No one answers."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un bien que tu remets depuis longtemps, sans attendre le bon moment.",
+   "en": "Do today a good deed you have been putting off for a long time, without waiting for the right moment."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ici la priorité de la charité : la Loi est donnée pour faire le bien. Bède le Vénérable, cité dans la Catena Aurea, remarque que les adversaires surveillent Jésus pour le prendre en faute après qu'il a justifié ses disciples. Le silence qui suit montre un cœur qui ne veut pas se laisser interroger.",
+   "en": "The Catholic tradition reads here the priority of charity: the Law is given for doing good. The Venerable Bede, quoted in the Catena Aurea, notes that his opponents watch Jesus to catch him out after he has defended his disciples. The silence that follows shows a heart unwilling to be questioned."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe donne aussi à cette main desséchée un sens spirituel. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'une main employée à des actes défendus se dessèche pour le bien, et qu'elle est rendue à la vie quand elle se tient ferme dans la vertu. Le Christ guérit pour que l'homme agisse de nouveau.",
+   "en": "The Orthodox tradition also gives this withered hand a spiritual meaning. Theophylact of Ohrid, quoted in the Catena Aurea, writes that a hand used for forbidden deeds withers for doing good, and is brought back to life when it stands firm in virtue. Christ heals so that a person may act again."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la Loi accomplie dans la charité et la guérison qui rend l'homme capable de faire le bien.",
+    "en": "Both traditions see here the Law fulfilled in charity and a healing that makes a person able to do good again."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:2",
+    "usage": "paraphrase"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:1",
+    "usage": "quote",
+    "quote": "from the time that our hand is employed in forbidden deeds, from that time it is withered to the working of good"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-5-8",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 5,
+  "chapterEnd": 3,
+  "verseEnd": 8,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus regarde ses adversaires avec colère, attristé par la dureté de leur cœur. Il dit à l'homme : « Étends ta main. » La main est guérie. Aussitôt, des pharisiens se concertent avec les partisans d'Hérode pour le faire périr. Jésus se retire vers le lac, et des foules arrivent de toute la région, jusqu'à Tyr et Sidon. Marc vise ici un groupe précis de responsables, pas le peuple juif.",
+   "en": "Jesus looks at his opponents with anger, grieved by the hardness of their hearts. He tells the man, \"Stretch out your hand.\" The hand is healed. At once some Pharisees plot with Herod's supporters to destroy him. Jesus withdraws to the lake, and crowds come from the whole region, as far as Tyre and Sidon. Mark is speaking here of a specific group of leaders, not of the Jewish people."
+  },
+  "action": {
+   "fr": "Quand une colère te prend, demande-toi si elle vient d'un amour blessé ou d'un orgueil blessé.",
+   "en": "When anger rises in you, ask yourself whether it comes from wounded love or wounded pride."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que la colère de Jésus est mêlée de tristesse : elle vise l'endurcissement, jamais la personne. Bède le Vénérable, cité dans la Catena Aurea, explique que Jésus se retire parce que l'heure de sa Passion n'était pas encore venue. Il donne ainsi l'exemple d'une prudence qui ne fuit pas la mission.",
+   "en": "The Catholic tradition notes that Jesus' anger is mixed with sorrow: it targets hardness of heart, never the person. The Venerable Bede, quoted in the Catena Aurea, explains that Jesus withdraws because the hour of his Passion had not yet come. He thus gives an example of prudence that does not flee the mission."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans le retrait de Jésus un choix de faire le bien ailleurs. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'en quittant les ingrats, il pouvait faire du bien à un plus grand nombre. Les foules venues de loin annoncent une Église ouverte à toutes les nations.",
+   "en": "The Orthodox tradition sees in Jesus' withdrawal a choice to do good elsewhere. Theophylact of Ohrid, quoted in the Catena Aurea, writes that by leaving the ungrateful he could do good to more people. The crowds coming from afar announce a Church open to all nations."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ce passage une colère sainte contre l'endurcissement et un Christ qui poursuit sa mission.",
+    "en": "Both traditions see in this passage a holy anger against hardness of heart and a Christ who carries on his mission."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:7",
+    "usage": "quote",
+    "quote": "He fled from their treachery, because the hour of His passion had not yet come"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:7",
+    "usage": "quote",
+    "quote": "that by quitting the ungrateful He might do good to more"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-9-12",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 9,
+  "chapterEnd": 3,
+  "verseEnd": 12,
+  "category": "miracles",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "La foule est telle que Jésus demande qu'une barque reste prête. Les malades se jettent sur lui pour le toucher. Les esprits impurs, eux, se prosternent et crient qu'il est le Fils de Dieu. Jésus leur interdit sévèrement de le faire connaître : il ne veut pas d'un titre proclamé par eux, ni d'une gloire mal comprise.",
+   "en": "The crowd is so large that Jesus asks for a boat to be kept ready. The sick throw themselves on him to touch him. The unclean spirits fall down and cry out that he is the Son of God. Jesus sternly forbids them to make him known: he wants no title proclaimed by them, nor a glory misunderstood."
+  },
+  "action": {
+   "fr": "Touche aujourd'hui un objet de prière (une croix, une icône, un chapelet) en demandant d'être guéri de ce qui te pèse.",
+   "en": "Today, hold an object of prayer (a cross, an icon, a rosary) and ask to be healed of what weighs on you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le désir de toucher Jésus l'intuition que la grâce passe par son humanité, comme elle passe aujourd'hui par les sacrements. La confession de foi des démons, juste mais sans amour, montre que savoir qui est le Christ ne suffit pas. La foi véritable est confiance et obéissance.",
+   "en": "The Catholic tradition sees in the wish to touch Jesus an intuition that grace passes through his humanity, as it passes today through the sacraments. The demons' confession, correct but loveless, shows that knowing who Christ is is not enough. True faith is trust and obedience."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne l'humilité du Christ, qui cache sa gloire. Théophylacte d'Ohrid, cité dans la Catena Aurea, invite à remarquer comment il cache sa gloire en demandant une simple barque. Le contact avec le Christ est compris comme une participation à sa sainteté, que l'Église prolonge dans les sacrements et la vénération des icônes.",
+   "en": "The Orthodox tradition stresses the humility of Christ, who hides his glory. Theophylact of Ohrid, quoted in the Catena Aurea, invites us to notice how he hides his glory by asking for a simple boat. Contact with Christ is understood as a share in his holiness, which the Church extends through the sacraments and the veneration of icons."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'humanité du Christ par laquelle la grâce rejoint les hommes, et son refus d'une gloire mal comprise.",
+    "en": "Both traditions see here Christ's humanity through which grace reaches people, and his refusal of a misunderstood glory."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:9",
+    "usage": "quote",
+    "quote": "Consider then how He hid His glory"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-13-15",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 13,
+  "chapterEnd": 3,
+  "verseEnd": 15,
+  "category": "apotres",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus monte sur la montagne et appelle ceux qu'il veut. Il en institue douze. Marc donne deux raisons : être avec lui, et être envoyés prêcher avec le pouvoir de chasser les démons. Le nombre douze rappelle les douze tribus d'Israël et annonce un peuple rassemblé de nouveau.",
+   "en": "Jesus goes up the mountain and calls those he wants. He appoints twelve. Mark gives two reasons: to be with him, and to be sent out to preach with authority to cast out demons. The number twelve recalls the twelve tribes of Israel and announces a people gathered anew."
+  },
+  "action": {
+   "fr": "Avant d'agir pour les autres cette semaine, prends un temps pour « être avec » le Christ, dans le silence.",
+   "en": "Before acting for others this week, take time to simply \"be with\" Christ in silence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'institution des Douze le fondement du ministère apostolique, transmis aux évêques. Bède le Vénérable, cité dans la Catena Aurea, rapproche les Douze des douze tribus campées autour de la Tente, trois de chaque côté. Être avec le Christ précède toujours l'envoi.",
+   "en": "The Catholic tradition sees in the appointment of the Twelve the foundation of the apostolic ministry, handed on to the bishops. The Venerable Bede, quoted in the Catena Aurea, compares the Twelve to the twelve tribes camped around the Tent, three on each side. Being with Christ always comes before being sent."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans les Douze le fondement de l'Église et de la succession apostolique des évêques. La montagne y est le lieu de la rencontre avec Dieu, comme pour Moïse. La mission naît de la communion avec le Christ, et la prédication est inséparable du combat contre le mal.",
+   "en": "The Orthodox tradition also sees in the Twelve the foundation of the Church and of the apostolic succession of bishops. The mountain is the place of meeting with God, as it was for Moses. Mission is born of communion with Christ, and preaching cannot be separated from the struggle against evil."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions fondent sur ce passage la mission des apôtres et la succession apostolique des évêques.",
+    "en": "Both traditions ground in this passage the mission of the apostles and the apostolic succession of bishops."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:14",
+    "usage": "paraphrase"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-16-19",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 16,
+  "chapterEnd": 3,
+  "verseEnd": 19,
+  "category": "apotres",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Marc donne la liste des Douze. Simon reçoit le nom de Pierre, et Jacques et Jean celui de Boanergès, « fils du tonnerre ». La liste se termine par Judas Iscariot, « celui qui livra Jésus ». Ces noms montrent un groupe très divers, où se côtoient des pêcheurs, un ancien collecteur de taxes et un Simon surnommé le Zélote.",
+   "en": "Mark gives the list of the Twelve. Simon is given the name Peter, and James and John the name Boanerges, \"Sons of Thunder\". The list ends with Judas Iscariot, the one who betrayed Jesus. These names show a very mixed group, with fishermen, a former tax collector and a Simon called the Zealot side by side."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour une personne de ta communauté avec qui tu as peu d'affinités.",
+   "en": "Pray today for someone in your community with whom you have little in common."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que Pierre est nommé en premier, comme dans toutes les listes des Douze, et voit dans son nouveau nom le signe d'une mission particulière. La diversité des apôtres montre que l'unité de l'Église ne repose pas sur les ressemblances humaines. La présence de Judas rappelle que l'appel n'enlève pas la liberté.",
+   "en": "The Catholic tradition notes that Peter is named first, as in every list of the Twelve, and sees in his new name the sign of a particular mission. The variety of the apostles shows that the Church's unity does not rest on human likeness. The presence of Judas recalls that being called does not take away freedom."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore les Douze ensemble comme les colonnes de l'Église. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que Judas est compté parmi eux pour apprendre que Dieu ne repousse personne à cause d'une méchanceté encore à venir. Chaque nom de la liste rappelle une histoire de grâce et de liberté.",
+   "en": "The Orthodox tradition honours the Twelve together as the pillars of the Church. Theophylact of Ohrid, quoted in the Catena Aurea, explains that Judas is counted among them to teach that God turns no one away for a wickedness that is still to come. Each name on the list recalls a story of grace and freedom."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent les Douze et voient dans leur diversité l'œuvre de la grâce.",
+    "en": "Both traditions honour the Twelve and see the work of grace in their variety."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:19",
+    "usage": "quote",
+    "quote": "God does not repel any man for wickedness, which is future"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-20-23",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 20,
+  "chapterEnd": 3,
+  "verseEnd": 23,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La foule est si nombreuse que Jésus et les siens ne peuvent même pas manger. Ses proches viennent pour s'emparer de lui, car ils disent : « Il est hors de sens. » Des scribes venus de Jérusalem l'accusent d'agir par le prince des démons. Jésus répond par une question simple. Comment Satan pourrait-il chasser Satan ?",
+   "en": "The crowd is so large that Jesus and his companions cannot even eat. His relatives come to take hold of him, for they say, \"He is insane.\" Scribes from Jerusalem accuse him of acting through the prince of demons. Jesus answers with a simple question. How could Satan cast out Satan?"
+  },
+  "action": {
+   "fr": "Si l'on se moque de ta foi, réponds une fois par la douceur plutôt que par la défense.",
+   "en": "If someone mocks your faith, answer once with gentleness rather than defence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage le prix de la mission : Jésus est incompris jusque par ses proches. Bède le Vénérable, cité dans la Catena Aurea, admire cette foule si avide de salut qu'elle ne laisse pas à l'auteur du salut une heure pour manger. L'accusation des scribes montre jusqu'où peut aller le refus de voir l'œuvre de Dieu.",
+   "en": "The Catholic tradition sees in this passage the cost of the mission: Jesus is misunderstood even by his own relatives. The Venerable Bede, quoted in the Catena Aurea, admires this crowd so eager for salvation that it does not leave the author of salvation an hour to eat. The scribes' charge shows how far the refusal to see God's work can go."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi l'incompréhension des proches comme un signe de la condescendance du Christ, qui accepte d'être pris pour un fou. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que ses proches voulaient le saisir pour l'enfermer comme un homme possédé. Les saints fous pour le Christ vénérés en Orient ont suivi ce chemin d'humiliation.",
+   "en": "The Orthodox tradition also reads the relatives' misunderstanding as a sign of Christ's condescension, who accepts being taken for a madman. Theophylact of Ohrid, quoted in the Catena Aurea, explains that his relatives wanted to seize him and shut him up as a possessed man. The \"fools for Christ\" venerated in the East have followed this path of humiliation."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ incompris des siens et accusé à tort, qui reste fidèle à sa mission.",
+    "en": "Both traditions see here Christ misunderstood by his own and falsely accused, yet faithful to his mission."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:20",
+    "usage": "quote",
+    "quote": "they left not the Author of salvation even an hour free to take food"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:21",
+    "usage": "paraphrase"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-24-27",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 24,
+  "chapterEnd": 3,
+  "verseEnd": 27,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus poursuit avec deux images. Un royaume ou une maison divisés contre eux-mêmes ne peuvent tenir ; si Satan se combattait lui-même, ce serait sa fin. Puis vient l'image de l'homme fort : pour piller sa maison, il faut d'abord le lier. Jésus se présente ainsi comme plus fort que le mal, qui libère ceux qu'il tenait.",
+   "en": "Jesus goes on with two images. A kingdom or a house divided against itself cannot stand; if Satan fought himself, that would be his end. Then comes the image of the strong man: to plunder his house, you must first bind him. Jesus thus presents himself as stronger than evil, freeing those it held."
+  },
+  "action": {
+   "fr": "Repère une division intérieure (entre ce que tu dis et ce que tu fais) et choisis un geste pour la réduire.",
+   "en": "Spot one inner division (between what you say and what you do) and choose one act to reduce it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le Christ celui qui a lié l'homme fort par sa mort et sa résurrection. Bède le Vénérable, cité dans la Catena Aurea, explique que le Seigneur a lié le diable en l'empêchant de séduire les élus, et lui a arraché les hommes qu'il retenait. L'unité de l'Église est aussi un signe contre les divisions que le mal entretient.",
+   "en": "The Catholic tradition sees in Christ the one who bound the strong man by his death and resurrection. The Venerable Bede, quoted in the Catena Aurea, explains that the Lord bound the devil by stopping him from leading the elect astray, and snatched away the people he held. The Church's unity is also a sign against the divisions that evil keeps alive."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime chanter le Christ descendu aux enfers pour briser les liens de l'ennemi. Théophylacte d'Ohrid, cité dans la Catena Aurea, résume l'image : le diable est l'homme fort, et ses biens sont les hommes qu'il possède. Le Christ le vainc pour rendre l'homme à Dieu.",
+   "en": "The Orthodox tradition loves to sing of Christ descending into Hades to break the enemy's chains. Theophylact of Ohrid, quoted in the Catena Aurea, sums up the image: the devil is the strong man, and his goods are the people he possesses. Christ defeats him to give humanity back to God."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le Christ celui qui a lié l'homme fort et libéré l'humanité.",
+    "en": "Both traditions see in Christ the one who bound the strong man and set humanity free."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:27",
+    "usage": "paraphrase"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:27",
+    "usage": "quote",
+    "quote": "The devil is the strong man"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-28-31",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 28,
+  "chapterEnd": 3,
+  "verseEnd": 31,
+  "category": "repentir-pardon",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Jésus affirme que tous les péchés et blasphèmes seront pardonnés, sauf le blasphème contre l'Esprit Saint. Marc précise le contexte : on venait d'attribuer au démon l'œuvre de l'Esprit en Jésus. Ce péché désigne donc le refus délibéré de reconnaître l'action de Dieu. Puis arrivent sa mère et ses frères, qui le font appeler.",
+   "en": "Jesus declares that every sin and blasphemy will be forgiven, except blasphemy against the Holy Spirit. Mark gives the context: the Spirit's work in Jesus had just been put down to a demon. This sin therefore means the deliberate refusal to recognise God's action. Then his mother and brothers arrive and send for him."
+  },
+  "action": {
+   "fr": "Si tu crains d'avoir commis une faute impardonnable, ose en parler à un prêtre : le désir même du pardon est déjà un signe de la grâce.",
+   "en": "If you fear you have committed an unforgivable sin, dare to speak of it to a priest: the very wish to be forgiven is already a sign of grace."
+  },
+  "catholic": {
+   "fr": "La tradition catholique enseigne que le blasphème contre l'Esprit est le refus délibéré d'accueillir la miséricorde de Dieu par le repentir. La miséricorde divine n'a pas de limites, mais celui qui s'y ferme se prive lui-même du pardon. Celui qui s'inquiète de l'avoir commis montre, par son inquiétude, qu'il ne l'a pas commis.",
+   "en": "The Catholic tradition teaches that blasphemy against the Spirit is the deliberate refusal to accept God's mercy through repentance. Divine mercy has no limits, but whoever closes themselves to it is cut off from forgiveness. Someone worried about having committed it shows, by that worry, that they have not."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce péché comme un endurcissement fermé à la conversion. Théophylacte d'Ohrid, cité dans la Catena Aurea, précise que le pardon n'est pas obtenu sans repentir. Dieu ne cesse pas d'offrir sa miséricorde, mais l'homme peut s'y fermer jusqu'au bout.",
+   "en": "The Orthodox tradition also reads this sin as a hardening closed to conversion. Theophylact of Ohrid, quoted in the Catena Aurea, makes clear that forgiveness is not obtained without repentance. God never stops offering his mercy, but a person can close themselves to it to the end."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions comprennent ce péché comme le refus obstiné de la miséricorde, et non comme une faute qu'un cœur repentant ne pourrait réparer.",
+    "en": "Both traditions understand this sin as the stubborn refusal of mercy, not as a fault that a repentant heart could not put right."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:28",
+    "usage": "quote",
+    "quote": "they will not obtain pardon unless they repent"
+   }
+  ]
+ },
+ {
+  "key": "mrk-3-32-35",
+  "book": "MRK",
+  "chapterStart": 3,
+  "verseStart": 32,
+  "chapterEnd": 3,
+  "verseEnd": 35,
+  "category": "marie-vie-de-jesus",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "On annonce à Jésus que sa mère et ses frères le cherchent dehors. Il regarde ceux qui sont assis autour de lui et les désigne comme sa mère et ses frères. Quiconque fait la volonté de Dieu devient sa famille. Le mot « frère » désignait aussi, à l'époque, des cousins ou d'autres proches, et son sens ici est discuté.",
+   "en": "Jesus is told that his mother and brothers are outside looking for him. He looks at those sitting around him and answers, \"Behold, my mother and my brothers!\" Whoever does God's will becomes his family. At the time the word \"brother\" could also mean cousins or other relatives, and its meaning here is debated."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un acte précis de la volonté de Dieu telle que tu la comprends, et offre-le.",
+   "en": "Today, do one specific act of God's will as you understand it, and offer it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique confesse la virginité perpétuelle de Marie et comprend ces « frères » comme des proches. Bède le Vénérable, cité dans la Catena Aurea, écrit qu'ils doivent être compris comme ses parents. Marie y est vue comme la première à faire la volonté de Dieu, et donc doublement mère.",
+   "en": "The Catholic tradition confesses Mary's perpetual virginity and understands these \"brothers\" as relatives. The Venerable Bede, quoted in the Catena Aurea, writes that they must be understood to be his relations. Mary is seen as the first to do God's will, and so a mother twice over."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse aussi Marie toujours vierge. Une lecture ancienne, largement reçue en Orient, voit dans ces frères des enfants de Joseph nés d'un premier mariage. Saint Jean Chrysostome, cité dans la Catena Aurea, note que ses proches viennent par respect et par affection.",
+   "en": "The Orthodox tradition also confesses Mary ever-virgin. An ancient reading, widely received in the East, sees these brothers as children of Joseph from an earlier marriage. Saint John Chrysostom, quoted in the Catena Aurea, notes that his relatives come out of reverence and affection."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent la virginité perpétuelle de Marie ; elles expliquent les « frères » de Jésus de deux façons, cousins ou enfants d'un premier mariage de Joseph.",
+    "en": "Both traditions confess Mary's perpetual virginity; they explain Jesus' \"brothers\" in two ways, as cousins or as children of Joseph's earlier marriage."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:31",
+    "usage": "quote",
+    "quote": "they must be understood to be His relations"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 3",
+    "ref": "MRK 3:31",
+    "usage": "quote",
+    "quote": "because He was beloved by them, they come from reverence and affection"
+   }
+  ]
  }
 ]
