@@ -2095,5 +2095,903 @@
    }
   },
   "sources": []
+ },
+ {
+  "key": "rev-12-1-4",
+  "book": "REV",
+  "chapterStart": 12,
+  "verseStart": 1,
+  "chapterEnd": 12,
+  "verseEnd": 4,
+  "category": "marie-vie-de-jesus",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un grand signe paraît dans le ciel : une femme enveloppée du soleil, la lune sous ses pieds, couronnée de douze étoiles. Elle est enceinte et crie dans les douleurs de l'enfantement. Un autre signe apparaît. Un grand dragon rouge, à sept têtes et dix cornes, se dresse devant elle pour dévorer son enfant dès sa naissance.",
+   "en": "A great sign appears in heaven: a woman clothed with the sun, the moon under her feet, crowned with twelve stars. She is pregnant and cries out in the pains of childbirth. Another sign appears. A great red dragon, with seven heads and ten horns, stands before her to devour her child as soon as it is born."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui la Vierge Marie pour l'Église qui souffre et enfante encore le Christ dans le monde.",
+   "en": "Pray to the Virgin Mary today for the Church, which suffers and still brings Christ to birth in the world."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la femme à la fois Marie, mère du Messie, et l'Église, qui enfante les croyants. Ce passage est lu à la fête de l'Assomption, le 15 août. Victorin de Pettau voit dans la couleur rouge du dragon l'œuvre de mort qui le caractérise.",
+   "en": "The Catholic tradition sees in the woman both Mary, mother of the Messiah, and the Church, who gives birth to believers. This passage is read on the feast of the Assumption, 15 August. Victorinus of Pettau sees in the dragon's red colour the work of death that marks him."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi en Marie la femme revêtue de gloire, et la fête le 15 août sous le nom de Dormition. L'image de l'Église qui enfante dans la douleur est également reçue. Le dragon figure l'ancien serpent, ennemi de la femme depuis la Genèse.",
+   "en": "The Orthodox tradition also sees in Mary the woman clothed in glory, and celebrates her on 15 August as the Dormition. The image of the Church giving birth in pain is also received. The dragon figures the ancient serpent, enemy of the woman since Genesis."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la femme Marie et l'Église, et fêtent la Vierge glorifiée le 15 août.",
+    "en": "Both traditions see in the woman Mary and the Church, and celebrate the glorified Virgin on 15 August."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:3",
+    "usage": "quote",
+    "quote": "that this dragon was of a red colour"
+   }
+  ]
+ },
+ {
+  "key": "rev-12-5-8",
+  "book": "REV",
+  "chapterStart": 12,
+  "verseStart": 5,
+  "chapterEnd": 12,
+  "verseEnd": 8,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La femme met au monde un fils, qui doit gouverner toutes les nations, et l'enfant est enlevé vers Dieu et son trône. La femme fuit au désert, où Dieu lui a préparé un lieu. Alors éclate une guerre dans le ciel. Michel et ses anges combattent le dragon, qui est vaincu. Il n'y a plus de place pour lui dans le ciel.",
+   "en": "The woman gives birth to a son, who is to rule all the nations, and the child is caught up to God and his throne. The woman flees into the desert, where God has prepared a place for her. Then war breaks out in heaven. Michael and his angels fight the dragon, who is defeated. There is no longer any place for him in heaven."
+  },
+  "action": {
+   "fr": "Dis aujourd'hui une prière à saint Michel pour être protégé dans le combat spirituel.",
+   "en": "Today, say a prayer to Saint Michael for protection in spiritual combat."
+  },
+  "catholic": {
+   "fr": "La tradition catholique prie saint Michel, défenseur dans le combat contre le mal, et le fête le 29 septembre. L'enfant enlevé vers Dieu évoque l'Ascension du Christ. Victorin de Pettau commente cette guerre où le dragon et ses anges ne l'emportent pas.",
+   "en": "The Catholic tradition prays to Saint Michael, defender in the struggle against evil, and celebrates him on 29 September. The child caught up to God evokes Christ's Ascension. Victorinus of Pettau comments on this war in which the dragon and his angels do not prevail."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête l'archange Michel et toutes les puissances célestes le 8 novembre. Michel, dont le nom signifie qui est comme Dieu, est le chef de la milice céleste. Le désert est le lieu où Dieu nourrit son Église.",
+   "en": "The Orthodox tradition celebrates the Archangel Michael and all the heavenly powers on 8 November. Michael, whose name means who is like God, is the leader of the heavenly host. The desert is where God feeds his Church."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent saint Michel, vainqueur du dragon, et voient l'Église gardée au désert.",
+    "en": "Both traditions honour Saint Michael, victor over the dragon, and see the Church kept in the desert."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:7",
+    "usage": "quote",
+    "quote": "There was a battle in heaven"
+   }
+  ]
+ },
+ {
+  "key": "rev-12-9-12",
+  "book": "REV",
+  "chapterStart": 12,
+  "verseStart": 9,
+  "chapterEnd": 12,
+  "verseEnd": 12,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le grand dragon, le serpent ancien appelé diable et Satan, est précipité sur la terre avec ses anges. Une voix forte proclame que le salut, la puissance et le règne de Dieu sont arrivés. L'accusateur de nos frères a été jeté dehors. Ils l'ont vaincu par le sang de l'agneau et par la parole de leur témoignage. Ils n'ont pas aimé leur vie jusqu'à craindre la mort.",
+   "en": "The great dragon, the ancient serpent called the devil and Satan, is thrown down to the earth with his angels. A loud voice proclaims that the salvation, power and kingdom of God have come. The accuser of our brothers has been thrown out. They overcame him by the blood of the lamb and by the word of their testimony. They did not love their life even to the point of fearing death."
+  },
+  "action": {
+   "fr": "Quand une pensée t'accuse sans espérance, rappelle-toi aujourd'hui que l'accusateur est vaincu par le sang du Christ.",
+   "en": "When a thought accuses you without hope, remember today that the accuser is defeated by the blood of Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage la victoire du Christ sur Satan par sa croix. Satan est appelé l'accusateur, alors que Dieu est celui qui justifie. Saint Irénée de Lyon souligne que tous ceux qui corrompent la vérité sont des instruments de Satan.",
+   "en": "The Catholic tradition sees in this passage Christ's victory over Satan through his cross. Satan is called the accuser, whereas God is the one who justifies. Saint Irenaeus of Lyon stresses that all who corrupt the truth are instruments of Satan."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi la victoire des martyrs, unis au sang de l'agneau. Victorin de Pettau voit dans cette chute le début de la dernière persécution, quand le dragon est jeté sur la terre. Le témoignage jusqu'à la mort est une arme contre le mal.",
+   "en": "The Orthodox tradition also reads here the victory of the martyrs, united to the blood of the lamb. Victorinus of Pettau sees in this fall the beginning of the last persecution, when the dragon is cast down to earth. Witness unto death is a weapon against evil."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la victoire du Christ sur l'accusateur, partagée par les martyrs.",
+    "en": "Both traditions see here Christ's victory over the accuser, shared by the martyrs."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 1",
+    "section": "Against Heresies Book I",
+    "ref": "REV 12:9",
+    "usage": "quote",
+    "quote": "all those who in any way corru"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:9",
+    "usage": "quote",
+    "quote": "There was a battle in heaven"
+   }
+  ]
+ },
+ {
+  "key": "rev-12-13-18",
+  "book": "REV",
+  "chapterStart": 12,
+  "verseStart": 13,
+  "chapterEnd": 12,
+  "verseEnd": 18,
+  "category": "patience-epreuve",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le dragon poursuit la femme, mais elle reçoit les deux ailes du grand aigle pour fuir au désert, où elle est nourrie loin du serpent. Le serpent vomit contre elle un fleuve pour l'emporter, mais la terre ouvre la bouche et l'avale. Furieux, le dragon part faire la guerre au reste de ses enfants. Ce sont ceux qui gardent les commandements de Dieu et le témoignage de Jésus.",
+   "en": "The dragon pursues the woman, but she is given the two wings of the great eagle to flee to the desert, where she is fed far from the serpent. The serpent spews out a river against her to sweep her away, but the earth opens its mouth and swallows it. Enraged, the dragon goes off to make war on the rest of her children. These are the ones who keep God's commandments and the testimony of Jesus."
+  },
+  "action": {
+   "fr": "Dans une épreuve, demande aujourd'hui à Dieu les ailes de la confiance pour ne pas être emporté.",
+   "en": "In a trial, ask God today for the wings of trust so as not to be swept away."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la femme protégée l'Église, gardée par Dieu au milieu des persécutions. Victorin de Pettau voit dans les deux ailes deux prophètes, et dans le fleuve vomi les peuples lancés contre l'Église. Il ajoute que la terre qui avale le fleuve signifie la vengeance de Dieu.",
+   "en": "The Catholic tradition sees in the protected woman the Church, kept by God amid persecutions. Victorinus of Pettau sees in the two wings two prophets, and in the river spewed out the peoples sent against the Church. He adds that the earth swallowing the river signifies God's vengeance."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans les enfants de la femme tous les fidèles, frères du Christ. Le désert, lieu d'épreuve et de nourriture, rappelle l'Exode. Dieu donne à son Église de traverser les flots.",
+   "en": "The Orthodox tradition also sees in the woman's children all the faithful, brothers of Christ. The desert, a place of trial and nourishment, recalls the Exodus. God enables his Church to cross the floods."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'Église protégée par Dieu dans la persécution.",
+    "en": "Both traditions see here the Church protected by God in persecution."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:14",
+    "usage": "quote",
+    "quote": "are the two prophets"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:15",
+    "usage": "quote",
+    "quote": "He signifies by the water which the serpent cast out of his mouth"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 12:16",
+    "usage": "quote",
+    "quote": "That the earth opened her month and swallowed up the waters"
+   }
+  ]
+ },
+ {
+  "key": "rev-13-1-4",
+  "book": "REV",
+  "chapterStart": 13,
+  "verseStart": 1,
+  "chapterEnd": 13,
+  "verseEnd": 4,
+  "category": "combat-spirituel",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Jean voit monter de la mer une bête à dix cornes et sept têtes, portant des noms de blasphème. Elle ressemble à un léopard, avec des pattes d'ours et une gueule de lion. Le dragon lui donne sa puissance. Une de ses têtes, comme blessée à mort, est guérie, et toute la terre suit la bête avec admiration. On adore le dragon et la bête : qui est semblable à elle ?",
+   "en": "John sees a beast rise out of the sea, with ten horns and seven heads, bearing names of blasphemy. It looks like a leopard, with bear's feet and a lion's mouth. The dragon gives it his power. One of its heads, as if mortally wounded, is healed, and the whole earth follows the beast in wonder. People worship the dragon and the beast: who is like it?"
+  },
+  "action": {
+   "fr": "Repère aujourd'hui un pouvoir que tu admires trop, et rends à Dieu seul l'adoration.",
+   "en": "Spot a power you admire too much today, and give adoration to God alone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la bête de la mer le pouvoir politique qui se fait adorer, comme l'empire persécuteur au temps de Jean. Victorin de Pettau y voit le royaume de l'Antichrist, mêlant la variété des nations. Il comprend les pattes d'ours comme ses chefs.",
+   "en": "The Catholic tradition sees in the sea beast political power that makes itself worshipped, like the persecuting empire in John's day. Victorinus of Pettau sees in it the kingdom of the Antichrist, mixing a variety of nations. He understands the bear's feet as its leaders."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi la bête comme toute puissance qui prétend prendre la place de Dieu. La question « qui est semblable à la bête ? » parodie le nom de Michel, qui est comme Dieu. Le chrétien adore Dieu seul.",
+   "en": "The Orthodox tradition also reads the beast as any power claiming to take God's place. The question \"who is like the beast?\" parodies the name Michael, who is like God. The Christian worships God alone."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la bête tout pouvoir qui se fait adorer à la place de Dieu.",
+    "en": "Both traditions see in the beast any power that makes itself worshipped in God's place."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 13:1",
+    "usage": "quote",
+    "quote": "This signifies the kingdom of that time of Antichrist"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 13:2",
+    "usage": "quote",
+    "quote": "the feet are to be understood as his leaders"
+   }
+  ]
+ },
+ {
+  "key": "rev-13-5-8",
+  "book": "REV",
+  "chapterStart": 13,
+  "verseStart": 5,
+  "chapterEnd": 13,
+  "verseEnd": 8,
+  "category": "patience-epreuve",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "La bête reçoit une bouche pour proférer des blasphèmes et le pouvoir d'agir quarante-deux mois. Elle blasphème contre Dieu, son nom et sa demeure. Il lui est donné de faire la guerre aux saints et de les vaincre. Tous les habitants de la terre l'adoreront, sauf ceux dont le nom est écrit dans le livre de vie de l'agneau immolé.",
+   "en": "The beast is given a mouth to speak blasphemies and power to act for forty-two months. It blasphemes against God, his name and his dwelling. It is allowed to make war on the saints and to overcome them. All the inhabitants of the earth will worship it, except those whose names are written in the book of life of the lamb who was slain."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les chrétiens qui vivent sous des régimes hostiles à la foi.",
+   "en": "Today, pray for Christians living under regimes hostile to the faith."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les quarante-deux mois un temps limité de persécution, que Dieu permet sans l'abandonner à lui-même. La victoire apparente de la bête sur les saints est celle de la croix : défaite aux yeux du monde, victoire aux yeux de Dieu. Le livre de vie garde les noms des fidèles.",
+   "en": "The Catholic tradition sees in the forty-two months a limited time of persecution, which God permits without giving it free rein. The beast's apparent victory over the saints is that of the cross: defeat in the world's eyes, victory in God's. The book of life keeps the names of the faithful."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe, marquée par les persécutions du XXe siècle, lit ces versets avec gravité. Les néo-martyrs vaincus par la force sont glorifiés par l'Église. L'agneau immolé dès la fondation du monde garde les siens.",
+   "en": "The Orthodox tradition, marked by the persecutions of the twentieth century, reads these verses gravely. The new martyrs overcome by force are glorified by the Church. The lamb slain from the foundation of the world keeps his own."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une persécution limitée et des saints vaincus en apparence mais gardés dans le livre de vie.",
+    "en": "Both traditions see here a limited persecution and saints overcome in appearance but kept in the book of life."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-13-9-12",
+  "book": "REV",
+  "chapterStart": 13,
+  "verseStart": 9,
+  "chapterEnd": 13,
+  "verseEnd": 12,
+  "category": "verite-parole",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Que celui qui a des oreilles entende : celui qui tue par l'épée sera tué par l'épée. C'est ici la persévérance et la foi des saints. Jean voit ensuite une autre bête monter de la terre. Elle a deux cornes comme un agneau, mais parle comme un dragon. Elle fait adorer la première bête.",
+   "en": "Whoever has ears, let them hear: whoever kills with the sword will be killed by the sword. Here is the perseverance and faith of the saints. John then sees another beast rise out of the earth. It has two horns like a lamb, but speaks like a dragon. It makes people worship the first beast."
+  },
+  "action": {
+   "fr": "Avant de croire un discours religieux séduisant, demande-toi s'il conduit au Christ ou à l'adoration d'un pouvoir.",
+   "en": "Before believing an attractive religious message, ask whether it leads to Christ or to worship of a power."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la seconde bête le faux prophète, qui met la religion au service du pouvoir. Victorin de Pettau la décrit comme le grand faux prophète qui fera des signes et des prodiges trompeurs. L'appel à ne pas répondre par l'épée fonde la non-violence des martyrs.",
+   "en": "The Catholic tradition sees in the second beast the false prophet, who puts religion at the service of power. Victorinus of Pettau describes it as the great false prophet who will work deceptive signs and wonders. The call not to answer with the sword grounds the non-violence of the martyrs."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne le déguisement de la bête, semblable à un agneau mais parlant comme un dragon. Le discernement des esprits est nécessaire pour reconnaître le mal sous l'apparence du bien. La persévérance des saints ne se défend pas par la violence.",
+   "en": "The Orthodox tradition stresses the beast's disguise, like a lamb but speaking like a dragon. Discernment of spirits is needed to recognise evil under the appearance of good. The saints' perseverance is not defended by violence."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la seconde bête un faux prophète déguisé, et appellent à la persévérance sans violence.",
+    "en": "Both traditions see in the second beast a disguised false prophet, and call for perseverance without violence."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 13:11",
+    "usage": "quote",
+    "quote": "He is speaking of the great and false prophet"
+   }
+  ]
+ },
+ {
+  "key": "rev-13-13-15",
+  "book": "REV",
+  "chapterStart": 13,
+  "verseStart": 13,
+  "chapterEnd": 13,
+  "verseEnd": 15,
+  "category": "verite-parole",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "La seconde bête accomplit de grands prodiges, jusqu'à faire descendre le feu du ciel aux yeux des hommes. Les habitants de la terre sont séduits. On les pousse à dresser une image en l'honneur de la première bête. La bête donne même un souffle à cette image, et fait mettre à mort ceux qui ne l'adorent pas.",
+   "en": "The second beast works great wonders, even making fire come down from heaven in people's sight. The inhabitants of the earth are deceived. They are urged to set up an image in honour of the first beast. The beast even gives breath to this image, and has those who will not worship it put to death."
+  },
+  "action": {
+   "fr": "Méfie-toi aujourd'hui d'un « prodige » ou d'une image qui fascine, et reviens à la simplicité de l'Évangile.",
+   "en": "Be wary today of a \"wonder\" or an image that fascinates, and return to the simplicity of the Gospel."
+  },
+  "catholic": {
+   "fr": "La tradition catholique rappelle que les prodiges ne suffisent pas à prouver qu'une chose vient de Dieu. Victorin de Pettau note que les magiciens font de telles choses, avec l'aide des anges apostats, jusqu'à son temps. Le critère est le Christ et ses fruits.",
+   "en": "The Catholic tradition recalls that wonders alone do not prove that something comes from God. Victorinus of Pettau notes that magicians do such things, with the help of apostate angels, even in his day. The criterion is Christ and his fruits."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe distingue la vraie icône, qui renvoie à Dieu, de l'idole, qui retient l'adoration pour elle-même. L'image de la bête est une contrefaçon. La vénération des icônes passe à celui qu'elles représentent.",
+   "en": "The Orthodox tradition distinguishes the true icon, which points to God, from the idol, which keeps adoration for itself. The image of the beast is a counterfeit. The veneration of icons passes to the one they represent."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions mettent en garde contre les faux prodiges et toute image adorée à la place de Dieu.",
+    "en": "Both traditions warn against false wonders and any image worshipped in place of God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 13:13",
+    "usage": "quote",
+    "quote": "Magicians do these things, by the aid of the apostate angels"
+   }
+  ]
+ },
+ {
+  "key": "rev-13-16-18",
+  "book": "REV",
+  "chapterStart": 13,
+  "verseStart": 16,
+  "chapterEnd": 13,
+  "verseEnd": 18,
+  "category": "verite-parole",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "La bête fait recevoir à tous une marque sur la main droite ou sur le front. Sans cette marque, personne ne peut acheter ni vendre. C'est ici la sagesse : que celui qui a de l'intelligence calcule le nombre de la bête. C'est un nombre d'homme, six cent soixante-six. Ce chiffre a reçu bien des interprétations, sans certitude.",
+   "en": "The beast makes everyone receive a mark on the right hand or forehead. Without this mark no one can buy or sell. Here is wisdom: let whoever has understanding calculate the number of the beast. It is a man's number, six hundred sixty-six. This number has received many interpretations, without certainty."
+  },
+  "action": {
+   "fr": "Ne te laisse pas troubler aujourd'hui par des spéculations sur la fin : reviens à la fidélité quotidienne.",
+   "en": "Do not be troubled today by speculation about the end: return to daily faithfulness."
+  },
+  "catholic": {
+   "fr": "La tradition catholique invite à la sobriété face aux calculs sur le nombre de la bête. Victorin de Pettau rapporte une interprétation par les lettres grecques. Saint Irénée de Lyon voit dans la bête la récapitulation de toute iniquité et de toute tromperie.",
+   "en": "The Catholic tradition invites sobriety before calculations about the number of the beast. Victorinus of Pettau reports an interpretation from the Greek letters. Saint Irenaeus of Lyon sees in the beast the summing up of all iniquity and deceit."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe se méfie aussi des spéculations sur l'Antichrist et la marque de la bête. Le chiffre six, qui manque le sept de la plénitude, dit l'imperfection répétée. Le chrétien porte une autre marque, le sceau de l'Esprit.",
+   "en": "The Orthodox tradition is also wary of speculation about the Antichrist and the mark of the beast. The number six, falling short of the fullness of seven, expresses repeated imperfection. The Christian bears another mark, the seal of the Spirit."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions invitent à la sobriété devant le nombre de la bête et opposent à sa marque le sceau de Dieu.",
+    "en": "Both traditions invite sobriety before the number of the beast and set God's seal against its mark."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 13:18",
+    "usage": "quote",
+    "quote": "As they have it reckoned from the Greek characters"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 5",
+    "section": "AGAINST HERESIES 5.29.2",
+    "ref": "REV 13:18",
+    "usage": "quote",
+    "quote": "a recapitulation made of all sorts of iniquity and of every deceit"
+   }
+  ]
+ },
+ {
+  "key": "rev-14-1-3",
+  "book": "REV",
+  "chapterStart": 14,
+  "verseStart": 1,
+  "chapterEnd": 14,
+  "verseEnd": 3,
+  "category": "louange-action-de-grace",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean voit l'agneau debout sur la montagne de Sion, et avec lui cent quarante-quatre mille personnes portant son nom et celui de son Père sur le front. Il entend une voix venue du ciel, comme le bruit des grandes eaux et le son de harpes. Ils chantent un cantique nouveau devant le trône. Nul ne pouvait l'apprendre, sinon les rachetés de la terre.",
+   "en": "John sees the lamb standing on Mount Zion, and with him one hundred forty-four thousand people bearing his name and his Father's name on their foreheads. He hears a voice from heaven, like the sound of many waters and of harps. They sing a new song before the throne. No one could learn it except the redeemed from the earth."
+  },
+  "action": {
+   "fr": "Chante aujourd'hui un chant de louange, même seul, comme un « cantique nouveau ».",
+   "en": "Sing a song of praise today, even alone, as a \"new song\"."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette foule le peuple des rachetés, uni au Christ dans la louange. Le cantique nouveau est celui de la Pâque, que seule l'expérience du salut apprend. Sion est l'image de l'Église et de la Jérusalem céleste.",
+   "en": "The Catholic tradition sees in this crowd the people of the redeemed, united to Christ in praise. The new song is the song of Easter, learned only through the experience of salvation. Zion is an image of the Church and of the heavenly Jerusalem."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans le chant céleste le modèle du chant liturgique. Le nom inscrit sur le front s'oppose à la marque de la bête. La louange est la vocation ultime de l'homme.",
+   "en": "The Orthodox tradition also sees in the heavenly song the model of liturgical chant. The name written on the forehead stands against the mark of the beast. Praise is humanity's ultimate calling."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici les rachetés unis à l'Agneau dans un cantique nouveau.",
+    "en": "Both traditions see here the redeemed united to the Lamb in a new song."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-14-4-7",
+  "book": "REV",
+  "chapterStart": 14,
+  "verseStart": 4,
+  "chapterEnd": 14,
+  "verseEnd": 7,
+  "category": "humilite",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Ces rachetés sont restés purs ; ils suivent l'agneau partout où il va. Ils ont été rachetés d'entre les hommes comme des prémices pour Dieu, et dans leur bouche on n'a pas trouvé de mensonge. Puis Jean voit un ange voler au milieu du ciel avec un Évangile éternel. Il appelle toutes les nations à craindre Dieu, à lui rendre gloire et à adorer le Créateur.",
+   "en": "These redeemed have remained pure; they follow the lamb wherever he goes. They were redeemed from among people as first fruits for God, and no lie was found in their mouths. Then John sees an angel flying in mid-heaven with an eternal Gospel. He calls all nations to fear God, give him glory and worship the Creator."
+  },
+  "action": {
+   "fr": "Évite aujourd'hui tout mensonge, même petit, par fidélité au Christ.",
+   "en": "Avoid every lie today, even a small one, out of faithfulness to Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ceux qui suivent l'agneau partout le modèle de la vie consacrée, vécue dans la chasteté. Victorin de Pettau voit dans l'ange qui vole au milieu du ciel le prophète Élie, précurseur des derniers temps. L'Évangile éternel est annoncé à toutes les nations.",
+   "en": "The Catholic tradition sees in those who follow the lamb everywhere the model of consecrated life, lived in chastity. Victorinus of Pettau sees in the angel flying in mid-heaven the prophet Elijah, forerunner of the last times. The eternal Gospel is proclaimed to all nations."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe applique aussi ce passage aux moines, appelés à suivre l'agneau sans partage. La pureté du cœur et la vérité des paroles en sont les signes. L'Évangile est éternel parce qu'il est le Christ lui-même.",
+   "en": "The Orthodox tradition also applies this passage to monks, called to follow the lamb undividedly. Purity of heart and truthful speech are its signs. The Gospel is eternal because it is Christ himself."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la pureté de ceux qui suivent l'Agneau et l'Évangile annoncé à toutes les nations.",
+    "en": "Both traditions see here the purity of those who follow the Lamb and the Gospel proclaimed to all nations."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 14:6",
+    "usage": "quote",
+    "quote": "as being the same Elias"
+   }
+  ]
+ },
+ {
+  "key": "rev-14-8-11",
+  "book": "REV",
+  "chapterStart": 14,
+  "verseStart": 8,
+  "chapterEnd": 14,
+  "verseEnd": 11,
+  "category": "verite-parole",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Un deuxième ange annonce la chute de Babylone la grande, qui a fait boire aux nations le vin de sa débauche. Un troisième ange avertit : quiconque adore la bête et reçoit sa marque boira le vin de la colère de Dieu. Le langage est très dur. Il dit la gravité d'un choix contre Dieu, sans désigner une personne précise.",
+   "en": "A second angel announces the fall of Babylon the great, who made the nations drink the wine of her immorality. A third angel warns: whoever worships the beast and receives its mark will drink the wine of God's wrath. The language is very harsh. It expresses the seriousness of a choice against God, without pointing to a specific person."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour ceux qui se sont éloignés de Dieu, en confiant leur conversion à sa miséricorde.",
+   "en": "Today, pray for those who have drifted away from God, entrusting their conversion to his mercy."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit Babylone comme l'image de toute civilisation qui se ferme à Dieu, à commencer par l'empire persécuteur. Victorin de Pettau voit dans l'ange suivant le compagnon du prophète annoncé. L'avertissement vise la conversion, tant qu'il en est temps.",
+   "en": "The Catholic tradition reads Babylon as an image of any civilisation closed to God, beginning with the persecuting empire. Victorinus of Pettau sees in the following angel the companion of the foretold prophet. The warning aims at conversion while there is still time."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que la colère de Dieu, dans l'Écriture, est l'autre face de son amour blessé. Saint Cyprien rapproche ce passage de la condamnation des idoles. Le jugement appartient à Dieu seul.",
+   "en": "The Orthodox tradition stresses that God's wrath, in Scripture, is the other face of his wounded love. Saint Cyprian links this passage with the condemnation of idols. Judgement belongs to God alone."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent cet avertissement comme un appel urgent à la conversion, le jugement appartenant à Dieu seul.",
+    "en": "Both traditions read this warning as an urgent call to conversion, judgement belonging to God alone."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 14:8",
+    "usage": "quote",
+    "quote": "The other angel following, he speaks of as the same prophet"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Cyprian",
+    "work": "Treatise 12",
+    "section": "Treatise XII. Three Books of Testimonies Against the Jews.",
+    "ref": "REV 14:9",
+    "usage": "quote",
+    "quote": "Of the idols which the Gentiles think to be gods."
+   }
+  ]
+ },
+ {
+  "key": "rev-14-12-15",
+  "book": "REV",
+  "chapterStart": 14,
+  "verseStart": 12,
+  "chapterEnd": 14,
+  "verseEnd": 15,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Voici la persévérance des saints. Une voix du ciel dit à Jean d'écrire : heureux dès à présent les morts qui meurent dans le Seigneur. Oui, dit l'Esprit, ils se reposent de leurs travaux, car leurs œuvres les suivent. Puis paraît, sur une nuée blanche, quelqu'un de semblable à un fils d'homme, une faucille à la main.",
+   "en": "Here is the perseverance of the saints. A voice from heaven tells John to write: blessed are the dead who die in the Lord from now on. Yes, says the Spirit, they rest from their labours, for their works follow them. Then appears, on a white cloud, one like a son of man, with a sickle in his hand."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un défunt, en confiant que ses œuvres d'amour le suivent auprès de Dieu.",
+   "en": "Today, pray for someone who has died, trusting that their works of love follow them to God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit cette béatitude aux funérailles et à la commémoration des fidèles défunts. Les œuvres qui suivent les morts montrent que la vie offerte n'est pas perdue. Victorin de Pettau voit dans la faucille la moisson des nations au retour du Seigneur.",
+   "en": "The Catholic tradition reads this beatitude at funerals and at the commemoration of all the faithful departed. The works that follow the dead show that a life offered is not lost. Victorinus of Pettau sees in the sickle the harvest of the nations at the Lord's return."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi le repos des défunts dans les offices pour les morts. Le repos promis est celui du sabbat éternel. Le Fils de l'homme sur la nuée est le Christ juge.",
+   "en": "The Orthodox tradition also sings of the rest of the departed in the services for the dead. The promised rest is that of the eternal Sabbath. The Son of Man on the cloud is Christ the judge."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le repos des justes morts dans le Seigneur et le Christ qui vient juger.",
+    "en": "Both traditions see here the rest of the righteous who die in the Lord and Christ coming to judge."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 14:15",
+    "usage": "quote",
+    "quote": "he signifies it of the nations that should perish on the advent of the Lord"
+   }
+  ]
+ },
+ {
+  "key": "rev-14-16-20",
+  "book": "REV",
+  "chapterStart": 14,
+  "verseStart": 16,
+  "chapterEnd": 14,
+  "verseEnd": 20,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Celui qui siège sur la nuée lance sa faucille, et la terre est moissonnée. Un autre ange vendange la vigne de la terre et jette les raisins dans la grande cuve de la colère de Dieu. La cuve est foulée hors de la ville. Le sang en sort jusqu'aux mors des chevaux, sur une immense distance. Les images de moisson et de vendange viennent des prophètes.",
+   "en": "The one seated on the cloud swings his sickle, and the earth is harvested. Another angel gathers the vintage of the earth and throws the grapes into the great winepress of God's wrath. The winepress is trodden outside the city. Blood flows from it up to the horses' bridles, over a vast distance. The images of harvest and vintage come from the prophets."
+  },
+  "action": {
+   "fr": "Examine aujourd'hui quel « fruit » ta vie donne, et demande à Dieu de la rendre féconde.",
+   "en": "Examine today what \"fruit\" your life bears, and ask God to make it fruitful."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ces images comme le langage prophétique du jugement final, déjà employé par Joël et Isaïe. Victorin de Pettau voit dans la cuve foulée hors de la ville le jugement des méchants. Le pressoir évoque aussi, chez les Pères, la croix plantée hors de la ville.",
+   "en": "The Catholic tradition reads these images as the prophetic language of the final judgement, already used by Joel and Isaiah. Victorinus of Pettau sees in the winepress trodden outside the city the judgement of the wicked. The winepress also evokes, for the Fathers, the cross planted outside the city."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi le sérieux du jugement, que la liturgie évoque au dimanche du Jugement dernier avant le Carême. La moisson rappelle que chaque vie porte un fruit. Le jugement est remis au Christ.",
+   "en": "The Orthodox tradition also reads here the seriousness of judgement, which the liturgy recalls on the Sunday of the Last Judgement before Lent. The harvest recalls that every life bears fruit. Judgement is entrusted to Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ces images comme le langage prophétique du jugement final remis au Christ.",
+    "en": "Both traditions read these images as the prophetic language of the final judgement entrusted to Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 14:19",
+    "usage": "quote",
+    "quote": "And the angel thrust in the sickle"
+   }
+  ]
+ },
+ {
+  "key": "rev-15-1-4",
+  "book": "REV",
+  "chapterStart": 15,
+  "verseStart": 1,
+  "chapterEnd": 15,
+  "verseEnd": 4,
+  "category": "louange-action-de-grace",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean voit sept anges portant les sept derniers fléaux. Il voit aussi comme une mer de verre mêlée de feu. Les vainqueurs de la bête s'y tiennent debout, des harpes à la main. Ils chantent le cantique de Moïse et le cantique de l'agneau : grandes et admirables sont tes œuvres, Seigneur Dieu tout-puissant ; toutes les nations viendront se prosterner devant toi.",
+   "en": "John sees seven angels carrying the seven last plagues. He also sees something like a sea of glass mixed with fire. Those who conquered the beast stand on it, harps in hand. They sing the song of Moses and the song of the lamb: great and marvellous are your works, Lord God Almighty; all the nations will come and worship before you."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui avec le cantique de Moïse et de l'Agneau, en louant Dieu pour une délivrance reçue.",
+   "en": "Pray today with the song of Moses and the Lamb, praising God for a deliverance you have received."
+  },
+  "catholic": {
+   "fr": "La tradition catholique chante ce cantique aux vêpres, dans la Liturgie des Heures. Victorin de Pettau explique que les vainqueurs se tiennent fermes dans la foi sur leur baptême, figuré par la mer de verre. Le chant de Moïse et celui de l'agneau unissent les deux Testaments.",
+   "en": "The Catholic tradition sings this canticle at Vespers, in the Liturgy of the Hours. Victorinus of Pettau explains that the victors stand firm in the faith upon their baptism, figured by the sea of glass. The song of Moses and the song of the lamb unite the two Testaments."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi le cantique de Moïse, première ode du canon des matines. Le passage de la mer Rouge annonce la victoire pascale du Christ. La mer de verre mêlée de feu évoque le baptême dans l'eau et l'Esprit.",
+   "en": "The Orthodox tradition also sings the song of Moses, the first ode of the Matins canon. The crossing of the Red Sea foreshadows Christ's Paschal victory. The sea of glass mixed with fire evokes baptism in water and the Spirit."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions chantent ce cantique, qui unit la délivrance de l'Exode et la victoire de l'Agneau.",
+    "en": "Both traditions sing this canticle, which unites the deliverance of the Exodus and the victory of the Lamb."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 15:2",
+    "usage": "quote",
+    "quote": "that they stood stedfastly in the faith upon their baptism"
+   }
+  ]
+ },
+ {
+  "key": "rev-15-5-8",
+  "book": "REV",
+  "chapterStart": 15,
+  "verseStart": 5,
+  "chapterEnd": 15,
+  "verseEnd": 8,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Le temple s'ouvre. Les sept anges en sortent, vêtus de lin pur et éclatant, ceints d'or. L'un des êtres vivants leur donne sept coupes d'or pleines de la colère de Dieu. Le temple se remplit de fumée à cause de la gloire de Dieu. Personne ne peut y entrer avant la fin des sept fléaux.",
+   "en": "The temple of the tent of testimony opens in heaven. The seven angels come out of it, clothed in pure, bright linen, with golden sashes. One of the living creatures gives them seven golden bowls full of God's wrath. The temple fills with smoke from the glory of God. No one can enter it until the seven plagues are over."
+  },
+  "action": {
+   "fr": "Entre aujourd'hui dans une église avec un respect renouvelé pour la sainteté de Dieu.",
+   "en": "Today, enter a church with renewed respect for the holiness of God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la fumée qui remplit le temple la gloire de Dieu, comme au jour de la dédicace du temple de Salomon. Les anges sont vêtus comme des prêtres : le jugement est un acte saint. La colère de Dieu est la réponse de sa sainteté au mal.",
+   "en": "The Catholic tradition sees in the smoke filling the temple God's glory, as on the day the temple of Solomon was dedicated. The angels are dressed like priests: judgement is a holy act. God's wrath is the response of his holiness to evil."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans la nuée de gloire la présence de Dieu, la Shekinah. Les vêtements de lin rappellent ceux des ministres de l'autel. La sainteté de Dieu est redoutable et désirable à la fois.",
+   "en": "The Orthodox tradition also sees in the cloud of glory God's presence, the Shekinah. The linen garments recall those of the ministers of the altar. God's holiness is both awesome and desirable."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la gloire et la sainteté de Dieu, dont le jugement est un acte saint.",
+    "en": "Both traditions see here the glory and holiness of God, whose judgement is a holy act."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-16-1-4",
+  "book": "REV",
+  "chapterStart": 16,
+  "verseStart": 1,
+  "chapterEnd": 16,
+  "verseEnd": 4,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Une voix forte ordonne aux sept anges de verser sur la terre les coupes de la colère de Dieu. La première coupe provoque un ulcère chez ceux qui portent la marque de la bête. La deuxième change la mer en sang. La troisième, les fleuves et les sources. Ces fléaux rappellent ceux de l'Égypte.",
+   "en": "A loud voice orders the seven angels to pour out on the earth the bowls of God's wrath. The first bowl causes a sore on those who bear the mark of the beast. The second turns the sea into blood. The third does the same to the rivers and springs. These plagues recall those of Egypt."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour ceux qui manquent d'eau potable, et pose un geste pour économiser l'eau.",
+   "en": "Pray today for those who lack clean water, and do something to save water."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit les coupes comme une nouvelle série de plaies d'Égypte, qui visent la libération du peuple de Dieu. Elles frappent ceux qui ont choisi la bête. Le mal finit par se retourner contre ceux qui le servent.",
+   "en": "The Catholic tradition reads the bowls as a new series of Egyptian plagues, aimed at freeing God's people. They strike those who have chosen the beast. Evil ends up turning against those who serve it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi un rappel de l'Exode, où Dieu délivre son peuple. Les eaux changées en sang montrent une création qui ne peut plus servir la vie quand l'homme se détourne de Dieu. La délivrance vient après l'épreuve.",
+   "en": "The Orthodox tradition also reads here a reminder of the Exodus, when God delivers his people. Waters turned to blood show a creation that can no longer serve life when people turn away from God. Deliverance comes after the trial."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent les coupes comme de nouvelles plaies d'Égypte annonçant la délivrance.",
+    "en": "Both traditions read the bowls as new plagues of Egypt announcing deliverance."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-16-5-7",
+  "book": "REV",
+  "chapterStart": 16,
+  "verseStart": 5,
+  "chapterEnd": 16,
+  "verseEnd": 7,
+  "category": "justice-misericorde",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "L'ange des eaux proclame que Dieu est juste, lui qui est et qui était, le Saint, dans ce jugement. Ceux qui ont versé le sang des saints et des prophètes reçoivent du sang à boire. Ils l'ont mérité. Une voix venue de l'autel répond que les jugements du Seigneur Dieu tout-puissant sont véritables et justes.",
+   "en": "The angel of the waters proclaims that God is just, he who is and who was, the Holy One, in this judgement. Those who shed the blood of saints and prophets are given blood to drink. They deserve it. A voice from the altar answers that the judgements of the Lord God Almighty are true and just."
+  },
+  "action": {
+   "fr": "Confie aujourd'hui à la justice de Dieu une injustice que tu ne peux réparer toi-même.",
+   "en": "Today, entrust to God's justice an injustice that you cannot put right yourself."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage l'assurance que le sang des innocents ne reste pas sans réponse. La justice de Dieu n'est pas vengeance, mais vérité rendue aux victimes. La voix de l'autel rappelle les martyrs qui criaient sous l'autel.",
+   "en": "The Catholic tradition sees in this passage the assurance that the blood of the innocent does not go unanswered. God's justice is not revenge, but truth restored to victims. The voice from the altar recalls the martyrs crying out under the altar."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que la justice de Dieu est inséparable de sa miséricorde. Les victimes sont honorées, et le mal est démasqué. Le chrétien remet le jugement à Dieu au lieu de se venger.",
+   "en": "The Orthodox tradition stresses that God's justice is inseparable from his mercy. Victims are honoured, and evil is unmasked. The Christian leaves judgement to God instead of seeking revenge."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la justice de Dieu rendue aux victimes, sans vengeance humaine.",
+    "en": "Both traditions see here God's justice given to victims, without human revenge."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-16-8-11",
+  "book": "REV",
+  "chapterStart": 16,
+  "verseStart": 8,
+  "chapterEnd": 16,
+  "verseEnd": 11,
+  "category": "repentir-pardon",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "La quatrième coupe, versée sur le soleil, brûle les hommes. Ils blasphèment le nom de Dieu, mais ne se repentent pas pour lui rendre gloire. La cinquième coupe plonge dans les ténèbres le royaume de la bête. Les hommes se mordent la langue de douleur, blasphèment le Dieu du ciel, et ne se repentent pas de leurs œuvres.",
+   "en": "The fourth bowl, poured on the sun, scorches people. They blaspheme God's name, but do not repent to give him glory. The fifth bowl plunges the beast's kingdom into darkness. People gnaw their tongues in pain, blaspheme the God of heaven, and do not repent of their works."
+  },
+  "action": {
+   "fr": "Dans une souffrance présente, demande la grâce de te tourner vers Dieu plutôt que contre lui.",
+   "en": "In a present suffering, ask for the grace to turn towards God rather than against him."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces versets le mystère de l'endurcissement : la souffrance peut conduire à Dieu ou en éloigner. Le refrain du non-repentir montre que Dieu cherchait la conversion. La liberté humaine reste entière jusque dans l'épreuve.",
+   "en": "The Catholic tradition sees in these verses the mystery of hardening: suffering can lead to God or away from him. The refrain of non-repentance shows that God was seeking conversion. Human freedom remains whole even in trial."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit la tragédie d'un cœur qui s'endurcit devant la douleur. Les Pères enseignent que l'épreuve devient salutaire par l'humilité. Le repentir reste possible jusqu'au dernier souffle.",
+   "en": "The Orthodox tradition reads here the tragedy of a heart hardening before pain. The Fathers teach that trial becomes saving through humility. Repentance remains possible until the last breath."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le mystère de l'endurcissement et l'appel au repentir dans l'épreuve.",
+    "en": "Both traditions see here the mystery of hardening and the call to repentance in trial."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-16-12-15",
+  "book": "REV",
+  "chapterStart": 16,
+  "verseStart": 12,
+  "chapterEnd": 16,
+  "verseEnd": 15,
+  "category": "combat-spirituel",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "L'Euphrate s'assèche. De la bouche du dragon, de la bête et du faux prophète sortent trois esprits impurs, comme des grenouilles. Ce sont des esprits de démons qui font des prodiges pour rassembler les rois en vue du grand combat. Le Christ dit alors qu'il vient comme un voleur, et déclare heureux celui qui veille.",
+   "en": "The sixth bowl dries up the Euphrates, to prepare the way for the kings from the East. From the mouths of the dragon, the beast and the false prophet come three unclean spirits, like frogs. They are demonic spirits working wonders to gather the kings for the great battle. Christ then says, \"Behold, I come like a thief. Blessed is he who watches!\""
+  },
+  "action": {
+   "fr": "Ce soir, fais un bref examen de conscience pour rester éveillé dans la foi.",
+   "en": "Tonight, make a short examination of conscience to stay awake in faith."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que, au milieu des visions de combat, le Christ glisse une béatitude sur la vigilance. Les esprits impurs séduisent par des prodiges, d'où la nécessité du discernement. La venue du Christ sera soudaine.",
+   "en": "The Catholic tradition notes that, amid the visions of battle, Christ slips in a beatitude about watchfulness. The unclean spirits deceive by wonders, hence the need for discernment. Christ's coming will be sudden."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime cette béatitude, qui rejoint l'hymne de l'Époux venant au milieu de la nuit. La vigilance, la nepsis, est la garde du cœur. Les esprits impurs se reconnaissent à leurs fruits de division.",
+   "en": "The Orthodox tradition loves this beatitude, which echoes the hymn of the Bridegroom coming at midnight. Watchfulness, nepsis, is the guarding of the heart. Unclean spirits are recognised by their fruits of division."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions retiennent ici l'appel à la vigilance devant la venue soudaine du Christ.",
+    "en": "Both traditions take from here the call to watchfulness before Christ's sudden coming."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-16-16-21",
+  "book": "REV",
+  "chapterStart": 16,
+  "verseStart": 16,
+  "chapterEnd": 16,
+  "verseEnd": 21,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les rois sont rassemblés au lieu appelé en hébreu Harmaguédon. La septième coupe est versée dans l'air, et une voix sort du trône : « C'en est fait! » Éclairs, tonnerres et un séisme sans précédent suivent. La grande ville se brise en trois, Babylone reçoit la coupe de la colère, les îles et les montagnes disparaissent. Une énorme grêle tombe du ciel.",
+   "en": "The kings are gathered at the place called in Hebrew Armageddon. The seventh bowl is poured into the air, and a voice comes from the throne: \"It is done!\" Lightning, thunder and an unprecedented earthquake follow. The great city splits into three, Babylon receives the cup of wrath, the islands and mountains vanish. Huge hailstones fall from the sky."
+  },
+  "action": {
+   "fr": "Quand le monde paraît s'effondrer, redis aujourd'hui ta confiance au Christ, qui a tout accompli.",
+   "en": "When the world seems to collapse, renew your trust today in Christ, who has accomplished all."
+  },
+  "catholic": {
+   "fr": "La tradition catholique rapproche le « C'en est fait » du cri du Christ en croix : tout est accompli. Harmaguédon, la montagne de Megiddo, lieu de batailles anciennes, symbolise l'affrontement final, non un lieu à chercher sur une carte. Le dernier mot est celui de Dieu.",
+   "en": "The Catholic tradition links the \"It is done\" with Christ's cry on the cross: it is finished. Armageddon, the mountain of Megiddo, site of ancient battles, symbolises the final confrontation, not a place to look for on a map. The last word is God's."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ces images comme l'effondrement de toute puissance opposée à Dieu. La fin de Babylone est le prélude à la Jérusalem nouvelle. L'Église garde la paix dans la confiance.",
+   "en": "The Orthodox tradition also reads these images as the collapse of every power opposed to God. Babylon's end is the prelude to the new Jerusalem. The Church keeps her peace in trust."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent Harmaguédon comme le symbole de l'affrontement final, où Dieu a le dernier mot.",
+    "en": "Both traditions read Armageddon as the symbol of the final confrontation, where God has the last word."
+   }
+  },
+  "sources": []
  }
 ]
