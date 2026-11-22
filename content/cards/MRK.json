@@ -6175,5 +6175,561 @@
     "quote": "They were angry with the Lord, for having cast out of the temple"
    }
   ]
+ },
+ {
+  "key": "mrk-12-1-4",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 1,
+  "chapterEnd": 12,
+  "verseEnd": 4,
+  "category": "paraboles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus raconte une parabole. Un homme plante une vigne, l'entoure d'une haie, creuse un pressoir et bâtit une tour, puis la loue à des vignerons et part en voyage. Au temps de la récolte, il envoie un serviteur pour recevoir sa part. Les vignerons le frappent et le renvoient les mains vides. Puis ils maltraitent un second serviteur.",
+   "en": "Jesus tells a parable. A man plants a vineyard, puts a hedge around it, digs a winepress and builds a tower, then rents it out to farmers and goes away. At harvest time he sends a servant to collect his share. The farmers beat him and send him away empty-handed. Then they mistreat a second servant."
+  },
+  "action": {
+   "fr": "Rends grâce aujourd'hui pour un don reçu de Dieu, et demande-toi quel fruit tu peux lui en offrir.",
+   "en": "Give thanks today for a gift received from God, and ask yourself what fruit you can offer him from it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la vigne le peuple de Dieu, que le Seigneur entoure de soins, et dans les serviteurs les prophètes. Bède le Vénérable, cité dans la Catena Aurea, explique que le maître semble s'éloigner, non par un changement de lieu, mais pour laisser les vignerons agir librement. Chaque génération reçoit la vigne en charge.",
+   "en": "The Catholic tradition sees in the vineyard the people of God, whom the Lord surrounds with care, and in the servants the prophets. The Venerable Bede, quoted in the Catena Aurea, explains that the master seems to go away, not by changing place, but to leave the farmers to act freely. Each generation receives the vineyard in its care."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi la parabole comme l'histoire des soins de Dieu et de la liberté humaine. Les dons reçus sont confiés pour porter du fruit, non pour être possédés. La parabole s'adresse à chaque croyant, gardien de la vigne de son âme.",
+   "en": "The Orthodox tradition also reads the parable as the story of God's care and human freedom. The gifts received are entrusted for bearing fruit, not for being possessed. The parable speaks to each believer, keeper of the vineyard of their soul."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la vigne les soins de Dieu et la liberté laissée à ceux qui la reçoivent.",
+    "en": "Both traditions see in the vineyard God's care and the freedom left to those who receive it."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:1",
+    "usage": "quote",
+    "quote": "He seemed to go away from the vineyard, that He might leave the husbandmen to act on their own freewill"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-5-8",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 5,
+  "chapterEnd": 12,
+  "verseEnd": 8,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le maître envoie d'autres serviteurs : les uns sont battus, d'autres tués. Il lui reste son fils bien-aimé. Il l'envoie en dernier, en se disant qu'ils respecteront son fils. Mais les vignerons décident de le tuer pour garder l'héritage. Ils le saisissent, le tuent et le jettent hors de la vigne.",
+   "en": "The master sends other servants: some are beaten, others killed. He still has his beloved son. He sends him last, saying to himself that they will respect his son. But the farmers decide to kill him to keep the inheritance. They seize him, kill him and throw him out of the vineyard."
+  },
+  "action": {
+   "fr": "Contemple aujourd'hui le Fils envoyé « en dernier », et remercie le Père pour ce don.",
+   "en": "Today, contemplate the Son sent \"last\", and thank the Father for this gift."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le fils bien-aimé le Christ lui-même, qui annonce ici sa Passion. Bède le Vénérable, cité dans la Catena Aurea, explique que, si Dieu paraît douter, ce n'est pas par ignorance, mais pour laisser à l'homme sa liberté. Le fils jeté hors de la vigne annonce la croix plantée hors de la ville.",
+   "en": "The Catholic tradition sees in the beloved son Christ himself, who here announces his Passion. The Venerable Bede, quoted in the Catena Aurea, explains that if God seems to doubt, it is not from ignorance, but to leave man his freedom. The son thrown out of the vineyard announces the cross planted outside the city."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple dans ce fils l'amour du Père qui envoie son Fils unique. Le récit est lu dans la lumière de la Semaine sainte, où le Christ est mis à mort hors des murs. L'amour de Dieu va jusqu'à se livrer.",
+   "en": "The Orthodox tradition contemplates in this son the love of the Father who sends his only Son. The story is read in the light of Holy Week, when Christ is put to death outside the walls. God's love goes as far as giving itself up."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le fils bien-aimé le Christ envoyé par le Père et mis à mort.",
+    "en": "Both traditions see in the beloved son Christ, sent by the Father and put to death."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:6",
+    "usage": "quote",
+    "quote": "God is said to doubt, that freedom of will may be left to man"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-9-12",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 9,
+  "chapterEnd": 12,
+  "verseEnd": 12,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus demande ce que fera le maître : il viendra et donnera la vigne à d'autres. Il cite le psaume : « La pierre qu'ont rejetée ceux qui bâtissaient est devenue la principale de l'angle. » C'est l'œuvre du Seigneur, une merveille à nos yeux. Ses auditeurs comprennent que la parabole les vise et cherchent à l'arrêter, mais ils craignent la foule.",
+   "en": "Jesus asks what the master will do: he will come and give the vineyard to others. He quotes the psalm: \"The stone which the builders rejected was made the head of the corner.\" This is the Lord's doing, marvellous in our eyes. His hearers understand that the parable is aimed at them and seek to arrest him, but they fear the crowd."
+  },
+  "action": {
+   "fr": "Pense à une épreuve où tu t'es senti « rejeté », et remets-la au Christ, pierre d'angle.",
+   "en": "Think of a trial in which you felt \"rejected\", and hand it over to Christ, the cornerstone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la pierre rejetée le Christ ressuscité, devenu le fondement de l'Église. Bède le Vénérable, cité dans la Catena Aurea, souligne que tout cela s'est fait par l'intervention divine. Saint Augustin harmonise les récits de Matthieu et de Marc sur la réponse donnée.",
+   "en": "The Catholic tradition sees in the rejected stone the risen Christ, who has become the foundation of the Church. The Venerable Bede, quoted in the Catena Aurea, stresses that all this happened by divine intervention. Saint Augustine harmonises Matthew's and Mark's accounts of the answer given."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans la pierre d'angle le Christ qui unit deux murs. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que l'angle est l'Église, qui joint ensemble les deux peuples. Le Christ rejeté devient le lien de tous.",
+   "en": "The Orthodox tradition also sees in the cornerstone Christ, who joins two walls. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the corner is the Church, joining the two peoples together. The rejected Christ becomes the bond of all."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la pierre rejetée le Christ ressuscité, pierre d'angle de l'Église.",
+    "en": "Both traditions see in the rejected stone the risen Christ, cornerstone of the Church."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:10",
+    "usage": "quote",
+    "quote": "But that this was done by Divine interposition he affirms"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:9",
+    "usage": "quote",
+    "quote": "Matthew indeed subjoins that they answered and said"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:10",
+    "usage": "quote",
+    "quote": "For the Church is, as it were, the corner"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-13-16",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 13,
+  "chapterEnd": 12,
+  "verseEnd": 16,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "On envoie à Jésus des pharisiens et des partisans d'Hérode pour le piéger. Ils le flattent, puis demandent s'il est permis de payer l'impôt à César. Jésus voit leur hypocrisie. Il demande qu'on lui apporte une pièce. À qui sont l'effigie et l'inscription ? À César, répondent-ils.",
+   "en": "Some Pharisees and Herod's supporters are sent to Jesus to trap him. They flatter him, then ask whether it is lawful to pay taxes to Caesar. Jesus sees their hypocrisy. He asks them to bring him a coin. Whose image and inscription is this? Caesar's, they answer."
+  },
+  "action": {
+   "fr": "Quand on te tend un piège dans une discussion, prends le temps de répondre avec calme et vérité.",
+   "en": "When someone sets a trap for you in a discussion, take time to answer calmly and truthfully."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette scène la sagesse du Christ face aux pièges. Bède le Vénérable, cité dans la Catena Aurea, explique que cette question flatteuse voulait l'amener à dire qu'il ne fallait pas payer l'impôt, pour le livrer aux partisans d'Hérode. Il note que les chefs, craignant la foule, cherchent à agir par le pouvoir terrestre.",
+   "en": "The Catholic tradition sees in this scene Christ's wisdom before traps. The Venerable Bede, quoted in the Catena Aurea, explains that this bland question was meant to lead him to say that tax should not be paid, so as to hand him over to Herod's supporters. He notes that the leaders, fearing the crowd, try to act through earthly power."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le Christ démasque la flatterie sans perdre sa douceur. Il répond par un objet concret, la pièce, qui renvoie chacun à sa propre conscience. La vérité n'a pas besoin de ruse pour se défendre.",
+   "en": "The Orthodox tradition stresses that Christ unmasks flattery without losing his gentleness. He answers with a concrete object, the coin, which sends each person back to their own conscience. Truth does not need cunning to defend itself."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la sagesse du Christ, qui déjoue un piège par la vérité.",
+    "en": "Both traditions see here Christ's wisdom, which defeats a trap with the truth."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:14",
+    "usage": "quote",
+    "quote": "this bland and crafty question"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:13",
+    "usage": "quote",
+    "quote": "The Chief Priests though they sought to take Him, feared the multitude"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-17-20",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 17,
+  "chapterEnd": 12,
+  "verseEnd": 20,
+  "category": "pouvoir-service",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus conclut : « Rendez à César ce qui est à César, et à Dieu ce qui est à Dieu. » La réponse les étonne. Puis viennent des sadducéens, qui nient la résurrection. Ils rappellent la loi de Moïse : si un homme meurt sans enfant, son frère doit épouser la veuve. Leur question imagine alors sept frères qui épousent successivement la même femme.",
+   "en": "Jesus concludes, \"Render to Caesar the things that are Caesar's, and to God the things that are God's.\" The answer amazes them. Then some Sadducees come, who deny the resurrection. They recall the law of Moses: if a man dies childless, his brother must marry the widow. Their question then imagines seven brothers who marry the same woman one after another."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui honnêtement un devoir de citoyen, et offre à Dieu ce qui lui revient : ton cœur.",
+   "en": "Today, honestly fulfil a civic duty, and offer God what belongs to him: your heart."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette parole la distinction entre l'autorité civile et Dieu, sans les opposer. Bède le Vénérable, cité dans la Catena Aurea, explique que ce qui revient à Dieu, ce sont les dîmes, les prémices et les offrandes, et que le Christ lui-même a payé l'impôt. L'homme, image de Dieu, appartient d'abord à Dieu.",
+   "en": "The Catholic tradition sees in this saying the distinction between civil authority and God, without setting them against each other. The Venerable Bede, quoted in the Catena Aurea, explains that what belongs to God means tithes, first-fruits and offerings, and that Christ himself paid the tax. Man, the image of God, belongs first to God."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi dans la pièce à l'effigie de César un rappel : l'homme porte l'image de Dieu. Elle prie pour les autorités civiles à chaque liturgie, sans leur donner ce qui revient à Dieu. Les martyrs ont honoré l'empereur tout en refusant de l'adorer.",
+   "en": "The Orthodox tradition also reads in the coin bearing Caesar's image a reminder: man bears the image of God. It prays for civil authorities at every liturgy, without giving them what belongs to God. The martyrs honoured the emperor while refusing to worship him."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions distinguent ce qui revient aux autorités civiles et ce qui revient à Dieu.",
+    "en": "Both traditions distinguish what belongs to civil authorities from what belongs to God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:17",
+    "usage": "quote",
+    "quote": "That is, tithes, first-fruits, oblations, and victims"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-21-24",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 21,
+  "chapterEnd": 12,
+  "verseEnd": 24,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les sept frères meurent l'un après l'autre sans laisser d'enfant, puis la femme meurt aussi. Les sadducéens demandent duquel elle sera la femme à la résurrection. Jésus répond qu'ils sont dans l'erreur. Ils ne connaissent ni les Écritures ni la puissance de Dieu.",
+   "en": "The seven brothers die one after another without leaving children, then the woman dies too. The Sadducees ask whose wife she will be at the resurrection. Jesus answers that they have gone astray. They know neither the Scriptures nor the power of God."
+  },
+  "action": {
+   "fr": "Lis aujourd'hui un passage biblique sur la résurrection et demande à Dieu de fortifier ton espérance.",
+   "en": "Read a biblical passage on the resurrection today and ask God to strengthen your hope."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette réponse le fondement de la foi en la résurrection de la chair. La Glose, citée dans la Catena Aurea, explique leur erreur : ils contredisent les Écritures et diminuent la puissance de Dieu. La vie éternelle n'est pas une simple prolongation de celle-ci.",
+   "en": "The Catholic tradition sees in this answer the foundation of faith in the resurrection of the flesh. The Gloss, quoted in the Catena Aurea, explains their error: they contradict the Scriptures and lessen the power of God. Eternal life is not simply a prolonging of this one."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la transformation de la vie ressuscitée. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique qu'ils ne comprennent pas quelle résurrection annoncent les Écritures, car ils imaginent un simple retour des corps tels qu'ils sont. Pâques révèle une vie nouvelle.",
+   "en": "The Orthodox tradition stresses the transformation of risen life. Theophylact of Ohrid, quoted in the Catena Aurea, explains that they do not understand what kind of resurrection the Scriptures announce, for they imagine a mere return of bodies as they are now. Pascha reveals a new life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent la résurrection, œuvre de la puissance de Dieu et vie transformée.",
+    "en": "Both traditions confess the resurrection, the work of God's power and a transformed life."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:24",
+    "usage": "quote",
+    "quote": "because they contradicted the Scriptures, and derogated from the power of God"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:24",
+    "usage": "quote",
+    "quote": "Ye understand not what sort of a resurrection the Scriptures announce"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-25-28",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 25,
+  "chapterEnd": 12,
+  "verseEnd": 28,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "À la résurrection, dit Jésus, on ne se marie plus : on est comme les anges dans les cieux. Quant aux morts, il rappelle la parole de Dieu à Moïse au buisson : le Dieu d'Abraham, d'Isaac et de Jacob. Dieu n'est pas le Dieu des morts, mais des vivants. Un scribe, admiratif, lui demande alors quel est le premier commandement.",
+   "en": "At the resurrection, says Jesus, people no longer marry: they are like the angels in heaven. As for the dead, he recalls God's word to Moses at the bush: \"I am the God of Abraham, the God of Isaac, and the God of Jacob.\" God is not the God of the dead, but of the living. A scribe, impressed, then asks him which is the first commandment."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour tes défunts, en confessant que Dieu est le Dieu des vivants.",
+   "en": "Today, pray for your departed, confessing that God is the God of the living."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage la preuve que les âmes vivent après la mort, en attendant la résurrection des corps. Bède le Vénérable, cité dans la Catena Aurea, explique que Dieu ne pourrait être le Dieu de ceux qui n'existent plus, et que la résurrection du corps suit. Il note aussi une nuance de vocabulaire entre le grec et le latin.",
+   "en": "The Catholic tradition sees in this passage proof that souls live after death, awaiting the resurrection of the body. The Venerable Bede, quoted in the Catena Aurea, explains that God could not be the God of those who no longer exist, and that the resurrection of the body follows. He also notes a nuance of vocabulary between Greek and Latin."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y fonde aussi la prière pour les défunts, vivants en Dieu. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que les Sadducéens imaginent un simple retour de nos corps tels qu'ils sont. La vie angélique annonce une existence transfigurée.",
+   "en": "The Orthodox tradition also grounds prayer for the departed here, for they are alive in God. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the Sadducees imagine a mere return of our bodies as they are now. The angelic life announces a transfigured existence."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent que les morts vivent en Dieu et prient pour eux dans l'attente de la résurrection.",
+    "en": "Both traditions confess that the dead live in God and pray for them while awaiting the resurrection."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:27",
+    "usage": "quote",
+    "quote": "for God could not be God of those who did not exist at all"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:25",
+    "usage": "quote",
+    "quote": "the Latin custom does not answer to the Greek idiom"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:25",
+    "usage": "quote",
+    "quote": "for ye believe that there will be a restoration of our bodies"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-29-31",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 29,
+  "chapterEnd": 12,
+  "verseEnd": 31,
+  "category": "amour-du-prochain",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus répond : le premier commandement est « Écoute, Israël, le Seigneur, notre Dieu, est l'unique Seigneur ». Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de toute ta pensée et de toute ta force. Le second est celui-ci : tu aimeras ton prochain comme toi-même. Il n'y a pas de commandement plus grand.",
+   "en": "Jesus answers: the first commandment is \"Hear, Israel, the Lord our God, the Lord is one.\" You shall love the Lord your God with all your heart, all your soul, all your mind and all your strength. The second is this: you shall love your neighbour as yourself. There is no commandment greater than these."
+  },
+  "action": {
+   "fr": "Dis aujourd'hui, matin et soir, le « Écoute, Israël », et fais un geste d'amour envers ton prochain.",
+   "en": "Today, say the \"Hear, Israel\" morning and evening, and do an act of love for your neighbour."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces deux commandements le résumé de toute la Loi et des Prophètes. La Glose, citée dans la Catena Aurea, rapporte « de toute ta force » aux forces du corps. Jésus reprend la prière juive du Shema, que les chrétiens partagent avec Israël.",
+   "en": "The Catholic tradition sees in these two commandments the summary of the whole Law and the Prophets. The Gloss, quoted in the Catena Aurea, refers \"with all your strength\" to the powers of the body. Jesus takes up the Jewish prayer of the Shema, which Christians share with Israel."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que tout l'être est appelé à aimer Dieu. Théophylacte d'Ohrid, cité dans la Catena Aurea, montre que le Seigneur énumère toutes les puissances de l'âme. L'amour de Dieu et du prochain sont inséparables sur le chemin de la déification.",
+   "en": "The Orthodox tradition stresses that the whole person is called to love God. Theophylact of Ohrid, quoted in the Catena Aurea, shows that the Lord lists all the powers of the soul. Love of God and of neighbour are inseparable on the path of deification."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le double commandement de l'amour le cœur de toute la Loi.",
+    "en": "Both traditions see in the double commandment of love the heart of the whole Law."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:30",
+    "usage": "quote",
+    "quote": "may be referred to the bodily powers"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:30",
+    "usage": "quote",
+    "quote": "See how He has enumerated all the powers of the soul"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-32-35",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 32,
+  "chapterEnd": 12,
+  "verseEnd": 35,
+  "category": "royaume-de-dieu",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le scribe approuve : Dieu est unique, et l'aimer, ainsi que le prochain, vaut mieux que tous les holocaustes et sacrifices. Jésus, voyant qu'il a répondu avec sagesse, lui dit qu'il n'est pas loin du Royaume de Dieu. Personne n'ose plus l'interroger. Puis, au Temple, Jésus demande comment les scribes peuvent dire que le Messie est fils de David.",
+   "en": "The scribe agrees: God is one, and loving him, and one's neighbour, is worth more than all burnt offerings and sacrifices. Jesus, seeing that he answered wisely, tells him he is not far from the Kingdom of God. No one dares question him any more. Then, in the Temple, Jesus asks how the scribes can say that the Messiah is the son of David."
+  },
+  "action": {
+   "fr": "Rejoins aujourd'hui, par la pensée ou un message, une personne en recherche, sans la juger.",
+   "en": "Today, reach out, in thought or with a message, to someone who is searching, without judging them."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce scribe un homme proche du Royaume par sa sincérité. Bède le Vénérable, cité dans la Catena Aurea, explique qu'il n'était pas loin du Royaume parce qu'il partageait une conviction propre à l'Évangile : l'amour vaut plus que les sacrifices. Il ne lui manque que de reconnaître le Christ.",
+   "en": "The Catholic tradition sees in this scribe a man close to the Kingdom through his sincerity. The Venerable Bede, quoted in the Catena Aurea, explains that he was not far from the Kingdom because he shared a conviction proper to the Gospel: love is worth more than sacrifices. All he lacks is to recognise Christ."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe admire la douceur de Jésus envers cet homme. Elle y voit un exemple pour accueillir ceux qui cherchent Dieu avec droiture. Le culte véritable unit la liturgie et l'amour du prochain.",
+   "en": "The Orthodox tradition admires Jesus' gentleness towards this man. It sees here an example of welcoming those who seek God uprightly. True worship unites liturgy and love of neighbour."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici un chercheur sincère, proche du Royaume, et l'amour placé au-dessus des sacrifices.",
+    "en": "Both traditions see here a sincere seeker, close to the Kingdom, and love placed above sacrifices."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:34",
+    "usage": "quote",
+    "quote": "But the reason why he was not far from the kingdom of God was"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-36-40",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 36,
+  "chapterEnd": 12,
+  "verseEnd": 40,
+  "category": "humilite",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus cite le psaume où David, inspiré par l'Esprit Saint, appelle le Messie « mon Seigneur ». Si David l'appelle Seigneur, comment peut-il être son fils ? La foule l'écoute avec plaisir. Puis il met en garde contre les scribes qui aiment les longues robes, les salutations et les premières places. Ils dévorent les biens des veuves tout en faisant de longues prières.",
+   "en": "Jesus quotes the psalm in which David, inspired by the Holy Spirit, calls the Messiah \"my Lord\". If David calls him Lord, how can he be his son? The crowd listens to him gladly. Then he warns against scribes who love long robes, greetings and the best seats. They devour widows' houses while making long prayers."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un bien sans que personne ne le voie, et sans en parler.",
+   "en": "Today, do some good without anyone seeing it, and without talking about it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette question la révélation que le Messie est plus que fils de David : il est le Seigneur. Bède le Vénérable, cité dans la Catena Aurea, explique que marcher en longues robes, c'est se montrer en public dans des vêtements trop ornés. La mise en garde vaut pour tous ceux qui ont une charge dans l'Église.",
+   "en": "The Catholic tradition sees in this question the revelation that the Messiah is more than the son of David: he is the Lord. The Venerable Bede, quoted in the Catena Aurea, explains that walking in long robes means appearing in public in over-ornate clothing. The warning applies to all who hold office in the Church."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse le Christ à la fois fils de David selon la chair et Seigneur éternel. La mise en garde contre la vanité religieuse est lue comme un appel à l'humilité pour le clergé et les fidèles. La prière n'est jamais un spectacle.",
+   "en": "The Orthodox tradition confesses Christ as both son of David according to the flesh and eternal Lord. The warning against religious vanity is read as a call to humility for clergy and faithful alike. Prayer is never a show."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent le Christ, fils de David et Seigneur, et voient ici un appel à l'humilité.",
+    "en": "Both traditions confess Christ as son of David and Lord, and see here a call to humility."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:38",
+    "usage": "quote",
+    "quote": "To walk in long clothing is to go forth into public clad in garments too much ornamented"
+   }
+  ]
+ },
+ {
+  "key": "mrk-12-41-44",
+  "book": "MRK",
+  "chapterStart": 12,
+  "verseStart": 41,
+  "chapterEnd": 12,
+  "verseEnd": 44,
+  "category": "richesse-pauvrete",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus s'assied en face du tronc du Temple et regarde les gens déposer leur offrande. Beaucoup de riches donnent beaucoup. Arrive une pauvre veuve, qui met deux petites pièces. Jésus dit à ses disciples qu'elle a donné plus que tous les autres. Eux ont donné de leur superflu, elle a donné de sa pauvreté, tout ce qu'elle avait pour vivre.",
+   "en": "Jesus sits down opposite the Temple treasury and watches people put in their offerings. Many rich people give a lot. A poor widow comes and puts in two small coins. Jesus tells his disciples that she has given more than all the others. They gave out of their abundance; she gave out of her poverty, all she had to live on."
+  },
+  "action": {
+   "fr": "Donne aujourd'hui quelque chose qui te coûte vraiment, même petit.",
+   "en": "Today, give something that really costs you, however small."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette veuve le modèle d'un don total, mesuré par l'amour plutôt que par la somme. Bède le Vénérable, cité dans la Catena Aurea, souligne qu'elle a donné de son indigence tout ce qu'elle avait. Il explique aussi la petite monnaie mentionnée par Marc.",
+   "en": "The Catholic tradition sees in this widow the model of a total gift, measured by love rather than by the amount. The Venerable Bede, quoted in the Catena Aurea, stresses that she gave out of her want all that she had. He also explains the small coin mentioned by Mark."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime cette figure, souvent citée pour encourager l'aumône des pauvres. Dieu regarde le cœur, non la quantité. Le don de la veuve annonce celui du Christ, qui donne tout ce qu'il a, sa propre vie.",
+   "en": "The Orthodox tradition loves this figure, often cited to encourage the almsgiving of the poor. God looks at the heart, not the amount. The widow's gift foreshadows Christ's, who gives all he has, his own life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le don de la veuve un don total, que Dieu mesure à l'amour.",
+    "en": "Both traditions see in the widow's gift a total gift, which God measures by love."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:44",
+    "usage": "quote",
+    "quote": "but she of her want did cast in all that she had"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 12",
+    "ref": "MRK 12:42",
+    "usage": "quote",
+    "quote": "Reckoners use the word 'quadrans'"
+   }
+  ]
  }
 ]
