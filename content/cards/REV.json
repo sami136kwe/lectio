@@ -2993,5 +2993,592 @@
    }
   },
   "sources": []
+ },
+ {
+  "key": "rev-17-1-4",
+  "book": "REV",
+  "chapterStart": 17,
+  "verseStart": 1,
+  "chapterEnd": 17,
+  "verseEnd": 4,
+  "category": "richesse-pauvrete",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Un des sept anges invite Jean à voir le jugement de la grande prostituée assise sur les grandes eaux. Les rois de la terre se sont livrés à elle. Jean la voit au désert, assise sur une bête écarlate couverte de noms de blasphème. Elle est vêtue de pourpre, parée d'or et de perles, une coupe d'or à la main, pleine d'abominations.",
+   "en": "One of the seven angels invites John to see the judgement of the great prostitute seated on many waters. The kings of the earth have given themselves to her. John sees her in the desert, seated on a scarlet beast covered with names of blasphemy. She is dressed in purple, adorned with gold and pearls, a golden cup in her hand, full of abominations."
+  },
+  "action": {
+   "fr": "Demande-toi aujourd'hui si le luxe ou l'apparence ne prend pas trop de place dans ta vie.",
+   "en": "Ask yourself today whether luxury or appearance is taking up too much room in your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la prostituée l'image d'une société qui séduit par la richesse et le pouvoir, comme Rome au temps de Jean. Victorin de Pettau voit dans la bête écarlate, auteur des meurtres, l'image du diable. Saint Cyprien cite ce passage pour inviter les femmes chrétiennes à ne pas se parer à la manière du monde.",
+   "en": "The Catholic tradition sees in the prostitute an image of a society that seduces by wealth and power, like Rome in John's day. Victorinus of Pettau sees in the scarlet beast, author of murders, the image of the devil. Saint Cyprian quotes this passage to invite Christian women not to adorn themselves in a worldly way."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi la prostituée comme l'image de l'idolâtrie, que les prophètes appelaient prostitution. Le luxe ostentatoire s'oppose à la simplicité de l'Épouse. L'image vise toute puissance qui se vend.",
+   "en": "The Orthodox tradition also reads the prostitute as an image of idolatry, which the prophets called prostitution. Ostentatious luxury contrasts with the simplicity of the Bride. The image targets any power that sells itself."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la prostituée l'image d'une puissance idolâtre qui séduit par la richesse.",
+    "en": "Both traditions see in the prostitute the image of an idolatrous power that seduces by wealth."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 17:3",
+    "usage": "quote",
+    "quote": "is the image of the devil"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 12",
+    "section": "Treatise XII Three Books of Testimonies Against the Jews",
+    "ref": "REV 17:1",
+    "usage": "quote",
+    "quote": "That a woman ought not to be adorned in a worldly fashion."
+   }
+  ]
+ },
+ {
+  "key": "rev-17-5-8",
+  "book": "REV",
+  "chapterStart": 17,
+  "verseStart": 5,
+  "chapterEnd": 17,
+  "verseEnd": 8,
+  "category": "martyrs-temoins",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Sur son front est écrit un nom mystérieux : Babylone la grande, mère des abominations de la terre. Elle est ivre du sang des saints. L'ange lui explique le mystère de la femme et de la bête. La bête était, n'est plus, et doit remonter de l'abîme avant d'aller à sa perdition.",
+   "en": "On her forehead a mysterious name is written: Babylon the great, mother of the abominations of the earth. She is drunk with the saints' blood. The angel explains to him the mystery of the woman and the beast. The beast was, is not, and is to come up from the abyss before going to destruction."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les chrétiens tués à cause de leur foi dans le monde.",
+   "en": "Pray today for Christians killed for their faith around the world."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans Babylone ivre du sang des saints la persécution impériale, sous Néron et Domitien. Victorin de Pettau rapproche Babylone de Sodome et de la Babylone d'Isaïe : ce sont la même réalité. Le mystère du mal est réel mais condamné.",
+   "en": "The Catholic tradition sees in Babylon drunk with the saints' blood the imperial persecution, under Nero and Domitian. Victorinus of Pettau links Babylon with Sodom and with Isaiah's Babylon: they are the same reality. The mystery of evil is real but condemned."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y voit aussi le visage de toute puissance qui persécute les témoins. La bête qui était et n'est plus parodie Dieu, qui est, qui était et qui vient. Sa fin est déjà annoncée.",
+   "en": "The Orthodox tradition also sees here the face of every power that persecutes witnesses. The beast that was and is not parodies God, who is, who was and who is to come. Its end is already announced."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la persécution des témoins et la puissance du mal, dont la fin est déjà annoncée.",
+    "en": "Both traditions see here the persecution of witnesses and the power of evil, whose end is already announced."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 17:6",
+    "usage": "quote",
+    "quote": "Come, I will show thee the judgment of that great whore"
+   }
+  ]
+ },
+ {
+  "key": "rev-17-9-12",
+  "book": "REV",
+  "chapterStart": 17,
+  "verseStart": 9,
+  "chapterEnd": 17,
+  "verseEnd": 12,
+  "category": "verite-parole",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "C'est ici qu'il faut de la sagesse : les sept têtes sont sept montagnes, sur lesquelles la femme est assise. Ce sont aussi sept rois. Cinq sont tombés, un existe, l'autre n'est pas encore venu. Les dix cornes sont dix rois qui recevront une autorité pour une heure avec la bête.",
+   "en": "Here wisdom is needed: the seven heads are seven mountains, on which the woman is seated. They are also seven kings. Five have fallen, one is, the other has not yet come. The ten horns are ten kings who will receive authority for one hour with the beast."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les dirigeants du monde, afin qu'ils servent la justice et non leur pouvoir.",
+   "en": "Pray today for the world's leaders, that they may serve justice and not their own power."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les sept collines une allusion claire à Rome, capitale de l'empire persécuteur. Victorin de Pettau le dit expressément : les sept collines sont la ville de Rome. Il interprète les sept rois à partir du temps où l'Apocalypse fut écrite.",
+   "en": "The Catholic tradition sees in the seven hills a clear allusion to Rome, capital of the persecuting empire. Victorinus of Pettau says so expressly: the seven hills are the city of Rome. He interprets the seven kings from the time when Revelation was written."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi l'empire de l'époque, et plus largement tout pouvoir qui s'absolutise. Saint Irénée de Lyon voit dans les dix rois ceux qui partageront le règne aux derniers temps. Le pouvoir de la bête ne dure qu'une heure.",
+   "en": "The Orthodox tradition also reads here the empire of the time, and more broadly any power that makes itself absolute. Saint Irenaeus of Lyon sees in the ten kings those who will share the rule in the last times. The beast's power lasts only an hour."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reconnaissent dans les sept collines la Rome persécutrice et voient la brièveté de tout pouvoir opposé à Dieu.",
+    "en": "Both traditions recognise in the seven hills persecuting Rome and see the brevity of any power opposed to God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 17:9",
+    "usage": "quote",
+    "quote": "That is, the city of Rome."
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 17:10",
+    "usage": "quote",
+    "quote": "The time must be understood in which the written Apocalypse"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 5",
+    "section": "Against Heresies Book V",
+    "ref": "REV 17:12",
+    "usage": "quote",
+    "quote": "concerning the ten kings"
+   }
+  ]
+ },
+ {
+  "key": "rev-17-13-18",
+  "book": "REV",
+  "chapterStart": 17,
+  "verseStart": 13,
+  "chapterEnd": 17,
+  "verseEnd": 18,
+  "category": "royaume-de-dieu",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Ces rois donnent leur puissance à la bête et combattront l'agneau. Mais l'agneau les vaincra, car il est Seigneur des seigneurs et Roi des rois, et ceux qui sont avec lui sont appelés, élus et fidèles. Les dix cornes et la bête finiront par haïr la prostituée et la détruire. Le mal se détruit lui-même.",
+   "en": "These kings give their power to the beast and will fight the lamb. But the lamb will overcome them, for he is Lord of lords and King of kings, and those with him are called, chosen and faithful. The ten horns and the beast will end up hating the prostitute and destroying her. Evil destroys itself."
+  },
+  "action": {
+   "fr": "Rappelle-toi aujourd'hui que tu es appelé et choisi, et agis en conséquence.",
+   "en": "Remember today that you are called and chosen, and act accordingly."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce titre, Roi des rois, la victoire assurée du Christ sur toutes les puissances. Victorin de Pettau situe la bête par rapport aux rois de son temps. La division interne du mal annonce sa ruine.",
+   "en": "The Catholic tradition sees in this title, King of kings, the assured victory of Christ over all powers. Victorinus of Pettau places the beast in relation to the kings of his day. Evil's inner division announces its ruin."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe acclame le Christ Roi des rois dans de nombreuses hymnes. Les fidèles qui l'accompagnent partagent sa victoire. Le mal n'a pas d'unité véritable : il finit par se dévorer lui-même.",
+   "en": "The Orthodox tradition acclaims Christ as King of kings in many hymns. The faithful who accompany him share his victory. Evil has no true unity: it ends up devouring itself."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent l'Agneau Roi des rois, vainqueur d'un mal qui se détruit lui-même.",
+    "en": "Both traditions confess the Lamb as King of kings, victor over an evil that destroys itself."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 17:11",
+    "usage": "quote",
+    "quote": "Since before those kings Nero reigned."
+   }
+  ]
+ },
+ {
+  "key": "rev-18-1-4",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 1,
+  "chapterEnd": 18,
+  "verseEnd": 4,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un ange plein d'autorité descend du ciel, et la terre est illuminée de sa gloire. Il crie : elle est tombée, Babylone la grande, devenue repaire de démons. Les nations ont bu le vin de sa débauche, et les marchands se sont enrichis de son luxe. Une autre voix appelle le peuple de Dieu : sortez du milieu d'elle, pour ne pas participer à ses péchés.",
+   "en": "An angel with great authority comes down from heaven, and the earth is lit up with his glory. He cries: fallen is Babylon the great, become a haunt of demons. The nations drank her wine. Another voice calls God's people: come out of her, so as not to share in her sins."
+  },
+  "action": {
+   "fr": "Choisis aujourd'hui de « sortir » d'une habitude de consommation qui t'enferme.",
+   "en": "Today, choose to \"come out\" of a consumer habit that traps you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'appel à sortir de Babylone la vocation du chrétien à vivre dans le monde sans être du monde. La chute annoncée concerne toute civilisation fondée sur le profit et le plaisir sans Dieu. Le jugement est déjà proclamé comme accompli.",
+   "en": "The Catholic tradition sees in the call to come out of Babylon the Christian's vocation to live in the world without being of the world. The fall announced concerns any civilisation founded on profit and pleasure without God. The judgement is already proclaimed as accomplished."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe a vu dans cet appel l'une des sources du monachisme : quitter le monde pour suivre le Christ. Pour tous, il s'agit de se séparer du péché, non des hommes. La gloire de l'ange contraste avec les ténèbres de Babylone.",
+   "en": "The Orthodox tradition saw in this call one of the sources of monasticism: leaving the world to follow Christ. For all, it means separating from sin, not from people. The angel's glory contrasts with Babylon's darkness."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions entendent ici l'appel à vivre dans le monde sans participer à ses péchés.",
+    "en": "Both traditions hear here the call to live in the world without sharing in its sins."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-18-5-8",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 5,
+  "chapterEnd": 18,
+  "verseEnd": 8,
+  "category": "justice-misericorde",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les péchés de Babylone se sont accumulés jusqu'au ciel, et Dieu s'est souvenu de ses iniquités. Une voix ordonne de lui rendre selon ses œuvres. Elle disait dans son cœur : je suis reine, je ne verrai pas le deuil. C'est pourquoi, en un seul jour, viendront ses fléaux : la mort, le deuil et la famine.",
+   "en": "Babylon's sins have piled up to heaven, and God has remembered her crimes. Repay her. She said in her heart: I sit as queen, I will never see mourning. That is why in a single day her plagues will come: death, mourning and famine."
+  },
+  "action": {
+   "fr": "Repère aujourd'hui une pensée orgueilleuse, celle de te croire à l'abri, et confie-la humblement à Dieu.",
+   "en": "Spot a proud thought today (\"I am safe\") and entrust it humbly to God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'orgueil de Babylone la racine de sa chute : se croire à l'abri de tout. La justice de Dieu rend à chacun selon ses œuvres. La rapidité de la ruine montre la fragilité des puissances humaines.",
+   "en": "The Catholic tradition sees in Babylon's pride the root of her fall: thinking herself safe from everything. God's justice repays each according to their works. The speed of the ruin shows the fragility of human powers."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans l'orgueil la première des passions, mère de toutes les autres. Babylone se dit reine, comme Lucifer voulait s'élever. L'humilité est le chemin opposé, celui de Marie, la vraie Reine.",
+   "en": "The Orthodox tradition also sees in pride the first of the passions, mother of all the others. Babylon calls herself queen, as Lucifer wished to raise himself up. Humility is the opposite path, that of Mary, the true Queen."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'orgueil la racine de la chute de Babylone et dans l'humilité le chemin opposé.",
+    "en": "Both traditions see pride as the root of Babylon's fall and humility as the opposite path."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-18-9-13",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 9,
+  "chapterEnd": 18,
+  "verseEnd": 13,
+  "category": "richesse-pauvrete",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les rois de la terre pleurent en voyant la fumée de l'incendie de Babylone. Ils se tiennent à distance, effrayés de son tourment. Les marchands pleurent aussi, car personne n'achète plus leurs cargaisons : or, argent, pierres précieuses, soie, parfums, vin, blé, chevaux, chars. La liste se termine par les esclaves, les corps et les âmes des hommes.",
+   "en": "The kings of the earth weep when they see the smoke of Babylon's burning. They stand far off, afraid of her torment. The merchants weep too, because no one buys their cargo any more: gold, silver, precious stones, silk, perfumes, wine, wheat, horses, chariots. The list ends with slaves, the bodies and souls of human beings."
+  },
+  "action": {
+   "fr": "Informe-toi aujourd'hui sur l'origine d'un produit que tu achètes souvent, et demande-toi s'il respecte les personnes.",
+   "en": "Find out today where a product you often buy comes from, and ask whether it respects people."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque la fin terrible de la liste : le commerce des âmes humaines. L'enseignement social de l'Église dénonce toute économie qui traite les personnes comme des marchandises. Les rois et les marchands pleurent leur profit, non les victimes.",
+   "en": "The Catholic tradition notes the terrible end of the list: trade in human souls. The Church's social teaching denounces any economy that treats persons as goods. The kings and merchants weep for their profit, not for the victims."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi la vanité des richesses qui ne sauvent pas. Les biens de ce monde passent, mais l'âme humaine a un prix infini. L'aumône est la seule richesse qui demeure.",
+   "en": "The Orthodox tradition also reads here the vanity of riches that cannot save. The goods of this world pass away, but the human soul has infinite worth. Almsgiving is the only wealth that remains."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions dénoncent ici une économie qui fait commerce des personnes et la vanité des richesses.",
+    "en": "Both traditions denounce here an economy that trades in persons, and the vanity of riches."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-18-14-16",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 14,
+  "chapterEnd": 18,
+  "verseEnd": 16,
+  "category": "richesse-pauvrete",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les fruits que désirait ton âme t'ont quittée, disent les marchands. Tout ce qui était délicat et splendide est perdu, et on ne le retrouvera plus. Ils se tiennent à distance et pleurent. Malheur, la grande ville vêtue de fin lin, de pourpre et d'écarlate, parée d'or et de perles !",
+   "en": "The fruit your soul longed for has left you, say the merchants. All that was dainty and splendid is lost, and will never be found again. They stand far off and weep. Woe, the great city clothed in fine linen, purple and scarlet, adorned with gold and pearls!"
+  },
+  "action": {
+   "fr": "Fais aujourd'hui l'inventaire d'un « bien » dont tu ne pourrais te passer, et offre-le à Dieu en pensée.",
+   "en": "Take stock today of a \"good\" you think you could not do without, and offer it to God in your heart."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces lamentations l'illusion de ceux qui ont mis leur cœur dans les choses. Ce que l'âme désirait est perdu, car elle désirait ce qui passe. Le Christ invite à amasser un trésor dans le ciel.",
+   "en": "The Catholic tradition sees in these laments the illusion of those who set their heart on things. What the soul longed for is lost, because it longed for what passes away. Christ invites us to store up treasure in heaven."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit l'enseignement des Pères sur le détachement. Les belles choses ne sont pas mauvaises, mais elles ne peuvent combler l'âme. Seul Dieu rassasie le désir humain.",
+   "en": "The Orthodox tradition reads here the Fathers' teaching on detachment. Beautiful things are not evil, but they cannot fill the soul. Only God satisfies human desire."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la vanité des biens qui passent et l'appel à mettre son cœur en Dieu.",
+    "en": "Both traditions see here the vanity of passing goods and the call to set one's heart on God."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-18-17-20",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 17,
+  "chapterEnd": 18,
+  "verseEnd": 20,
+  "category": "richesse-pauvrete",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "En une heure, tant de richesses ont été détruites. Pilotes, marins et marchands de la mer se tiennent au loin et crient en voyant la fumée. Quelle ville était semblable à la grande ville ? Ils jettent de la poussière sur leur tête. Mais le ciel, les saints, les apôtres et les prophètes sont invités à se réjouir, car Dieu leur a fait justice.",
+   "en": "In one hour so much wealth has been laid waste. Pilots, sailors and sea traders stand far off and cry out when they see the smoke. What city was like the great city? They throw dust on their heads. But heaven, the saints, the apostles and the prophets are invited to rejoice, for God has given them justice."
+  },
+  "action": {
+   "fr": "Remercie Dieu aujourd'hui pour une injustice qu'il a déjà réparée dans ta vie ou autour de toi.",
+   "en": "Thank God today for an injustice he has already put right in your life or around you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque le contraste entre les pleurs des marchands et la joie des saints. Ce qui est ruine pour les uns est délivrance pour les autres. La justice de Dieu rend leur dignité aux victimes.",
+   "en": "The Catholic tradition notes the contrast between the merchants' tears and the saints' joy. What is ruin for some is deliverance for others. God's justice gives victims back their dignity."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi la fragilité de toute puissance fondée sur la richesse. Une heure suffit pour que tout disparaisse. Les apôtres et les prophètes, qui n'avaient rien, se réjouissent.",
+   "en": "The Orthodox tradition also reads here the fragility of any power founded on wealth. One hour is enough for everything to vanish. The apostles and prophets, who had nothing, rejoice."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la fragilité des richesses et la joie des saints à qui Dieu rend justice.",
+    "en": "Both traditions see here the fragility of riches and the joy of the saints to whom God gives justice."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-18-21-24",
+  "book": "REV",
+  "chapterStart": 18,
+  "verseStart": 21,
+  "chapterEnd": 18,
+  "verseEnd": 24,
+  "category": "justice-misericorde",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un ange puissant jette dans la mer une pierre semblable à une grande meule. Ainsi sera précipitée Babylone, et on ne la retrouvera plus. On n'y entendra plus ni musique, ni artisan, ni bruit de meule, ni voix de l'époux et de l'épouse. Ses sortilèges avaient égaré les nations. On a trouvé chez elle le sang des prophètes et des saints, et de tous ceux qui ont été tués sur la terre.",
+   "en": "A mighty angel throws into the sea a stone like a great millstone. So Babylon will be thrown down, and will be found no more. No music, no craftsman, no sound of the mill, no voice of bridegroom and bride will be heard in her any more. Her sorceries had led the nations astray. In her was found the blood of prophets and saints, and of all who have been slain on the earth."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour toutes les victimes de violence, connues et inconnues.",
+   "en": "Pray today for all victims of violence, known and unknown."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce silence final la fin de toute vie séparée de Dieu. Le sang de tous ceux qui ont été tués sur la terre montre que Dieu n'oublie aucune victime. La beauté humaine, musique et noces, retrouvera sa vraie place dans la Jérusalem nouvelle.",
+   "en": "The Catholic tradition sees in this final silence the end of all life cut off from God. The blood of all who were slain on the earth shows that God forgets no victim. Human beauty, music and weddings, will find its true place in the new Jerusalem."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi la mémoire de Dieu pour tous les innocents. La meule jetée à la mer rappelle la parole du Christ sur ceux qui scandalisent les petits. Le jugement est sans retour.",
+   "en": "The Orthodox tradition also reads here God's remembrance of all the innocent. The millstone thrown into the sea recalls Christ's words about those who cause the little ones to stumble. The judgement is final."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le jugement de la ville violente et la mémoire de Dieu pour toutes les victimes.",
+    "en": "Both traditions see here the judgement of the violent city and God's remembrance of all victims."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-19-1-4",
+  "book": "REV",
+  "chapterStart": 19,
+  "verseStart": 1,
+  "chapterEnd": 19,
+  "verseEnd": 4,
+  "category": "louange-action-de-grace",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jean entend dans le ciel la voix d'une foule immense : « Alléluia! Le salut, la gloire et la puissance sont à notre Dieu. » Ses jugements sont véritables et justes. Il a jugé la grande prostituée et vengé le sang de ses serviteurs. Les vingt-quatre vieillards et les quatre êtres vivants se prosternent et disent : « Amen! Alléluia! »",
+   "en": "John hears in heaven the voice of a vast crowd: \"Hallelujah! Salvation, power, and glory belong to our God.\" His judgements are true and just. He has judged the great prostitute and avenged the blood of his servants. The twenty-four elders and the four living creatures fall down and say, \"Amen! Hallelujah!\""
+  },
+  "action": {
+   "fr": "Chante aujourd'hui un Alléluia, même à mi-voix, pour une grâce reçue.",
+   "en": "Sing a Hallelujah today, even softly, for a grace you have received."
+  },
+  "catholic": {
+   "fr": "La tradition catholique chante l'Alléluia avant l'Évangile, sauf en Carême, et avec solennité à Pâques. Ce passage est le seul du Nouveau Testament où le mot apparaît. Il est repris dans le cantique des vêpres du dimanche.",
+   "en": "The Catholic tradition sings the Alleluia before the Gospel, except in Lent, and solemnly at Easter. This passage is the only one in the New Testament where the word appears. It is taken up in the canticle of Sunday Vespers."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante l'Alléluia à de nombreux offices, y compris en Carême. Il accompagne la lecture de l'Évangile à la Divine Liturgie. La louange céleste devient celle de l'Église.",
+   "en": "The Orthodox tradition sings the Alleluia at many services, including in Lent. It accompanies the reading of the Gospel at the Divine Liturgy. Heavenly praise becomes the Church's own."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions chantent l'Alléluia de cette liturgie céleste avant l'Évangile.",
+    "en": "Both traditions sing the Hallelujah of this heavenly liturgy before the Gospel."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-19-5-8",
+  "book": "REV",
+  "chapterStart": 19,
+  "verseStart": 5,
+  "chapterEnd": 19,
+  "verseEnd": 8,
+  "category": "eucharistie",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Une voix sort du trône : louez notre Dieu, vous tous ses serviteurs, petits et grands. Jean entend comme la voix d'une foule et le bruit des grandes eaux : « Alléluia! Car le Seigneur notre Dieu tout-puissant est entré dans son règne. » Les noces de l'agneau sont venues. Son épouse s'est préparée, vêtue de fin lin éclatant : ce sont les œuvres justes des saints.",
+   "en": "A voice comes from the throne: praise our God, all you his servants, small and great. John hears something like the voice of a crowd and the sound of many waters: \"Hallelujah! For the Lord our God, the Almighty, reigns!\" The marriage of the lamb has come. His bride has made herself ready, clothed in bright fine linen: the righteous deeds of the saints."
+  },
+  "action": {
+   "fr": "Prépare aujourd'hui ton « vêtement de noces » par une œuvre juste faite avec amour.",
+   "en": "Today, prepare your \"wedding garment\" with a righteous deed done with love."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les noces de l'agneau l'union du Christ et de l'Église, que l'Eucharistie anticipe. Le prêtre cite ce verset à la messe : heureux les invités au repas du Seigneur. Le vêtement de l'épouse est tissé des œuvres des saints.",
+   "en": "The Catholic tradition sees in the marriage of the lamb the union of Christ and the Church, which the Eucharist anticipates. The priest echoes this verse at Mass: blessed are those called to the supper of the Lamb. The bride's garment is woven of the saints' deeds."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi le Christ Époux, surtout aux matines de la Semaine sainte. La chambre nuptiale est l'image du Royaume. Chacun est appelé à préparer sa robe de noces par la vie sainte.",
+   "en": "The Orthodox tradition also sings of Christ the Bridegroom, especially at the Matins of Holy Week. The bridal chamber is the image of the Kingdom. Each person is called to prepare their wedding robe through a holy life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans les noces de l'Agneau l'union du Christ et de l'Église, anticipée dans l'Eucharistie.",
+    "en": "Both traditions see in the marriage of the Lamb the union of Christ and the Church, anticipated in the Eucharist."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-19-9-11",
+  "book": "REV",
+  "chapterStart": 19,
+  "verseStart": 9,
+  "chapterEnd": 19,
+  "verseEnd": 11,
+  "category": "eucharistie",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "L'ange dit à Jean d'écrire : heureux ceux qui sont invités au festin des noces de l'agneau. Jean tombe à ses pieds pour l'adorer, mais l'ange l'en empêche : il n'est qu'un compagnon de service, il faut adorer Dieu. Le témoignage de Jésus est l'esprit de la prophétie. Puis le ciel s'ouvre, et paraît un cheval blanc : son cavalier s'appelle Fidèle et Véritable.",
+   "en": "The angel tells John to write: blessed are those invited to the marriage supper of the lamb. John falls at his feet to worship him, but the angel stops him: he is only a fellow servant, God is the one to worship. The testimony of Jesus is the spirit of prophecy. Then heaven opens, and a white horse appears: its rider is called Faithful and True."
+  },
+  "action": {
+   "fr": "Avant ta prochaine communion, dis intérieurement : heureux suis-je d'être invité.",
+   "en": "Before your next communion, say inwardly: blessed am I to be invited."
+  },
+  "catholic": {
+   "fr": "La tradition catholique distingue l'adoration, due à Dieu seul, et la vénération des anges et des saints. Victorin de Pettau voit dans le cavalier du cheval blanc le Seigneur qui vient à son royaume avec l'armée céleste. La béatitude des invités est reprise avant la communion.",
+   "en": "The Catholic tradition distinguishes adoration, due to God alone, from the veneration of angels and saints. Victorinus of Pettau sees in the rider on the white horse the Lord coming to his kingdom with the heavenly army. The beatitude of the invited is taken up before communion."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fait la même distinction entre l'adoration de Dieu et l'honneur rendu aux saints et aux icônes, précisée au septième concile. Le Christ Fidèle et Véritable est celui qui tient ses promesses. Le festin des noces est déjà goûté dans la liturgie.",
+   "en": "The Orthodox tradition makes the same distinction between the worship of God and the honour given to saints and icons, set out at the seventh council. Christ the Faithful and True is the one who keeps his promises. The wedding feast is already tasted in the liturgy."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions réservent l'adoration à Dieu seul et voient dans le cavalier fidèle le Christ qui vient.",
+    "en": "Both traditions reserve adoration for God alone and see in the faithful rider Christ who comes."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 19:11",
+    "usage": "quote",
+    "quote": "sets forth our Lord coming to His kingdom with the heavenly army"
+   }
+  ]
+ },
+ {
+  "key": "rev-19-12-15",
+  "book": "REV",
+  "chapterStart": 19,
+  "verseStart": 12,
+  "chapterEnd": 19,
+  "verseEnd": 15,
+  "category": "incarnation",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les yeux du cavalier sont comme une flamme, et il porte de nombreux diadèmes. Il a un nom que lui seul connaît. Il est vêtu d'un manteau trempé de sang, et son nom est la Parole de Dieu. Les armées du ciel le suivent, vêtues de lin blanc. De sa bouche sort une épée aiguë pour frapper les nations.",
+   "en": "The rider's eyes are like a flame, and he wears many crowns. He has a name that no one knows but himself. He is clothed in a garment dipped in blood, and his name is the Word of God. The armies of heaven follow him, dressed in white linen. From his mouth comes a sharp sword to strike the nations."
+  },
+  "action": {
+   "fr": "Laisse aujourd'hui une parole de l'Évangile « trancher » une hésitation dans ta vie.",
+   "en": "Today, let a word of the Gospel \"cut through\" a hesitation in your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique reconnaît dans ce nom, la Parole de Dieu, le Verbe du prologue de Jean. Le manteau trempé de sang évoque la Passion : le Christ vainqueur est le Crucifié. Son arme est sa parole, non la violence.",
+   "en": "The Catholic tradition recognises in this name, the Word of God, the Word of John's prologue. The garment dipped in blood evokes the Passion: the victorious Christ is the Crucified One. His weapon is his word, not violence."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple aussi le Logos, Verbe éternel du Père, sur les icônes du Christ. Son nom secret dit que le mystère de Dieu dépasse toute connaissance. L'épée de la bouche est la parole qui juge et guérit.",
+   "en": "The Orthodox tradition also contemplates the Logos, eternal Word of the Father, on icons of Christ. His secret name says that God's mystery surpasses all knowledge. The sword of the mouth is the word that judges and heals."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reconnaissent ici le Verbe de Dieu crucifié et vainqueur, dont l'arme est la parole.",
+    "en": "Both traditions recognise here the Word of God, crucified and victorious, whose weapon is his word."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-19-16-21",
+  "book": "REV",
+  "chapterStart": 19,
+  "verseStart": 16,
+  "chapterEnd": 19,
+  "verseEnd": 21,
+  "category": "royaume-de-dieu",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Sur son manteau est écrit : Roi des rois et Seigneur des seigneurs. Un ange appelle les oiseaux. La bête et les rois de la terre se rassemblent pour combattre. La bête et le faux prophète sont capturés et jetés dans l'étang de feu. Les autres sont tués par l'épée qui sort de la bouche du cavalier.",
+   "en": "On his garment is written: King of kings and Lord of lords. An angel calls the birds to the great supper of God, a terrible image of the enemies' defeat. The beast and the kings of the earth gather to fight. The beast and the false prophet are captured and thrown into the lake of fire. The rest are killed by the sword that comes from the rider's mouth."
+  },
+  "action": {
+   "fr": "Confie aujourd'hui au Christ Roi un combat que tu mènes, en renonçant à le gagner par tes seules forces.",
+   "en": "Today, entrust to Christ the King a struggle you are waging, giving up winning it by your own strength alone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique fête le Christ, Roi de l'univers, le dernier dimanche de l'année liturgique. Le combat final n'est pas décrit : la victoire est donnée par la seule parole du Christ. Le contraste entre les deux festins, celui des noces et celui des oiseaux, montre l'enjeu du choix.",
+   "en": "The Catholic tradition celebrates Christ, King of the universe, on the last Sunday of the liturgical year. The final battle is not described: victory is given by Christ's word alone. The contrast between the two feasts, the wedding feast and that of the birds, shows what is at stake in the choice."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe acclame le Christ Roi des rois dans l'hymne des Chérubins. Le faux prophète et la bête, puissances de tromperie, sont vaincus. Le mal n'a pas d'avenir.",
+   "en": "The Orthodox tradition acclaims Christ as King of kings in the Cherubic Hymn. The false prophet and the beast, powers of deception, are defeated. Evil has no future."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions acclament le Christ Roi des rois, vainqueur par sa seule parole.",
+    "en": "Both traditions acclaim Christ, King of kings, victorious by his word alone."
+   }
+  },
+  "sources": []
  }
 ]
