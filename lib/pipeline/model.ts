@@ -149,7 +149,9 @@ export class OllamaModel implements PipelineModel {
           headers: { "content-type": "application/json" },
           body: JSON.stringify({
             model: this.options.model,
-            stream: false,
+            // Streamed: a slow machine can take minutes per card, and fetch gives up
+            // after 5 minutes without response headers or data.
+            stream: true,
             format,
             messages: [
               { role: "system", content: r.system },
@@ -158,13 +160,17 @@ export class OllamaModel implements PipelineModel {
             options: { temperature: 0.3, num_predict: r.maxTokens, num_ctx: this.options.contextTokens ?? 16384 },
           }),
         });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const body = (await res.json()) as { message?: { content?: string }; done_reason?: string };
-        if (body.done_reason === "length") {
+        if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+        const { content, doneReason } = await readStream(res.body);
+        if (doneReason === "length") {
           out.push({ id: r.id, ok: false, error: "max_tokens", costUsd: 0 });
         } else {
-          const parsed = schema.safeParse(JSON.parse(body.message?.content ?? ""));
-          out.push(parsed.success ? { id: r.id, ok: true, value: parsed.data, costUsd: 0 } : { id: r.id, ok: false, error: "schema", costUsd: 0 });
+          const parsed = schema.safeParse(JSON.parse(content));
+          out.push(
+            parsed.success
+              ? { id: r.id, ok: true, value: parsed.data, costUsd: 0 }
+              : { id: r.id, ok: false, error: `schema:${parsed.error.issues.slice(0, 3).map((i) => `${i.path.join(".")} ${i.message}`).join("; ")}`, costUsd: 0 },
+          );
         }
       } catch (e) {
         out.push({ id: r.id, ok: false, error: e instanceof SyntaxError ? "invalid_json" : e instanceof Error ? e.message : String(e), costUsd: 0 });
@@ -173,6 +179,29 @@ export class OllamaModel implements PipelineModel {
     }
     return out;
   }
+}
+
+/** Reads Ollama's streamed answer (one JSON object per line). */
+async function readStream(body: ReadableStream<Uint8Array>): Promise<{ content: string; doneReason?: string }> {
+  const decoder = new TextDecoder();
+  let buffer = "";
+  let content = "";
+  let doneReason: string | undefined;
+  const take = (line: string) => {
+    if (!line.trim()) return;
+    const chunk = JSON.parse(line) as { message?: { content?: string }; done?: boolean; done_reason?: string; error?: string };
+    if (chunk.error) throw new Error(`ollama: ${chunk.error}`);
+    content += chunk.message?.content ?? "";
+    if (chunk.done) doneReason = chunk.done_reason;
+  };
+  for await (const part of body as unknown as AsyncIterable<Uint8Array>) {
+    buffer += decoder.decode(part, { stream: true });
+    const lines = buffer.split("\n");
+    buffer = lines.pop() ?? "";
+    lines.forEach(take);
+  }
+  take(buffer);
+  return { content, doneReason };
 }
 
 export class BudgetExceededError extends Error {

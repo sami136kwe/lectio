@@ -9,6 +9,17 @@ function fakeFetch(replies: unknown[], calls: unknown[] = []): typeof fetch {
     calls.push({ url, body: init?.body ? JSON.parse(String(init.body)) : null });
     const reply = replies.shift();
     if (reply instanceof Error) throw reply;
+    // /api/chat streams one JSON object per line; split the content in two chunks.
+    if (String(url).endsWith("/api/chat")) {
+      const r = reply as { message: { content: string }; done_reason: string };
+      const c = r.message.content;
+      const lines = [
+        { message: { content: c.slice(0, 3) }, done: false },
+        { message: { content: c.slice(3) }, done: false },
+        { message: { content: "" }, done: true, done_reason: r.done_reason },
+      ];
+      return new Response(lines.map((l) => JSON.stringify(l)).join("\n") + "\n", { status: 200 });
+    }
     return new Response(JSON.stringify(reply), { status: 200 });
   }) as unknown as typeof fetch;
 }
@@ -36,7 +47,7 @@ describe("OllamaModel", () => {
       ]),
     });
     const out = await m.run(["1", "2", "3", "4"].map((id) => ({ id, system: "", user: "", maxTokens: 10 })), schema);
-    expect(out.map((o) => (o.ok ? "ok" : o.error))).toEqual(["max_tokens", "invalid_json", "schema", "ECONNREFUSED"]);
+    expect(out.map((o) => (o.ok ? "ok" : o.error.split(":")[0]))).toEqual(["max_tokens", "invalid_json", "schema", "ECONNREFUSED"]);
   });
 
   it("is free", () => {

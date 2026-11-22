@@ -12,6 +12,7 @@
  *   npm run seed:cards -- --yes              do not ask for confirmation (cap still applies)
  *   npm run seed:cards -- --skip-dedup       no embedding service available (dedup by exact range only)
  *
+ *   npm run seed:cards -- --last-errors      why passages of the last run were rejected (no model call)
  *   npm run seed:cards -- --local --book=MRK free, on your own machine with Ollama (no API key)
  *
  * --local: model LECTIO_LOCAL_MODEL (default qwen2.5:14b), Ollama at OLLAMA_HOST (default http://127.0.0.1:11434).
@@ -58,8 +59,20 @@ async function printSample(db: ScriptDb, runId: string, language: "fr" | "en") {
   console.log("\nRead these cards before launching the full run (npm run seed:cards -- --all). The admin page shows the same sample with the sources.");
 }
 
+async function printErrors(db: ScriptDb, runId?: string) {
+  const query = db.from("ingestion_runs").select("id, started_at, scope, status, errors").order("started_at", { ascending: false }).limit(1);
+  const { data, error } = runId ? await db.from("ingestion_runs").select("id, started_at, scope, status, errors").eq("id", runId) : await query;
+  if (error) throw new Error(error.message);
+  const run = data?.[0];
+  if (!run) return console.log("No run yet.");
+  const errors = (run.errors ?? []) as { scope: string; message: string }[];
+  console.log(`\nRun ${run.started_at} (${run.scope}, ${run.status}): ${errors.length} problem(s)`);
+  for (const e of errors) console.log(`  - ${e.scope}: ${e.message.slice(0, 400)}`);
+}
+
 async function main() {
   const db = createServiceClient();
+  if (hasFlag("last-errors")) return printErrors(db);
   const book = argValue("book");
   if (book && !isBookCode(book.toUpperCase())) throw new Error(`unknown book ${book}`);
   const scope: Scope = hasFlag("all") ? { kind: "all" } : book ? { kind: "book", book: book.toUpperCase() } : { kind: "first" };
@@ -102,6 +115,7 @@ async function main() {
     { scope, source: "seed", chunk: local ? 5 : undefined, extend: hasFlag("extend"), category: argValue("category"), dryRun, limit: argValue("limit") ? Number(argValue("limit")) : undefined },
   );
   console.log(`\n${summary.status}: ${summary.planned} passages · ${summary.published} published · ${summary.drafts} drafts · ${summary.rejected} rejected · $${summary.costUsd.toFixed(2)} spent (estimate $${summary.estimateUsd.toFixed(2)})`);
+  if (summary.runId && summary.rejected + summary.drafts > 0) await printErrors(db, summary.runId);
   if (summary.runId && summary.cardIds.length) await printSample(db, summary.runId, argValue("lang") === "en" ? "en" : "fr");
   if (summary.status === "failed") process.exit(1);
 }
