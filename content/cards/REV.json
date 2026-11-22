@@ -3580,5 +3580,628 @@
    }
   },
   "sources": []
+ },
+ {
+  "key": "rev-20-1-4",
+  "book": "REV",
+  "chapterStart": 20,
+  "verseStart": 1,
+  "chapterEnd": 20,
+  "verseEnd": 4,
+  "category": "royaume-de-dieu",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Un ange descend du ciel avec la clé de l'abîme et une grande chaîne. Il saisit le dragon, l'ancien serpent, et l'enchaîne pour mille ans. Jean voit ensuite des trônes et les âmes des témoins décapités pour Jésus, qui n'ont pas adoré la bête. Ils vivent et règnent avec le Christ mille ans. Ce règne de mille ans a reçu des lectures très différentes au cours de l'histoire.",
+   "en": "An angel comes down from heaven with the key of the abyss and a great chain. He seizes the dragon, the ancient serpent, and binds him for a thousand years. John then sees thrones and the souls of witnesses beheaded for Jesus, who had not worshipped the beast. They come to life and reign with Christ a thousand years. This thousand-year reign has received very different readings over history."
+  },
+  "action": {
+   "fr": "Rends grâce aujourd'hui pour la victoire du Christ sur le mal, déjà à l'œuvre dans ta vie.",
+   "en": "Give thanks today for Christ's victory over evil, already at work in your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique comprend les mille ans comme le temps de l'Église, entre la première venue du Christ et la fin, et non comme un règne terrestre. Le commentaire de Victorin de Pettau, dans la version transmise, dit que les années où Satan est lié vont de la première venue du Christ jusqu'à la fin des temps. Saint Cyprien y voit la récompense promise aux martyrs.",
+   "en": "The Catholic tradition understands the thousand years as the time of the Church, between Christ's first coming and the end, not as an earthly reign. Victorinus of Pettau's commentary, in the version handed down, says that the years in which Satan is bound run from Christ's first coming to the end of the age. Saint Cyprian sees in it the reward promised to martyrs."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce millénaire de façon symbolique et n'attend pas de règne terrestre avant la fin. Le Credo affirme que le règne du Christ n'aura pas de fin. Satan est lié par la victoire de la croix, même s'il agit encore.",
+   "en": "The Orthodox tradition also reads this millennium symbolically and expects no earthly reign before the end. The Creed affirms that Christ's reign will have no end. Satan is bound by the victory of the cross, even though he is still active."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent les mille ans comme le temps de l'Église, sans attendre de règne terrestre du Christ avant la fin.",
+    "en": "Both traditions read the thousand years as the time of the Church, expecting no earthly reign of Christ before the end."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 20:1",
+    "usage": "quote",
+    "quote": "Those years wherein Satan is bound are in the first advent of Christ, even to the end of the age"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 11",
+    "section": "Treatise XI. Exhortation to Martyrdom, Addressed to Fortunatus.",
+    "ref": "REV 20:4",
+    "usage": "quote",
+    "quote": "What hope and reward remains for the righteous and for martyrs"
+   }
+  ]
+ },
+ {
+  "key": "rev-20-5-8",
+  "book": "REV",
+  "chapterStart": 20,
+  "verseStart": 5,
+  "chapterEnd": 20,
+  "verseEnd": 8,
+  "category": "bapteme",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les autres morts ne reviennent pas à la vie avant la fin des mille ans : c'est la première résurrection. Heureux et saints ceux qui y ont part, car la seconde mort n'a pas de pouvoir sur eux. Ils seront prêtres de Dieu et du Christ. À la fin des mille ans, Satan sera relâché et sortira séduire les nations, Gog et Magog, pour les rassembler au combat.",
+   "en": "The rest of the dead do not come to life until the thousand years are over: this is the first resurrection. Blessed and holy are those who share in it, for the second death has no power over them. They will be priests of God and of Christ. When the thousand years are over, Satan will be released and will go out to deceive the nations, Gog and Magog, gathering them for battle."
+  },
+  "action": {
+   "fr": "Renouvelle aujourd'hui les promesses de ton baptême, première résurrection avec le Christ.",
+   "en": "Renew your baptismal promises today, the first resurrection with Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique comprend souvent la première résurrection comme la vie nouvelle reçue au baptême. Victorin de Pettau écrit qu'il y a deux résurrections, et que la première est maintenant celle des âmes par la foi. Il cite saint Paul : si vous êtes ressuscités avec le Christ, recherchez les choses d'en haut.",
+   "en": "The Catholic tradition often understands the first resurrection as the new life received in baptism. Victorinus of Pettau writes that there are two resurrections, and that the first is now that of souls through faith. He quotes Saint Paul: if you have been raised with Christ, seek the things above."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi la première résurrection comme le passage de la mort à la vie dans le Christ, dès le baptême. Le sacerdoce des fidèles est celui de tout baptisé. La dernière révolte du mal précède sa défaite définitive.",
+   "en": "The Orthodox tradition also reads the first resurrection as the passage from death to life in Christ, from baptism onwards. The priesthood of the faithful is that of every baptised person. Evil's last revolt comes before its final defeat."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la première résurrection la vie nouvelle du baptême, qui libère de la seconde mort.",
+    "en": "Both traditions see in the first resurrection the new life of baptism, which frees from the second death."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 20:4",
+    "usage": "quote",
+    "quote": "But the first resurrection is now of the souls that are by the faith"
+   }
+  ]
+ },
+ {
+  "key": "rev-20-9-12",
+  "book": "REV",
+  "chapterStart": 20,
+  "verseStart": 9,
+  "chapterEnd": 20,
+  "verseEnd": 12,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Les nations encerclent le camp des saints et la ville bien-aimée, mais un feu descend du ciel et les dévore. Le diable est jeté dans l'étang de feu, avec la bête et le faux prophète. Puis Jean voit un grand trône blanc. Les morts, grands et petits, se tiennent devant lui, et des livres sont ouverts. Ils sont jugés selon leurs œuvres.",
+   "en": "The nations surround the camp of the saints and the beloved city, but fire comes down from heaven and devours them. The devil is thrown into the lake of fire, with the beast and the false prophet. Then John sees a great white throne. The dead, great and small, stand before it, and books are opened. They are judged according to their works."
+  },
+  "action": {
+   "fr": "Fais ce soir un examen de conscience comme si ta vie était un livre ouvert devant Dieu, en comptant sur sa miséricorde.",
+   "en": "Tonight, examine your conscience as if your life were a book open before God, trusting in his mercy."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le grand trône blanc le jugement dernier, confessé dans le Credo. Victorin de Pettau précise que ce passage appartient au jugement dernier. Le jugement selon les œuvres montre que la vie de chacun a un poids éternel.",
+   "en": "The Catholic tradition sees in the great white throne the Last Judgement, confessed in the Creed. Victorinus of Pettau specifies that this passage belongs to the last judgement. Judgement according to works shows that each life has eternal weight."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe représente ce jugement sur le mur ouest des églises, que les fidèles voient en sortant. Le dimanche du Jugement dernier ouvre le chemin du Carême. Le Juge est le Christ qui a donné sa vie pour tous.",
+   "en": "The Orthodox tradition depicts this judgement on the west wall of churches, which the faithful see as they leave. The Sunday of the Last Judgement opens the way to Lent. The Judge is Christ who gave his life for all."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent le jugement dernier, où chacun est jugé selon ses œuvres par le Christ.",
+    "en": "Both traditions confess the Last Judgement, where each is judged according to their works by Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 20:9",
+    "usage": "quote",
+    "quote": "This belongs to the last judgment."
+   }
+  ]
+ },
+ {
+  "key": "rev-20-13-15",
+  "book": "REV",
+  "chapterStart": 20,
+  "verseStart": 13,
+  "chapterEnd": 20,
+  "verseEnd": 15,
+  "category": "resurrection-vie-eternelle",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La mer rend les morts qu'elle contenait, la mort et le séjour des morts rendent aussi leurs morts. Chacun est jugé selon ses œuvres. Puis la mort et le séjour des morts sont jetés dans l'étang de feu : c'est la seconde mort. Quiconque n'est pas trouvé inscrit dans le livre de vie y est jeté.",
+   "en": "The sea gives up the dead in it, and death and Hades give up their dead too. Each is judged according to their works. Then death and Hades are thrown into the lake of fire: this is the second death. Anyone not found written in the book of life is thrown into it."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les morts sans sépulture, disparus en mer ou dans les guerres.",
+   "en": "Pray today for the dead without a grave, lost at sea or in wars."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit ici la résurrection de tous les morts, sans exception. Le fait que la mort elle-même soit détruite est le cœur de l'espérance : la mort n'a pas le dernier mot. L'Église prie pour que tous soient inscrits au livre de vie.",
+   "en": "The Catholic tradition sees here the resurrection of all the dead, without exception. That death itself is destroyed is the heart of hope: death does not have the last word. The Church prays that all may be written in the book of life."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi la mort vaincue, surtout dans l'homélie pascale lue à Pâques. Aucun mort n'est oublié de Dieu, même ceux que la mer a engloutis. La seconde mort est la séparation éternelle de Dieu.",
+   "en": "The Orthodox tradition also sings of death defeated, especially in the Paschal homily read at Easter. No dead person is forgotten by God, even those the sea has swallowed. The second death is eternal separation from God."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent la résurrection de tous les morts et la destruction de la mort elle-même.",
+    "en": "Both traditions confess the resurrection of all the dead and the destruction of death itself."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-21-1-4",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 1,
+  "chapterEnd": 21,
+  "verseEnd": 4,
+  "category": "esperance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jean voit un ciel nouveau et une terre nouvelle, car le premier ciel et la première terre ont disparu, et la mer n'est plus. Il voit la ville sainte, la Jérusalem nouvelle, descendre du ciel, préparée comme une épouse parée pour son époux. Une voix forte proclame : « Voici le tabernacle de Dieu avec les hommes! » Dieu essuiera toute larme de leurs yeux. La mort ne sera plus.",
+   "en": "John sees a new heaven and a new earth, for the first heaven and first earth have passed away, and the sea is no more. He sees the holy city, the new Jerusalem, coming down from heaven, prepared like a bride adorned for her husband. A loud voice proclaims, \"Behold, God's dwelling is with people!\" God will wipe away every tear from their eyes. Death will be no more."
+  },
+  "action": {
+   "fr": "Garde aujourd'hui cette promesse dans ton cœur : Dieu essuiera toute larme.",
+   "en": "Keep this promise in your heart today: God will wipe away every tear."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce passage aux funérailles et au mariage, comme la promesse ultime de Dieu. La création n'est pas détruite mais renouvelée. Dieu vient habiter avec les hommes, ce que l'Incarnation a déjà commencé.",
+   "en": "The Catholic tradition reads this passage at funerals and weddings, as God's ultimate promise. Creation is not destroyed but renewed. God comes to dwell with people, which the Incarnation has already begun."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans la Jérusalem nouvelle l'accomplissement de la déification : Dieu tout en tous. L'église, avec ses coupoles, est déjà une image du ciel sur la terre. La fin de la mort est chantée à chaque Pâques.",
+   "en": "The Orthodox tradition also sees in the new Jerusalem the fulfilment of deification: God all in all. The church building, with its domes, is already an image of heaven on earth. The end of death is sung every Easter."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la création renouvelée et Dieu demeurant avec les hommes pour toujours.",
+    "en": "Both traditions see here creation renewed and God dwelling with people forever."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-21-5-8",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 5,
+  "chapterEnd": 21,
+  "verseEnd": 8,
+  "category": "esperance",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Celui qui siège sur le trône déclare : « Voici, je fais toutes choses nouvelles. » Il est l'Alpha et l'Oméga, le commencement et la fin. À celui qui a soif, il donnera gratuitement de la source de l'eau de la vie. Le vainqueur héritera de tout, et Dieu sera son Dieu. Mais ceux qui persistent dans le mal ont leur part dans l'étang de feu.",
+   "en": "The one seated on the throne declares, \"Behold, I am making all things new.\" He is the Alpha and the Omega. To the thirsty he will give freely from the spring of the water of life. The victor will inherit all things, and God will be his God. But those who persist in evil have their share in the lake of fire."
+  },
+  "action": {
+   "fr": "Dans une situation qui te semble figée, demande aujourd'hui à Dieu de la faire « nouvelle ».",
+   "en": "In a situation that seems stuck, ask God today to make it \"new\"."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette parole le cœur de l'espérance chrétienne : Dieu ne détruit pas, il renouvelle. L'eau de la vie donnée gratuitement évoque le baptême et la grâce. L'avertissement final rappelle la liberté de refuser ce don.",
+   "en": "The Catholic tradition sees in this word the heart of Christian hope: God does not destroy, he renews. The water of life given freely evokes baptism and grace. The final warning recalls the freedom to turn down this gift."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi la gratuité de la grâce, offerte à tous ceux qui ont soif. Le Christ qui fait toutes choses nouvelles est le nouvel Adam. L'eau vive est l'Esprit Saint.",
+   "en": "The Orthodox tradition also sings the free gift of grace, offered to all who thirst. Christ who makes all things new is the new Adam. The living water is the Holy Spirit."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici Dieu qui renouvelle toutes choses et donne gratuitement l'eau de la vie.",
+    "en": "Both traditions see here God renewing all things and freely giving the water of life."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-21-9-11",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 9,
+  "chapterEnd": 21,
+  "verseEnd": 11,
+  "category": "unite-eglise",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un des sept anges invite Jean à voir l'épouse, la femme de l'agneau. Il le transporte en esprit sur une haute montagne. Là, il lui montre la ville sainte, Jérusalem, qui descend du ciel d'auprès de Dieu. Elle brille de la gloire de Dieu. Son éclat ressemble à celui d'une pierre très précieuse, comme un jaspe cristallin.",
+   "en": "One of the seven angels invites John to see the bride, the wife of the lamb. He carries him away in the Spirit to a high mountain. There he shows him the holy city, Jerusalem, coming down out of heaven from God. It shines with the glory of God. Its brilliance is like that of a very precious stone, like crystal-clear jasper."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour l'Église, épouse du Christ, en demandant qu'elle reflète sa beauté.",
+   "en": "Pray today for the Church, bride of Christ, asking that she may reflect his beauty."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'épouse de l'agneau l'Église dans sa perfection finale. Elle descend du ciel : elle est un don de Dieu avant d'être une œuvre humaine. Sa beauté est celle de la gloire de Dieu qui l'habite.",
+   "en": "The Catholic tradition sees in the bride of the lamb the Church in her final perfection. She comes down from heaven: she is God's gift before being a human work. Her beauty is that of God's glory dwelling in her."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple aussi l'Église comme l'épouse sans tache, ornée de la gloire de Dieu. La haute montagne rappelle le Thabor, lieu de la lumière divine. L'Église terrestre est déjà, mystérieusement, cette Jérusalem.",
+   "en": "The Orthodox tradition also contemplates the Church as the spotless bride, adorned with God's glory. The high mountain recalls Tabor, place of the divine light. The earthly Church is already, mysteriously, this Jerusalem."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la Jérusalem nouvelle l'Église, épouse de l'Agneau, revêtue de la gloire de Dieu.",
+    "en": "Both traditions see in the new Jerusalem the Church, bride of the Lamb, clothed in God's glory."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-21-12-15",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 12,
+  "chapterEnd": 21,
+  "verseEnd": 15,
+  "category": "apotres",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La ville a une haute muraille avec douze portes, gardées par douze anges, où sont inscrits les noms des douze tribus d'Israël. Il y a trois portes à chaque point cardinal. La muraille a douze fondements, qui portent les noms des douze apôtres de l'agneau. L'ange qui parle à Jean tient un roseau d'or pour mesurer la ville.",
+   "en": "The city has a high wall with twelve gates, guarded by twelve angels, on which the names of the twelve tribes of Israel are written. There are three gates on each side. The wall has twelve foundations, bearing the names of the twelve apostles of the lamb. The angel speaking to John holds a golden reed to measure the city."
+  },
+  "action": {
+   "fr": "Remercie Dieu aujourd'hui pour la foi des apôtres, transmise jusqu'à toi.",
+   "en": "Thank God today for the faith of the apostles, handed down to you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les douze fondements la foi apostolique, sur laquelle repose l'Église. Les noms d'Israël et ceux des apôtres sont unis : l'Église ne renie pas ses racines juives. Les portes ouvertes à tous les horizons disent l'universalité du salut.",
+   "en": "The Catholic tradition sees in the twelve foundations the apostolic faith on which the Church rests. The names of Israel and those of the apostles are united: the Church does not disown her Jewish roots. The gates open to every horizon express the universality of salvation."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse aussi l'Église apostolique, fondée sur la foi des Douze. L'union des tribus et des apôtres montre la continuité des deux Testaments. Les anges aux portes gardent la ville sainte.",
+   "en": "The Orthodox tradition also confesses the apostolic Church, founded on the faith of the Twelve. The union of tribes and apostles shows the continuity of the two Testaments. The angels at the gates guard the holy city."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans les fondements de la ville la foi apostolique, unie à l'héritage d'Israël.",
+    "en": "Both traditions see in the city's foundations the apostolic faith, united with the heritage of Israel."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-21-16-18",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 16,
+  "chapterEnd": 21,
+  "verseEnd": 18,
+  "category": "communion-des-saints",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La ville est carrée, aussi longue que large. L'ange la mesure : douze mille stades, longueur, largeur et hauteur égales. La muraille mesure cent quarante-quatre coudées. Elle est construite en jaspe, et la ville est d'or pur, semblable à du verre. Ces mesures parfaites sont symboliques.",
+   "en": "The city is square, as long as it is wide. The angel measures it: twelve thousand stadia, length, width and height equal. The wall measures one hundred forty-four cubits. It is built of jasper, and the city is of pure gold, like glass. These perfect measurements are symbolic."
+  },
+  "action": {
+   "fr": "Demande aujourd'hui à Dieu la stabilité d'une foi qui ne vacille pas.",
+   "en": "Ask God today for the stability of a faith that does not waver."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette ville cubique l'image du Saint des saints du Temple, désormais étendu à toute la cité. Victorin de Pettau explique que la ville carrée montre la multitude unie des saints, dont la foi ne pouvait vaciller. Il la rapproche de l'arche de Noé, faite de poutres équarries.",
+   "en": "The Catholic tradition sees in this cube-shaped city an image of the Holy of Holies of the Temple, now extended to the whole city. Victorinus of Pettau explains that the square city shows the united multitude of the saints, whose faith could by no means waver. He links it with Noah's ark, made of squared beams."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans ces mesures la plénitude et la stabilité du Royaume. Le nombre douze, multiplié, dit la totalité du peuple de Dieu. L'or transparent évoque une matière transfigurée par la lumière divine.",
+   "en": "The Orthodox tradition also sees in these measurements the fullness and stability of the Kingdom. The number twelve, multiplied, expresses the totality of God's people. The transparent gold evokes matter transfigured by divine light."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ces mesures parfaites la plénitude et l'unité des saints dans le Royaume.",
+    "en": "Both traditions see in these perfect measurements the fullness and unity of the saints in the Kingdom."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 21:16",
+    "usage": "quote",
+    "quote": "he shows forth the united multitude of the saints"
+   }
+  ]
+ },
+ {
+  "key": "rev-21-19-22",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 19,
+  "chapterEnd": 21,
+  "verseEnd": 22,
+  "category": "communion-des-saints",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les fondements de la muraille sont ornés de toutes sortes de pierres précieuses : jaspe, saphir, calcédoine, émeraude et bien d'autres. Les douze portes sont douze perles, et la place de la ville est d'or pur, transparent comme du verre. Jean ne voit pas de temple dans la ville. Car le Seigneur Dieu tout-puissant et l'agneau en sont le temple.",
+   "en": "The foundations of the wall are adorned with every kind of precious stone: jasper, sapphire, chalcedony, emerald and many others. The twelve gates are twelve pearls, and the city's street is pure gold, transparent like glass. John sees no temple in the city. For the Lord God Almighty and the lamb are its temple."
+  },
+  "action": {
+   "fr": "Pendant ta prochaine prière, rappelle-toi que Dieu lui-même sera ton temple.",
+   "en": "During your next prayer, remember that God himself will be your temple."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'absence de temple la communion directe avec Dieu, sans médiation. Les pierres précieuses rappellent celles du pectoral du grand prêtre. Victorin de Pettau voit dans la ville resplendissante l'assemblée des saints.",
+   "en": "The Catholic tradition sees in the absence of a temple direct communion with God, without mediation. The precious stones recall those of the high priest's breastpiece. Victorinus of Pettau sees in the resplendent city the assembly of the saints."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi l'accomplissement de toute liturgie : la présence de Dieu sans voile. Les sacrements cesseront, car leur réalité sera pleinement donnée. Les saints brillent comme des pierres précieuses.",
+   "en": "The Orthodox tradition also reads here the fulfilment of all liturgy: God's presence without veil. The sacraments will cease, for their reality will be fully given. The saints shine like precious stones."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la communion directe avec Dieu, qui sera lui-même le temple de la ville.",
+    "en": "Both traditions see here direct communion with God, who will himself be the city's temple."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 21:19",
+    "usage": "quote",
+    "quote": "resplendent with gold and precious stones"
+   }
+  ]
+ },
+ {
+  "key": "rev-21-23-27",
+  "book": "REV",
+  "chapterStart": 21,
+  "verseStart": 23,
+  "chapterEnd": 21,
+  "verseEnd": 27,
+  "category": "esperance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "La ville n'a besoin ni de soleil ni de lune, car la gloire de Dieu l'éclaire, et l'agneau est son flambeau. Les nations marcheront à sa lumière. Ses portes ne seront jamais fermées le jour, car il n'y aura plus de nuit. On y apportera la gloire et l'honneur des nations. Rien d'impur n'y entrera, seulement ceux qui sont inscrits dans le livre de vie de l'agneau.",
+   "en": "The city needs neither sun nor moon, for God's glory lights it, and the lamb is its lamp. The nations will walk by its light. Its gates will never be shut by day, for there will be no night there. The glory and honour of the nations will be brought into it. Nothing unclean will enter it, only those written in the lamb's book of life."
+  },
+  "action": {
+   "fr": "Laisse aujourd'hui la lumière du Christ éclairer une zone d'ombre de ta vie.",
+   "en": "Today, let Christ's light shine on a shadowy area of your life."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'agneau-flambeau le Christ lumière du monde, que le cierge pascal représente. Victorin de Pettau écrit que le Créateur brille au milieu de la ville comme la lumière immaculée, dont nul esprit ne peut concevoir l'éclat. Les portes ouvertes disent l'accueil de toutes les nations.",
+   "en": "The Catholic tradition sees in the lamb as lamp Christ the light of the world, represented by the Paschal candle. Victorinus of Pettau writes that the Creator shines in the city's midst as the immaculate light, whose brightness no mind can conceive. The open gates speak of the welcome of all nations."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante la lumière sans déclin du Royaume, à l'hymne du soir. Le Christ est la lumière joyeuse de la gloire du Père. La beauté des cultures humaines y trouve sa place, purifiée.",
+   "en": "The Orthodox tradition sings of the unfading light of the Kingdom in the evening hymn. Christ is the joyful light of the Father's glory. The beauty of human cultures finds its place there, purified."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions contemplent ici la lumière de Dieu et de l'Agneau, offerte à toutes les nations.",
+    "en": "Both traditions contemplate here the light of God and of the Lamb, offered to all nations."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 21:23",
+    "usage": "quote",
+    "quote": "the Creator as the immaculate light shines in the midst of it"
+   }
+  ]
+ },
+ {
+  "key": "rev-22-1-4",
+  "book": "REV",
+  "chapterStart": 22,
+  "verseStart": 1,
+  "chapterEnd": 22,
+  "verseEnd": 4,
+  "category": "croix-salut",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "L'ange montre à Jean un fleuve d'eau de la vie, limpide comme le cristal, qui sort du trône de Dieu et de l'agneau. De part et d'autre du fleuve se dresse l'arbre de vie, qui donne son fruit chaque mois. Ses feuilles servent à la guérison des nations. Il n'y aura plus de malédiction. Les serviteurs de Dieu verront sa face, et son nom sera sur leurs fronts.",
+   "en": "The angel shows John a river of the water of life, clear as crystal, flowing from the throne of God and of the lamb. On either side of the river stands the tree of life, bearing fruit every month. Its leaves are for the healing of the nations. There will be no more curse. God's servants will see his face, and his name will be on their foreheads."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour la guérison d'une nation blessée par la guerre ou la division.",
+   "en": "Pray today for the healing of a nation wounded by war or division."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le fleuve l'Esprit Saint, qui procède du trône de Dieu et de l'agneau. Victorin de Pettau voit dans le fleuve la grâce de la doctrine spirituelle, et dans l'arbre de vie la venue du Christ dans la chair, qui donne la vie par le bois de la croix. Voir la face de Dieu est la vision béatifique.",
+   "en": "The Catholic tradition sees in the river the Holy Spirit, proceeding from the throne of God and of the lamb. Victorinus of Pettau sees in the river the grace of spiritual doctrine, and in the tree of life Christ's coming in the flesh, giving life by the wood of the cross. Seeing God's face is the beatific vision."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante la croix comme l'arbre de vie planté au Golgotha, qui rouvre le paradis. Le fleuve d'eau vive est le don de l'Esprit. Voir la face de Dieu est l'accomplissement de la déification.",
+   "en": "The Orthodox tradition sings of the cross as the tree of life planted at Golgotha, which reopens paradise. The river of living water is the gift of the Spirit. Seeing God's face is the fulfilment of deification."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'arbre de vie la croix du Christ et dans le fleuve le don de l'Esprit, jusqu'à la vision de Dieu.",
+    "en": "Both traditions see in the tree of life Christ's cross and in the river the gift of the Spirit, leading to the vision of God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 22:1",
+    "usage": "quote",
+    "quote": "The tree of life on either bank sets forth the Advent of Christ"
+   }
+  ]
+ },
+ {
+  "key": "rev-22-5-8",
+  "book": "REV",
+  "chapterStart": 22,
+  "verseStart": 5,
+  "chapterEnd": 22,
+  "verseEnd": 8,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Il n'y aura plus de nuit, et ils n'auront besoin ni de lampe ni de soleil, car le Seigneur Dieu les éclairera. Ils régneront pour les siècles des siècles. L'ange dit que ces paroles sont certaines et véritables. Le Christ annonce qu'il vient bientôt, et déclare heureux celui qui garde les paroles de ce livre. Jean tombe aux pieds de l'ange pour l'adorer.",
+   "en": "There will be no more night, and they will need neither lamp nor sun, for the Lord God will give them light. They will reign forever and ever. The angel says these words are faithful and true. Christ announces that he is coming soon, and calls blessed whoever keeps the words of this book. John falls at the angel's feet to worship him."
+  },
+  "action": {
+   "fr": "Garde aujourd'hui une parole de l'Apocalypse et relis-la avant de dormir.",
+   "en": "Keep one word from Revelation today and reread it before you sleep."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la dernière béatitude du livre l'invitation à garder la parole, non à spéculer. Le règne des fidèles avec Dieu est le partage de sa vie. Jean, comme nous, adresse mal son adoration, et l'ange va le reprendre.",
+   "en": "The Catholic tradition sees in the book's last beatitude an invitation to keep the word, not to speculate. The reign of the faithful with God is the sharing of his life. John, like us, misdirects his worship, and the angel will correct him."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante la lumière sans soir du Royaume, le huitième jour. La certitude des paroles fonde la confiance de l'Église. Garder la parole, c'est la vivre.",
+   "en": "The Orthodox tradition sings of the eveningless light of the Kingdom, the eighth day. The certainty of the words grounds the Church's trust. Keeping the word means living it."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la lumière éternelle de Dieu et l'invitation à garder la parole de ce livre.",
+    "en": "Both traditions see here God's eternal light and the invitation to keep the word of this book."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-22-9-12",
+  "book": "REV",
+  "chapterStart": 22,
+  "verseStart": 9,
+  "chapterEnd": 22,
+  "verseEnd": 12,
+  "category": "humilite",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "L'ange arrête Jean : il n'est qu'un compagnon de service des prophètes et de ceux qui gardent ce livre ; c'est Dieu qu'il faut adorer. Il ordonne de ne pas sceller les paroles de cette prophétie, car le temps est proche. Que le juste pratique encore la justice, que le saint se sanctifie encore. Le Christ vient bientôt, et sa récompense est avec lui.",
+   "en": "The angel stops John: he is only a fellow servant of the prophets and of those who keep this book; it is God who must be worshipped. He orders that the words of this prophecy not be sealed, for the time is near. Let the righteous still do right, let the holy still be holy. Christ is coming soon, and his reward is with him."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un petit pas de plus dans le bien, sans attendre de récompense humaine.",
+   "en": "Today, take one more small step in doing good, without expecting human reward."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la réponse de l'ange la règle de l'adoration, réservée à Dieu seul. Le livre reste ouvert, car il s'adresse à toutes les générations. Chacun est appelé à grandir dans la sainteté jusqu'au bout.",
+   "en": "The Catholic tradition sees in the angel's answer the rule of adoration, reserved for God alone. The book stays open, because it speaks to every generation. Each person is called to grow in holiness to the end."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fait aussi la distinction entre l'adoration due à Dieu et l'honneur rendu aux anges et aux saints. L'ange se dit compagnon de service : les anges servent avec les hommes. La sainteté est un chemin qui ne s'arrête pas.",
+   "en": "The Orthodox tradition also distinguishes the worship due to God from the honour given to angels and saints. The angel calls himself a fellow servant: angels serve alongside humans. Holiness is a path that never stops."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions réservent l'adoration à Dieu seul et voient la sainteté comme un chemin jusqu'au bout.",
+    "en": "Both traditions reserve adoration for God alone and see holiness as a path to the end."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-22-13-16",
+  "book": "REV",
+  "chapterStart": 22,
+  "verseStart": 13,
+  "chapterEnd": 22,
+  "verseEnd": 16,
+  "category": "incarnation",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Le Christ se nomme l'Alpha et l'Oméga, le premier et le dernier, le commencement et la fin. Heureux ceux qui lavent leurs robes, pour avoir droit à l'arbre de vie et entrer par les portes dans la ville. Dehors restent ceux qui aiment et pratiquent le mensonge. Jésus envoie son ange témoigner auprès des Églises. Il est le rejeton et la postérité de David, l'étoile brillante du matin.",
+   "en": "Christ calls himself the Alpha and the Omega, the first and the last, the beginning and the end. Blessed are those who wash their robes, to have the right to the tree of life and to enter the city by its gates. Outside remain those who love and practise falsehood. Jesus sends his angel to testify to the Churches. He is the root and offspring of David, the bright morning star."
+  },
+  "action": {
+   "fr": "Demande pardon aujourd'hui pour un mensonge, et « lave ta robe » dans la miséricorde de Dieu.",
+   "en": "Ask forgiveness today for a lie, and \"wash your robe\" in God's mercy."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les robes lavées le baptême et la pénitence, qui ouvrent l'accès à l'arbre de vie. Le Christ se donne les titres de Dieu, Alpha et Oméga : il est vraiment Dieu. Il est aussi vrai homme, fils de David.",
+   "en": "The Catholic tradition sees in the washed robes baptism and penance, which open access to the tree of life. Christ gives himself God's titles, Alpha and Omega: he is truly God. He is also truly man, son of David."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe confesse aussi le Christ vrai Dieu et vrai homme, Alpha et Oméga et fils de David. L'étoile du matin est chantée à Noël comme à Pâques. La confession lave la robe ternie après le baptême.",
+   "en": "The Orthodox tradition also confesses Christ as true God and true man, Alpha and Omega and son of David. The morning star is sung at Christmas and at Easter. Confession washes the robe soiled after baptism."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent ici le Christ vrai Dieu et vrai homme, qui ouvre l'arbre de vie aux pécheurs pardonnés.",
+    "en": "Both traditions confess here Christ, true God and true man, who opens the tree of life to forgiven sinners."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-22-17-21",
+  "book": "REV",
+  "chapterStart": 22,
+  "verseStart": 17,
+  "chapterEnd": 22,
+  "verseEnd": 21,
+  "category": "esperance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "L'Esprit et l'épouse disent : « Viens. » Que celui qui entend le dise aussi, et que celui qui a soif vienne, et que celui qui le veut prenne de l'eau de la vie, gratuitement. Jean avertit de ne rien ajouter ni retrancher à cette prophétie. Le Christ promet de venir bientôt, et le livre et toute la Bible s'achèvent sur cette prière : « Amen! Viens, Seigneur Jésus! »",
+   "en": "The Spirit and the bride say, \"Come!\" Let whoever hears say it too, and let whoever is thirsty come, and whoever wishes take the water of life freely. John warns not to add to or take away from this prophecy. Christ promises to come soon, and the book and the whole Bible end with this prayer: \"Amen! Yes, come, Lord Jesus.\""
+  },
+  "action": {
+   "fr": "Termine ta journée par la dernière prière de la Bible : « Viens, Seigneur Jésus! »",
+   "en": "End your day with the Bible's last prayer: \"Come, Lord Jesus.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique reprend ce cri dans l'acclamation après la consécration : nous attendons ta venue dans la gloire. L'Esprit et l'Église prient ensemble pour le retour du Christ. L'eau de la vie reste offerte gratuitement à tous.",
+   "en": "The Catholic tradition takes up this cry in the acclamation after the consecration: we await your coming in glory. The Spirit and the Church pray together for Christ's return. The water of life remains freely offered to all."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vit aussi dans l'attente du Christ qui vient, cœur de la prière des premiers chrétiens. Le mot araméen maranatha exprimait déjà cette attente. La Bible s'achève par une prière, non par une menace.",
+   "en": "The Orthodox tradition also lives in expectation of the coming Christ, the heart of the first Christians' prayer. The Aramaic word maranatha already expressed this expectation. The Bible ends with a prayer, not a threat."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions s'unissent dans la dernière prière de la Bible : « Viens, Seigneur Jésus! »",
+    "en": "Both traditions join in the Bible's last prayer: \"Come, Lord Jesus.\""
+   }
+  },
+  "sources": []
  }
 ]
