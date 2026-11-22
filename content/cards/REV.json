@@ -758,5 +758,692 @@
     "quote": "He promised them no small reward"
    }
   ]
+ },
+ {
+  "key": "rev-4-1-4",
+  "book": "REV",
+  "chapterStart": 4,
+  "verseStart": 1,
+  "chapterEnd": 4,
+  "verseEnd": 4,
+  "category": "louange-action-de-grace",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean voit une porte ouverte dans le ciel et entend la voix l'appeler à monter. Saisi par l'Esprit, il voit un trône, et quelqu'un assis dessus, brillant comme le jaspe et la sardoine. Un arc-en-ciel entoure le trône. Autour siègent vingt-quatre vieillards vêtus de blanc, couronnés d'or. La vision ouvre sur la liturgie du ciel.",
+   "en": "John sees a door open in heaven and hears the voice calling him to come up. Caught up in the Spirit, he sees a throne, and one seated on it, shining like jasper and sardius. A rainbow surrounds the throne. Around it sit twenty-four elders dressed in white, crowned with gold. The vision opens onto the liturgy of heaven."
+  },
+  "action": {
+   "fr": "À ta prochaine prière, imagine-toi devant cette porte ouverte et entre dans la louange.",
+   "en": "At your next prayer, picture yourself before this open door and enter into praise."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette vision le modèle de la liturgie, où la terre s'unit au culte du ciel. Victorin de Pettau écrit que la porte ouverte dans le ciel annonce la Nouvelle Alliance. Il ajoute que l'esprit des fidèles est ouvert par l'Esprit Saint.",
+   "en": "The Catholic tradition sees in this vision the model of the liturgy, where earth joins heaven's worship. Victorinus of Pettau writes that the door opened in heaven announces the New Covenant. He adds that the mind of the faithful is opened by the Holy Spirit."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vit la Divine Liturgie comme une entrée dans ce culte céleste. L'iconostase, avec la porte royale, évoque cette porte ouverte. Les fidèles chantent avec les puissances célestes.",
+   "en": "The Orthodox tradition lives the Divine Liturgy as an entry into this heavenly worship. The iconostasis, with its royal doors, evokes this open door. The faithful sing together with the heavenly powers."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cette vision la liturgie du ciel, à laquelle l'Église s'unit.",
+    "en": "Both traditions see in this vision the liturgy of heaven, which the Church joins."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 4:1",
+    "usage": "quote",
+    "quote": "The new testament is announced as an open door in heaven."
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 4:2",
+    "usage": "quote",
+    "quote": "the mind of the faithful is opened by the Holy Spirit"
+   }
+  ]
+ },
+ {
+  "key": "rev-4-5-8",
+  "book": "REV",
+  "chapterStart": 4,
+  "verseStart": 5,
+  "chapterEnd": 4,
+  "verseEnd": 8,
+  "category": "trinite",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Du trône sortent des éclairs et des tonnerres, et devant lui brûlent sept lampes, les sept esprits de Dieu. Il y a aussi comme une mer de verre, pareille au cristal. Quatre êtres vivants, couverts d'yeux, entourent le trône : un lion, un taureau, un homme et un aigle. Jour et nuit ils chantent : « Saint, saint, saint est le Seigneur Dieu, le Tout-Puissant. »",
+   "en": "From the throne come lightning and thunder, and before it burn seven lamps, the seven spirits of God. There is also something like a sea of glass, like crystal. Four living creatures, full of eyes, surround the throne: a lion, a calf, a man and an eagle. Day and night they sing, \"Holy, holy, holy is the Lord God, the Almighty.\""
+  },
+  "action": {
+   "fr": "Chante ou dis aujourd'hui lentement le « Saint, saint, saint », en t'unissant aux anges.",
+   "en": "Today, sing or say slowly the \"Holy, holy, holy\", joining with the angels."
+  },
+  "catholic": {
+   "fr": "La tradition catholique reprend le chant des êtres vivants dans le Sanctus de chaque messe. Victorin de Pettau voit dans la mer de verre le don du baptême, offert par le Fils avant le jugement. Il comprend les yeux au-dedans et au-dehors comme la providence qui voit les secrets du cœur.",
+   "en": "The Catholic tradition takes up the living creatures' song in the Sanctus of every Mass. Victorinus of Pettau sees in the sea of glass the gift of baptism, offered through the Son before judgement. He understands the eyes within and without as the providence that sees the secrets of the heart."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi le trois fois saint dans l'anaphore et le Trisagion. Les quatre êtres vivants sont devenus les symboles des quatre évangélistes, présents sur les icônes. Le triple Saint est lu comme une louange à la Trinité.",
+   "en": "The Orthodox tradition also sings the thrice-holy in the anaphora and the Trisagion. The four living creatures became symbols of the four evangelists, present on icons. The triple Holy is read as praise of the Trinity."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reprennent le chant des êtres vivants à l'Eucharistie et y voient les symboles des évangélistes.",
+    "en": "Both traditions take up the living creatures' song at the Eucharist and see in them the symbols of the evangelists."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 4:6",
+    "usage": "quote",
+    "quote": "That is the gift of baptism which He sheds forth through His Son"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 4:8",
+    "usage": "quote",
+    "quote": "shows the spiritual providence which both looks into the secrets of the heart"
+   }
+  ]
+ },
+ {
+  "key": "rev-4-9-11",
+  "book": "REV",
+  "chapterStart": 4,
+  "verseStart": 9,
+  "chapterEnd": 4,
+  "verseEnd": 11,
+  "category": "louange-action-de-grace",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Chaque fois que les êtres vivants rendent gloire à celui qui vit pour les siècles, les vingt-quatre vieillards se prosternent. Ils jettent leurs couronnes devant le trône. Ils chantent que le Seigneur est digne de recevoir la gloire, l'honneur et la puissance. Il a créé toutes choses, et c'est par sa volonté qu'elles existent.",
+   "en": "Whenever the living creatures give glory to the one who lives forever, the twenty-four elders fall down. They cast their crowns before the throne. They sing that the Lord is worthy to receive glory, honour and power. He created all things, and by his will they exist."
+  },
+  "action": {
+   "fr": "Remercie Dieu aujourd'hui pour trois choses de la création, et dépose devant lui une réussite personnelle.",
+   "en": "Thank God today for three things in creation, and lay one personal achievement before him."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les couronnes déposées l'humilité des saints, qui rendent à Dieu toute gloire. Victorin de Pettau propose de voir dans les vingt-quatre vieillards les livres de la Loi et des Prophètes, qui rendent témoignage. Toute la création est appelée à la louange.",
+   "en": "The Catholic tradition sees in the crowns laid down the humility of the saints, who give all glory to God. Victorinus of Pettau suggests seeing in the twenty-four elders the books of the Law and the Prophets, which bear witness. All creation is called to praise."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans cette louange le sens même de l'homme, créé pour rendre grâce. La prosternation fait partie de la prière orthodoxe, surtout en Carême. Dieu créateur est loué pour l'existence même du monde.",
+   "en": "The Orthodox tradition also sees in this praise the very meaning of humanity, created to give thanks. Prostration is part of Orthodox prayer, especially in Lent. God the Creator is praised for the very existence of the world."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la louange du Créateur et l'humilité des saints qui lui rendent toute gloire.",
+    "en": "Both traditions see here praise of the Creator and the humility of the saints who give him all glory."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 4:10",
+    "usage": "quote",
+    "quote": "The four and twenty elders are"
+   }
+  ]
+ },
+ {
+  "key": "rev-5-1-4",
+  "book": "REV",
+  "chapterStart": 5,
+  "verseStart": 1,
+  "chapterEnd": 5,
+  "verseEnd": 4,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Dans la main droite de celui qui siège sur le trône, Jean voit un livre écrit des deux côtés, scellé de sept sceaux. Un ange puissant demande qui est digne de l'ouvrir. Personne, ni au ciel, ni sur la terre, ni sous la terre, ne le peut. Jean pleure beaucoup. Le sens de l'histoire semble fermé.",
+   "en": "In the right hand of the one seated on the throne, John sees a scroll written on both sides, sealed with seven seals. A mighty angel asks who is worthy to open it. No one, in heaven, on earth or under the earth, can do it. John weeps bitterly. The meaning of history seems closed."
+  },
+  "action": {
+   "fr": "Quand une situation te semble fermée et sans issue, confie-la au Christ, seul capable de l'ouvrir.",
+   "en": "When a situation seems closed and hopeless, entrust it to Christ, who alone can open it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le livre scellé les Écritures et le dessein de Dieu, que seul le Christ peut ouvrir. Victorin de Pettau explique que ce livre signifie l'Ancien Testament, remis entre les mains du Christ. Il souligne que personne, sauf le Fils de Dieu, n'était digne de l'ouvrir.",
+   "en": "The Catholic tradition sees in the sealed scroll the Scriptures and God's plan, which only Christ can open. Victorinus of Pettau explains that this book signifies the Old Testament, given into Christ's hands. He stresses that no one, except the Son of God, was worthy to open it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi les Écritures à la lumière du Christ, qui en donne la clé. Les larmes de Jean expriment l'attente de toute l'humanité. L'Évangile, porté en procession à la liturgie, est le livre ouvert.",
+   "en": "The Orthodox tradition also reads the Scriptures in the light of Christ, who gives their key. John's tears express the waiting of all humanity. The Gospel book, carried in procession at the liturgy, is the opened book."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le livre scellé les Écritures et le dessein de Dieu, que seul le Christ ouvre.",
+    "en": "Both traditions see in the sealed scroll the Scriptures and God's plan, which only Christ opens."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 5:1",
+    "usage": "quote",
+    "quote": "This book signifies the Old Testament"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 5:4",
+    "usage": "quote",
+    "quote": "save Christ the Son of God alone"
+   }
+  ]
+ },
+ {
+  "key": "rev-5-5-8",
+  "book": "REV",
+  "chapterStart": 5,
+  "verseStart": 5,
+  "chapterEnd": 5,
+  "verseEnd": 8,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un vieillard console Jean : le lion de la tribu de Juda, le rejeton de David, a vaincu et peut ouvrir le livre. Jean regarde et voit, au milieu du trône, un agneau debout, comme immolé. Il a sept cornes et sept yeux, les sept esprits de Dieu. L'agneau prend le livre, et les vieillards se prosternent avec des harpes et des coupes d'or pleines de parfums, qui sont les prières des saints.",
+   "en": "An elder comforts John: the lion of the tribe of Judah, the root of David, has overcome and can open the scroll. John looks and sees, in the midst of the throne, a lamb standing, as if slain. It has seven horns and seven eyes, the seven spirits of God. The lamb takes the scroll, and the elders fall down with harps and golden bowls full of incense, which are the prayers of the saints."
+  },
+  "action": {
+   "fr": "Offre aujourd'hui une prière comme un parfum : lente, sincère, pour quelqu'un d'autre.",
+   "en": "Today, offer a prayer like incense: slow, sincere, for someone else."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'agneau immolé et debout le Christ mort et ressuscité, présent à chaque messe. Saint Cyprien rapproche cet agneau de celui d'Isaïe, mené à l'abattoir. Victorin de Pettau voit dans le cantique des vieillards l'Ancien et le Nouveau Testament unis.",
+   "en": "The Catholic tradition sees in the lamb slain yet standing Christ dead and risen, present at every Mass. Saint Cyprian links this lamb with Isaiah's lamb led to the slaughter. Victorinus of Pettau sees in the elders' song the Old and New Testaments united."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe appelle Agneau le pain consacré à la proscomidie, préparé avant la liturgie. Saint Irénée de Lyon voit dans les coupes de parfum les prières des saints, et dans le nom du Christ celui qui est glorifié parmi les nations. L'encens monte à chaque office comme les prières.",
+   "en": "The Orthodox tradition calls the Lamb the bread prepared at the proskomedia before the liturgy. Saint Irenaeus of Lyon sees in the bowls of incense the prayers of the saints, and in Christ's name the one glorified among the nations. Incense rises at every service like prayers."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'agneau immolé et debout le Christ mort et ressuscité, au cœur de l'Eucharistie.",
+    "en": "Both traditions see in the lamb slain yet standing Christ dead and risen, at the heart of the Eucharist."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 12",
+    "section": "Treatise XII Three Books of Testimonies Against the Jews",
+    "ref": "REV 5:6",
+    "usage": "quote",
+    "quote": "That Christ is called a sheep and a lamb who was to be slain"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 5:8",
+    "usage": "quote",
+    "quote": "The proclamation of the Old Testament associated with the New"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 4",
+    "section": "Against Heresies Book IV",
+    "ref": "REV 5:8",
+    "usage": "quote",
+    "quote": "But what other name is there which is glorified among the Gentiles than that of our Lord"
+   }
+  ]
+ },
+ {
+  "key": "rev-5-9-14",
+  "book": "REV",
+  "chapterStart": 5,
+  "verseStart": 9,
+  "chapterEnd": 5,
+  "verseEnd": 14,
+  "category": "louange-action-de-grace",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Les vieillards chantent un cantique nouveau : l'agneau est digne d'ouvrir le livre, car il a été immolé. Par son sang, il a racheté pour Dieu des hommes de toute tribu, langue, peuple et nation. Des myriades d'anges se joignent au chant. Enfin, toute créature, au ciel et sur la terre, bénit celui qui siège sur le trône et l'agneau. Les êtres vivants disent : « Amen! »",
+   "en": "The elders sing a new song: the lamb is worthy to open the scroll, for he was slain. By his blood he has redeemed for God people from every tribe, language, people and nation. Myriads of angels join the song. Finally every creature, in heaven and on earth, blesses the one on the throne and the lamb. The living creatures say, \"Amen!\""
+  },
+  "action": {
+   "fr": "Dis aujourd'hui un « Amen » réfléchi à la fin de ta prière, comme une adhésion de tout ton être.",
+   "en": "Today, say a deliberate \"Amen\" at the end of your prayer, as the assent of your whole being."
+  },
+  "catholic": {
+   "fr": "La tradition catholique chante ce cantique aux vêpres, dans la Liturgie des Heures. Victorin de Pettau y voit le peuple chrétien qui chante un cantique nouveau en proclamant sa foi. L'universalité des rachetés annonce l'Église catholique, c'est-à-dire universelle.",
+   "en": "The Catholic tradition sings this canticle at Vespers, in the Liturgy of the Hours. Victorinus of Pettau sees in it the Christian people singing a new song as they proclaim their faith. The universality of the redeemed announces the Catholic, that is universal, Church."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans cette louange cosmique le sens de la liturgie, où toute la création rend grâce. Le chant des anges et des hommes s'unit dans l'hymne des Chérubins. L'Amen final scelle l'adoration.",
+   "en": "The Orthodox tradition also sees in this cosmic praise the meaning of the liturgy, where all creation gives thanks. The song of angels and humans unites in the Cherubic Hymn. The final Amen seals the adoration."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions chantent ici la louange universelle à l'Agneau qui a racheté toutes les nations.",
+    "en": "Both traditions sing here universal praise to the Lamb who redeemed all nations."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 5:9",
+    "usage": "quote",
+    "quote": "points out the Christian people singing"
+   }
+  ]
+ },
+ {
+  "key": "rev-6-1-4",
+  "book": "REV",
+  "chapterStart": 6,
+  "verseStart": 1,
+  "chapterEnd": 6,
+  "verseEnd": 4,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "L'agneau ouvre le premier sceau, et un cheval blanc paraît : son cavalier a un arc et part en vainqueur. Au deuxième sceau, un cheval rouge sort, et son cavalier reçoit le pouvoir d'ôter la paix de la terre. Une grande épée lui est donnée. Ces cavaliers sont des images, non des prédictions datées.",
+   "en": "The lamb opens the first seal, and a white horse appears: its rider has a bow and goes out conquering. At the second seal a red horse comes out, and its rider is given power to take peace from the earth. A great sword is given to him. These riders are images, not dated predictions."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour la paix dans une région en guerre que tu nommes précisément.",
+   "en": "Today, pray for peace in a war-torn region that you name specifically."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit les sceaux comme le tableau des épreuves de l'histoire, que le Christ domine. Victorin de Pettau voit dans le premier cheval blanc la prédication de l'Évangile, partie en vainqueur. Les guerres ne disent pas le dernier mot.",
+   "en": "The Catholic tradition reads the seals as a picture of history's trials, over which Christ is master. Victorinus of Pettau sees in the first white horse the preaching of the Gospel, going out to conquer. Wars do not have the last word."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ces visions comme des signes de toutes les époques, non comme un calendrier. Le Christ qui ouvre les sceaux reste maître des événements. L'Église prie à chaque liturgie pour la paix du monde entier.",
+   "en": "The Orthodox tradition also reads these visions as signs for every age, not as a timetable. Christ who opens the seals remains master of events. The Church prays at every liturgy for the peace of the whole world."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent les cavaliers comme des images des épreuves de l'histoire, que le Christ domine.",
+    "en": "Both traditions read the riders as images of history's trials, over which Christ is master."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:2",
+    "usage": "quote",
+    "quote": "The first seal"
+   }
+  ]
+ },
+ {
+  "key": "rev-6-5-8",
+  "book": "REV",
+  "chapterStart": 6,
+  "verseStart": 5,
+  "chapterEnd": 6,
+  "verseEnd": 8,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Au troisième sceau paraît un cheval noir, dont le cavalier tient une balance : une voix annonce une famine, mais ordonne de ne pas toucher à l'huile ni au vin. Au quatrième sceau vient un cheval verdâtre. Son cavalier se nomme la Mort, et le séjour des morts le suit. Ils reçoivent pouvoir sur le quart de la terre.",
+   "en": "At the third seal a black horse appears, whose rider holds a pair of scales: a voice announces famine, but orders that the oil and wine not be harmed. At the fourth seal comes a pale horse. Its rider is named Death, and Hades follows him. They are given power over a quarter of the earth."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un don, même petit, à une œuvre qui lutte contre la faim.",
+   "en": "Today, make a gift, however small, to a work fighting hunger."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces fléaux les conséquences du péché dans l'histoire, toujours limitées par Dieu. Victorin de Pettau comprend l'ordre de ne pas toucher l'huile et le vin comme : ne frappe pas l'homme spirituel. Il voit dans le cheval pâle la mort qui frappe.",
+   "en": "The Catholic tradition sees in these plagues the consequences of sin in history, always limited by God. Victorinus of Pettau understands the order not to harm the oil and wine as: do not strike the spiritual man. He sees in the pale horse death that strikes."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la limite posée aux fléaux : un quart, non le tout. L'huile et le vin, qui servent aux sacrements, sont épargnés. Dieu garde ce qui conduit à la vie.",
+   "en": "The Orthodox tradition stresses the limit set on the plagues: a quarter, not the whole. Oil and wine, used in the sacraments, are spared. God keeps what leads to life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici des fléaux limités par Dieu, qui épargne ce qui conduit à la vie.",
+    "en": "Both traditions see here plagues limited by God, who spares what leads to life."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:6",
+    "usage": "quote",
+    "quote": "strike not the spiritual man with thy inflictions"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:8",
+    "usage": "quote",
+    "quote": "For the pale horse and he who sate u"
+   }
+  ]
+ },
+ {
+  "key": "rev-6-9-11",
+  "book": "REV",
+  "chapterStart": 6,
+  "verseStart": 9,
+  "chapterEnd": 6,
+  "verseEnd": 11,
+  "category": "martyrs-temoins",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Au cinquième sceau, Jean voit sous l'autel les âmes de ceux qui ont été immolés pour la parole de Dieu et leur témoignage. Elles crient : jusqu'à quand, Maître saint et véritable, tarderas-tu à faire justice ? Chacune reçoit une robe blanche. On leur dit de patienter encore un peu, jusqu'à ce que soit complet le nombre de leurs frères.",
+   "en": "At the fifth seal, John sees under the altar the souls of those slain for the word of God and their testimony. They cry out: how long, holy and true Master, before you bring justice? Each receives a white robe. They are told to wait a little longer, until the number of their brothers is complete."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un martyr de notre temps, en demandant justice et paix.",
+   "en": "Today, pray for a martyr of our time, asking for justice and peace."
+  },
+  "catholic": {
+   "fr": "La tradition catholique a placé les reliques des martyrs sous l'autel, à partir de ce verset. Victorin de Pettau explique que l'autel désigne la terre, sous laquelle reposent les âmes des tués. Il ajoute que leur cri pour la justice concerne leur sang versé.",
+   "en": "The Catholic tradition placed the relics of martyrs under the altar, drawing on this verse. Victorinus of Pettau explains that the altar means the earth, under which the souls of the slain rest. He adds that their cry for justice concerns their shed blood."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe dépose aussi des reliques dans l'antimension, sur lequel est célébrée chaque liturgie. Les robes blanches sont la gloire des martyrs, qui attendent la résurrection. Leur cri est une prière d'espérance, non de vengeance.",
+   "en": "The Orthodox tradition also places relics in the antimension, on which every liturgy is celebrated. The white robes are the martyrs' glory as they await the resurrection. Their cry is a prayer of hope, not of revenge."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent les martyrs sous l'autel et célèbrent l'Eucharistie sur leurs reliques.",
+    "en": "Both traditions honour the martyrs under the altar and celebrate the Eucharist over their relics."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:9",
+    "usage": "quote",
+    "quote": "that is, under the earth, the souls of them that were s"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:10",
+    "usage": "quote",
+    "quote": "He who sees all things would have us to know"
+   }
+  ]
+ },
+ {
+  "key": "rev-6-12-17",
+  "book": "REV",
+  "chapterStart": 6,
+  "verseStart": 12,
+  "chapterEnd": 6,
+  "verseEnd": 17,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Au sixième sceau, un grand tremblement de terre survient : le soleil devient noir, la lune comme du sang, et les étoiles tombent. Le ciel se retire comme un livre qu'on roule. Rois, puissants et esclaves se cachent dans les cavernes. Ils demandent aux montagnes de tomber sur eux, devant la colère de l'agneau. Qui peut tenir ?",
+   "en": "At the sixth seal a great earthquake occurs: the sun turns black, the moon like blood, and the stars fall. The sky recedes like a scroll being rolled up. Kings, the powerful and slaves hide in the caves. They ask the mountains to fall on them, before the wrath of the lamb. Who can stand?"
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un examen de conscience comme si tu te tenais devant le Christ juge et miséricordieux.",
+   "en": "Make an examination of conscience today as if you stood before Christ, judge and merciful."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ces images cosmiques comme le langage biblique du jugement, déjà utilisé par les prophètes. Victorin de Pettau voit dans le grand tremblement de terre la dernière persécution. Il comprend les étoiles qui tombent comme les fidèles troublés à cause du Christ.",
+   "en": "The Catholic tradition reads these cosmic images as the biblical language of judgement, already used by the prophets. Victorinus of Pettau sees in the great earthquake the last persecution. He understands the falling stars as the faithful who are troubled for Christ's sake."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi l'égalité de tous devant le jugement, rois comme esclaves. La colère de l'agneau est un paradoxe : c'est le doux qui juge. La prière du Carême demande de se voir pécheur avant ce jour.",
+   "en": "The Orthodox tradition also reads here the equality of all before judgement, kings as well as slaves. The wrath of the lamb is a paradox: it is the gentle one who judges. Lenten prayer asks to see oneself a sinner before that day."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ces images comme le langage biblique du jugement, devant lequel tous sont égaux.",
+    "en": "Both traditions read these images as the biblical language of judgement, before which all are equal."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:12",
+    "usage": "quote",
+    "quote": "this is that very last persecution"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 6:13",
+    "usage": "quote",
+    "quote": "The falling of the stars are the faithful who are troubled for Christ's sake."
+   }
+  ]
+ },
+ {
+  "key": "rev-7-1-3",
+  "book": "REV",
+  "chapterStart": 7,
+  "verseStart": 1,
+  "chapterEnd": 7,
+  "verseEnd": 3,
+  "category": "bapteme",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Quatre anges retiennent les quatre vents de la terre. Un autre ange monte de l'orient, portant le sceau du Dieu vivant. Il crie de ne pas nuire à la terre, à la mer ni aux arbres avant que les serviteurs de Dieu soient marqués au front. Dieu protège les siens avant l'épreuve.",
+   "en": "Four angels hold back the four winds of the earth. Another angel rises from the east, carrying the seal of the living God. He cries out not to harm the earth, the sea or the trees until God's servants are sealed on their foreheads. God protects his own before the trial."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui le signe de croix sur ton front avec attention, en te rappelant que tu appartiens à Dieu.",
+   "en": "Today, make the sign of the cross on your forehead attentively, remembering that you belong to God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique rapproche ce sceau de la marque reçue au baptême et à la confirmation, signe d'appartenance au Christ. Victorin de Pettau voit dans l'ange venu de l'orient le prophète Élie, précurseur des derniers temps. Le sceau protège sans dispenser de l'épreuve.",
+   "en": "The Catholic tradition links this seal with the mark received at baptism and confirmation, a sign of belonging to Christ. Victorinus of Pettau sees in the angel from the east the prophet Elijah, forerunner of the last times. The seal protects without exempting from trial."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe dit à la chrismation : sceau du don du Saint-Esprit, en oignant le front. Cette parole fait écho au sceau du Dieu vivant. Le chrétien marqué est gardé dans les tempêtes.",
+   "en": "The Orthodox tradition says at chrismation: the seal of the gift of the Holy Spirit, as it anoints the forehead. These words echo the seal of the living God. The sealed Christian is kept safe in the storms."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions rapprochent ce sceau de l'onction reçue dans l'initiation chrétienne.",
+    "en": "Both traditions link this seal with the anointing received in Christian initiation."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 7:2",
+    "usage": "quote",
+    "quote": "He speaks of Elias the prophet"
+   }
+  ]
+ },
+ {
+  "key": "rev-7-4-8",
+  "book": "REV",
+  "chapterStart": 7,
+  "verseStart": 4,
+  "chapterEnd": 7,
+  "verseEnd": 8,
+  "category": "unite-eglise",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean entend le nombre des marqués : cent quarante-quatre mille, issus de toutes les tribus d'Israël. Il y en a douze mille pour chaque tribu, de Juda à Benjamin. Le chiffre est symbolique : douze fois douze, multiplié par mille, il dit la plénitude du peuple de Dieu. Il ne fixe pas un nombre limité de sauvés.",
+   "en": "John hears the number of those sealed: one hundred forty-four thousand, from every tribe of Israel. There are twelve thousand for each tribe, from Judah to Benjamin. The number is symbolic: twelve times twelve, multiplied by a thousand, it expresses the fullness of God's people. It does not set a limited number of the saved."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour l'unité du peuple de Dieu, en nommant une communauté chrétienne différente de la tienne.",
+   "en": "Pray today for the unity of God's people, naming a Christian community different from your own."
+  },
+  "catholic": {
+   "fr": "La tradition catholique comprend ce nombre comme l'image de l'Israël nouveau, l'Église bâtie sur les douze apôtres. Le chiffre parfait dit que Dieu n'oublie personne de son peuple. Il prépare la vision de la foule innombrable qui suit.",
+   "en": "The Catholic tradition understands this number as an image of the new Israel, the Church built on the twelve apostles. The perfect number says God forgets no one of his people. It prepares the vision of the countless crowd that follows."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce chiffre de manière symbolique, comme la plénitude de l'Église. Les douze tribus renvoient aux douze apôtres, fondements de l'Église. Le salut n'est pas réservé à un petit groupe.",
+   "en": "The Orthodox tradition also reads this number symbolically, as the fullness of the Church. The twelve tribes point to the twelve apostles, foundations of the Church. Salvation is not reserved for a small group."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ce nombre comme un symbole de plénitude, non comme une limite du salut.",
+    "en": "Both traditions read this number as a symbol of fullness, not as a limit on salvation."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-7-9-12",
+  "book": "REV",
+  "chapterStart": 7,
+  "verseStart": 9,
+  "chapterEnd": 7,
+  "verseEnd": 12,
+  "category": "communion-des-saints",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Après cela, Jean voit une foule immense, que nul ne peut compter, de toutes nations, tribus, peuples et langues. Vêtus de robes blanches, des palmes à la main, ils se tiennent devant le trône et devant l'agneau. Ils crient que le salut vient de notre Dieu et de l'agneau. Tous les anges se prosternent et adorent.",
+   "en": "After this, John sees a vast crowd that no one can count, from every nation, tribe, people and language. Clothed in white robes, with palms in their hands, they stand before the throne and the lamb. They cry out that salvation belongs to our God and to the lamb. All the angels fall down and worship."
+  },
+  "action": {
+   "fr": "Pense aujourd'hui à un défunt de ta famille, uni à cette foule, et confie-le à Dieu.",
+   "en": "Think today of a departed member of your family, united to this crowd, and entrust them to God."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce passage à la Toussaint, le 1er novembre, comme la vision de la communion des saints. Victorin de Pettau y voit la multitude venue de toutes les nations. Saint Cyprien l'utilise pour encourager à suivre les traces des justes et des martyrs.",
+   "en": "The Catholic tradition reads this passage on All Saints' Day, 1 November, as a vision of the communion of saints. Victorinus of Pettau sees in it the multitude from every nation. Saint Cyprian uses it to encourage following in the footsteps of the righteous and the martyrs."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête Tous les Saints le dimanche après la Pentecôte. Les palmes rappellent l'entrée du Christ à Jérusalem et la victoire des martyrs. La communion des saints unit l'Église du ciel et celle de la terre.",
+   "en": "The Orthodox tradition celebrates All Saints on the Sunday after Pentecost. The palms recall Christ's entry into Jerusalem and the victory of the martyrs. The communion of saints unites the Church in heaven and on earth."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cette foule la communion des saints, fêtée dans chacune à la Toussaint.",
+    "en": "Both traditions see in this crowd the communion of saints, celebrated in each at All Saints."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 7:9",
+    "usage": "quote",
+    "quote": "After this I beheld, and, lo, a great multitude"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 11",
+    "section": "Treatise XI. Exhortation to Martyrdom, Addressed to Fortunatus.",
+    "ref": "REV 7:9",
+    "usage": "quote",
+    "quote": "if we make our way over the ancient and sacred footsteps of the righteous"
+   }
+  ]
+ },
+ {
+  "key": "rev-7-13-17",
+  "book": "REV",
+  "chapterStart": 7,
+  "verseStart": 13,
+  "chapterEnd": 7,
+  "verseEnd": 17,
+  "category": "esperance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Un vieillard demande à Jean qui sont ceux qui portent des robes blanches. Ce sont ceux qui viennent de la grande épreuve : ils ont lavé leurs robes dans le sang de l'agneau. Ils servent Dieu jour et nuit dans son temple. Ils n'auront plus faim ni soif, et l'agneau sera leur berger. Dieu essuiera toute larme de leurs yeux.",
+   "en": "An elder asks John who those wearing white robes are. They are those who come out of the great tribulation: they have washed their robes in the blood of the lamb. Day and night they serve God in his temple. They will hunger and thirst no more, and the lamb will be their shepherd. God will wipe away every tear from their eyes."
+  },
+  "action": {
+   "fr": "Confie aujourd'hui à Dieu une larme ou une peine, en croyant qu'il l'essuiera.",
+   "en": "Today, entrust a tear or a sorrow to God, believing that he will wipe it away."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce passage aux funérailles comme une promesse de consolation. L'image paradoxale des robes blanchies dans le sang dit la purification par la croix du Christ. Saint Cyprien cite ce passage pour soutenir les chrétiens éprouvés.",
+   "en": "The Catholic tradition reads this passage at funerals as a promise of consolation. The paradoxical image of robes made white in blood expresses purification by Christ's cross. Saint Cyprian quotes this passage to support Christians under trial."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aussi le repos des justes là où il n'y a plus ni douleur ni gémissement. L'agneau berger rassemble les sauvés près des sources de la vie. L'espérance chrétienne est celle d'une consolation totale.",
+   "en": "The Orthodox tradition also sings of the rest of the righteous where there is no more pain or sighing. The shepherd lamb gathers the saved near the springs of life. Christian hope is that of complete consolation."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la consolation promise à ceux qui ont traversé l'épreuve.",
+    "en": "Both traditions see here the consolation promised to those who have passed through trial."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 11",
+    "section": "Treatise XI Exhortation to Martyrdom Addressed to Fortunatus",
+    "ref": "REV 7:14",
+    "usage": "quote",
+    "quote": "And that I might not extend my discourse, beloved brother"
+   }
+  ]
  }
 ]
