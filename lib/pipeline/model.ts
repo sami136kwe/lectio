@@ -4,7 +4,7 @@
  */
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-import type { z } from "zod";
+import { z } from "zod";
 
 export type BatchRequest = { id: string; system: string; user: string; maxTokens: number };
 export type BatchResult<T> = { id: string; ok: true; value: T; costUsd: number } | { id: string; ok: false; error: string; costUsd: number };
@@ -23,6 +23,7 @@ export const PRICES: Record<string, { input: number; output: number }> = {
 export const BATCH_DISCOUNT = 0.5;
 
 export function priceOf(model: string) {
+  if (model.startsWith("ollama:")) return { input: 0, output: 0 }; // runs on your own machine
   return PRICES[model] ?? PRICES["claude-opus-5-5"]!;
 }
 
@@ -99,6 +100,76 @@ export class AnthropicBatchModel implements PipelineModel {
       } catch {
         out.push({ id: item.custom_id, ok: false, error: "invalid_json", costUsd });
       }
+    }
+    return out;
+  }
+}
+
+/**
+ * Free, local model through Ollama (https://ollama.com), one request at a time.
+ * Same prompts, same JSON schema and the same checks as the batch model; the
+ * cost is zero. Structured output uses Ollama's `format` (JSON schema).
+ */
+export class OllamaModel implements PipelineModel {
+  readonly name: string;
+
+  constructor(
+    private options: { model: string; host?: string; contextTokens?: number; fetch?: typeof fetch },
+  ) {
+    this.name = `ollama:${options.model}`;
+  }
+
+  private get host() {
+    return (this.options.host ?? "http://127.0.0.1:11434").replace(/\/$/, "");
+  }
+
+  /** Throws a readable error if Ollama is not running or the model is not downloaded. */
+  async probe(): Promise<void> {
+    const f = this.options.fetch ?? fetch;
+    let res: Response;
+    try {
+      res = await f(`${this.host}/api/tags`);
+    } catch {
+      throw new Error(`Ollama is not running at ${this.host}: open the Ollama app (or run \`ollama serve\`)`);
+    }
+    const tags = (await res.json()) as { models?: { name: string }[] };
+    const names = (tags.models ?? []).map((m) => m.name);
+    const wanted = this.options.model.includes(":") ? this.options.model : `${this.options.model}:latest`;
+    if (!names.includes(wanted)) throw new Error(`model ${this.options.model} is not downloaded: run \`ollama pull ${this.options.model}\``);
+  }
+
+  async run<T>(requests: BatchRequest[], schema: z.ZodType<T>, onProgress?: (message: string) => void): Promise<BatchResult<T>[]> {
+    const f = this.options.fetch ?? fetch;
+    const format = z.toJSONSchema(schema as z.ZodType);
+    const out: BatchResult<T>[] = [];
+    for (const [i, r] of requests.entries()) {
+      try {
+        const res = await f(`${this.host}/api/chat`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            model: this.options.model,
+            stream: false,
+            format,
+            messages: [
+              { role: "system", content: r.system },
+              { role: "user", content: r.user },
+            ],
+            options: { temperature: 0.3, num_predict: r.maxTokens, num_ctx: this.options.contextTokens ?? 16384 },
+          }),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const body = (await res.json()) as { message?: { content?: string }; done_reason?: string };
+        if (body.done_reason === "length") {
+          out.push({ id: r.id, ok: false, error: "max_tokens", costUsd: 0 });
+        } else {
+          const parsed = schema.safeParse(JSON.parse(body.message?.content ?? ""));
+          out.push(parsed.success ? { id: r.id, ok: true, value: parsed.data, costUsd: 0 } : { id: r.id, ok: false, error: "schema", costUsd: 0 });
+        }
+      } catch (e) {
+        out.push({ id: r.id, ok: false, error: e instanceof SyntaxError ? "invalid_json" : e instanceof Error ? e.message : String(e), costUsd: 0 });
+      }
+      onProgress?.(`${this.name}: ${i + 1}/${requests.length}`);
     }
     return out;
   }

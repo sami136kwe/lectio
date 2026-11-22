@@ -79,6 +79,7 @@ Ouvrez http://localhost:3000.
 | `npm run seed:cards` | **Premier lot** de cartes générées (Marc 1-2, Psaumes 1-5, Jean 1, 1-18, Matthieu 16, 13-20), avec estimation du coût et confirmation |
 | `npm run seed:cards -- --all` | Tout le Nouveau Testament et les Psaumes (2 551 passages) |
 | `npm run seed:cards -- --dry-run` | Planifie et estime le coût, sans appel au modèle |
+| `npm run seed:cards -- --local --book=MRK` | **Gratuit, sur votre machine** avec [Ollama](https://ollama.com) : mêmes consignes, mêmes contrôles, sans clé API (voir plus bas) |
 | `npm run check:db` | Couverture, complétude, attributions, citations, scores, relectures, texte biblique inchangé |
 | `npm run export:cards` | Export JSON et CSV (`--review` : file de relecture en CSV) |
 | `npm run review:import -- fichier.csv` | Réimport des corrections de relecture |
@@ -87,3 +88,32 @@ Ouvrez http://localhost:3000.
 Options de `seed:cards` : `--book=JHN`, `--category=priere`, `--lang=en`, `--resume`, `--extend`, `--yes`, `--skip-dedup`, `--limit=N`. Plafond de dépense : `MAX_BUDGET_USD` (10 $ par défaut).
 
 **Avant `--all`**, lancez le premier lot et relisez l'échantillon de 15 cartes affiché à la fin (et la page admin) : l'exactitude doctrinale compte plus que la vitesse.
+
+---
+
+## Générer les cartes gratuitement sur votre machine (Ollama)
+
+1. Installez **Ollama** depuis https://ollama.com et ouvrez l'application.
+2. Téléchargez un modèle (environ 9 Go, une seule fois) :
+
+```bash
+ollama pull qwen2.5:14b
+```
+
+3. Essayez d'abord quelques passages :
+
+```bash
+npm run seed:cards -- --local --book=MRK --limit=5 --skip-dedup
+```
+
+4. Si le résultat vous convient, lancez un livre entier ; `--resume` reprend après une interruption :
+
+```bash
+npm run seed:cards -- --local --book=MRK --resume --skip-dedup
+```
+
+Les cartes passent par les mêmes contrôles que le pipeline : texte biblique injecté (jamais tiré de la mémoire du modèle), citations des Pères vérifiées mot pour mot, style, divergences. Une carte qui échoue reste en brouillon ou est rejetée. Elles arrivent toutes en « à relire » dans la page admin.
+
+- Modèle : `LECTIO_LOCAL_MODEL` (par défaut `qwen2.5:14b`). Avec 8 Go de mémoire, prenez `qwen2.5:7b` ; avec 32 Go ou plus, `qwen2.5:32b` écrit mieux.
+- Un modèle local est nettement moins fin qu'un grand modèle : attendez-vous à plus de rejets et relisez davantage.
+- Durée indicative sur un Mac M1/M2 avec le modèle 14b : une à deux minutes par passage (Marc : quelques heures ; tout le Nouveau Testament : plusieurs jours de calcul).

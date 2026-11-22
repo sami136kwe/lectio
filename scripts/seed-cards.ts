@@ -12,12 +12,15 @@
  *   npm run seed:cards -- --yes              do not ask for confirmation (cap still applies)
  *   npm run seed:cards -- --skip-dedup       no embedding service available (dedup by exact range only)
  *
- * Needs ANTHROPIC_API_KEY. Spending cap: MAX_BUDGET_USD (default 10).
+ *   npm run seed:cards -- --local --book=MRK free, on your own machine with Ollama (no API key)
+ *
+ * --local: model LECTIO_LOCAL_MODEL (default qwen2.5:14b), Ollama at OLLAMA_HOST (default http://127.0.0.1:11434).
+ * Otherwise needs ANTHROPIC_API_KEY. Spending cap: MAX_BUDGET_USD (default 10).
  * Writer model: LECTIO_WRITER_MODEL (default claude-sonnet-5-5); checker: LECTIO_CHECKER_MODEL (same default).
  */
 import { createInterface } from "node:readline/promises";
 import { edgeFunctionEmbedder, type Embedder } from "@/lib/ingestion/embeddings";
-import { AnthropicBatchModel } from "@/lib/pipeline/model";
+import { AnthropicBatchModel, OllamaModel, type PipelineModel } from "@/lib/pipeline/model";
 import { runPipeline, type Scope } from "@/lib/pipeline/run";
 import { isBookCode } from "@/lib/bible/books";
 import { argValue, createServiceClient, hasFlag, type ScriptDb } from "./lib";
@@ -63,7 +66,19 @@ async function main() {
   const cap = Number(process.env.MAX_BUDGET_USD ?? "10");
   if (!Number.isFinite(cap) || cap <= 0) throw new Error("MAX_BUDGET_USD must be a positive number");
   const dryRun = hasFlag("dry-run");
-  if (!dryRun && !process.env.ANTHROPIC_API_KEY) throw new Error("ANTHROPIC_API_KEY is not set (see .env.example)");
+  const local = hasFlag("local");
+  if (!dryRun && !local && !process.env.ANTHROPIC_API_KEY) throw new Error("ANTHROPIC_API_KEY is not set (see .env.example), or use --local (free, with Ollama)");
+  let writer: PipelineModel;
+  let checker: PipelineModel;
+  if (local) {
+    const model = new OllamaModel({ model: process.env.LECTIO_LOCAL_MODEL ?? "qwen2.5:14b", host: process.env.OLLAMA_HOST });
+    if (!dryRun) await model.probe();
+    writer = checker = model;
+  } else {
+    const writerModel = process.env.LECTIO_WRITER_MODEL ?? "claude-sonnet-5-5";
+    writer = new AnthropicBatchModel({ model: writerModel, effort: "high" });
+    checker = new AnthropicBatchModel({ model: process.env.LECTIO_CHECKER_MODEL ?? writerModel, effort: "high" });
+  }
 
   let embed: Embedder | null = null;
   if (!hasFlag("skip-dedup") && !dryRun) {
@@ -74,19 +89,17 @@ async function main() {
       throw new Error(`embedding service unavailable (${e instanceof Error ? e.message : String(e)}); fix it or pass --skip-dedup`);
     });
   }
-  const writerModel = process.env.LECTIO_WRITER_MODEL ?? "claude-sonnet-5-5";
-  const checkerModel = process.env.LECTIO_CHECKER_MODEL ?? writerModel;
   const summary = await runPipeline(
     {
       db,
-      writer: new AnthropicBatchModel({ model: writerModel, effort: "high" }),
-      checker: new AnthropicBatchModel({ model: checkerModel, effort: "high" }),
+      writer,
+      checker,
       embed,
       maxBudgetUsd: cap,
       log: (m) => console.log(`[${new Date().toISOString().slice(11, 19)}] ${m}`),
       confirm: (estimate, passages) => confirm(estimate, passages, cap),
     },
-    { scope, source: "seed", extend: hasFlag("extend"), category: argValue("category"), dryRun, limit: argValue("limit") ? Number(argValue("limit")) : undefined },
+    { scope, source: "seed", chunk: local ? 5 : undefined, extend: hasFlag("extend"), category: argValue("category"), dryRun, limit: argValue("limit") ? Number(argValue("limit")) : undefined },
   );
   console.log(`\n${summary.status}: ${summary.planned} passages · ${summary.published} published · ${summary.drafts} drafts · ${summary.rejected} rejected · $${summary.costUsd.toFixed(2)} spent (estimate $${summary.estimateUsd.toFixed(2)})`);
   if (summary.runId && summary.cardIds.length) await printSample(db, summary.runId, argValue("lang") === "en" ? "en" : "fr");
