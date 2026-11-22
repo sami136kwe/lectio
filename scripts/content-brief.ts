@@ -19,7 +19,8 @@ async function main() {
     console.log(`EN: ${ctx.texts.en.verses.map((v) => `${v.verse} ${v.text}`).join(" ")}`);
     const east = ctx.sources.filter((s) => s.region === "east").slice(0, 2);
     const west = ctx.sources.filter((s) => s.region === "west").slice(0, 2);
-    for (const s of [...east, ...west]) console.log(`- [${s.region}] ${s.author} | ${s.work.replace("Catena Aurea (Thomas Aquinas), Commentary on ", "CA ")} | ${s.section} | ${s.text.replace(/\s+/g, " ").slice(0, 260)}`);
+    const other = ctx.sources.filter((s) => s.region !== "east" && s.region !== "west").slice(0, 3);
+    for (const s of [...east, ...west, ...other]) console.log(`- [${s.region}] ${s.author} | ${s.work.replace("Catena Aurea (Thomas Aquinas), Commentary on ", "CA ")} | ${s.section} | ${s.text.replace(/\s+/g, " ").slice(0, Number(process.env.BRIEF_CHARS ?? 260))}`);
   }
 }
 

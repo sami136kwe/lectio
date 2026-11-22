@@ -1,0 +1,762 @@
+[
+ {
+  "key": "rev-1-1-3",
+  "book": "REV",
+  "chapterStart": 1,
+  "verseStart": 1,
+  "chapterEnd": 1,
+  "verseEnd": 3,
+  "category": "fin-des-temps",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Le livre s'ouvre sur son titre : révélation de Jésus-Christ, donnée par Dieu et transmise à Jean par un ange. Le mot grec apocalypse signifie dévoilement, non catastrophe. Une béatitude suit aussitôt. Heureux celui qui lit, ceux qui entendent et qui gardent ce qui est écrit, car le temps est proche.",
+   "en": "The book opens with its title: the revelation of Jesus Christ, given by God and passed on to John by an angel. The Greek word apocalypse means unveiling, not catastrophe. A beatitude follows at once. Blessed is the one who reads, and those who hear and keep what is written, for the time is near."
+  },
+  "action": {
+   "fr": "Lis aujourd'hui un chapitre de l'Apocalypse à voix haute, comme on le lisait dans les premières assemblées.",
+   "en": "Today, read a chapter of Revelation aloud, as it was read in the first assemblies."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit l'Apocalypse comme un livre d'espérance pour l'Église éprouvée, notamment au temps pascal. Victorin de Pettau, martyr vers 304, souligne que le début du livre promet le bonheur à celui qui lit, entend et garde. Lire doit conduire à agir.",
+   "en": "The Catholic tradition reads Revelation as a book of hope for the Church under trial, especially in the Easter season. Victorinus of Pettau, martyred around 304, stresses that the beginning of the book promises blessing to the one who reads, hears and keeps. Reading must lead to action."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe reçoit l'Apocalypse dans le canon, mais ne la lit pas à la Divine Liturgie. Elle la médite surtout à travers les commentaires des Pères et l'iconographie. Le livre y est compris comme une révélation du Christ vainqueur, plus que comme un calendrier de la fin.",
+   "en": "The Orthodox tradition receives Revelation in the canon, but does not read it at the Divine Liturgy. It meditates on it mostly through the Fathers' commentaries and iconography. The book is understood as a revelation of the victorious Christ, more than as a timetable of the end."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reçoivent l'Apocalypse comme révélation du Christ et appel à garder sa parole ; seul l'Occident la lit à la messe.",
+    "en": "Both traditions receive Revelation as a revelation of Christ and a call to keep his word; only the West reads it at Mass."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 1:3",
+    "usage": "quote",
+    "quote": "The beginning of the book promises blessing to him that reads and hears and keeps"
+   }
+  ]
+ },
+ {
+  "key": "rev-1-4-7",
+  "book": "REV",
+  "chapterStart": 1,
+  "verseStart": 4,
+  "chapterEnd": 1,
+  "verseEnd": 7,
+  "category": "trinite",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean salue les sept Églises d'Asie de la part de celui qui est, qui était et qui vient, des sept esprits devant son trône, et de Jésus-Christ, le témoin fidèle. Jésus nous aime, nous a délivrés de nos péchés par son sang et a fait de nous un royaume de prêtres. Il vient avec les nuées. Tout œil le verra.",
+   "en": "John greets the seven Churches of Asia from him who is, who was and who is to come, from the seven spirits before his throne, and from Jesus Christ, the faithful witness. Jesus loves us, has freed us from our sins by his blood and made us a kingdom of priests. He is coming with the clouds. Every eye will see him."
+  },
+  "action": {
+   "fr": "Rends grâce aujourd'hui pour ton baptême, qui t'a fait membre d'un peuple de prêtres.",
+   "en": "Give thanks today for your baptism, which made you a member of a priestly people."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette salutation une confession trinitaire, les sept esprits désignant la plénitude de l'Esprit Saint. Victorin de Pettau explique que celui qui est demeure toujours, qu'il était avec le Père à la création, et qu'il viendra pour le jugement. Il comprend le royaume de prêtres comme l'Église de tous les croyants.",
+   "en": "The Catholic tradition sees in this greeting a Trinitarian confession, the seven spirits meaning the fullness of the Holy Spirit. Victorinus of Pettau explains that he who is endures continually, that he was with the Father at creation, and that he will come for judgement. He understands the kingdom of priests as the Church of all believers."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne aussi le sacerdoce royal de tous les baptisés, reçu à la chrismation. Le Christ qui vient avec les nuées est celui qui est monté au ciel, et l'Église vit tournée vers son retour. Sa venue sera manifeste pour tous.",
+   "en": "The Orthodox tradition also stresses the royal priesthood of all the baptised, received at chrismation. Christ who comes with the clouds is the one who ascended into heaven, and the Church lives turned towards his return. His coming will be plain to all."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une salutation trinitaire et le sacerdoce royal de tous les baptisés.",
+    "en": "Both traditions see here a Trinitarian greeting and the royal priesthood of all the baptised."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 1:4",
+    "usage": "quote",
+    "quote": "He is, because He endures continually"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 1:6",
+    "usage": "quote",
+    "quote": "That is to say, a Church of all believers"
+   }
+  ]
+ },
+ {
+  "key": "rev-1-8-11",
+  "book": "REV",
+  "chapterStart": 1,
+  "verseStart": 8,
+  "chapterEnd": 1,
+  "verseEnd": 11,
+  "category": "incarnation",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Dieu se présente comme l'Alpha et l'Oméga, la première et la dernière lettre de l'alphabet grec : le commencement et la fin de tout. Jean, exilé sur l'île de Patmos à cause de la parole de Dieu, se dit frère de ses lecteurs dans l'épreuve. Le jour du Seigneur, il est saisi par l'Esprit. Une voix forte lui ordonne d'écrire ce qu'il voit et de l'envoyer aux sept Églises.",
+   "en": "God presents himself as the Alpha and the Omega, the first and last letters of the Greek alphabet: the beginning and end of all things. John, exiled on the island of Patmos for the word of God, calls himself his readers' brother in tribulation. On the Lord's Day, he is caught up in the Spirit. A loud voice orders him to write what he sees and send it to the seven Churches."
+  },
+  "action": {
+   "fr": "Commence et termine ta journée en confiant à Dieu, Alpha et Oméga, ce que tu vas vivre.",
+   "en": "Begin and end your day by entrusting to God, the Alpha and Omega, what you will live."
+  },
+  "catholic": {
+   "fr": "La tradition catholique inscrit l'Alpha et l'Oméga sur le cierge pascal, bénit à la Vigile de Pâques. Le jour du Seigneur est le dimanche, jour de la résurrection, où Jean reçoit sa vision. L'exil de Jean rappelle que la révélation est donnée à une Église qui souffre.",
+   "en": "The Catholic tradition inscribes the Alpha and Omega on the Paschal candle, blessed at the Easter Vigil. The Lord's Day is Sunday, the day of the resurrection, when John receives his vision. John's exile recalls that the revelation is given to a suffering Church."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vénère saint Jean le Théologien et la grotte de Patmos où la tradition situe sa vision. Les lettres Alpha et Oméga figurent souvent sur les icônes du Christ Pantocrator. Le dimanche, jour du Seigneur, est le petit Pâques de chaque semaine.",
+   "en": "The Orthodox tradition venerates Saint John the Theologian and the cave on Patmos where tradition places his vision. The letters Alpha and Omega often appear on icons of Christ Pantocrator. Sunday, the Lord's Day, is the little Pascha of each week."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent le Christ, Alpha et Oméga, et voient dans le jour du Seigneur le dimanche de la résurrection.",
+    "en": "Both traditions confess Christ as Alpha and Omega, and see in the Lord's Day the Sunday of the resurrection."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-1-12-15",
+  "book": "REV",
+  "chapterStart": 1,
+  "verseStart": 12,
+  "chapterEnd": 1,
+  "verseEnd": 15,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jean se retourne et voit sept chandeliers d'or. Au milieu se tient quelqu'un de semblable à un fils d'homme, vêtu d'une longue robe et d'une ceinture d'or. Sa tête et ses cheveux sont blancs comme la neige. Ses yeux sont comme une flamme. Ses pieds ressemblent à de l'airain ardent, et sa voix au bruit des grandes eaux.",
+   "en": "John turns and sees seven golden lampstands. In their midst stands one like a son of man, clothed in a long robe with a golden sash. Head and hair white as snow, eyes like a flame. His feet are like burnished bronze, and his voice like the sound of many waters."
+  },
+  "action": {
+   "fr": "Contemple aujourd'hui une icône ou une image du Christ en gloire, quelques minutes en silence.",
+   "en": "Today, contemplate an icon or image of Christ in glory, for a few minutes in silence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette vision le Christ ressuscité, prêtre et roi, présent au milieu de ses Églises. Saint Cyprien, évêque de Carthage, rapproche cette figure du Fils de l'homme vu par Daniel, qui reçoit du Père une puissance éternelle. Les chandeliers sont les Églises qui portent sa lumière.",
+   "en": "The Catholic tradition sees in this vision the risen Christ, priest and king, present among his Churches. Saint Cyprian, bishop of Carthage, links this figure with the Son of Man seen by Daniel, who receives from the Father an everlasting power. The lampstands are the Churches that bear his light."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple aussi le Christ dans sa gloire, l'Ancien des jours devenu homme. Saint Irénée de Lyon médite cette vision comme la venue sacerdotale et glorieuse du Royaume. Dieu prépare l'homme, par étapes, à porter sa gloire.",
+   "en": "The Orthodox tradition also contemplates Christ in his glory, the Ancient of Days made man. Saint Irenaeus of Lyon meditates on this vision as the priestly and glorious coming of the Kingdom. God prepares man, step by step, to bear his glory."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions contemplent ici le Christ ressuscité dans sa gloire, présent au milieu de ses Églises.",
+    "en": "Both traditions contemplate here the risen Christ in his glory, present among his Churches."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 12",
+    "section": "Treatise XII. Three Books of Testimonies Against the Jews.",
+    "ref": "REV 1:12",
+    "usage": "quote",
+    "quote": "That after He had risen again He should receive from His Father all power"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 4",
+    "section": "Against Heresies Book IV",
+    "ref": "REV 1:15",
+    "usage": "quote",
+    "quote": "Thus it was, too, that God formed man at the first, because of His munificence"
+   }
+  ]
+ },
+ {
+  "key": "rev-1-16-20",
+  "book": "REV",
+  "chapterStart": 1,
+  "verseStart": 16,
+  "chapterEnd": 1,
+  "verseEnd": 20,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le Christ tient sept étoiles dans sa main droite, une épée tranchante sort de sa bouche, et son visage brille comme le soleil. Jean tombe à ses pieds comme mort. Le Christ pose la main sur lui et dit : « Ne crains point! Je suis le premier et le dernier, et le vivant. » Il était mort, il est vivant pour les siècles, et il tient les clés de la mort. Les étoiles sont les anges des Églises, les chandeliers sont les Églises.",
+   "en": "Christ holds seven stars in his right hand, a sharp sword comes out of his mouth, and his face shines like the sun. John falls at his feet as if dead. Christ lays his hand on him and says, \"Don't be afraid. I am the first and the last, and the Living one.\" He was dead, he is alive forever, and he holds the keys of death. The stars are the angels of the Churches; the lampstands are the Churches."
+  },
+  "action": {
+   "fr": "Quand une peur te saisit aujourd'hui, imagine la main du Christ posée sur toi et sa parole : « Ne crains point. »",
+   "en": "When fear grips you today, imagine Christ's hand laid on you and his word: \"Don't be afraid.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans les anges des Églises leurs évêques, responsables devant le Christ. Saint Irénée de Lyon insiste sur les évêques à qui les apôtres ont confié les Églises, gardiens de la vraie foi. Le Christ vivant tient les clés de la mort.",
+   "en": "The Catholic tradition sees in the angels of the Churches their bishops, answerable to Christ. Saint Irenaeus of Lyon insists on the bishops to whom the apostles entrusted the Churches, guardians of the true faith. The living Christ holds the keys of death."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi les étoiles comme les évêques que le Christ tient dans sa main. L'épée qui sort de sa bouche est sa parole, qui juge et qui sauve. Le Christ qui a les clés de la mort est celui que l'icône de la Résurrection montre brisant les portes de l'Hadès.",
+   "en": "The Orthodox tradition also reads the stars as the bishops whom Christ holds in his hand. The sword coming out of his mouth is his word, which judges and saves. Christ who has the keys of death is the one the icon of the Resurrection shows breaking the gates of Hades."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ vivant, vainqueur de la mort, qui tient les évêques et les Églises dans sa main.",
+    "en": "Both traditions see here the living Christ, victor over death, who holds the bishops and the Churches in his hand."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Irenaeus",
+    "work": "Irenaeus Against Heresies Book 5",
+    "section": "Against Heresies Book V",
+    "ref": "REV 1:20",
+    "usage": "quote",
+    "quote": "much later date than the bishops to whom the apostles committed the Churches"
+   }
+  ]
+ },
+ {
+  "key": "rev-2-1-4",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 1,
+  "chapterEnd": 2,
+  "verseEnd": 4,
+  "category": "unite-eglise",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La première lettre s'adresse à l'Église d'Éphèse. Le Christ connaît ses œuvres, sa peine et sa persévérance. Elle ne supporte pas les méchants et a démasqué les faux apôtres. Mais il lui fait un reproche : elle a abandonné son premier amour.",
+   "en": "The first letter is addressed to the Church in Ephesus. Christ knows its works. It does not tolerate evildoers and has exposed false apostles. But he has one reproach: it has left its first love."
+  },
+  "action": {
+   "fr": "Rappelle-toi un moment où ta foi était vive, et demande à Dieu de raviver ce premier amour.",
+   "en": "Remember a time when your faith was alive, and ask God to rekindle that first love."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce reproche un avertissement pour les communautés fidèles mais refroidies. Victorin de Pettau écrit que les œuvres d'amour doivent être pratiquées jusqu'à la fin, car c'est le commandement principal. Il ajoute que le Christ voit leur patience et n'est pas loin.",
+   "en": "The Catholic tradition sees in this reproach a warning for communities that are faithful but have grown cold. Victorinus of Pettau writes that works of love must be practised to the very end, for this is the principal commandment. He adds that Christ sees their patience and is not far away."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi le danger d'une orthodoxie sans amour. Éphèse garde la vraie doctrine, mais la vérité sans la charité perd son sens. Le premier amour se retrouve par la prière et le repentir.",
+   "en": "The Orthodox tradition also reads here the danger of an orthodoxy without love. Ephesus keeps true doctrine, but truth without charity loses its meaning. The first love is found again through prayer and repentance."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une Église fidèle appelée à retrouver son premier amour.",
+    "en": "Both traditions see here a faithful Church called to recover its first love."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:4",
+    "usage": "quote",
+    "quote": "even to the very last, works of love must be practised; and this is the principal commandment"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:2",
+    "usage": "quote",
+    "quote": "I see that thou art patient"
+   }
+  ]
+ },
+ {
+  "key": "rev-2-5-7",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 5,
+  "chapterEnd": 2,
+  "verseEnd": 7,
+  "category": "repentir-pardon",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Le Christ invite Éphèse à se souvenir d'où elle est tombée, à se repentir et à revenir à ses premières œuvres. Sinon, il ôtera son chandelier de sa place. Il loue pourtant sa haine des œuvres des Nicolaïtes, que lui aussi déteste. Au vainqueur, il donnera à manger de l'arbre de vie, dans le paradis de Dieu.",
+   "en": "Christ invites Ephesus to remember from where it has fallen, to repent and to do its first works again. Otherwise he will remove its lampstand from its place. Yet he praises its hatred of the works of the Nicolaitans, which he too hates. To the victor he will give to eat of the tree of life, in the paradise of God."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui une « première œuvre » de ta foi : une prière simple, un geste de charité oublié.",
+   "en": "Today, do one of the \"first works\" of your faith: a simple prayer, a forgotten act of charity."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage le chemin de la conversion : se souvenir, se repentir, agir. Victorin de Pettau note que haïr les œuvres des Nicolaïtes, que le Christ hait aussi, mérite la louange. Il précise ailleurs que celui qui tombe tombe d'une hauteur.",
+   "en": "The Catholic tradition sees in this passage the path of conversion: remember, repent, act. Victorinus of Pettau notes that hating the works of the Nicolaitans, which Christ also hates, deserves praise. He points out elsewhere that whoever falls falls from a height."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime la promesse de l'arbre de vie, qui renvoie au paradis perdu et retrouvé. La croix est chantée comme l'arbre de vie planté à nouveau. Le repentir rouvre la porte du paradis.",
+   "en": "The Orthodox tradition loves the promise of the tree of life, which points back to paradise lost and regained. The cross is sung as the tree of life planted anew. Repentance reopens the door of paradise."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le chemin du repentir et la promesse de l'arbre de vie.",
+    "en": "Both traditions see here the path of repentance and the promise of the tree of life."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:6",
+    "usage": "quote",
+    "quote": "to hate the works of the Nicolaitanes, which He Himself also hated, this tends to praise"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:5",
+    "usage": "quote",
+    "quote": "He who falls, falls from a height"
+   }
+  ]
+ },
+ {
+  "key": "rev-2-8-11",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 8,
+  "chapterEnd": 2,
+  "verseEnd": 11,
+  "category": "martyrs-temoins",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "La lettre à Smyrne vient de celui qui était mort et qui est revenu à la vie. Il connaît sa détresse et sa pauvreté, mais elle est riche. Il annonce une épreuve : certains seront jetés en prison pour dix jours. « Sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie. » Le vainqueur n'aura pas à souffrir la seconde mort.",
+   "en": "The letter to Smyrna comes from the one who was dead and came back to life. He knows its affliction and poverty, but it is rich. He announces a trial: some will be thrown into prison for ten days. \"Be faithful to death, and I will give you the crown of life.\" The victor will not be harmed by the second death."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un chrétien emprisonné à cause de sa foi.",
+   "en": "Pray today for a Christian imprisoned for their faith."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Smyrne une Église pauvre et persécutée, mais riche devant Dieu. Victorin de Pettau explique simplement l'appel : qu'ils restent fidèles jusqu'à la mort. Saint Cyprien, lui-même martyr, cite ce verset pour encourager les chrétiens à ne pas craindre la persécution.",
+   "en": "The Catholic tradition sees in Smyrna a poor and persecuted Church, but rich before God. Victorinus of Pettau explains the call simply: that they should stay faithful even unto death. Saint Cyprian, himself a martyr, quotes this verse to encourage Christians not to fear persecution."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore saint Polycarpe, évêque de Smyrne, martyrisé au IIe siècle, comme l'un de ceux qui ont reçu cette couronne. La couronne de vie est aussi évoquée au mariage, où les époux sont couronnés. La fidélité jusqu'au bout est le chemin des saints.",
+   "en": "The Orthodox tradition honours Saint Polycarp, bishop of Smyrna, martyred in the second century, as one who received this crown. The crown of life is also recalled at weddings, where the spouses are crowned. Faithfulness to the end is the path of the saints."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans Smyrne une Église martyre et dans la couronne de vie la récompense de la fidélité.",
+    "en": "Both traditions see in Smyrna a martyr Church and in the crown of life the reward of faithfulness."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:10",
+    "usage": "quote",
+    "quote": "That they should continue to be faithful even unto death."
+   },
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 11",
+    "section": "Treatise XI. Exhortation to Martyrdom, Addressed to Fortunatus.",
+    "ref": "REV 2:10",
+    "usage": "quote",
+    "quote": "That injuries and penalties of persecutions are not to be feared by us"
+   }
+  ]
+ },
+ {
+  "key": "rev-2-12-15",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 12,
+  "chapterEnd": 2,
+  "verseEnd": 15,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La lettre à Pergame vient de celui qui tient l'épée aiguë à deux tranchants. Cette Église demeure là où est le trône de Satan, et elle est restée fidèle, même quand Antipas, témoin fidèle, a été tué. Mais certains suivent la doctrine de Balaam, qui poussait à l'idolâtrie et à l'impureté. D'autres suivent les Nicolaïtes.",
+   "en": "The letter to Pergamum comes from the one who has the sharp two-edged sword. This Church lives where Satan's throne is, and it has stayed faithful, even when Antipas, a faithful witness, was killed. But some follow the teaching of Balaam, who led others into idolatry and immorality. Others follow the Nicolaitans."
+  },
+  "action": {
+   "fr": "Repère un compromis avec l'esprit du monde dans ta vie, et décide d'y mettre fin.",
+   "en": "Spot a compromise with the spirit of the world in your life, and decide to end it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans Pergame une Église courageuse mais exposée aux compromis. Le trône de Satan évoque sans doute le culte impérial, très présent dans la ville. La fidélité dans le martyre n'empêche pas la vigilance sur la doctrine et les mœurs.",
+   "en": "The Catholic tradition sees in Pergamum a courageous Church but one open to compromise. Satan's throne probably evokes the imperial cult, very present in the city. Faithfulness in martyrdom does not dispense from vigilance over doctrine and morals."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vénère saint Antipas, évêque de Pergame, mentionné ici comme témoin fidèle. Le verset invite à la vigilance contre les enseignements qui séparent la foi et la vie. L'épée à deux tranchants est la parole de Dieu qui discerne.",
+   "en": "The Orthodox tradition venerates Saint Antipas, bishop of Pergamum, mentioned here as a faithful witness. The verse invites vigilance against teachings that separate faith from life. The two-edged sword is the word of God that discerns."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une Église fidèle dans l'épreuve, appelée à la vigilance contre les compromis.",
+    "en": "Both traditions see here a Church faithful in trial, called to vigilance against compromise."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-2-16-19",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 16,
+  "chapterEnd": 2,
+  "verseEnd": 19,
+  "category": "eucharistie",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Pergame doit se repentir. Au vainqueur, il donnera la manne cachée et un caillou blanc où est écrit un nom nouveau. Puis vient la lettre à Thyatire, de la part du Fils de Dieu aux yeux comme une flamme. Il connaît ses œuvres, son amour, sa foi, son service et sa persévérance.",
+   "en": "Christ calls Pergamum to repent, or he will come to fight with the sword of his mouth. To the victor he will give the hidden manna and a white stone with a new name written on it. Then comes the letter to Thyatira, from the Son of God whose eyes are like a flame. He knows its works, its love, faith, service and perseverance."
+  },
+  "action": {
+   "fr": "À ta prochaine communion, pense à la manne cachée promise au vainqueur.",
+   "en": "At your next communion, think of the hidden manna promised to the victor."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit souvent dans la manne cachée l'Eucharistie, pain du ciel. Victorin de Pettau explique que la manne cachée est l'immortalité, que la pierre blanche est l'adoption filiale, et que le nom nouveau est celui de chrétien. Thyatire est louée pour une charité qui grandit.",
+   "en": "The Catholic tradition often sees in the hidden manna the Eucharist, the bread of heaven. Victorinus of Pettau explains that the hidden manna is immortality, that the white stone is adoption as son of God, and that the new name is that of Christian. Thyatira is praised for a charity that grows."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans la manne l'annonce des saints Mystères, nourriture d'immortalité. Le nom nouveau évoque le nom de baptême, souvent celui d'un saint. Le Christ aux yeux de flamme voit le fond des cœurs.",
+   "en": "The Orthodox tradition also sees in the manna a foreshadowing of the holy Mysteries, the food of immortality. The new name recalls the baptismal name, often that of a saint. Christ with eyes of flame sees the depths of hearts."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la manne cachée l'annonce de l'Eucharistie et de l'immortalité promise.",
+    "en": "Both traditions see in the hidden manna a foreshadowing of the Eucharist and of promised immortality."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:17",
+    "usage": "quote",
+    "quote": "The hidden manna is immortality; the white gem is adoption to be the son of God"
+   }
+  ]
+ },
+ {
+  "key": "rev-2-20-23",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 20,
+  "chapterEnd": 2,
+  "verseEnd": 23,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le Christ reproche à Thyatire de tolérer Jézabel, une femme qui se dit prophétesse et égare ses serviteurs vers l'impureté et l'idolâtrie. Il lui a laissé du temps pour se repentir, mais elle ne le veut pas. Il annonce une épreuve pour elle et ceux qui la suivent, s'ils ne se repentent pas. Toutes les Églises sauront qu'il sonde les reins et les cœurs.",
+   "en": "Christ reproaches Thyatira for tolerating Jezebel, a woman who calls herself a prophetess and leads his servants astray into immorality and idolatry. He gave her time to repent, but she does not want to. He announces a trial for her and those who follow her, unless they repent. All the Churches will know that he searches minds and hearts."
+  },
+  "action": {
+   "fr": "Examine aujourd'hui une influence qui t'éloigne de Dieu, et demande la force de t'en détacher.",
+   "en": "Examine today an influence that draws you away from God, and ask for the strength to break free of it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage la patience de Dieu, qui laisse toujours du temps pour la conversion. Jézabel désigne sans doute une enseignante influente, qui justifiait des compromis avec les cultes païens. Le Christ juge selon la vérité des cœurs.",
+   "en": "The Catholic tradition sees in this passage God's patience, who always leaves time for conversion. Jezebel probably refers to an influential teacher who justified compromise with pagan cults. Christ judges according to the truth of hearts."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit l'importance du discernement des esprits face aux prophéties trompeuses. Le Christ qui sonde les reins et les cœurs voit au-delà des apparences. Le temps donné pour le repentir est un don de sa miséricorde.",
+   "en": "The Orthodox tradition reads here the importance of discerning spirits before misleading prophecies. Christ who searches minds and hearts sees beyond appearances. The time given for repentance is a gift of his mercy."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la patience de Dieu et l'appel à discerner les faux enseignements.",
+    "en": "Both traditions see here God's patience and the call to discern false teachings."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-2-24-29",
+  "book": "REV",
+  "chapterStart": 2,
+  "verseStart": 24,
+  "chapterEnd": 2,
+  "verseEnd": 29,
+  "category": "esperance",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Aux autres fidèles de Thyatire, qui n'ont pas suivi cette doctrine, le Christ n'impose pas d'autre fardeau. Il leur demande de tenir ferme ce qu'ils ont jusqu'à sa venue. Au vainqueur, il donnera autorité sur les nations, et l'étoile du matin. Que celui qui a des oreilles entende ce que l'Esprit dit aux Églises.",
+   "en": "To the other faithful in Thyatira, who have not followed this teaching, Christ lays no other burden. He asks them to hold fast what they have until he comes, without adding anything else to their load. To the victor he will give authority over the nations, and the morning star. Whoever has ears, let them hear what the Spirit says to the Churches."
+  },
+  "action": {
+   "fr": "Garde aujourd'hui fidèlement une pratique de foi, même modeste, sans chercher à en faire plus.",
+   "en": "Today, faithfully keep one practice of faith, however modest, without trying to do more."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'étoile du matin le Christ lui-même, qui se donne au fidèle. Victorin de Pettau explique que l'étoile du matin chasse la nuit et annonce la lumière, le commencement du jour. Il comprend l'autorité promise comme une place de juge parmi les saints.",
+   "en": "The Catholic tradition sees in the morning star Christ himself, who gives himself to the faithful one. Victorinus of Pettau explains that the morning star drives away the night and announces the light, the beginning of day. He understands the promised authority as a place as judge among the saints."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante le Christ comme l'astre levant, venu d'en haut. La lumière du matin est liée à la résurrection, célébrée aux matines. Tenir ferme ce qu'on a reçu est la fidélité à la Tradition.",
+   "en": "The Orthodox tradition sings of Christ as the rising star, come from on high. Morning light is linked to the resurrection, celebrated at Matins. Holding fast what one has received is faithfulness to Tradition."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'étoile du matin le Christ, lumière promise à ceux qui restent fidèles.",
+    "en": "Both traditions see in the morning star Christ, the light promised to those who remain faithful."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:28",
+    "usage": "quote",
+    "quote": "He promised the morning star, which drives away the night, and announces the light"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 2:25",
+    "usage": "quote",
+    "quote": "him I will appoint as judge among the rest of the saints"
+   }
+  ]
+ },
+ {
+  "key": "rev-3-1-4",
+  "book": "REV",
+  "chapterStart": 3,
+  "verseStart": 1,
+  "chapterEnd": 3,
+  "verseEnd": 4,
+  "category": "repentir-pardon",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La lettre à Sardes vient de celui qui a les sept esprits de Dieu et les sept étoiles. Il connaît ses œuvres : elle passe pour vivante, mais elle est morte. Qu'elle se réveille, qu'elle affermisse ce qui reste, et qu'elle se souvienne de ce qu'elle a reçu. Sinon, il viendra comme un voleur. Quelques-uns pourtant n'ont pas souillé leurs vêtements.",
+   "en": "The letter to Sardis comes from the one who has the seven spirits of God and the seven stars. He knows its works: it has a name for being alive, but it is dead. It must wake up, strengthen what remains, and remember what it received. Otherwise he will come like a thief. Yet a few have not soiled their garments."
+  },
+  "action": {
+   "fr": "Repère une habitude religieuse devenue routine, et redonne-lui vie aujourd'hui par l'attention.",
+   "en": "Spot a religious habit that has become routine, and bring it back to life today with attention."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans Sardes le danger d'une foi de façade, active en apparence mais vide à l'intérieur. L'appel à se réveiller rejoint la vigilance demandée par Jésus dans les évangiles. Le petit reste fidèle montre que la grâce n'abandonne jamais tout à fait une communauté.",
+   "en": "The Catholic tradition sees in Sardis the danger of a façade faith, active in appearance but empty inside. The call to wake up echoes the watchfulness Jesus asks for in the Gospels. The faithful remnant shows that grace never entirely abandons a community."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit l'appel à la vigilance du cœur, la nepsis des Pères du désert. Les vêtements non souillés évoquent la robe blanche du baptême. Se souvenir de ce qu'on a reçu, c'est revenir à la grâce baptismale.",
+   "en": "The Orthodox tradition reads here the call to watchfulness of heart, the nepsis of the Desert Fathers. The unsoiled garments recall the white robe of baptism. Remembering what one has received means returning to baptismal grace."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'appel à réveiller une foi devenue routine et à garder la grâce du baptême.",
+    "en": "Both traditions see here the call to awaken a faith grown routine and to keep the grace of baptism."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-3-5-8",
+  "book": "REV",
+  "chapterStart": 3,
+  "verseStart": 5,
+  "chapterEnd": 3,
+  "verseEnd": 8,
+  "category": "bapteme",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le vainqueur sera vêtu de blanc, et son nom ne sera pas effacé du livre de vie. Le Christ le reconnaîtra devant son Père et ses anges. Puis vient la lettre à Philadelphie, de la part du Saint, du Véritable, qui a la clé de David. Il a ouvert devant elle une porte que personne ne peut fermer, car malgré sa faiblesse elle a gardé sa parole.",
+   "en": "The victor will be clothed in white, and his name will not be blotted out of the book of life. Christ will confess his name before his Father and his angels. Then comes the letter to Philadelphia, from the Holy One, the True One, who has the key of David. He has set before it an open door that no one can shut, for despite its little strength it has kept his word."
+  },
+  "action": {
+   "fr": "Même si tu te sens faible aujourd'hui, garde une parole de l'Évangile : une porte reste ouverte devant toi.",
+   "en": "Even if you feel weak today, keep one word of the Gospel: a door stays open before you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le vêtement blanc la grâce du baptême, que le chrétien est appelé à garder. Philadelphie, petite et sans grande force, est louée pour sa fidélité. La porte ouverte est celle de la mission et du Royaume.",
+   "en": "The Catholic tradition sees in the white garment the grace of baptism, which the Christian is called to keep. Philadelphia, small and without great strength, is praised for its faithfulness. The open door is that of mission and of the Kingdom."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe revêt les nouveaux baptisés d'une robe blanche en chantant : donne-moi la tunique de lumière. Le livre de vie évoque la mémoire des fidèles devant Dieu. La clé de David est celle du Christ, qui ouvre le Royaume.",
+   "en": "The Orthodox tradition clothes the newly baptised in a white robe, singing: give me the robe of light. The book of life recalls the remembrance of the faithful before God. The key of David is Christ's, who opens the Kingdom."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le vêtement blanc la grâce baptismale et dans la porte ouverte l'accès au Royaume.",
+    "en": "Both traditions see in the white garment baptismal grace and in the open door access to the Kingdom."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-3-9-12",
+  "book": "REV",
+  "chapterStart": 3,
+  "verseStart": 9,
+  "chapterEnd": 3,
+  "verseEnd": 12,
+  "category": "patience-epreuve",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Le Christ annonce que ses adversaires reconnaîtront qu'il aime Philadelphie. Parce qu'elle a gardé la parole de sa patience, il la gardera à l'heure de l'épreuve qui va venir sur le monde. Il vient bientôt : qu'elle tienne ferme pour que personne ne prenne sa couronne. Le vainqueur sera une colonne dans le temple de Dieu, portant le nom de Dieu et de la Jérusalem nouvelle.",
+   "en": "Christ announces that its opponents will recognise that he loves Philadelphia. Because it has kept the word of his patience, he will keep it in the hour of trial that is coming on the world. He is coming soon: let it hold fast so that no one takes its crown. The victor will be a pillar in the temple of God, bearing the name of God and of the new Jerusalem."
+  },
+  "action": {
+   "fr": "Dans une épreuve présente, rappelle-toi que le Christ promet de te garder, et tiens bon une journée de plus.",
+   "en": "In a present trial, remember that Christ promises to keep you, and hold on one more day."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la colonne du temple l'image du fidèle affermi pour toujours dans l'Église. Victorin de Pettau écrit que, comme la colonne est l'ornement de l'édifice, celui qui persévère obtient une noblesse dans l'Église. Il souligne aussi que le Christ garde les siens dans la tentation.",
+   "en": "The Catholic tradition sees in the pillar of the temple an image of the faithful one made firm forever in the Church. Victorinus of Pettau writes that as a pillar is an ornament of the building, so whoever perseveres gains a nobility in the Church. He also stresses that Christ keeps his own in temptation."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi les saints comme les colonnes de l'Église, peints sur ses murs. Porter le nom de Dieu, c'est être marqué de son sceau, comme à la chrismation. La patience dans l'épreuve prépare à la couronne.",
+   "en": "The Orthodox tradition also sees the saints as the pillars of the Church, painted on its walls. To bear God's name is to be marked with his seal, as at chrismation. Patience in trial prepares for the crown."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la persévérance récompensée et le fidèle devenu colonne du temple de Dieu.",
+    "en": "Both traditions see here perseverance rewarded and the faithful one made a pillar of God's temple."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 3:12",
+    "usage": "quote",
+    "quote": "For even as a pillar is an ornament of the building"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 3:10",
+    "usage": "quote",
+    "quote": "That they may know His glory to be of this kind"
+   }
+  ]
+ },
+ {
+  "key": "rev-3-13-16",
+  "book": "REV",
+  "chapterStart": 3,
+  "verseStart": 13,
+  "chapterEnd": 3,
+  "verseEnd": 16,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Après l'appel à écouter l'Esprit, vient la lettre à Laodicée, de la part de l'Amen, le témoin fidèle et véritable, le commencement de la création de Dieu. Le Christ connaît ses œuvres : elle n'est ni froide ni bouillante. Parce qu'elle est tiède, il va la vomir de sa bouche. L'image est volontairement choquante.",
+   "en": "After the call to listen to the Spirit comes the letter to Laodicea, from the Amen, the faithful and true witness, the beginning of God's creation. Christ knows its works: it is neither cold nor hot. Because it is lukewarm, he will spit it out of his mouth. The image is deliberately shocking."
+  },
+  "action": {
+   "fr": "Choisis aujourd'hui un domaine de ta vie de foi où tu es « tiède », et pose un acte franc.",
+   "en": "Today, choose an area of your life of faith where you are \"lukewarm\", and take a clear step."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la tiédeur un danger spirituel plus subtil que l'hostilité ouverte. Le Christ, l'Amen, est le oui fidèle de Dieu, qui attend une réponse entière. L'image choquante est un appel urgent à la conversion, non une condamnation définitive.",
+   "en": "The Catholic tradition sees in lukewarmness a spiritual danger more subtle than open hostility. Christ, the Amen, is God's faithful yes, who awaits a whole-hearted answer. The shocking image is an urgent call to conversion, not a final condemnation."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe parle de l'acédie, la torpeur spirituelle, parmi les pensées les plus dangereuses. La ferveur se ravive par la prière, le jeûne et la confession. Le Christ, commencement de la création, veut une réponse vivante.",
+   "en": "The Orthodox tradition speaks of acedia, spiritual torpor, among the most dangerous thoughts. Fervour is rekindled by prayer, fasting and confession. Christ, the beginning of creation, wants a living answer."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la tiédeur un danger spirituel et dans ce verset un appel urgent à la ferveur.",
+    "en": "Both traditions see lukewarmness as a spiritual danger and this verse as an urgent call to fervour."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "rev-3-17-22",
+  "book": "REV",
+  "chapterStart": 3,
+  "verseStart": 17,
+  "chapterEnd": 3,
+  "verseEnd": 22,
+  "category": "richesse-pauvrete",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Laodicée se croit riche et sans besoin, mais elle ne voit pas qu'elle est malheureuse, pauvre, aveugle et nue. Le Christ lui conseille d'acheter de lui de l'or éprouvé, des vêtements blancs et un collyre pour voir. Il reprend ceux qu'il aime. « Voici, je me tiens à la porte, et je frappe. » Si quelqu'un ouvre, il entrera et prendra le repas avec lui.",
+   "en": "Laodicea thinks it is rich and in need of nothing, but does not see that it is wretched, poor, blind and naked. Christ counsels it to buy from him gold refined by fire, white garments and salve to see. He reproves those he loves. \"Behold, I stand at the door and knock.\" If anyone opens, he will come in and eat with them."
+  },
+  "action": {
+   "fr": "Ouvre aujourd'hui la porte au Christ qui frappe : un temps de prière où tu l'invites à ta table.",
+   "en": "Today, open the door to Christ who knocks: a time of prayer in which you invite him to your table."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le Christ qui frappe à la porte l'image de la grâce qui respecte la liberté. Saint Cyprien cite ce passage contre ceux qui se croient riches en ce monde, en les appelant à l'aumône. Victorin de Pettau note la grande récompense promise à ceux qui reviennent par la pénitence.",
+   "en": "The Catholic tradition sees in Christ knocking at the door an image of grace that respects freedom. Saint Cyprian quotes this passage against those who think themselves rich in this world, calling them to almsgiving. Victorinus of Pettau notes the great reward promised to those who return through repentance."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi dans ce verset la liberté de l'homme, que Dieu n'enfonce jamais. Le repas partagé évoque l'Eucharistie et l'intimité avec le Christ. La vraie richesse est celle de la grâce.",
+   "en": "The Orthodox tradition also reads in this verse human freedom, which God never forces. The shared meal evokes the Eucharist and intimacy with Christ. True wealth is that of grace."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ qui frappe à la porte en respectant la liberté, et la vraie richesse de la grâce.",
+    "en": "Both traditions see here Christ knocking at the door while respecting freedom, and the true wealth of grace."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Cyprian",
+    "work": "Treatise 8",
+    "section": "Treatise VIII On Works and Alms",
+    "ref": "REV 3:17",
+    "usage": "quote",
+    "quote": "You are mistaken, and are deceived, whosoever you are, that think yourself rich in this world"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Victorinus of Pettau",
+    "work": "Commentary on the Apocalypse",
+    "section": "Commentary on the Apocalypse of the Blessed John",
+    "ref": "REV 3:21",
+    "usage": "quote",
+    "quote": "He promised them no small reward"
+   }
+  ]
+ }
+]
