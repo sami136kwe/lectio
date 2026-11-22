@@ -9121,5 +9121,315 @@
     "quote": "For he thought that He should continue long alive upon the cross"
    }
   ]
+ },
+ {
+  "key": "mrk-16-1-4",
+  "book": "MRK",
+  "chapterStart": 16,
+  "verseStart": 1,
+  "chapterEnd": 16,
+  "verseEnd": 4,
+  "category": "resurrection-du-christ",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Le sabbat passé, Marie de Magdala, Marie mère de Jacques et Salomé achètent des aromates pour embaumer Jésus. Le premier jour de la semaine, de grand matin, elles vont au tombeau au lever du soleil. Elles se demandent qui roulera pour elles la pierre de l'entrée. En levant les yeux, elles voient que la pierre, pourtant très grande, a été roulée.",
+   "en": "When the Sabbath is over, Mary Magdalene, Mary the mother of James, and Salome buy spices to anoint Jesus. On the first day of the week, very early, they go to the tomb at sunrise. Who will roll the stone away? Looking up, they see that the stone, though very large, has been rolled back."
+  },
+  "action": {
+   "fr": "Demain matin, commence ta journée par une courte prière à la lumière du Christ ressuscité.",
+   "en": "Tomorrow morning, begin your day with a short prayer to the light of the risen Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le premier jour de la semaine le dimanche, jour du Seigneur. Bède le Vénérable, cité dans la Catena Aurea, explique cette expression comme le premier jour après le sabbat. Saint Pierre Chrysologue note que les femmes viennent avec dévotion, mais apportent des aromates à un mort plutôt que la foi à un vivant.",
+   "en": "The Catholic tradition sees in the first day of the week Sunday, the Lord's Day. The Venerable Bede, quoted in the Catena Aurea, explains this phrase as the first day after the Sabbath. Saint Peter Chrysologus notes that the women come with devotion, but bring spices to a dead man rather than faith to a living one."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore ces femmes comme les saintes Myrophores, porteuses de parfums. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique l'expression grecque pour le premier jour de la semaine. Il remarque qu'elles ne comprennent pas encore la grandeur du Christ et viennent oindre son corps selon la coutume.",
+   "en": "The Orthodox tradition honours these women as the holy Myrrh-bearers. Theophylact of Ohrid, quoted in the Catena Aurea, explains the Greek expression for the first day of the week. He notes that they do not yet understand Christ's greatness and come to anoint his body according to custom."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent ces femmes, premières au tombeau, et voient dans ce matin le jour du Seigneur.",
+    "en": "Both traditions honour these women, first at the tomb, and see in this morning the Lord's Day."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:2",
+    "usage": "quote",
+    "quote": "by this phrase is meant the first day from the day of sabbaths"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Peter Chrysologus",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:1",
+    "usage": "quote",
+    "quote": "The women in this place run abroad with womanly devotion"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:2",
+    "usage": "quote",
+    "quote": "He says, On the first of the sabbaths"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:1",
+    "usage": "quote",
+    "quote": "For they do not understand the greatness and dignity of the wisdom of Christ"
+   }
+  ]
+ },
+ {
+  "key": "mrk-16-5-8",
+  "book": "MRK",
+  "chapterStart": 16,
+  "verseStart": 5,
+  "chapterEnd": 16,
+  "verseEnd": 8,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Entrées dans le tombeau, elles voient un jeune homme vêtu de blanc assis à droite, et sont saisies d'effroi. Il leur dit de ne pas s'effrayer : elles cherchent Jésus de Nazareth, le crucifié ; il est ressuscité, il n'est pas ici. Qu'elles aillent dire aux disciples et à Pierre qu'il les précède en Galilée. Elles s'enfuient, tremblantes, et ne disent rien à personne, tant elles ont peur.",
+   "en": "Entering the tomb, they see a young man dressed in white sitting on the right, and they are terrified. He tells them not to be afraid: they are looking for Jesus of Nazareth, who was crucified; he has risen, he is not here. They are to tell the disciples and Peter that he is going before them into Galilee. They flee, trembling, and say nothing to anyone, they are so afraid."
+  },
+  "action": {
+   "fr": "Dis aujourd'hui, à toi-même puis à quelqu'un : « Il est ressuscité. »",
+   "en": "Say today, to yourself and then to someone else: \"He has risen.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque la mention particulière de Pierre, à qui le pardon et la mission sont rendus. Bède le Vénérable, cité dans la Catena Aurea, situe le jeune homme à droite, du côté sud du tombeau. Saint Pierre Chrysologue commente le silence des femmes, qui ne dure qu'un temps.",
+   "en": "The Catholic tradition notes the special mention of Peter, to whom forgiveness and mission are restored. The Venerable Bede, quoted in the Catena Aurea, places the young man on the right, on the south side of the tomb. Saint Peter Chrysologus comments on the women's silence, which lasts only a while."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante à Pâques : le Christ est ressuscité des morts, par sa mort il a vaincu la mort. L'ange au tombeau figure sur l'icône des Myrophores. La peur des femmes fait bientôt place à la joie de l'annonce.",
+   "en": "The Orthodox tradition sings at Pascha: Christ is risen from the dead, trampling down death by death. The angel at the tomb appears on the icon of the Myrrh-bearers. The women's fear soon gives way to the joy of the announcement."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions proclament ici le cœur de la foi : le Crucifié est ressuscité.",
+    "en": "Both traditions proclaim here the heart of the faith: the Crucified One has risen."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:5",
+    "usage": "quote",
+    "quote": "Now they saw a young man sitting on the right side"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Peter Chrysologus",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:8",
+    "usage": "quote",
+    "quote": "that they said nothing to any one"
+   }
+  ]
+ },
+ {
+  "key": "mrk-16-9-12",
+  "book": "MRK",
+  "chapterStart": 16,
+  "verseStart": 9,
+  "chapterEnd": 16,
+  "verseEnd": 12,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Ressuscité au matin du premier jour, Jésus apparaît d'abord à Marie de Magdala, dont il avait chassé sept démons. Elle va l'annoncer à ceux qui avaient été avec lui, et qui pleurent. Ils ne la croient pas. Puis il apparaît sous une autre forme à deux disciples en chemin vers la campagne. Cette finale de Marc, absente de certains manuscrits anciens, fait partie du texte reçu par les deux Églises.",
+   "en": "Risen early on the first day, Jesus appears first to Mary Magdalene, from whom he had cast out seven demons. She goes and tells those who had been with him, who are mourning. They do not believe her. Then he appears in another form to two disciples walking into the country. This ending of Mark, missing from some ancient manuscripts, is part of the text received by both Churches."
+  },
+  "action": {
+   "fr": "Pense à quelqu'un qui t'a annoncé la foi, et remercie Dieu pour son témoignage.",
+   "en": "Think of someone who proclaimed the faith to you, and thank God for their witness."
+  },
+  "catholic": {
+   "fr": "La tradition catholique, qui tient cette finale pour canonique, honore Marie de Magdala comme apôtre des apôtres. Saint Augustin, cité dans la Catena Aurea, examine l'ordre des apparitions selon les évangiles. Saint Pierre Chrysologue écrit que Marie porte la nouvelle en figure de l'Église.",
+   "en": "The Catholic tradition, which holds this ending to be canonical, honours Mary Magdalene as apostle to the apostles. Saint Augustine, quoted in the Catena Aurea, examines the order of the appearances according to the Gospels. Saint Peter Chrysologus writes that Mary brings the news in the person of the Church."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vénère aussi Marie de Magdala comme égale aux apôtres. Le texte de cette finale est lu dans la série des évangiles de la résurrection, aux matines du dimanche. L'incrédulité des disciples montre que la foi pascale n'est pas une illusion facile.",
+   "en": "The Orthodox tradition also venerates Mary Magdalene as equal to the apostles. The text of this ending is read in the cycle of resurrection Gospels at Sunday Matins. The disciples' unbelief shows that Easter faith is no easy illusion."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions tiennent cette finale pour canonique et honorent Marie de Magdala, première témoin du Ressuscité.",
+    "en": "Both traditions hold this ending to be canonical and honour Mary Magdalene, the first witness of the Risen One."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:9",
+    "usage": "quote",
+    "quote": "Now we must consider how the Lord appeared after the resurrection"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Peter Chrysologus",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:10",
+    "usage": "quote",
+    "quote": "Mary brings the news, not now as a woman, but in the person of the Church"
+   }
+  ]
+ },
+ {
+  "key": "mrk-16-13-16",
+  "book": "MRK",
+  "chapterStart": 16,
+  "verseStart": 13,
+  "chapterEnd": 16,
+  "verseEnd": 16,
+  "category": "bapteme",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les deux disciples reviennent l'annoncer, mais on ne les croit pas davantage. Enfin Jésus apparaît aux Onze pendant qu'ils sont à table. Il leur reproche leur incrédulité et la dureté de leur cœur. Puis il les envoie dans le monde entier proclamer l'Évangile à toute la création. Celui qui croira et sera baptisé sera sauvé.",
+   "en": "The two disciples come back and tell it, but they are not believed either. At last Jesus appears to the Eleven as they are at table. He reproaches them for their unbelief and hardness of heart. Then he sends them into the whole world to proclaim the Gospel to all creation. Whoever believes and is baptised will be saved."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui mémoire de ton baptême, par exemple en faisant le signe de croix avec de l'eau bénite.",
+   "en": "Today, remember your baptism, for example by making the sign of the cross with holy water."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces versets le lien entre la foi et le baptême, porte du salut. Saint Grégoire le Grand, cité dans la Catena Aurea, avertit que celui qui dit avoir cru dit vrai s'il garde sa foi par les œuvres. La Glose note que Marc rapporte ici la dernière apparition aux disciples.",
+   "en": "The Catholic tradition sees in these verses the link between faith and baptism, the door of salvation. Saint Gregory the Great, quoted in the Catena Aurea, warns that whoever says they have believed speaks truly if they keep their faith by works. The Gloss notes that Mark relates here the last appearance to the disciples."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi dans cet envoi la mission universelle de l'Église. Théophylacte d'Ohrid, cité dans la Catena Aurea, comprend « toute la création » comme tous les hommes, croyants ou non. Le baptême et la chrismation font entrer dans la vie nouvelle.",
+   "en": "The Orthodox tradition also reads in this sending the universal mission of the Church. Theophylact of Ohrid, quoted in the Catena Aurea, takes \"all creation\" to mean all people, believing or not. Baptism and chrismation bring one into the new life."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la mission universelle de l'Église et le baptême uni à la foi.",
+    "en": "Both traditions see here the universal mission of the Church and baptism joined to faith."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:16",
+    "usage": "quote",
+    "quote": "He says what is true, if he keeps his faith by works"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:14",
+    "usage": "quote",
+    "quote": "Mark, when about to finish his Gospel, relates the last appearance"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:15",
+    "usage": "quote",
+    "quote": "to every creature, that is, whether believing or unbelieving"
+   }
+  ]
+ },
+ {
+  "key": "mrk-16-17-20",
+  "book": "MRK",
+  "chapterStart": 16,
+  "verseStart": 17,
+  "chapterEnd": 16,
+  "verseEnd": 20,
+  "category": "esprit-saint",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus annonce les signes qui accompagneront ceux qui croiront : ils chasseront les démons en son nom, parleront des langues nouvelles et imposeront les mains aux malades. Après leur avoir parlé, le Seigneur Jésus est enlevé au ciel et s'assied à la droite de Dieu. Les disciples partent prêcher partout. Le Seigneur travaille avec eux et confirme la parole par les signes.",
+   "en": "Jesus announces the signs that will accompany those who believe: they will cast out demons in his name, speak with new tongues and lay hands on the sick. After speaking to them, the Lord Jesus is taken up into heaven and sits at the right hand of God. The disciples go out and preach everywhere. The Lord works with them and confirms the word by the signs."
+  },
+  "action": {
+   "fr": "Demande à l'Esprit Saint aujourd'hui de confirmer tes paroles de foi par des actes concrets.",
+   "en": "Ask the Holy Spirit today to confirm your words of faith with concrete deeds."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'Ascension le Christ qui ne nous quitte pas, mais travaille avec son Église. Saint Grégoire le Grand, cité dans la Catena Aurea, explique que ces signes étaient nécessaires au commencement de l'Église, et que nous ne sommes pas sans foi parce que nous ne les faisons pas. Bède note que Marc conduit son récit jusqu'aux temps les plus lointains.",
+   "en": "The Catholic tradition sees in the Ascension Christ who does not leave us, but works with his Church. Saint Gregory the Great, quoted in the Catena Aurea, explains that these signs were necessary at the beginning of the Church, and that we are not without faith because we do not perform them. Bede notes that Mark carries his story down to the most distant times."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête l'Ascension quarante jours après Pâques et souligne la coopération du Seigneur avec ses apôtres. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que les paroles sont confirmées par les actes, comme les œuvres des apôtres confirmaient leurs paroles. Il comprend les serpents comme des ennemis visibles ou spirituels.",
+   "en": "The Orthodox tradition celebrates the Ascension forty days after Pascha and stresses the Lord's cooperation with his apostles. Theophylact of Ohrid, quoted in the Catena Aurea, writes that words are confirmed by deeds, as the apostles' works confirmed their words. He understands the serpents as visible or spiritual enemies."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'Ascension du Christ et sa présence agissante dans la mission de l'Église.",
+    "en": "Both traditions see here Christ's Ascension and his active presence in the Church's mission."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:17",
+    "usage": "quote",
+    "quote": "these things were necessary in the beginning of the Church"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:20",
+    "usage": "quote",
+    "quote": "Observe that in proportion as Mark began his history later"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:20",
+    "usage": "quote",
+    "quote": "words are confirmed by deeds"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 16",
+    "ref": "MRK 16:18",
+    "usage": "quote",
+    "quote": "they shall scatter before them serpents, whether intellectual or sensible"
+   }
+  ]
  }
 ]
