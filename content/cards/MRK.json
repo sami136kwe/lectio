@@ -3606,5 +3606,500 @@
     "quote": "when we confer benefits on any, by no means to seek for applause and praise"
    }
   ]
+ },
+ {
+  "key": "mrk-8-1-4",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 1,
+  "chapterEnd": 8,
+  "verseEnd": 4,
+  "category": "eucharistie",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Encore une grande foule, sans rien à manger. Il dit à ses disciples qu'il a pitié d'eux : voilà trois jours qu'ils restent près de lui. S'il les renvoie à jeun, ils vont défaillir en chemin, car certains viennent de loin. Les disciples se demandent comment trouver du pain dans un lieu désert.",
+   "en": "A great crowd has gathered around Jesus again, with nothing to eat. He tells his disciples that he has compassion on them: they have stayed with him for three days. If he sends them away hungry, they will faint on the way, since some have come from far away. The disciples wonder how bread can be found in a deserted place."
+  },
+  "action": {
+   "fr": "Remarque aujourd'hui quelqu'un qui « vient de loin » dans ta communauté et prends soin de lui.",
+   "en": "Today, notice someone in your community who has come from far away and take care of them."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette compassion le cœur du Christ, attentif aux besoins du corps comme à ceux de l'âme. Saint Grégoire le Grand, cité dans la Catena Aurea, explique qu'il ne veut pas les renvoyer à jeun, car il faut que ceux qui écoutent trouvent dans la prédication une parole de consolation. Les trois jours annoncent aussi le mystère pascal.",
+   "en": "The Catholic tradition sees in this compassion the heart of Christ, attentive to the needs of the body as well as the soul. Saint Gregory the Great, quoted in the Catena Aurea, explains that he does not want to send them away fasting, for those who listen must find in preaching a word of consolation. The three days also point to the Paschal mystery."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le Christ saisit les occasions de faire le bien. Théophylacte d'Ohrid, cité dans la Catena Aurea, note qu'une occasion favorable se présente de nouveau et que le Seigneur la saisit pour un miracle semblable au premier. La persévérance de la foule, restée trois jours, est récompensée.",
+   "en": "The Orthodox tradition stresses that Christ seizes the chances to do good. Theophylact of Ohrid, quoted in the Catena Aurea, notes that a fitting occasion presents itself again and the Lord takes it to work a miracle like the first. The perseverance of the crowd, who stayed three days, is rewarded."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la compassion du Christ pour ceux qui persévèrent auprès de lui.",
+    "en": "Both traditions see here Christ's compassion for those who persevere with him."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:3",
+    "usage": "quote",
+    "quote": "He does not however wish to dismiss them fasting, lest they should faint by the way"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:1",
+    "usage": "quote",
+    "quote": "a fitting occasion presents itself"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-5-8",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 5,
+  "chapterEnd": 8,
+  "verseEnd": 8,
+  "category": "eucharistie",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus demande combien ils ont de pains : sept. Il fait asseoir la foule, prend les pains, rend grâce, les rompt et les donne aux disciples pour qu'ils les distribuent. Il bénit aussi quelques petits poissons. Tous mangent et sont rassasiés, et l'on ramasse sept corbeilles de restes.",
+   "en": "Jesus asks how many loaves they have: seven. He has the crowd sit down, takes the loaves, gives thanks, breaks them and gives them to the disciples to hand out. He also blesses a few small fish. All eat and are satisfied, and seven baskets of leftovers are gathered."
+  },
+  "action": {
+   "fr": "Avant de manger aujourd'hui, rends grâce à voix haute, même brièvement.",
+   "en": "Before eating today, give thanks aloud, even briefly."
+  },
+  "catholic": {
+   "fr": "La tradition catholique retrouve dans ces gestes ceux de l'Eucharistie : rendre grâce, rompre, donner. Remi d'Auxerre, cité dans la Catena Aurea, explique que Jésus pose la question non par ignorance, mais pour que la petitesse du nombre fasse mieux connaître le miracle. Les disciples deviennent ministres du don.",
+   "en": "The Catholic tradition recognises in these gestures those of the Eucharist: giving thanks, breaking, giving. Remigius, quoted in the Catena Aurea, explains that Jesus asks not out of ignorance, but so that the smallness of the number might make the miracle better known. The disciples become ministers of the gift."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans ce second repas l'annonce du banquet eucharistique. Le mot employé pour rendre grâce, eucharistein, a donné son nom à la liturgie. Le Christ nourrit l'Église par les mains de ses apôtres.",
+   "en": "The Orthodox tradition also sees in this second meal a foretaste of the eucharistic banquet. The word used for giving thanks, eucharistein, gave its name to the liturgy. Christ feeds the Church through the hands of his apostles."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ce repas une annonce de l'Eucharistie, distribuée par les apôtres.",
+    "en": "Both traditions see in this meal a foretaste of the Eucharist, handed out by the apostles."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Remigius of Rheims",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:5",
+    "usage": "quote",
+    "quote": "Ignorance was not His reason for asking them"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-9-12",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 9,
+  "chapterEnd": 8,
+  "verseEnd": 12,
+  "category": "foi-doute",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Ils étaient environ quatre mille, et Jésus les renvoie. Il part en barque vers Dalmanoutha. Des pharisiens viennent discuter et lui demandent un signe venant du ciel, pour le mettre à l'épreuve. Jésus soupire profondément et répond qu'il ne sera pas donné de signe à cette génération. Le signe exigé comme une preuve ferme le cœur au signe offert.",
+   "en": "There were about four thousand, and Jesus sends them away. He leaves by boat for Dalmanutha. Some Pharisees come to argue and ask him for a sign from heaven, to test him. Jesus sighs deeply and answers that no sign will be given to this generation. A sign demanded as proof closes the heart to the sign that is offered."
+  },
+  "action": {
+   "fr": "Au lieu de demander un signe aujourd'hui, remercie Dieu pour un signe déjà reçu.",
+   "en": "Instead of asking for a sign today, thank God for a sign you have already received."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce refus la liberté de Dieu, qui ne se laisse pas mettre à l'épreuve. Saint Augustin, cité dans la Catena Aurea, explique que la réponse donnée ici et celle sur le signe de Jonas en Matthieu ne s'excluent pas. Le vrai signe sera la mort et la résurrection du Christ.",
+   "en": "The Catholic tradition sees in this answer the freedom of God, who does not let himself be put to the test. Saint Augustine, quoted in the Catena Aurea, explains that the answer given here and the one about the sign of Jonah in Matthew do not exclude each other. The true sign will be Christ's death and resurrection."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe remarque que le Christ se retire après le miracle. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'il part aussitôt pour que la foule ne veuille pas le faire roi à cause du miracle. Le soupir du Christ montre sa peine devant l'incrédulité.",
+   "en": "The Orthodox tradition notes that Christ withdraws after the miracle. Theophylact of Ohrid, quoted in the Catena Aurea, writes that he leaves at once so that the crowds would not try to make him king because of the miracle. Christ's sigh shows his sorrow before unbelief."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la liberté de Dieu face aux signes exigés et la peine du Christ devant l'incrédulité.",
+    "en": "Both traditions see here God's freedom before signs demanded as proof, and Christ's sorrow at unbelief."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:12",
+    "usage": "quote",
+    "quote": "Let no one, however, be perplexed that the answer which Mark says"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:10",
+    "usage": "quote",
+    "quote": "lest on account of the miracle, the multitudes should take Him to make Him a king"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-13-16",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 13,
+  "chapterEnd": 8,
+  "verseEnd": 16,
+  "category": "verite-parole",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus remonte dans la barque. Les disciples ont oublié de prendre des pains : ils n'en ont qu'un seul. Jésus les met en garde contre le levain des pharisiens et celui d'Hérode. Eux pensent qu'il parle du pain qu'ils n'ont pas emporté.",
+   "en": "Jesus gets back into the boat. The disciples have forgotten to bring bread: they have only one loaf. Jesus warns them against the leaven of the Pharisees and the leaven of Herod. They think he is talking about the bread they forgot."
+  },
+  "action": {
+   "fr": "Repère une idée qui « fait lever » en toi l'orgueil ou la méfiance, et laisse-la de côté aujourd'hui.",
+   "en": "Spot one idea that makes pride or suspicion \"rise\" in you, and set it aside today."
+  },
+  "catholic": {
+   "fr": "La tradition catholique comprend le levain comme une influence cachée qui gagne toute la pâte. Bède le Vénérable, cité dans la Catena Aurea, y voit le fait de placer les traditions humaines au-dessus de la loi divine, et de prêcher la loi en paroles tout en la contredisant en actes. Le disciple doit veiller sur ce qui le façonne.",
+   "en": "The Catholic tradition understands leaven as a hidden influence that spreads through the whole dough. The Venerable Bede, quoted in the Catena Aurea, sees in it putting human traditions above the divine law, and preaching the law in word while attacking it in deed. The disciple must watch over what shapes them."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit une mise en garde contre la doctrine corrompue. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que le levain désigne un enseignement nuisible, plein de la vieille malice. Il note aussi que le Seigneur quitte ceux qui ne veulent pas être corrigés.",
+   "en": "The Orthodox tradition reads here a warning against corrupt doctrine. Theophylact of Ohrid, quoted in the Catena Aurea, explains that leaven means a hurtful teaching, full of the old malice. He also notes that the Lord leaves those who do not want to be corrected."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le levain une influence cachée contre laquelle le disciple doit veiller.",
+    "en": "Both traditions see in the leaven a hidden influence the disciple must guard against."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:15",
+    "usage": "quote",
+    "quote": "the leaven of the Pharisees is making the decrees of the divine law inferior to the traditions of men"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:15",
+    "usage": "quote",
+    "quote": "He means by leaven their hurtful and corrupt doctrine"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-17-20",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 17,
+  "chapterEnd": 8,
+  "verseEnd": 20,
+  "category": "foi-doute",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus voit leur inquiétude et les interroge. Ne comprennent-ils pas encore ? Ont-ils le cœur endurci, des yeux qui ne voient pas, des oreilles qui n'entendent pas ? Il leur rappelle les deux multiplications des pains et les corbeilles de restes : douze, puis sept. La mémoire des bienfaits doit nourrir la confiance.",
+   "en": "Jesus sees their worry and questions them. Do they still not understand? Are their hearts hardened, with eyes that do not see and ears that do not hear? He reminds them of the two multiplications of loaves and the baskets of leftovers: twelve, then seven. Remembering God's gifts should feed trust."
+  },
+  "action": {
+   "fr": "Écris trois bienfaits reçus de Dieu cette année, et relis-les quand tu t'inquiètes.",
+   "en": "Write down three blessings you have received from God this year, and reread them when you worry."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces questions la pédagogie patiente du Christ envers ses disciples. Bède le Vénérable, cité dans la Catena Aurea, explique que le Sauveur profite de l'occasion pour leur apprendre le sens des cinq et des sept pains. La foi grandit en faisant mémoire.",
+   "en": "The Catholic tradition sees in these questions Christ's patient teaching of his disciples. The Venerable Bede, quoted in the Catena Aurea, explains that the Saviour takes the occasion to teach them the meaning of the five and the seven loaves. Faith grows through remembering."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la lenteur des disciples, image de notre propre lenteur. Théophylacte d'Ohrid, cité dans la Catena Aurea, note qu'ils croyaient que le Seigneur parlait du levain du pain. Le Christ les reprend avec douceur pour élever leur esprit vers les réalités spirituelles.",
+   "en": "The Orthodox tradition stresses the disciples' slowness, an image of our own. Theophylact of Ohrid, quoted in the Catena Aurea, notes that they thought the Lord was speaking of the leaven of bread. Christ corrects them gently to lift their minds to spiritual realities."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la patience du Christ, qui éduque la foi de ses disciples par la mémoire de ses dons.",
+    "en": "Both traditions see here Christ's patience, training his disciples' faith through the memory of his gifts."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:19",
+    "usage": "quote",
+    "quote": "our Saviour teaches them what was the meaning of the five and the seven loaves"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:16",
+    "usage": "quote",
+    "quote": "But the disciples themselves thought that the Lord spoke of the leaven of bread."
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-21-24",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 21,
+  "chapterEnd": 8,
+  "verseEnd": 24,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus demande encore s'ils ne comprennent pas. À Bethsaïde, on lui amène un aveugle. Il le prend par la main et le conduit hors du village. Il met de la salive sur ses yeux, lui impose les mains et lui demande s'il voit quelque chose. L'homme voit des gens, mais comme des arbres qui marchent. La guérison se fait par étapes.",
+   "en": "Jesus asks again whether they do not understand. At Bethsaida a blind man is brought to him. He takes him by the hand and leads him out of the village. He puts saliva on his eyes, lays his hands on him and asks if he sees anything. The man sees people, but like trees walking. The healing comes in stages."
+  },
+  "action": {
+   "fr": "Accepte aujourd'hui de ne comprendre qu'à moitié une chose de la foi, en confiant le reste au Christ.",
+   "en": "Today, accept understanding only half of something in the faith, entrusting the rest to Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette guérison progressive l'image du chemin de la foi, qui s'éclaire peu à peu. Bède le Vénérable, cité dans la Catena Aurea, note que ceux qui amènent l'aveugle savaient que le toucher du Seigneur pouvait donner la vue. Jésus prend l'homme par la main, comme un guide.",
+   "en": "The Catholic tradition sees in this gradual healing an image of the journey of faith, which grows clearer little by little. The Venerable Bede, quoted in the Catena Aurea, notes that those who bring the blind man knew the Lord's touch could give sight. Jesus takes the man by the hand, like a guide."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lie les étapes de la guérison à la foi de l'homme. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'il ne voyait pas parfaitement d'abord parce que sa foi n'était pas parfaite, car la guérison est donnée à la mesure de la foi. L'illumination est un chemin.",
+   "en": "The Orthodox tradition links the stages of healing to the man's faith. Theophylact of Ohrid, quoted in the Catena Aurea, writes that he did not see perfectly at first because his faith was not perfect, for healing is given in proportion to faith. Illumination is a journey."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cette guérison par étapes l'image d'une foi qui s'éclaire peu à peu.",
+    "en": "Both traditions see in this healing by stages an image of faith growing clearer little by little."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:22",
+    "usage": "quote",
+    "quote": "Knowing that the touch of the Lord could give sight to a blind man"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:24",
+    "usage": "quote",
+    "quote": "for healing is bestowed in proportion to faith"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-25-28",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 25,
+  "chapterEnd": 8,
+  "verseEnd": 28,
+  "category": "foi-doute",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus pose de nouveau les mains sur les yeux de l'homme, qui voit alors tout clairement. Il le renvoie chez lui sans passer par le village. Puis, en route vers Césarée de Philippe, il demande à ses disciples : « Qui dit-on que je suis? » Ils répondent : Jean-Baptiste, Élie, ou l'un des prophètes.",
+   "en": "Jesus lays his hands on the man's eyes again, and he sees everything clearly. He sends him home without going into the village. Then, on the way to Caesarea Philippi, he asks his disciples, \"Who do men say that I am?\" They answer: John the Baptist, Elijah, or one of the prophets."
+  },
+  "action": {
+   "fr": "Demande-toi aujourd'hui, sans réponse toute faite : qui est Jésus pour moi ?",
+   "en": "Ask yourself today, without a ready-made answer: who is Jesus for me?"
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit le lien entre la guérison de l'aveugle et la question qui suit : il faut des yeux ouverts pour reconnaître le Christ. Bède le Vénérable, cité dans la Catena Aurea, situe Césarée de Philippe, ville rebâtie par Philippe en l'honneur de Tibère. L'opinion des foules reste en dessous de la vérité.",
+   "en": "The Catholic tradition sees the link between the blind man's healing and the question that follows: open eyes are needed to recognise Christ. The Venerable Bede, quoted in the Catena Aurea, places Caesarea Philippi, a town rebuilt by Philip in honour of Tiberius. The crowds' opinion falls short of the truth."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe remarque que les opinions rapportées sont élogieuses, mais insuffisantes. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que beaucoup pensaient que Jean était ressuscité, comme Hérode le croyait. Seule la révélation donne de confesser le Christ.",
+   "en": "The Orthodox tradition notes that the opinions reported are flattering but insufficient. Theophylact of Ohrid, quoted in the Catena Aurea, explains that many thought John had risen from the dead, as Herod believed. Only revelation enables one to confess Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une vue pleinement rendue et une question qui appelle chacun à confesser le Christ.",
+    "en": "Both traditions see here sight fully restored and a question calling each person to confess Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:27",
+    "usage": "quote",
+    "quote": "Philip was that brother of Herod"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:28",
+    "usage": "quote",
+    "quote": "For many thought that John had risen from the dead"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-29-32",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 29,
+  "chapterEnd": 8,
+  "verseEnd": 32,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus demande aux disciples qui ils disent qu'il est. Pierre répond : « Tu es le Christ. » Jésus leur ordonne de n'en parler à personne. Puis il commence à leur enseigner que le Fils de l'homme doit beaucoup souffrir, être rejeté, mis à mort et ressusciter trois jours après. Pierre le prend à part pour lui faire des reproches.",
+   "en": "Jesus asks, \"But who do you say that I am?\" Peter answers, \"You are the Christ.\" Jesus orders them to tell no one about him. Then he begins to teach them that the Son of Man must suffer many things, be put to death and rise after three days. Peter takes him aside to rebuke him."
+  },
+  "action": {
+   "fr": "Dis aujourd'hui, en ton nom propre, une courte confession de foi : « Tu es le Christ. »",
+   "en": "Today, say in your own name a short confession of faith: \"You are the Christ.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Pierre celui qui confesse au nom des Douze, et qui doit encore apprendre le chemin de la croix. Bède le Vénérable, cité dans la Catena Aurea, explique que Pierre parle avec les sentiments d'un homme qui aime : il ne peut entendre que le Fils de Dieu soit mis à mort. La foi juste doit encore se convertir à la croix.",
+   "en": "The Catholic tradition sees in Peter the one who confesses on behalf of the Twelve, and who still has to learn the way of the cross. The Venerable Bede, quoted in the Catena Aurea, explains that Peter speaks with the feelings of a man who loves: he cannot bear to hear that the Son of God will be slain. Right faith still has to be converted to the cross."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore aussi la confession de Pierre. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que le Christ voulait cacher sa gloire pour un temps, afin que beaucoup ne soient pas scandalisés. Les disciples ne comprenaient pas encore la résurrection et préféraient qu'il ne souffre pas.",
+   "en": "The Orthodox tradition also honours Peter's confession. Theophylact of Ohrid, quoted in the Catena Aurea, explains that Christ wished to hide his glory for a time, lest many should be offended. The disciples did not yet understand the resurrection and thought it better that he should not suffer."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent la confession de Pierre et voient ici l'annonce d'un Messie qui passe par la croix.",
+    "en": "Both traditions honour Peter's confession and see here the announcement of a Messiah who goes by way of the cross."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:32",
+    "usage": "quote",
+    "quote": "This, however, he speaks with the feelings of a man who loves and desires"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:30",
+    "usage": "quote",
+    "quote": "For He wished in the mean time to hide His glory"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:32",
+    "usage": "quote",
+    "quote": "neither could they comprehend His resurrection"
+   }
+  ]
+ },
+ {
+  "key": "mrk-8-33-38",
+  "book": "MRK",
+  "chapterStart": 8,
+  "verseStart": 33,
+  "chapterEnd": 8,
+  "verseEnd": 38,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus réprimande Pierre : « Arrière de moi, Satan! », car il pense selon les hommes, non selon Dieu. Puis il appelle la foule. Celui qui veut le suivre doit renoncer à lui-même et porter sa croix. Qui veut sauver sa vie la perdra, mais qui la perd à cause de lui et de l'Évangile la sauvera. Que sert-il de gagner le monde entier, si l'on perd son âme ?",
+   "en": "Jesus rebukes Peter: \"Get behind me, Satan!\", for he is thinking as men do, not as God does. Then he calls the crowd. Whoever wants to follow him must deny himself and take up his cross. Whoever wants to save his life will lose it, but whoever loses it for his sake and the Gospel's will save it. What does it profit to gain the whole world and lose one's soul?"
+  },
+  "action": {
+   "fr": "Choisis aujourd'hui un petit renoncement offert au Christ, sans le dire à personne.",
+   "en": "Today, choose a small sacrifice offered to Christ, without telling anyone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces paroles la loi de la vie chrétienne : la croix conduit à la vie. Bède le Vénérable, cité dans la Catena Aurea, explique qu'en temps de persécution il faut donner sa vie, et qu'en temps de paix il faut briser ses désirs terrestres. Remi d'Auxerre précise que la vie dont il s'agit est la vie présente.",
+   "en": "The Catholic tradition sees in these words the law of Christian life: the cross leads to life. The Venerable Bede, quoted in the Catena Aurea, explains that in time of persecution one must lay down one's life, and in time of peace break one's earthly desires. Remigius adds that the life meant here is the present life."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que suivre le Christ, c'est se conformer à lui. Saint Jean Chrysostome, cité dans la Catena Aurea, explique qu'on peut souffrir sans suivre le Christ, quand on ne souffre pas pour lui : le suit celui qui marche derrière lui et lui devient semblable. Il ajoute que la perte de l'âme ne se compense par rien.",
+   "en": "The Orthodox tradition stresses that following Christ means being conformed to him. Saint John Chrysostom, quoted in the Catena Aurea, explains that one can suffer without following Christ, when one does not suffer for his sake: the one who follows him walks after him and becomes like him. He adds that nothing makes up for the loss of the soul."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la croix comme le chemin du disciple et la vie donnée comme la vie sauvée.",
+    "en": "Both traditions see here the cross as the disciple's path and a life given as a life saved."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:36",
+    "usage": "quote",
+    "quote": "in time of persecution, our life is to be laid aside"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Remigius of Rheims",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:35",
+    "usage": "quote",
+    "quote": "life is to be taken in this place for the present life"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:34",
+    "usage": "quote",
+    "quote": "it may happen that a man may suffer and yet not follow Christ"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 8:36",
+    "usage": "quote",
+    "quote": "lest any one should suppose this loss to be equivalent to that salvation"
+   }
+  ]
  }
 ]
