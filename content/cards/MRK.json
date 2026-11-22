@@ -4101,5 +4101,803 @@
     "quote": "lest any one should suppose this loss to be equivalent to that salvation"
    }
   ]
+ },
+ {
+  "key": "mrk-9-1-4",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 1,
+  "chapterEnd": 9,
+  "verseEnd": 4,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus annonce que certains verront le Royaume venir avec puissance avant de mourir. Six jours après, il emmène Pierre, Jacques et Jean sur une haute montagne. Là, il est transfiguré devant eux : ses vêtements deviennent d'une blancheur éclatante. Élie et Moïse leur apparaissent et s'entretiennent avec lui. La Loi et les Prophètes rendent témoignage au Christ.",
+   "en": "Jesus announces that some will see the Kingdom come with power before they die. Six days later, he takes Peter, James and John up a high mountain. There he is transfigured before them: his clothes become dazzling white. Elijah and Moses appear to them and talk with him. The Law and the Prophets bear witness to Christ."
+  },
+  "action": {
+   "fr": "Prends aujourd'hui un moment pour contempler une icône ou une image du Christ, en silence.",
+   "en": "Today, take a moment to contemplate an icon or image of Christ, in silence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique fête la Transfiguration le 6 août et y voit un avant-goût de la gloire de la résurrection. Bède le Vénérable, cité dans la Catena Aurea, explique que les disciples, ayant goûté un instant la contemplation de la joie éternelle, pourraient mieux supporter l'adversité. Saint Grégoire le Grand voit dans les vêtements blancs les justes qui s'attachent au Christ.",
+   "en": "The Catholic tradition celebrates the Transfiguration on 6 August and sees in it a foretaste of the glory of the resurrection. The Venerable Bede, quoted in the Catena Aurea, explains that the disciples, having tasted for a moment the contemplation of eternal joy, could better bear adversity. Saint Gregory the Great sees in the white garments the just who cling to Christ."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête aussi la Transfiguration le 6 août, l'une des douze grandes fêtes. Saint Jean Chrysostome, cité dans la Catena Aurea, remarque que Jésus ne nomme pas d'avance les trois disciples, pour ménager la fragilité des autres. Il voit aussi dans les vêtements blancs les écrits des évangélistes et des apôtres.",
+   "en": "The Orthodox tradition also celebrates the Transfiguration on 6 August, one of the twelve great feasts. Saint John Chrysostom, quoted in the Catena Aurea, notes that Jesus does not name the three disciples in advance, to spare the frailty of the others. He also sees in the white garments the writings of the evangelists and apostles."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions fêtent la Transfiguration le 6 août et y voient un avant-goût de la gloire promise.",
+    "en": "Both traditions celebrate the Transfiguration on 6 August and see in it a foretaste of the promised glory."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 9:1",
+    "usage": "quote",
+    "quote": "having tasted for a brief moment the contemplation of everlasting joy"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:3",
+    "usage": "quote",
+    "quote": "by the name of garments, He means the just"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 8",
+    "ref": "MRK 9:2",
+    "usage": "quote",
+    "quote": "He did not declare the names of those who were about to go up"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:3",
+    "usage": "quote",
+    "quote": "white garments are the writings of Evangelists and Apostles"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-5-8",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 5,
+  "chapterEnd": 9,
+  "verseEnd": 8,
+  "category": "trinite",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Pierre propose de dresser trois tentes, pour Jésus, Moïse et Élie. Il ne sait que dire, tant ils ont peur. Une nuée les couvre de son ombre, et une voix en sort : « Celui-ci est mon Fils bien-aimé : écoutez-le! » Aussitôt, ils ne voient plus que Jésus seul avec eux.",
+   "en": "Peter suggests putting up three tents, for Jesus, Moses and Elijah. He does not know what to say, they are so afraid. A cloud overshadows them, and a voice comes out of it: \"This is my beloved Son. Listen to him.\" Suddenly they see no one but Jesus alone with them."
+  },
+  "action": {
+   "fr": "Choisis une parole de Jésus et « écoute-le » : relis-la trois fois lentement aujourd'hui.",
+   "en": "Choose one saying of Jesus and \"listen to him\": reread it slowly three times today."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la nuée et la voix une manifestation de la Trinité : le Père parle, le Fils est révélé, la nuée évoque l'Esprit. Bède le Vénérable, cité dans la Catena Aurea, explique que Pierre, qui cherchait une tente matérielle, est couvert par la nuée, pour apprendre que les élus seront protégés par la gloire de l'Esprit. La lumière y est comprise comme la gloire du Christ rendue visible.",
+   "en": "The Catholic tradition sees in the cloud and the voice a manifestation of the Trinity: the Father speaks, the Son is revealed, the cloud evokes the Spirit. The Venerable Bede, quoted in the Catena Aurea, explains that Peter, who sought a material tent, is covered by the cloud, to learn that the elect will be sheltered by the glory of the Spirit. The light is understood as Christ's glory made visible."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi ici une théophanie trinitaire. Saint Jean Chrysostome, cité dans la Catena Aurea, explique que la voix sort d'une nuée, où Dieu a coutume d'apparaître, pour qu'ils croient qu'elle vient de Dieu. Dans la théologie byzantine, la lumière du Thabor est confessée comme l'énergie incréée de Dieu, à laquelle l'homme est appelé à participer.",
+   "en": "The Orthodox tradition also sees here a Trinitarian theophany. Saint John Chrysostom, quoted in the Catena Aurea, explains that the voice comes from a cloud, in which God is wont to appear, so that they would believe it came from God. In Byzantine theology, the light of Tabor has been confessed as the uncreated energy of God, in which man is called to share."
+  },
+  "divergence": {
+   "type": "differ",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ glorifié et une manifestation trinitaire. L'Orient confesse la lumière du Thabor comme énergie divine incréée ; l'Occident parle de la gloire du Christ manifestée, sans reprendre la distinction entre essence et énergies.",
+    "en": "Both traditions see here Christ glorified and a Trinitarian manifestation. The East confesses the light of Tabor as uncreated divine energy; the West speaks of Christ's glory made manifest, without adopting the distinction between essence and energies."
+   },
+   "topic": "theosis"
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:7",
+    "usage": "quote",
+    "quote": "because Peter sought for a material tabernacle, he was covered with the shadow of the cloud"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:7",
+    "usage": "quote",
+    "quote": "The voice proceeded from a cloud in which God is wont to appear"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-9-12",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 9,
+  "chapterEnd": 9,
+  "verseEnd": 12,
+  "category": "resurrection-du-christ",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "En descendant de la montagne, Jésus leur ordonne de ne rien raconter avant que le Fils de l'homme soit ressuscité. Ils gardent cette parole, en se demandant ce que signifie ressusciter des morts. Ils l'interrogent sur Élie, qui doit venir d'abord selon les scribes. Jésus répond qu'Élie vient rétablir toutes choses, et que le Fils de l'homme doit beaucoup souffrir.",
+   "en": "Coming down from the mountain, Jesus orders them to tell no one until the Son of Man has risen. They keep this saying, wondering what rising from the dead means. They ask him about Elijah, who must come first according to the scribes. Jesus answers that Elijah comes to restore all things, and that the Son of Man must suffer much."
+  },
+  "action": {
+   "fr": "Garde aujourd'hui pour toi une grâce reçue, et médite-la plutôt que de la raconter.",
+   "en": "Today, keep a grace you have received to yourself, and ponder it rather than telling it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette descente le passage de la contemplation à la mission, qui passe par la croix. Bède le Vénérable, cité dans la Catena Aurea, explique que les disciples pensaient que la gloire était déjà venue, et se demandaient pourquoi Élie n'était pas encore là. La gloire entrevue ne dispense pas du chemin de la Passion.",
+   "en": "The Catholic tradition sees in this descent the move from contemplation to mission, which passes through the cross. The Venerable Bede, quoted in the Catena Aurea, explains that the disciples thought the glory had already come, and wondered why Elijah had not yet appeared. The glimpse of glory does not spare them the way of the Passion."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la sagesse du silence demandé. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que Jésus le fait pour que les hommes ne soient pas scandalisés en entendant de telles gloires de celui qu'ils allaient voir crucifié. Saint Jean Chrysostome explique la question des disciples sur Élie.",
+   "en": "The Orthodox tradition stresses the wisdom of the silence requested. Theophylact of Ohrid, quoted in the Catena Aurea, writes that Jesus does so lest people be offended, hearing such glorious things of him whom they were about to see crucified. Saint John Chrysostom explains the disciples' question about Elijah."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la gloire entrevue qui prépare à la croix et à la résurrection.",
+    "en": "Both traditions see here a glimpse of glory that prepares for the cross and the resurrection."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:11",
+    "usage": "quote",
+    "quote": "the disciples thought that the change which they had seen in Him in the mount, was His transformation to glory"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:9",
+    "usage": "quote",
+    "quote": "Which He did lest men should be offended"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:11",
+    "usage": "quote",
+    "quote": "The design of the disciples in asking this question seems to me to be this"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-13-16",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 13,
+  "chapterEnd": 9,
+  "verseEnd": 16,
+  "category": "martyrs-temoins",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus déclare qu'Élie est déjà venu et qu'on l'a traité comme on a voulu. Il parle de Jean-Baptiste. En rejoignant les autres disciples, ils trouvent une grande foule et des scribes en pleine discussion. En voyant Jésus, la foule est saisie et accourt pour le saluer. Il demande de quoi ils discutent.",
+   "en": "Jesus declares that Elijah has already come and that they did to him whatever they wanted. He is speaking of John the Baptist. Rejoining the other disciples, they find a great crowd and scribes arguing with them. Seeing Jesus, the crowd is amazed and runs to greet him. He asks what they are arguing about."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour ceux qui souffrent pour avoir dit la vérité.",
+   "en": "Today, pray for those who suffer for having spoken the truth."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Jean-Baptiste l'Élie annoncé, qui a préparé le chemin du Christ jusque dans sa mort. La Glose, citée dans la Catena Aurea, précise que Jean est appelé Élie non parce qu'il était Élie en personne, mais parce qu'il en a accompli le ministère. Bède rapproche son sort de la Passion annoncée.",
+   "en": "The Catholic tradition sees in John the Baptist the promised Elijah, who prepared Christ's way even in his death. The Gloss, quoted in the Catena Aurea, makes clear that John is called Elijah not because he was Elijah in person, but because he fulfilled Elijah's ministry. Bede links his fate with the Passion foretold."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore Jean comme le Précurseur, ascète et prophète. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que Jean reprenait le vice, était zélé et ermite comme Élie, mais qu'on ne l'a pas écouté. Son icône, avec des ailes, le montre comme un ange envoyé devant la face du Seigneur.",
+   "en": "The Orthodox tradition honours John as the Forerunner, ascetic and prophet. Theophylact of Ohrid, quoted in the Catena Aurea, writes that John rebuked vice, was zealous and a hermit like Elijah, but they did not listen to him. His icon, with wings, shows him as an angel sent before the face of the Lord."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reconnaissent en Jean-Baptiste l'Élie annoncé, qui a préparé le chemin du Christ.",
+    "en": "Both traditions recognise in John the Baptist the promised Elijah, who prepared the way of Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:13",
+    "usage": "quote",
+    "quote": "He calls John Elias, not because he was Elias in person"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:13",
+    "usage": "quote",
+    "quote": "in the same way as the prophets have written many things"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:13",
+    "usage": "quote",
+    "quote": "John rebuked vice, and was a zealous man, and a hermit like Elias"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-17-20",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 17,
+  "chapterEnd": 9,
+  "verseEnd": 20,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un homme de la foule explique qu'il a amené son fils, possédé par un esprit qui le rend muet et le jette à terre. Les disciples n'ont pas pu le chasser. Jésus s'exclame contre cette génération incrédule, puis demande qu'on lui amène l'enfant. Dès que l'esprit voit Jésus, il agite violemment l'enfant, qui se roule par terre en écumant.",
+   "en": "A man from the crowd explains that he has brought his son, possessed by a spirit that makes him mute and throws him to the ground. The disciples could not cast it out. Jesus exclaims against this unbelieving generation, then asks for the boy to be brought to him. As soon as the spirit sees Jesus, it convulses the boy, who rolls on the ground foaming."
+  },
+  "action": {
+   "fr": "Quand tes efforts n'aboutissent pas, apporte la situation au Christ dans la prière, au lieu de renoncer.",
+   "en": "When your efforts get nowhere, bring the situation to Christ in prayer instead of giving up."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que le reproche de Jésus vise le péché, non la personne. Bède le Vénérable, cité dans la Catena Aurea, écrit qu'il est si loin de s'irriter contre l'homme qu'il ajoute aussitôt : amenez-le-moi. L'échec des disciples les prépare à comprendre d'où vient leur force.",
+   "en": "The Catholic tradition notes that Jesus' reproach targets sin, not the person. The Venerable Bede, quoted in the Catena Aurea, writes that he is so far from being angry with the person that he at once adds: bring him to me. The disciples' failure prepares them to understand where their strength comes from."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans la violence de l'esprit une révélation de la méchanceté du démon. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Seigneur le permet pour que nous connaissions la malice du diable, qui aurait tué l'enfant sans son secours. Saint Jean Chrysostome ajoute que c'était aussi pour amener le père à croire.",
+   "en": "The Orthodox tradition sees in the spirit's violence a revelation of the demon's wickedness. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the Lord permits it so that we might know the devil's wickedness, who would have killed the child without his help. Saint John Chrysostom adds that it was also to bring the father to believe."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ plus fort que le mal et la faiblesse des disciples qui renvoie à sa puissance.",
+    "en": "Both traditions see here Christ stronger than evil, and the disciples' weakness pointing to his power."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:19",
+    "usage": "quote",
+    "quote": "So far, however, is He from being angry with the person"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:20",
+    "usage": "quote",
+    "quote": "that in this way we might know the devil's wickedness"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:20",
+    "usage": "quote",
+    "quote": "that when he saw the devil vexing his child, he might be brought on to believe"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-21-24",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 21,
+  "chapterEnd": 9,
+  "verseEnd": 24,
+  "category": "foi-doute",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus demande depuis quand cela arrive. Depuis l'enfance, répond le père, et souvent l'esprit a voulu le faire périr ; il supplie Jésus de les secourir, s'il le peut. Jésus répond que tout est possible à celui qui croit. Le père s'écrie : « Je crois! viens au secours de mon incrédulité! »",
+   "en": "Jesus asks how long this has been happening. Since childhood, the father answers, and the spirit has often tried to destroy him. He begs Jesus to have compassion and help them, if he can do anything. Jesus answers that all things are possible to the one who believes. The father cries out, \"I believe. Help my unbelief!\""
+  },
+  "action": {
+   "fr": "Fais tienne aujourd'hui la prière du père : « Je crois! viens au secours de mon incrédulité! »",
+   "en": "Make the father's prayer your own today: \"I believe. Help my unbelief!\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique aime cette prière d'une foi humble, qui avoue sa faiblesse. Bède le Vénérable, cité dans la Catena Aurea, remarque que la réponse du Seigneur répond à la demande : au doute sur son pouvoir, il répond par l'appel à croire. La foi n'est pas une performance, mais une confiance qui demande à grandir.",
+   "en": "The Catholic tradition loves this prayer of humble faith, which admits its weakness. The Venerable Bede, quoted in the Catena Aurea, notes that the Lord's answer matches the request: to doubt about his power, he answers with a call to believe. Faith is not a performance, but a trust that asks to grow."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans ce cri une prière parfaite pour les heures de doute. Saint Jean Chrysostome, cité dans la Catena Aurea, fait dire au Seigneur qu'il y a en lui une telle plénitude de puissance qu'il peut même la donner à d'autres. La foi imparfaite, offerte au Christ, est accueillie.",
+   "en": "The Orthodox tradition also sees in this cry a perfect prayer for times of doubt. Saint John Chrysostom, quoted in the Catena Aurea, has the Lord say that there is such a fullness of power in him that he can even give it to others. Imperfect faith, offered to Christ, is welcomed."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ce cri une prière humble, où la foi imparfaite se confie au Christ.",
+    "en": "Both traditions see in this cry a humble prayer, in which imperfect faith entrusts itself to Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:23",
+    "usage": "quote",
+    "quote": "The answer of the Lord was suited to the petition"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:23",
+    "usage": "quote",
+    "quote": "such a plenitude of virtue is there in Me"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-25-28",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 25,
+  "chapterEnd": 9,
+  "verseEnd": 28,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Voyant la foule accourir, Jésus menace l'esprit et lui ordonne de sortir et de ne plus revenir. L'esprit sort en criant et en secouant violemment l'enfant, qui reste comme mort. Beaucoup disent qu'il est mort. Mais Jésus le prend par la main et le fait lever. À la maison, les disciples demandent pourquoi ils n'ont pas pu le chasser.",
+   "en": "Seeing a crowd running together, Jesus rebukes the spirit and orders it to come out and never return. The spirit comes out shrieking and convulsing the boy violently, who lies as if dead. Many say he is dead. But Jesus takes him by the hand and raises him up. In the house, the disciples ask why they could not cast it out."
+  },
+  "action": {
+   "fr": "Si une tentation revient plus fort quand tu cherches à te convertir, ne t'en étonne pas : tiens bon et prie.",
+   "en": "If a temptation comes back stronger when you try to turn to God, do not be surprised: hold firm and pray."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la violence finale de l'esprit une expérience connue des croyants. Bède le Vénérable, cité dans la Catena Aurea, écrit que lorsque nous voulons revenir à Dieu après le péché, l'ennemi nous attaque souvent par des pièges nouveaux et plus grands. Saint Grégoire le Grand voit dans l'enfant comme mort celui qui a fait mourir en lui ses désirs terrestres.",
+   "en": "The Catholic tradition sees in the spirit's final violence an experience known to believers. The Venerable Bede, quoted in the Catena Aurea, writes that when we try to turn to God after sin, our old enemy often attacks us with new and greater snares. Saint Gregory the Great sees in the boy who seems dead the one who has put to death his earthly desires."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe relève l'inquiétude des disciples. Saint Jean Chrysostome, cité dans la Catena Aurea, écrit qu'ils craignaient d'avoir perdu la grâce reçue, car ils avaient déjà reçu pouvoir sur les esprits impurs. Le Christ qui relève l'enfant annonce sa propre résurrection.",
+   "en": "The Orthodox tradition notes the disciples' worry. Saint John Chrysostom, quoted in the Catena Aurea, writes that they feared they had lost the grace given to them, for they had already received power over unclean spirits. Christ raising the boy announces his own resurrection."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le combat spirituel et le Christ qui relève l'homme comme d'entre les morts.",
+    "en": "Both traditions see here spiritual combat and Christ raising a person up as if from the dead."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:26",
+    "usage": "quote",
+    "quote": "our old enemy attacks us with new and greater snares"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:26",
+    "usage": "quote",
+    "quote": "he who is freed from the power of the evil spirit is thought to be dead"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:28",
+    "usage": "quote",
+    "quote": "They feared that perchance they had lost the grace conferred upon them"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-29-32",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 29,
+  "chapterEnd": 9,
+  "verseEnd": 32,
+  "category": "priere-du-seigneur",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus répond que cette espèce de démon ne peut sortir que par la prière. Puis ils traversent la Galilée en secret. Jésus enseigne ses disciples : le Fils de l'homme sera livré, mis à mort, et ressuscitera trois jours après. Ils ne comprennent pas cette parole et craignent de l'interroger.",
+   "en": "Jesus answers that this kind of demon can come out only by prayer. Then they pass through Galilee in secret. Jesus teaches his disciples: the Son of Man will be handed over, killed, and will rise three days later. They do not understand this saying and are afraid to ask him."
+  },
+  "action": {
+   "fr": "Ajoute aujourd'hui à ta prière un petit jeûne (un plaisir, un repas plus simple) pour une intention précise.",
+   "en": "Today, add to your prayer a small fast (a pleasure, a simpler meal) for a specific intention."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lie la prière et le jeûne dans le combat spirituel, surtout en Carême. Bède le Vénérable, cité dans la Catena Aurea, explique que l'ignorance des disciples vient moins de la lenteur d'esprit que de leur amour pour le Sauveur. Il note aussi que Jésus mêle toujours les annonces tristes et joyeuses.",
+   "en": "The Catholic tradition joins prayer and fasting in spiritual combat, especially in Lent. The Venerable Bede, quoted in the Catena Aurea, explains that the disciples' ignorance comes less from slowness of mind than from love for the Saviour. He also notes that Jesus always mingles sorrowful and joyful announcements."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe insiste aussi sur l'union du jeûne et de la prière. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que celui qui est guéri et celui qui guérit doivent jeûner, car la vraie prière s'élève quand le jeûne s'y joint. Le calendrier orthodoxe garde de nombreux jours de jeûne.",
+   "en": "The Orthodox tradition also insists on the union of fasting and prayer. Theophylact of Ohrid, quoted in the Catena Aurea, writes that both the one to be cured and the one who cures should fast, for real prayer rises when fasting is joined to it. The Orthodox calendar keeps many fast days."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions unissent la prière et le jeûne dans le combat spirituel.",
+    "en": "Both traditions unite prayer and fasting in spiritual combat."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:32",
+    "usage": "quote",
+    "quote": "This ignorance of the disciples proceeds not so much from slowness of intellect, as from love for the Saviour"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:31",
+    "usage": "quote",
+    "quote": "He always mingles together sorrowful and joyful things"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:29",
+    "usage": "quote",
+    "quote": "Both the man to be cured, and he who cures him, should fast"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-33-35",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 33,
+  "chapterEnd": 9,
+  "verseEnd": 35,
+  "category": "humilite",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "À Capharnaüm, Jésus demande à ses disciples de quoi ils discutaient en chemin. Ils se taisent, car ils discutaient pour savoir qui était le plus grand. Jésus s'assied, appelle les Douze et leur dit : « Si quelqu'un veut être le premier, il sera le dernier de tous et le serviteur de tous. »",
+   "en": "In Capernaum, Jesus asks his disciples what they were arguing about on the way. They keep silent, for they had been arguing about who was the greatest. Jesus sits down, calls the Twelve and says to them, \"If any man wants to be first, he shall be last of all, and servant of all.\""
+  },
+  "action": {
+   "fr": "Prends aujourd'hui volontairement la dernière place : laisse passer, laisse choisir, sers en premier.",
+   "en": "Today, take the last place on purpose: let others go first, let them choose, serve first."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette parole la règle de toute autorité dans l'Église, à commencer par celle des évêques et du pape. Saint Jérôme, cité dans la Catena Aurea, remarque que les disciples se disputent en chemin, tandis que le Christ s'assied pour enseigner l'humilité. Bède explique que la dispute venait peut-être du choix des trois disciples sur la montagne.",
+   "en": "The Catholic tradition sees in this saying the rule for all authority in the Church, beginning with that of the bishops and the pope. Saint Jerome, quoted in the Catena Aurea, notes that the disciples argue on the way, while Christ sits down to teach humility. Bede explains that the quarrel may have come from the choice of the three disciples on the mountain."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans l'humilité la porte de la grandeur véritable. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Seigneur ne veut pas que nous nous emparions des premières places, mais que nous atteignions les hauteurs par l'humilité. L'évêque y trouve le modèle de son service.",
+   "en": "The Orthodox tradition also sees in humility the door to true greatness. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the Lord does not want us to seize the first places, but to reach lofty heights by lowliness. The bishop finds here the model of his service."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'humilité et le service comme la règle de toute autorité dans l'Église.",
+    "en": "Both traditions see here humility and service as the rule of all authority in the Church."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Jerome",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:35",
+    "usage": "quote",
+    "quote": "Christ Himself sat down to teach humility"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:34",
+    "usage": "quote",
+    "quote": "The reason why the dispute concerning the chief place arose"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:35",
+    "usage": "quote",
+    "quote": "that we should attain to lofty heights by lowliness"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-36-39",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 36,
+  "chapterEnd": 9,
+  "verseEnd": 39,
+  "category": "humilite",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus prend un petit enfant, le place au milieu d'eux et l'embrasse. Qui accueille un enfant en son nom l'accueille lui-même, et accueille celui qui l'a envoyé. Jean rapporte qu'ils ont empêché un homme de chasser les démons au nom de Jésus, parce qu'il ne les suivait pas. Jésus répond de ne pas l'en empêcher.",
+   "en": "Jesus takes a little child, sets him in their midst and takes him in his arms. Whoever welcomes a child in his name welcomes him, and welcomes the one who sent him. John reports that they stopped a man from casting out demons in Jesus' name, because he did not follow them. Jesus answers not to forbid him."
+  },
+  "action": {
+   "fr": "Accorde aujourd'hui une vraie attention à un enfant ou à une personne fragile.",
+   "en": "Today, give real attention to a child or a vulnerable person."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'accueil des petits un lieu de rencontre avec le Christ lui-même. Bède le Vénérable, cité dans la Catena Aurea, explique que Jean, aimant le Seigneur avec une grande ferveur, voulait exclure celui qui agissait sans en avoir le droit. Jésus élargit le regard de ses disciples.",
+   "en": "The Catholic tradition sees in welcoming the little ones a place of encounter with Christ himself. The Venerable Bede, quoted in the Catena Aurea, explains that John, loving the Lord with great devotion, wanted to exclude the one acting without the right to do so. Jesus widens his disciples' outlook."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe admire la grandeur de l'humilité. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'elle obtient pour elle-même la présence du Père, du Fils et du Saint-Esprit. L'innocence de l'enfant est donnée en exemple aux disciples.",
+   "en": "The Orthodox tradition admires the greatness of humility. Theophylact of Ohrid, quoted in the Catena Aurea, writes that it wins for itself the indwelling of the Father, the Son and the Holy Spirit. The child's innocence is held up as an example to the disciples."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'accueil des petits l'accueil du Christ lui-même et un chemin d'humilité.",
+    "en": "Both traditions see in welcoming the little ones the welcome of Christ himself and a path of humility."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:38",
+    "usage": "quote",
+    "quote": "John, loving the Lord with eminent devotion"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:37",
+    "usage": "quote",
+    "quote": "it wins for itself the indwelling of the Father, and of the Son, and also of the Holy Ghost"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-40-42",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 40,
+  "chapterEnd": 9,
+  "verseEnd": 42,
+  "category": "amour-du-prochain",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "« Qui n'est pas contre nous est pour nous », dit Jésus. Même un verre d'eau donné aux disciples parce qu'ils appartiennent au Christ ne perdra pas sa récompense. Mais pour celui qui fait tomber un de ces petits qui croient, mieux vaudrait être jeté à la mer avec une meule au cou. La foi des plus fragiles est précieuse.",
+   "en": "\"Whoever is not against us is on our side\", says Jesus. Even a cup of water given to the disciples because they belong to Christ will not lose its reward. But for whoever causes one of these little ones who believe to stumble, it would be better to be thrown into the sea with a millstone round the neck. The faith of the most fragile is precious."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui un petit geste de bonté au nom du Christ, même un simple verre d'eau.",
+   "en": "Today, do a small act of kindness in Christ's name, even a simple glass of water."
+  },
+  "catholic": {
+   "fr": "La tradition catholique invite à reconnaître le bien partout où il se fait au nom du Christ. Saint Augustin, cité dans la Catena Aurea, montre que cette parole ne contredit pas celle de Luc sur celui qui n'est pas avec le Christ. Bède voit dans le petit celui qui est faible dans la foi et cherche une occasion de chute.",
+   "en": "The Catholic tradition invites us to recognise good wherever it is done in Christ's name. Saint Augustine, quoted in the Catena Aurea, shows that this saying does not contradict the one in Luke about whoever is not with Christ. Bede sees in the little one someone weak in faith who looks for occasions to fall."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la valeur du plus petit geste. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que celui qui donne la moindre chose pour son nom recevra sa récompense. Il ajoute qu'on ne peut guère dire du mal du Christ quand on tire gloire de son nom.",
+   "en": "The Orthodox tradition stresses the value of the smallest gesture. Theophylact of Ohrid, quoted in the Catena Aurea, writes that whoever gives the smallest thing for his name will receive their reward. He adds that one can hardly speak evil of Christ while drawing glory from his name."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la valeur du moindre geste fait au nom du Christ et le respect dû à la foi des petits.",
+    "en": "Both traditions see here the value of the least act done in Christ's name and the respect owed to the faith of the little ones."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:40",
+    "usage": "quote",
+    "quote": "We must take care that this saying of the Lord appear not to be contrary to that"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:42",
+    "usage": "quote",
+    "quote": "he who is little and weak in mind looks out for occasion"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:41",
+    "usage": "quote",
+    "quote": "whosoever shall give you the smallest thing for My name's sake"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:39",
+    "usage": "quote",
+    "quote": "For how can he speak evil of Me, who draws glory from My name"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-43-46",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 43,
+  "chapterEnd": 9,
+  "verseEnd": 46,
+  "category": "combat-spirituel",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Jésus emploie des images très fortes. Si ta main ou ton pied te fait tomber, coupe-les : mieux vaut entrer dans la vie infirme que d'aller dans la géhenne, dans le feu qui ne s'éteint pas. Ces paroles ne demandent pas de se mutiler. Elles disent l'urgence de rompre avec ce qui conduit au mal.",
+   "en": "Jesus uses very strong images. If your hand or foot causes you to stumble, cut it off: it is better to enter into life maimed than to go into Gehenna, into the unquenchable fire. These words do not ask anyone to harm themselves. They express the urgency of breaking with what leads to evil."
+  },
+  "action": {
+   "fr": "Identifie une fréquentation, une habitude ou un contenu qui te fait tomber, et prends une décision ferme à son sujet.",
+   "en": "Identify a relationship, habit or content that makes you stumble, and make a firm decision about it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ces images comme un appel à la conversion radicale, sans prendre la lettre au pied de la lettre. Bède le Vénérable, cité dans la Catena Aurea, voit dans le pied un ami qui nous rend service. La Glose précise qu'il vaut mieux entrer dans la vie sans un ami que d'aller avec lui en enfer.",
+   "en": "The Catholic tradition reads these images as a call to radical conversion, without taking them literally. The Venerable Bede, quoted in the Catena Aurea, sees in the foot a friend who serves us. The Gloss adds that it is better to enter into life without a friend than to go with him into hell."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe comprend aussi ces membres comme des proches qui entraînent au mal. Saint Jean Chrysostome, cité dans la Catena Aurea, écrit que le Seigneur ne parle pas de nos membres, mais de nos amis intimes, car rien n'est aussi nuisible qu'une mauvaise compagnie. L'ascèse consiste à couper les occasions de chute.",
+   "en": "The Orthodox tradition also understands these limbs as close companions who lead us into evil. Saint John Chrysostom, quoted in the Catena Aurea, writes that the Lord is not speaking of our limbs but of our intimate friends, for nothing is so hurtful as bad company. Ascetic effort means cutting off the occasions of falling."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ces images au sens spirituel, comme l'appel à rompre avec ce qui conduit au péché.",
+    "en": "Both traditions read these images spiritually, as a call to break with what leads to sin."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:45",
+    "usage": "quote",
+    "quote": "A friend is called a foot"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:43",
+    "usage": "quote",
+    "quote": "it is better to enter into life without a friend, than to go with him into hell"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:43",
+    "usage": "quote",
+    "quote": "nothing is so hurtful as mischievous society"
+   }
+  ]
+ },
+ {
+  "key": "mrk-9-47-50",
+  "book": "MRK",
+  "chapterStart": 9,
+  "verseStart": 47,
+  "chapterEnd": 9,
+  "verseEnd": 50,
+  "category": "fin-des-temps",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "Jésus reprend l'image avec l'œil. Mieux vaut entrer dans le Royaume avec un seul œil que d'être jeté dans la géhenne, où le ver ne meurt pas et le feu ne s'éteint pas. Puis il parle du sel. Chacun sera salé par le feu. Ayez du sel en vous-mêmes, dit-il, et soyez en paix les uns avec les autres.",
+   "en": "Jesus takes up the image again with the eye. It is better to enter the Kingdom with one eye than to be thrown into Gehenna, where the worm does not die and the fire is not quenched. Then he speaks of salt. Everyone will be salted with fire. Have salt in yourselves, he says, and be at peace with one another."
+  },
+  "action": {
+   "fr": "Fais aujourd'hui la paix avec une personne avec qui tu es en froid, par un mot ou un geste.",
+   "en": "Today, make peace with someone you have fallen out with, by a word or a gesture."
+  },
+  "catholic": {
+   "fr": "La tradition catholique prend au sérieux l'avertissement sur la perte éternelle, toujours liée à la liberté humaine. Bède le Vénérable, cité dans la Catena Aurea, voit dans le bon sel l'écoute fréquente de la parole de Dieu, qui assaisonne le cœur de sagesse spirituelle. La paix fraternelle est le fruit de ce sel.",
+   "en": "The Catholic tradition takes seriously the warning about eternal loss, always tied to human freedom. The Venerable Bede, quoted in the Catena Aurea, sees in the good salt the frequent hearing of God's word, which seasons the heart with spiritual wisdom. Fraternal peace is the fruit of this salt."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit le sel comme la parole qui purifie. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que, comme le sel garde la chair des vers, la parole du maître dessèche le mal et empêche le ver qui ne meurt pas. Saint Jean Chrysostome compare ailleurs les péchés à des vers qui rongent l'âme.",
+   "en": "The Orthodox tradition reads the salt as the word that purifies. Theophylact of Ohrid, quoted in the Catena Aurea, writes that as salt keeps flesh from breeding worms, the teacher's word dries up evil and prevents the undying worm. Saint John Chrysostom elsewhere compares sins to worms that gnaw the soul."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions prennent au sérieux l'avertissement sur la perte éternelle et voient dans le sel la parole qui purifie.",
+    "en": "Both traditions take the warning about eternal loss seriously and see in the salt the word that purifies."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:50",
+    "usage": "quote",
+    "quote": "the good salt is the frequent hearing of God's word"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 9",
+    "ref": "MRK 9:49",
+    "usage": "quote",
+    "quote": "For as salt preserves flesh, and suffers it not to breed worms"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Homilies On Romans",
+    "section": "Homily 11",
+    "ref": "MRK 9:48",
+    "usage": "quote",
+    "quote": "for sins are worse than worms"
+   }
+  ]
  }
 ]
