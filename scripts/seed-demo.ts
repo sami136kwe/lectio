@@ -20,7 +20,8 @@ async function sourceId(db: ScriptDb, s: DemoCard["sources"][number], key: strin
     .eq("section", s.section)
     .like("work", `${s.work}%`)
     .eq("verified", true)
-    .contains("bible_refs", [s.ref]);
+    // A quote identifies its extract; without a quote, the verse commented on does.
+    .contains("bible_refs", s.quote ? [] : [s.ref]);
   if (error) throw new Error(error.message);
   const match = s.quote ? data.find((d) => d.text?.includes(s.quote!)) : data[0];
   if (!match) throw new Error(`${key}: no verified source ${s.author}, ${s.work}, ${s.section} for ${s.ref}${s.quote ? " containing the quote" : ""}`);

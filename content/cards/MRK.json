@@ -1,437 +1,780 @@
 [
-  {
-    "key": "mrk-1-12-15",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 12,
-    "chapterEnd": 1,
-    "verseEnd": 15,
-    "category": "bapteme-tentations",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Marc raconte la tentation de Jésus en deux versets seulement, sans le détail des épreuves que donnent Matthieu et Luc. Les quarante jours rappellent les quarante années d'Israël au désert. Les bêtes sauvages et les anges font du désert un lieu à la fois menaçant et gardé par Dieu. Après l'arrestation de Jean, Jésus commence à prêcher en Galilée : « Le temps est accompli, et le royaume de Dieu est proche ».",
-      "en": "Mark tells the temptation of Jesus in just two verses, without the detailed trials found in Matthew and Luke. The forty days recall Israel's forty years in the wilderness. The wild animals and the angels make the desert a place both threatening and guarded by God. After John's arrest, Jesus begins to preach in Galilee: \"The time is fulfilled, and God's Kingdom is at hand!\""
-    },
-    "action": {
-      "fr": "Repère une tentation qui revient souvent chez toi et prépare une phrase courte à te dire quand elle se présente.",
-      "en": "Notice one temptation that keeps coming back and prepare a short sentence to tell yourself when it shows up."
-    },
-    "catholic": {
-      "fr": "La tradition catholique voit dans le séjour au désert le modèle du combat spirituel de chaque baptisé : celui qui vient d'être reconnu Fils affronte aussitôt l'épreuve. L'appel « Repentez-vous, et croyez à la bonne nouvelle » y est lu comme le résumé de la conversion, qui touche le cœur avant les gestes. La pénitence n'y est pas une fin : elle ouvre au Royaume qui s'approche.",
-      "en": "The Catholic tradition sees the time in the wilderness as the pattern of every baptised person's spiritual struggle: the one just called Son faces trial at once. The call \"Repent, and believe in the Good News\" is read as a summary of conversion, which touches the heart before outward acts. Penance is no end in itself: it opens onto the Kingdom that draws near."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe lit ce passage comme le début du combat du Christ contre le mal, mené pour l'homme et avec lui. Saint Jean Chrysostome, cité dans la Catena Aurea, explique que le Christ affronte le diable après son baptême pour que chaque baptisé supporte les tentations sans en être troublé. Les bêtes et les anges évoquent une création réconciliée autour du nouvel Adam.",
-      "en": "The Orthodox tradition reads this passage as the beginning of Christ's struggle against evil, waged for humanity and with it. Saint John Chrysostom, quoted in the Catena Aurea, explains that Christ faces the devil after his baptism so that every baptised person may bear temptation without being troubled. The wild animals and the angels suggest a creation reconciled around the new Adam."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient ici le début du combat spirituel du Christ et l'appel à la conversion.",
-        "en": "Both traditions see here the beginning of Christ's spiritual struggle and the call to conversion."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "orthodox",
-        "author": "John Chrysostom",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:12",
-        "usage": "quote",
-        "quote": "that every baptized person might patiently sustain greater temptations after His baptism"
-      }
-    ]
+ {
+  "key": "mrk-1-12-15",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 12,
+  "chapterEnd": 1,
+  "verseEnd": 15,
+  "category": "bapteme-tentations",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Marc raconte la tentation de Jésus en deux versets seulement, sans le détail des épreuves que donnent Matthieu et Luc. Les quarante jours rappellent les quarante années d'Israël au désert. Les bêtes sauvages et les anges font du désert un lieu à la fois menaçant et gardé par Dieu. Après l'arrestation de Jean, Jésus commence à prêcher en Galilée : « Le temps est accompli, et le royaume de Dieu est proche ».",
+   "en": "Mark tells the temptation of Jesus in just two verses, without the detailed trials found in Matthew and Luke. The forty days recall Israel's forty years in the wilderness. The wild animals and the angels make the desert a place both threatening and guarded by God. After John's arrest, Jesus begins to preach in Galilee: \"The time is fulfilled, and God's Kingdom is at hand!\""
   },
-  {
-    "key": "mrk-1-16-19",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 16,
-    "chapterEnd": 1,
-    "verseEnd": 19,
-    "category": "apotres",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Jésus appelle ses premiers disciples au bord du lac de Galilée, en plein travail. Ce sont des pêcheurs. Il leur promet de faire d'eux des pêcheurs d'hommes, une image tirée de leur propre métier. Simon et André laissent aussitôt leurs filets, et Marc insiste sur cette rapidité pour montrer l'autorité de celui qui appelle.",
-      "en": "Jesus calls his first disciples by the lake of Galilee, in the middle of their work. They are fishermen. He promises to make them fishers of people, an image taken from their own trade. Simon and Andrew leave their nets at once, and Mark stresses this speed to show the authority of the one who calls."
-    },
-    "action": {
-      "fr": "Pense à une personne qui t'a aidé à grandir dans la foi ou dans la vie, et remercie-la aujourd'hui.",
-      "en": "Think of someone who helped you grow in faith or in life, and thank them today."
-    },
-    "catholic": {
-      "fr": "La tradition catholique voit dans cet appel le début du groupe des Douze et de la mission de l'Église. Simon, le futur Pierre, est nommé en premier, comme souvent dans les évangiles. Chaque vocation y est comprise comme la réponse libre à une initiative de Dieu, qui appelle des gens ordinaires là où ils vivent.",
-      "en": "The Catholic tradition sees in this call the beginning of the Twelve and of the Church's mission. Simon, the future Peter, is named first, as often in the Gospels. Every vocation is understood as a free answer to God's initiative, who calls ordinary people where they live."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe honore André comme le « Premier appelé », titre qu'elle lui donne volontiers. Théophylacte d'Ohrid, cité dans la Catena Aurea, voit en Pierre la figure de la vie active et en Jean celle de la vie contemplative. Les deux chemins sont appelés ensemble et se complètent dans l'Église.",
-      "en": "The Orthodox tradition honours Andrew as the \"First-called\", a title it gladly gives him. Theophylact of Ohrid, quoted in the Catena Aurea, sees Peter as the figure of the active life and John as that of the contemplative life. Both paths are called together and complete each other in the Church."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions lisent ici la naissance du groupe des apôtres et le modèle de toute vocation.",
-        "en": "Both traditions read here the birth of the group of apostles and the pattern of every vocation."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:16",
-        "usage": "quote",
-        "quote": "Peter is the type of the active life"
-      }
-    ]
+  "action": {
+   "fr": "Repère une tentation qui revient souvent chez toi et prépare une phrase courte à te dire quand elle se présente.",
+   "en": "Notice one temptation that keeps coming back and prepare a short sentence to tell yourself when it shows up."
   },
-  {
-    "key": "mrk-1-20-22",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 20,
-    "chapterEnd": 1,
-    "verseEnd": 22,
-    "category": "verite-parole",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Jacques et Jean laissent leur père et les ouvriers dans la barque pour suivre Jésus. Le groupe arrive à Capharnaüm, une ville au bord du lac. Un jour de sabbat, Jésus enseigne à la synagogue. Ses auditeurs sont frappés, car il enseigne comme quelqu'un qui a autorité, et non comme les scribes, qui expliquaient la Loi en s'appuyant sur les maîtres plus anciens.",
-      "en": "James and John leave their father and the hired men in the boat to follow Jesus. The group reaches Capernaum, a town by the lake. On a Sabbath, Jesus teaches in the synagogue. His hearers are struck, because he teaches as one with authority, not like the scribes, who explained the Law by leaning on earlier teachers."
-    },
-    "action": {
-      "fr": "Lis lentement un passage de l'Évangile aujourd'hui et note une phrase qui te semble dite pour toi.",
-      "en": "Read a passage of the Gospel slowly today and write down one sentence that seems meant for you."
-    },
-    "catholic": {
-      "fr": "La tradition catholique voit dans cette autorité celle du Fils, qui parle en son propre nom. Bède le Vénérable, cité dans la Catena Aurea, explique que les scribes répétaient Moïse et les prophètes, tandis que Jésus, Seigneur de Moïse lui-même, complétait la Loi. L'Église comprend son propre enseignement comme un service rendu à cette parole, qu'elle transmet sans la remplacer.",
-      "en": "The Catholic tradition sees in this authority that of the Son, who speaks in his own name. The Venerable Bede, quoted in the Catena Aurea, explains that the scribes repeated Moses and the prophets, whereas Jesus, the Lord of Moses himself, completed the Law. The Church understands its own teaching as a service to this word, which it hands on without replacing it."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe voit dans ce passage le Verbe de Dieu qui enseigne lui-même, avec l'autorité qui a créé le monde. Théophylacte d'Ohrid, cité dans la Catena Aurea, rappelle que le repos du sabbat permettait au peuple de se rassembler pour écouter la lecture sacrée. La Parole entendue dans l'assemblée reste le lieu où le Christ enseigne aujourd'hui.",
-      "en": "The Orthodox tradition sees in this passage the Word of God teaching in person, with the authority that created the world. Theophylact of Ohrid, quoted in the Catena Aurea, recalls that the Sabbath rest allowed the people to gather and hear the sacred reading. The Word heard in the assembly remains the place where Christ teaches today."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions reconnaissent dans l'enseignement de Jésus l'autorité même de Dieu.",
-        "en": "Both traditions recognise in Jesus' teaching the very authority of God."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "catholic",
-        "author": "Bede",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:22",
-        "usage": "quote",
-        "quote": "as the God and Lord of Moses himself"
-      },
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:21",
-        "usage": "paraphrase"
-      }
-    ]
+  "catholic": {
+   "fr": "La tradition catholique voit dans le séjour au désert le modèle du combat spirituel de chaque baptisé : celui qui vient d'être reconnu Fils affronte aussitôt l'épreuve. L'appel « Repentez-vous, et croyez à la bonne nouvelle » y est lu comme le résumé de la conversion, qui touche le cœur avant les gestes. La pénitence n'y est pas une fin : elle ouvre au Royaume qui s'approche.",
+   "en": "The Catholic tradition sees the time in the wilderness as the pattern of every baptised person's spiritual struggle: the one just called Son faces trial at once. The call \"Repent, and believe in the Good News\" is read as a summary of conversion, which touches the heart before outward acts. Penance is no end in itself: it opens onto the Kingdom that draws near."
   },
-  {
-    "key": "mrk-1-23-26",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 23,
-    "chapterEnd": 1,
-    "verseEnd": 26,
-    "category": "combat-spirituel",
-    "difficulty": 2,
-    "explanation": {
-      "fr": "Dans la synagogue, un homme habité par un esprit impur interrompt l'enseignement de Jésus. L'esprit reconnaît Jésus et l'appelle « le Saint de Dieu », mais Jésus le fait taire et le chasse. Marc place ce premier miracle dans un lieu de prière, comme le signe que le règne de Dieu commence par la défaite du mal. Le récit reflète les représentations de l'époque et ne donne pas de règle pour interpréter aujourd'hui des troubles de santé.",
-      "en": "In the synagogue, a man with an unclean spirit interrupts Jesus' teaching. The spirit recognises Jesus and calls him \"the Holy One of God\", but Jesus silences it and drives it out. Mark sets this first miracle in a place of prayer, as a sign that God's reign begins with the defeat of evil. The story reflects the ideas of its time and gives no rule for interpreting health problems today."
-    },
-    "action": {
-      "fr": "Quand une pensée sombre revient, prends un instant pour la remettre à Dieu en une phrase.",
-      "en": "When a dark thought comes back, take a moment to hand it over to God in one sentence."
-    },
-    "catholic": {
-      "fr": "La tradition catholique lit ce passage comme le signe que le Christ est vainqueur du mal et que son autorité libère. Bède le Vénérable, cité dans la Catena Aurea, note que la mort étant entrée dans le monde par l'envie du diable, il convenait que la guérison agisse d'abord contre l'auteur de la mort. L'Église parle du combat spirituel avec prudence et demande un discernement qui tient compte de la médecine.",
-      "en": "The Catholic tradition reads this passage as a sign that Christ conquers evil and that his authority sets people free. The Venerable Bede, quoted in the Catena Aurea, notes that since death entered the world through the devil's envy, it was fitting that healing should first work against the author of death. The Church speaks of spiritual struggle with care and asks for a discernment that takes medicine into account."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe lit ce passage comme l'entrée du Christ dans le combat contre les puissances qui défigurent l'homme. Théophylacte d'Ohrid, cité dans la Catena Aurea, remarque que le démon tient pour sa propre perte le fait de devoir quitter l'homme. La prière, le jeûne et les sacrements sont compris comme la participation du croyant à cette victoire du Christ.",
-      "en": "The Orthodox tradition reads this passage as Christ entering the struggle against the powers that disfigure humanity. Theophylact of Ohrid, quoted in the Catena Aurea, remarks that the demon counts having to leave the man as its own ruin. Prayer, fasting and the sacraments are understood as the believer's share in this victory of Christ."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient ici la victoire du Christ sur le mal et l'appel à un combat spirituel mené avec discernement.",
-        "en": "Both traditions see here Christ's victory over evil and a call to a spiritual struggle waged with discernment."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "catholic",
-        "author": "Bede",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:23",
-        "usage": "quote",
-        "quote": "the medicine of healing should first work against the author of death"
-      },
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:24",
-        "usage": "quote",
-        "quote": "to come out of man the devil considers as his own perdition"
-      }
-    ]
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit ce passage comme le début du combat du Christ contre le mal, mené pour l'homme et avec lui. Saint Jean Chrysostome, cité dans la Catena Aurea, explique que le Christ affronte le diable après son baptême pour que chaque baptisé supporte les tentations sans en être troublé. Les bêtes et les anges évoquent une création réconciliée autour du nouvel Adam.",
+   "en": "The Orthodox tradition reads this passage as the beginning of Christ's struggle against evil, waged for humanity and with it. Saint John Chrysostom, quoted in the Catena Aurea, explains that Christ faces the devil after his baptism so that every baptised person may bear temptation without being troubled. The wild animals and the angels suggest a creation reconciled around the new Adam."
   },
-  {
-    "key": "mrk-1-27-30",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 27,
-    "chapterEnd": 1,
-    "verseEnd": 30,
-    "category": "miracles",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Tous sont saisis : « Qu'est-ce que ceci? Une nouvelle doctrine! » La nouveauté tient à l'autorité de Jésus, à qui même les esprits impurs obéissent. Sa réputation se répand aussitôt dans toute la Galilée. La scène passe alors de la synagogue à la maison de Simon et d'André, où la belle-mère de Simon est couchée avec de la fièvre.",
-      "en": "Everyone is amazed: \"What is this? A new teaching?\" The newness lies in Jesus' authority, which even the unclean spirits obey. His reputation spreads at once throughout Galilee. The scene then moves from the synagogue to the house of Simon and Andrew, where Simon's mother-in-law lies sick with a fever."
-    },
-    "action": {
-      "fr": "Parle aujourd'hui à Dieu d'une personne malade ou fatiguée que tu connais, en la nommant.",
-      "en": "Speak to God today about someone you know who is ill or worn out, naming them."
-    },
-    "catholic": {
-      "fr": "La tradition catholique remarque que Jésus passe du lieu de prière à la maison : le salut rejoint la vie de famille. Elle y voit aussi l'intercession, puisque les disciples parlent de la malade à Jésus avant qu'il n'agisse. Prier pour quelqu'un, c'est parler de lui au Seigneur avec confiance.",
-      "en": "The Catholic tradition notes that Jesus moves from the place of prayer to the house: salvation reaches family life. It also sees intercession here, since the disciples speak to Jesus about the sick woman before he acts. To pray for someone is to speak of them to the Lord with trust."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe voit dans cette maison une image de l'Église domestique, où le Christ entre pour guérir. Théophylacte d'Ohrid, cité dans la Catena Aurea, observe que celle qui aurait dû servir le repas en était empêchée par la fièvre. La guérison rend la personne à sa place et à sa vocation de service.",
-      "en": "The Orthodox tradition sees in this house an image of the domestic Church, which Christ enters to heal. Theophylact of Ohrid, quoted in the Catena Aurea, observes that the woman who should have served the meal was kept from it by the fever. Healing gives a person back their place and their calling to serve."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient ici le Christ qui entre dans la maison pour guérir, et la valeur de la prière pour les autres.",
-        "en": "Both traditions see here Christ entering the home to heal, and the worth of praying for others."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:30",
-        "usage": "quote",
-        "quote": "she who ought to have ministered was prevented by a fever"
-      }
-    ]
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le début du combat spirituel du Christ et l'appel à la conversion.",
+    "en": "Both traditions see here the beginning of Christ's spiritual struggle and the call to conversion."
+   }
   },
-  {
-    "key": "mrk-1-31-34",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 31,
-    "chapterEnd": 1,
-    "verseEnd": 34,
-    "category": "onction-guerison",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Jésus prend la main de la malade et la fait lever ; la fièvre la quitte et elle se met à servir. Le soir, après le coucher du soleil, on lui amène tous les malades et les possédés. Le sabbat se terminait au coucher du soleil, ce qui explique sans doute l'heure. Jésus guérit beaucoup de monde, mais il interdit aux démons de parler, car ils savent qui il est.",
-      "en": "Jesus takes the sick woman by the hand and raises her up; the fever leaves her and she begins to serve. In the evening, after sunset, all the sick and the possessed are brought to him. The Sabbath ended at sunset, which probably explains the hour. Jesus heals many people, but he does not let the demons speak, because they know who he is."
-    },
-    "action": {
-      "fr": "Tends la main aujourd'hui à quelqu'un qui a besoin d'aide, par un geste simple et concret.",
-      "en": "Reach out today to someone who needs help, with one simple and concrete gesture."
-    },
-    "catholic": {
-      "fr": "La tradition catholique lit le geste de Jésus, qui prend la main et relève, comme une image de la résurrection et des sacrements de guérison. Le service de la belle-mère de Simon y est vu comme la réponse naturelle à la grâce reçue. Le silence imposé aux démons rappelle que la vraie connaissance du Christ vient de la foi, et pas de la seule puissance.",
-      "en": "The Catholic tradition reads Jesus' gesture, taking her hand and raising her up, as an image of the resurrection and of the sacraments of healing. The service of Simon's mother-in-law is seen as the natural answer to grace received. The silence imposed on the demons recalls that true knowledge of Christ comes from faith, not from power alone."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe voit dans la main tendue du Christ le geste de Dieu qui relève l'homme tombé. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que la foule attend le soir parce qu'elle croyait interdit de guérir le jour du sabbat. Les guérisons sont lues comme les signes d'une création que le Christ commence à restaurer.",
-      "en": "The Orthodox tradition sees in Christ's outstretched hand the gesture of God raising fallen humanity. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the crowd waits for evening because it thought healing on the Sabbath was forbidden. The healings are read as signs of a creation that Christ begins to restore."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient dans ces guérisons les signes du salut que le Christ apporte à toute la personne.",
-        "en": "Both traditions see in these healings the signs of the salvation Christ brings to the whole person."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:32",
-        "usage": "paraphrase"
-      }
-    ]
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:12",
+    "usage": "quote",
+    "quote": "that every baptized person might patiently sustain greater temptations after His baptism"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-16-19",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 16,
+  "chapterEnd": 1,
+  "verseEnd": 19,
+  "category": "apotres",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus appelle ses premiers disciples au bord du lac de Galilée, en plein travail. Ce sont des pêcheurs. Il leur promet de faire d'eux des pêcheurs d'hommes, une image tirée de leur propre métier. Simon et André laissent aussitôt leurs filets, et Marc insiste sur cette rapidité pour montrer l'autorité de celui qui appelle.",
+   "en": "Jesus calls his first disciples by the lake of Galilee, in the middle of their work. They are fishermen. He promises to make them fishers of people, an image taken from their own trade. Simon and Andrew leave their nets at once, and Mark stresses this speed to show the authority of the one who calls."
   },
-  {
-    "key": "mrk-1-35-38",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 35,
-    "chapterEnd": 1,
-    "verseEnd": 38,
-    "category": "silence-confiance",
-    "difficulty": 1,
-    "explanation": {
-      "fr": "Très tôt, alors qu'il fait encore nuit, Jésus se retire dans un lieu désert pour prier. Simon et les autres le cherchent et lui disent : « Tous te cherchent. » Jésus ne revient pas profiter du succès de la veille. Il part prêcher dans les bourgades voisines, car c'est pour cela qu'il est venu.",
-      "en": "Very early, while it is still dark, Jesus withdraws to a deserted place to pray. Simon and the others look for him and tell him, \"Everyone is looking for you.\" Jesus does not go back. He leaves to preach in the nearby towns, because that is why he came, rather than enjoy the success of the day before."
-    },
-    "action": {
-      "fr": "Demain matin, avant de regarder ton téléphone, prends deux minutes de silence.",
-      "en": "Tomorrow morning, before you look at your phone, take two minutes of silence."
-    },
-    "catholic": {
-      "fr": "La tradition catholique voit dans cette prière matinale le modèle de la prière personnelle, qui précède et nourrit l'action. Bède le Vénérable, cité dans la Catena Aurea, lit aussi le retour de l'aube comme une image de la résurrection. La mission de l'Église naît de cette union avec le Père, et non d'abord de ses propres projets.",
-      "en": "The Catholic tradition sees this early-morning prayer as the pattern of personal prayer, which comes before action and feeds it. The Venerable Bede, quoted in the Catena Aurea, also reads the returning dawn as an image of the resurrection. The Church's mission is born of this union with the Father, and not first of its own plans."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe voit dans ce passage la source de la prière silencieuse, que les moines ont cultivée dans les lieux déserts. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que l'enseignement ne devait pas rester enfermé en un seul lieu, mais rayonner partout. Prière et annonce de l'Évangile vont ensemble.",
-      "en": "The Orthodox tradition sees in this passage the source of silent prayer, which monks have cultivated in desert places. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the teaching was not to be shut up in one place but to shine out everywhere. Prayer and the proclamation of the Gospel go together."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient dans la prière de Jésus la source de sa mission et un modèle pour chaque croyant.",
-        "en": "Both traditions see Jesus' prayer as the source of his mission and a pattern for every believer."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "catholic",
-        "author": "Bede",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:35",
-        "usage": "paraphrase"
-      },
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:38",
-        "usage": "quote",
-        "quote": "it was not right to shut up doctrine in one place"
-      }
-    ]
+  "action": {
+   "fr": "Pense à une personne qui t'a aidé à grandir dans la foi ou dans la vie, et remercie-la aujourd'hui.",
+   "en": "Think of someone who helped you grow in faith or in life, and thank them today."
   },
-  {
-    "key": "mrk-1-39-42",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 39,
-    "chapterEnd": 1,
-    "verseEnd": 42,
-    "category": "miracles",
-    "difficulty": 2,
-    "explanation": {
-      "fr": "Un lépreux s'approche de Jésus, alors que la Loi tenait les lépreux à l'écart des autres. Il se jette à genoux : « Si tu le veux, tu peux me rendre pur. » Ému de compassion, Jésus le touche, un geste qui le rendait lui-même impur selon les règles de pureté. Ici, l'inverse se produit : le malade devient pur.",
-      "en": "A man with leprosy comes to Jesus, although the Law kept lepers apart from others. He kneels down: \"If you want to, you can make me clean.\" Moved with compassion, Jesus touches him, a gesture that made Jesus himself unclean under the purity rules. Here the opposite happens: the sick man is made clean."
-    },
-    "action": {
-      "fr": "Pense à une personne tenue à l'écart autour de toi et fais un pas vers elle cette semaine.",
-      "en": "Think of someone around you who is kept at a distance and take a step towards them this week."
-    },
-    "catholic": {
-      "fr": "La tradition catholique lit ce récit comme une image du pardon : le Christ touche ce qui est blessé et le rend pur. Bède le Vénérable, cité dans la Catena Aurea, voit dans la main tendue du Sauveur le Verbe incarné qui touche la nature humaine pour la purifier. Le sacrement de la réconciliation est souvent compris dans cette lumière.",
-      "en": "The Catholic tradition reads this story as an image of forgiveness: Christ touches what is wounded and makes it clean. The Venerable Bede, quoted in the Catena Aurea, sees in the Saviour's outstretched hand the incarnate Word touching human nature to cleanse it. The sacrament of reconciliation is often understood in this light."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe souligne que le lépreux ne demande pas à Jésus de prier Dieu pour lui, mais de vouloir lui-même. Théophylacte d'Ohrid, cité dans la Catena Aurea, y voit la foi d'un homme qui le tient pour vrai Dieu. La guérison révèle ainsi la divinité du Christ et sa compassion pour l'humanité blessée.",
-      "en": "The Orthodox tradition stresses that the leper does not ask Jesus to pray to God for him, but to will it himself. Theophylact of Ohrid, quoted in the Catena Aurea, sees in this the faith of a man who takes him for true God. The healing thus reveals Christ's divinity and his compassion for wounded humanity."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient ici la compassion du Christ, qui touche et purifie ce qui était exclu.",
-        "en": "Both traditions see here the compassion of Christ, who touches and cleanses what was excluded."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "catholic",
-        "author": "Bede",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:41",
-        "usage": "paraphrase"
-      },
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:40",
-        "usage": "quote",
-        "quote": "If thou wilt, as thinking Him very God"
-      }
-    ]
+  "catholic": {
+   "fr": "La tradition catholique voit dans cet appel le début du groupe des Douze et de la mission de l'Église. Simon, le futur Pierre, est nommé en premier, comme souvent dans les évangiles. Chaque vocation y est comprise comme la réponse libre à une initiative de Dieu, qui appelle des gens ordinaires là où ils vivent.",
+   "en": "The Catholic tradition sees in this call the beginning of the Twelve and of the Church's mission. Simon, the future Peter, is named first, as often in the Gospels. Every vocation is understood as a free answer to God's initiative, who calls ordinary people where they live."
   },
-  {
-    "key": "mrk-1-43-45",
-    "book": "MRK",
-    "chapterStart": 1,
-    "verseStart": 43,
-    "chapterEnd": 1,
-    "verseEnd": 45,
-    "category": "miracles",
-    "difficulty": 2,
-    "explanation": {
-      "fr": "Jésus renvoie l'homme guéri avec des consignes sévères : ne rien dire, et aller se montrer au prêtre pour faire constater la guérison, comme le prévoit la Loi de Moïse. Beaucoup de spécialistes parlent ici du « secret messianique » de Marc : Jésus évite une renommée qui le réduirait à un guérisseur. L'homme raconte pourtant tout partout. Jésus ne peut plus entrer ouvertement dans les villes et reste dans des lieux déserts, où l'on vient à lui.",
-      "en": "Jesus sends the healed man away with strict orders: say nothing, and go show yourself to the priest to have the healing confirmed, as the Law of Moses requires. Many scholars speak here of Mark's \"messianic secret\": Jesus avoids a fame that would reduce him to a healer. The man tells everyone anyway. Jesus can no longer enter towns openly and stays in deserted places, where people come to him."
-    },
-    "action": {
-      "fr": "Remercie aujourd'hui quelqu'un pour un service qu'il t'a rendu il y a longtemps.",
-      "en": "Thank someone today for a favour they did you a long time ago."
-    },
-    "catholic": {
-      "fr": "La tradition catholique remarque que Jésus respecte la Loi : il envoie l'homme au prêtre et lui demande l'offrande prescrite. Bède le Vénérable, cité dans la Catena Aurea, explique que le prêtre devait comprendre que la guérison venait de la grâce de Dieu, au-dessus de la Loi. Le Christ accomplit la Loi sans l'abolir.",
-      "en": "The Catholic tradition notes that Jesus respects the Law: he sends the man to the priest and asks for the prescribed offering. The Venerable Bede, quoted in the Catena Aurea, explains that the priest was to understand that the healing came from God's grace, above the Law. Christ fulfils the Law without abolishing it."
-    },
-    "orthodox": {
-      "fr": "La tradition orthodoxe lit aussi ce passage comme une leçon de reconnaissance. Théophylacte d'Ohrid, cité dans la Catena Aurea, estime que celui qui a reçu un bienfait doit rendre grâce, même si son bienfaiteur ne le demande pas. L'humilité du Christ, qui fuit la gloire, et la joie de l'homme guéri se répondent.",
-      "en": "The Orthodox tradition also reads this passage as a lesson in gratitude. Theophylact of Ohrid, quoted in the Catena Aurea, holds that whoever has received a kindness should give thanks, even if the benefactor does not ask for it. The humility of Christ, who flees glory, and the joy of the healed man answer each other."
-    },
-    "divergence": {
-      "type": "agree",
-      "summary": {
-        "fr": "Les deux traditions voient ici l'humilité du Christ et la reconnaissance due à Dieu pour ses bienfaits.",
-        "en": "Both traditions see here Christ's humility and the gratitude owed to God for his gifts."
-      }
-    },
-    "sources": [
-      {
-        "tradition": "catholic",
-        "author": "Bede",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:44",
-        "usage": "paraphrase"
-      },
-      {
-        "tradition": "orthodox",
-        "author": "Theophylact of Ohrid",
-        "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
-        "section": "Chapter 1",
-        "ref": "MRK 1:45",
-        "usage": "paraphrase"
-      }
-    ]
-  }
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore André comme le « Premier appelé », titre qu'elle lui donne volontiers. Théophylacte d'Ohrid, cité dans la Catena Aurea, voit en Pierre la figure de la vie active et en Jean celle de la vie contemplative. Les deux chemins sont appelés ensemble et se complètent dans l'Église.",
+   "en": "The Orthodox tradition honours Andrew as the \"First-called\", a title it gladly gives him. Theophylact of Ohrid, quoted in the Catena Aurea, sees Peter as the figure of the active life and John as that of the contemplative life. Both paths are called together and complete each other in the Church."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions lisent ici la naissance du groupe des apôtres et le modèle de toute vocation.",
+    "en": "Both traditions read here the birth of the group of apostles and the pattern of every vocation."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:16",
+    "usage": "quote",
+    "quote": "Peter is the type of the active life"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-20-22",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 20,
+  "chapterEnd": 1,
+  "verseEnd": 22,
+  "category": "verite-parole",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jacques et Jean laissent leur père et les ouvriers dans la barque pour suivre Jésus. Le groupe arrive à Capharnaüm, une ville au bord du lac. Un jour de sabbat, Jésus enseigne à la synagogue. Ses auditeurs sont frappés, car il enseigne comme quelqu'un qui a autorité, et non comme les scribes, qui expliquaient la Loi en s'appuyant sur les maîtres plus anciens.",
+   "en": "James and John leave their father and the hired men in the boat to follow Jesus. The group reaches Capernaum, a town by the lake. On a Sabbath, Jesus teaches in the synagogue. His hearers are struck, because he teaches as one with authority, not like the scribes, who explained the Law by leaning on earlier teachers."
+  },
+  "action": {
+   "fr": "Lis lentement un passage de l'Évangile aujourd'hui et note une phrase qui te semble dite pour toi.",
+   "en": "Read a passage of the Gospel slowly today and write down one sentence that seems meant for you."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette autorité celle du Fils, qui parle en son propre nom. Bède le Vénérable, cité dans la Catena Aurea, explique que les scribes répétaient Moïse et les prophètes, tandis que Jésus, Seigneur de Moïse lui-même, complétait la Loi. L'Église comprend son propre enseignement comme un service rendu à cette parole, qu'elle transmet sans la remplacer.",
+   "en": "The Catholic tradition sees in this authority that of the Son, who speaks in his own name. The Venerable Bede, quoted in the Catena Aurea, explains that the scribes repeated Moses and the prophets, whereas Jesus, the Lord of Moses himself, completed the Law. The Church understands its own teaching as a service to this word, which it hands on without replacing it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans ce passage le Verbe de Dieu qui enseigne lui-même, avec l'autorité qui a créé le monde. Théophylacte d'Ohrid, cité dans la Catena Aurea, rappelle que le repos du sabbat permettait au peuple de se rassembler pour écouter la lecture sacrée. La Parole entendue dans l'assemblée reste le lieu où le Christ enseigne aujourd'hui.",
+   "en": "The Orthodox tradition sees in this passage the Word of God teaching in person, with the authority that created the world. Theophylact of Ohrid, quoted in the Catena Aurea, recalls that the Sabbath rest allowed the people to gather and hear the sacred reading. The Word heard in the assembly remains the place where Christ teaches today."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reconnaissent dans l'enseignement de Jésus l'autorité même de Dieu.",
+    "en": "Both traditions recognise in Jesus' teaching the very authority of God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:22",
+    "usage": "quote",
+    "quote": "as the God and Lord of Moses himself"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:21",
+    "usage": "paraphrase"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-23-26",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 23,
+  "chapterEnd": 1,
+  "verseEnd": 26,
+  "category": "combat-spirituel",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Dans la synagogue, un homme habité par un esprit impur interrompt l'enseignement de Jésus. L'esprit reconnaît Jésus et l'appelle « le Saint de Dieu », mais Jésus le fait taire et le chasse. Marc place ce premier miracle dans un lieu de prière, comme le signe que le règne de Dieu commence par la défaite du mal. Le récit reflète les représentations de l'époque et ne donne pas de règle pour interpréter aujourd'hui des troubles de santé.",
+   "en": "In the synagogue, a man with an unclean spirit interrupts Jesus' teaching. The spirit recognises Jesus and calls him \"the Holy One of God\", but Jesus silences it and drives it out. Mark sets this first miracle in a place of prayer, as a sign that God's reign begins with the defeat of evil. The story reflects the ideas of its time and gives no rule for interpreting health problems today."
+  },
+  "action": {
+   "fr": "Quand une pensée sombre revient, prends un instant pour la remettre à Dieu en une phrase.",
+   "en": "When a dark thought comes back, take a moment to hand it over to God in one sentence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce passage comme le signe que le Christ est vainqueur du mal et que son autorité libère. Bède le Vénérable, cité dans la Catena Aurea, note que la mort étant entrée dans le monde par l'envie du diable, il convenait que la guérison agisse d'abord contre l'auteur de la mort. L'Église parle du combat spirituel avec prudence et demande un discernement qui tient compte de la médecine.",
+   "en": "The Catholic tradition reads this passage as a sign that Christ conquers evil and that his authority sets people free. The Venerable Bede, quoted in the Catena Aurea, notes that since death entered the world through the devil's envy, it was fitting that healing should first work against the author of death. The Church speaks of spiritual struggle with care and asks for a discernment that takes medicine into account."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit ce passage comme l'entrée du Christ dans le combat contre les puissances qui défigurent l'homme. Théophylacte d'Ohrid, cité dans la Catena Aurea, remarque que le démon tient pour sa propre perte le fait de devoir quitter l'homme. La prière, le jeûne et les sacrements sont compris comme la participation du croyant à cette victoire du Christ.",
+   "en": "The Orthodox tradition reads this passage as Christ entering the struggle against the powers that disfigure humanity. Theophylact of Ohrid, quoted in the Catena Aurea, remarks that the demon counts having to leave the man as its own ruin. Prayer, fasting and the sacraments are understood as the believer's share in this victory of Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la victoire du Christ sur le mal et l'appel à un combat spirituel mené avec discernement.",
+    "en": "Both traditions see here Christ's victory over evil and a call to a spiritual struggle waged with discernment."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:23",
+    "usage": "quote",
+    "quote": "the medicine of healing should first work against the author of death"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:24",
+    "usage": "quote",
+    "quote": "to come out of man the devil considers as his own perdition"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-27-30",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 27,
+  "chapterEnd": 1,
+  "verseEnd": 30,
+  "category": "miracles",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Tous sont saisis : « Qu'est-ce que ceci? Une nouvelle doctrine! » La nouveauté tient à l'autorité de Jésus, à qui même les esprits impurs obéissent. Sa réputation se répand aussitôt dans toute la Galilée. La scène passe alors de la synagogue à la maison de Simon et d'André, où la belle-mère de Simon est couchée avec de la fièvre.",
+   "en": "Everyone is amazed: \"What is this? A new teaching?\" The newness lies in Jesus' authority, which even the unclean spirits obey. His reputation spreads at once throughout Galilee. The scene then moves from the synagogue to the house of Simon and Andrew, where Simon's mother-in-law lies sick with a fever."
+  },
+  "action": {
+   "fr": "Parle aujourd'hui à Dieu d'une personne malade ou fatiguée que tu connais, en la nommant.",
+   "en": "Speak to God today about someone you know who is ill or worn out, naming them."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que Jésus passe du lieu de prière à la maison : le salut rejoint la vie de famille. Elle y voit aussi l'intercession, puisque les disciples parlent de la malade à Jésus avant qu'il n'agisse. Prier pour quelqu'un, c'est parler de lui au Seigneur avec confiance.",
+   "en": "The Catholic tradition notes that Jesus moves from the place of prayer to the house: salvation reaches family life. It also sees intercession here, since the disciples speak to Jesus about the sick woman before he acts. To pray for someone is to speak of them to the Lord with trust."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans cette maison une image de l'Église domestique, où le Christ entre pour guérir. Théophylacte d'Ohrid, cité dans la Catena Aurea, observe que celle qui aurait dû servir le repas en était empêchée par la fièvre. La guérison rend la personne à sa place et à sa vocation de service.",
+   "en": "The Orthodox tradition sees in this house an image of the domestic Church, which Christ enters to heal. Theophylact of Ohrid, quoted in the Catena Aurea, observes that the woman who should have served the meal was kept from it by the fever. Healing gives a person back their place and their calling to serve."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ qui entre dans la maison pour guérir, et la valeur de la prière pour les autres.",
+    "en": "Both traditions see here Christ entering the home to heal, and the worth of praying for others."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:30",
+    "usage": "quote",
+    "quote": "she who ought to have ministered was prevented by a fever"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-31-34",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 31,
+  "chapterEnd": 1,
+  "verseEnd": 34,
+  "category": "onction-guerison",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus prend la main de la malade et la fait lever ; la fièvre la quitte et elle se met à servir. Le soir, après le coucher du soleil, on lui amène tous les malades et les possédés. Le sabbat se terminait au coucher du soleil, ce qui explique sans doute l'heure. Jésus guérit beaucoup de monde, mais il interdit aux démons de parler, car ils savent qui il est.",
+   "en": "Jesus takes the sick woman by the hand and raises her up; the fever leaves her and she begins to serve. In the evening, after sunset, all the sick and the possessed are brought to him. The Sabbath ended at sunset, which probably explains the hour. Jesus heals many people, but he does not let the demons speak, because they know who he is."
+  },
+  "action": {
+   "fr": "Tends la main aujourd'hui à quelqu'un qui a besoin d'aide, par un geste simple et concret.",
+   "en": "Reach out today to someone who needs help, with one simple and concrete gesture."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit le geste de Jésus, qui prend la main et relève, comme une image de la résurrection et des sacrements de guérison. Le service de la belle-mère de Simon y est vu comme la réponse naturelle à la grâce reçue. Le silence imposé aux démons rappelle que la vraie connaissance du Christ vient de la foi, et pas de la seule puissance.",
+   "en": "The Catholic tradition reads Jesus' gesture, taking her hand and raising her up, as an image of the resurrection and of the sacraments of healing. The service of Simon's mother-in-law is seen as the natural answer to grace received. The silence imposed on the demons recalls that true knowledge of Christ comes from faith, not from power alone."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans la main tendue du Christ le geste de Dieu qui relève l'homme tombé. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que la foule attend le soir parce qu'elle croyait interdit de guérir le jour du sabbat. Les guérisons sont lues comme les signes d'une création que le Christ commence à restaurer.",
+   "en": "The Orthodox tradition sees in Christ's outstretched hand the gesture of God raising fallen humanity. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the crowd waits for evening because it thought healing on the Sabbath was forbidden. The healings are read as signs of a creation that Christ begins to restore."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ces guérisons les signes du salut que le Christ apporte à toute la personne.",
+    "en": "Both traditions see in these healings the signs of the salvation Christ brings to the whole person."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:32",
+    "usage": "paraphrase"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-35-38",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 35,
+  "chapterEnd": 1,
+  "verseEnd": 38,
+  "category": "silence-confiance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Très tôt, alors qu'il fait encore nuit, Jésus se retire dans un lieu désert pour prier. Simon et les autres le cherchent et lui disent : « Tous te cherchent. » Jésus ne revient pas profiter du succès de la veille. Il part prêcher dans les bourgades voisines, car c'est pour cela qu'il est venu.",
+   "en": "Very early, while it is still dark, Jesus withdraws to a deserted place to pray. Simon and the others look for him and tell him, \"Everyone is looking for you.\" Jesus does not go back. He leaves to preach in the nearby towns, because that is why he came, rather than enjoy the success of the day before."
+  },
+  "action": {
+   "fr": "Demain matin, avant de regarder ton téléphone, prends deux minutes de silence.",
+   "en": "Tomorrow morning, before you look at your phone, take two minutes of silence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette prière matinale le modèle de la prière personnelle, qui précède et nourrit l'action. Bède le Vénérable, cité dans la Catena Aurea, lit aussi le retour de l'aube comme une image de la résurrection. La mission de l'Église naît de cette union avec le Père, et non d'abord de ses propres projets.",
+   "en": "The Catholic tradition sees this early-morning prayer as the pattern of personal prayer, which comes before action and feeds it. The Venerable Bede, quoted in the Catena Aurea, also reads the returning dawn as an image of the resurrection. The Church's mission is born of this union with the Father, and not first of its own plans."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans ce passage la source de la prière silencieuse, que les moines ont cultivée dans les lieux déserts. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que l'enseignement ne devait pas rester enfermé en un seul lieu, mais rayonner partout. Prière et annonce de l'Évangile vont ensemble.",
+   "en": "The Orthodox tradition sees in this passage the source of silent prayer, which monks have cultivated in desert places. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the teaching was not to be shut up in one place but to shine out everywhere. Prayer and the proclamation of the Gospel go together."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la prière de Jésus la source de sa mission et un modèle pour chaque croyant.",
+    "en": "Both traditions see Jesus' prayer as the source of his mission and a pattern for every believer."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:35",
+    "usage": "paraphrase"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:38",
+    "usage": "quote",
+    "quote": "it was not right to shut up doctrine in one place"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-39-42",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 39,
+  "chapterEnd": 1,
+  "verseEnd": 42,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Un lépreux s'approche de Jésus, alors que la Loi tenait les lépreux à l'écart des autres. Il se jette à genoux : « Si tu le veux, tu peux me rendre pur. » Ému de compassion, Jésus le touche, un geste qui le rendait lui-même impur selon les règles de pureté. Ici, l'inverse se produit : le malade devient pur.",
+   "en": "A man with leprosy comes to Jesus, although the Law kept lepers apart from others. He kneels down: \"If you want to, you can make me clean.\" Moved with compassion, Jesus touches him, a gesture that made Jesus himself unclean under the purity rules. Here the opposite happens: the sick man is made clean."
+  },
+  "action": {
+   "fr": "Pense à une personne tenue à l'écart autour de toi et fais un pas vers elle cette semaine.",
+   "en": "Think of someone around you who is kept at a distance and take a step towards them this week."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ce récit comme une image du pardon : le Christ touche ce qui est blessé et le rend pur. Bède le Vénérable, cité dans la Catena Aurea, voit dans la main tendue du Sauveur le Verbe incarné qui touche la nature humaine pour la purifier. Le sacrement de la réconciliation est souvent compris dans cette lumière.",
+   "en": "The Catholic tradition reads this story as an image of forgiveness: Christ touches what is wounded and makes it clean. The Venerable Bede, quoted in the Catena Aurea, sees in the Saviour's outstretched hand the incarnate Word touching human nature to cleanse it. The sacrament of reconciliation is often understood in this light."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le lépreux ne demande pas à Jésus de prier Dieu pour lui, mais de vouloir lui-même. Théophylacte d'Ohrid, cité dans la Catena Aurea, y voit la foi d'un homme qui le tient pour vrai Dieu. La guérison révèle ainsi la divinité du Christ et sa compassion pour l'humanité blessée.",
+   "en": "The Orthodox tradition stresses that the leper does not ask Jesus to pray to God for him, but to will it himself. Theophylact of Ohrid, quoted in the Catena Aurea, sees in this the faith of a man who takes him for true God. The healing thus reveals Christ's divinity and his compassion for wounded humanity."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la compassion du Christ, qui touche et purifie ce qui était exclu.",
+    "en": "Both traditions see here the compassion of Christ, who touches and cleanses what was excluded."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:41",
+    "usage": "paraphrase"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:40",
+    "usage": "quote",
+    "quote": "If thou wilt, as thinking Him very God"
+   }
+  ]
+ },
+ {
+  "key": "mrk-1-43-45",
+  "book": "MRK",
+  "chapterStart": 1,
+  "verseStart": 43,
+  "chapterEnd": 1,
+  "verseEnd": 45,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus renvoie l'homme guéri avec des consignes sévères : ne rien dire, et aller se montrer au prêtre pour faire constater la guérison, comme le prévoit la Loi de Moïse. Beaucoup de spécialistes parlent ici du « secret messianique » de Marc : Jésus évite une renommée qui le réduirait à un guérisseur. L'homme raconte pourtant tout partout. Jésus ne peut plus entrer ouvertement dans les villes et reste dans des lieux déserts, où l'on vient à lui.",
+   "en": "Jesus sends the healed man away with strict orders: say nothing, and go show yourself to the priest to have the healing confirmed, as the Law of Moses requires. Many scholars speak here of Mark's \"messianic secret\": Jesus avoids a fame that would reduce him to a healer. The man tells everyone anyway. Jesus can no longer enter towns openly and stays in deserted places, where people come to him."
+  },
+  "action": {
+   "fr": "Remercie aujourd'hui quelqu'un pour un service qu'il t'a rendu il y a longtemps.",
+   "en": "Thank someone today for a favour they did you a long time ago."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que Jésus respecte la Loi : il envoie l'homme au prêtre et lui demande l'offrande prescrite. Bède le Vénérable, cité dans la Catena Aurea, explique que le prêtre devait comprendre que la guérison venait de la grâce de Dieu, au-dessus de la Loi. Le Christ accomplit la Loi sans l'abolir.",
+   "en": "The Catholic tradition notes that Jesus respects the Law: he sends the man to the priest and asks for the prescribed offering. The Venerable Bede, quoted in the Catena Aurea, explains that the priest was to understand that the healing came from God's grace, above the Law. Christ fulfils the Law without abolishing it."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce passage comme une leçon de reconnaissance. Théophylacte d'Ohrid, cité dans la Catena Aurea, estime que celui qui a reçu un bienfait doit rendre grâce, même si son bienfaiteur ne le demande pas. L'humilité du Christ, qui fuit la gloire, et la joie de l'homme guéri se répondent.",
+   "en": "The Orthodox tradition also reads this passage as a lesson in gratitude. Theophylact of Ohrid, quoted in the Catena Aurea, holds that whoever has received a kindness should give thanks, even if the benefactor does not ask for it. The humility of Christ, who flees glory, and the joy of the healed man answer each other."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'humilité du Christ et la reconnaissance due à Dieu pour ses bienfaits.",
+    "en": "Both traditions see here Christ's humility and the gratitude owed to God for his gifts."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:44",
+    "usage": "paraphrase"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 1",
+    "ref": "MRK 1:45",
+    "usage": "paraphrase"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-1-4",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 1,
+  "chapterEnd": 2,
+  "verseEnd": 4,
+  "category": "miracles",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "De retour à Capharnaüm, Jésus enseigne dans une maison si pleine qu'on ne peut plus approcher de la porte. Quatre hommes portent un paralysé. Faute de passage, ils montent sur le toit, l'ouvrent et descendent le malade sur sa natte devant Jésus. Les toits de la région, faits de branchages et de terre, rendaient ce geste possible.",
+   "en": "Back in Capernaum, Jesus teaches in a house so crowded that no one can get near the door. Four men carry a paralysed man. With no way in, they climb onto the roof, open it and lower the sick man on his mat in front of Jesus. The local roofs, made of branches and earth, made this possible."
+  },
+  "action": {
+   "fr": "Pense à quelqu'un que tu pourrais « porter » cette semaine par un service concret, comme ces quatre amis.",
+   "en": "Think of someone you could \"carry\" this week through a concrete service, like these four friends."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces quatre porteurs une image de l'Église qui intercède et conduit les autres au Christ. Bède le Vénérable, cité dans la Catena Aurea, souligne que la compassion de Dieu ne délaisse même pas les personnes charnelles. L'ingéniosité des amis montre que la charité trouve des chemins là où tout semble bloqué.",
+   "en": "The Catholic tradition sees in these four bearers an image of the Church interceding and bringing others to Christ. The Venerable Bede, quoted in the Catena Aurea, stresses that God's compassion does not abandon even carnal people. The friends' ingenuity shows that charity finds ways where everything seems blocked."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ce récit de façon spirituelle. Théophylacte d'Ohrid, cité dans la Catena Aurea, voit dans le toit l'intelligence, qui doit être ouverte et débarrassée des choses terrestres pour que l'homme soit porté jusqu'au Christ. La guérison commence par cette ouverture intérieure.",
+   "en": "The Orthodox tradition also reads this story spiritually. Theophylact of Ohrid, quoted in the Catena Aurea, sees in the roof the intellect, which must be opened and cleared of earthly things so that a person can be carried to Christ. Healing begins with this inner opening."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la foi qui agit et la charité qui conduit les autres au Christ.",
+    "en": "Both traditions see here faith at work and charity that brings others to Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:1",
+    "usage": "quote",
+    "quote": "Because the compassion of God deserts not even carnal persons"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:4",
+    "usage": "quote",
+    "quote": "For the roof is the intellect, which is set above all those things which are within us"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-5-8",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 5,
+  "chapterEnd": 2,
+  "verseEnd": 8,
+  "category": "repentir-pardon",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Avant toute guérison, Jésus dit au paralysé : « Mon enfant, tes péchés sont pardonnés ». Les scribes présents s'en scandalisent en silence : « Qui peut pardonner les péchés, si ce n'est Dieu seul? » Leur objection est juste dans leur logique. Jésus lit leurs pensées, ce qui renforce la question de son identité.",
+   "en": "Before any healing, Jesus tells the paralysed man, \"Son, your sins are forgiven you.\" The scribes present are silently shocked: \"Who can forgive sins but God alone?\" Their objection is sound in their own logic. Jesus reads their thoughts, which sharpens the question of who he is."
+  },
+  "action": {
+   "fr": "Ce soir, demande pardon à Dieu pour une chose précise de ta journée, puis accueille ce pardon sans le discuter.",
+   "en": "Tonight, ask God's forgiveness for one specific thing in your day, then accept that forgiveness without arguing with it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit ici l'affirmation de la divinité du Christ, qui pardonne avec l'autorité de Dieu, et le fondement du sacrement de la réconciliation. Bède le Vénérable, cité dans la Catena Aurea, remarque combien la foi de chacun pèse auprès de Dieu, puisque la foi des porteurs obtient tant pour un autre. Le pardon y précède la guérison du corps.",
+   "en": "The Catholic tradition reads here the affirmation of Christ's divinity, who forgives with God's authority, and the foundation of the sacrament of reconciliation. The Venerable Bede, quoted in the Catena Aurea, notes how much each person's faith weighs with God, since the bearers' faith obtains so much for another. Forgiveness comes before bodily healing."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans ce pardon la guérison de la personne entière, âme et corps, par le Christ médecin. Théophylacte d'Ohrid, cité dans la Catena Aurea, pense que Jésus voit aussi la foi du malade lui-même, qui ne se serait pas laissé porter sans espérer la guérison. La confession y est comprise comme une rencontre avec ce même Christ qui pardonne.",
+   "en": "The Orthodox tradition sees in this forgiveness the healing of the whole person, soul and body, by Christ the physician. Theophylact of Ohrid, quoted in the Catena Aurea, thinks that Jesus also sees the faith of the sick man himself, who would not have let himself be carried without hoping to be healed. Confession is understood as a meeting with this same forgiving Christ."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions reconnaissent ici le pouvoir divin de pardonner, transmis dans le sacrement de la confession.",
+    "en": "Both traditions recognise here the divine power to forgive, handed on in the sacrament of confession."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:5",
+    "usage": "quote",
+    "quote": "how much each person's own faith weighs with God"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:5",
+    "usage": "quote",
+    "quote": "He saw the faith of the sick man himself"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-9-12",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 9,
+  "chapterEnd": 2,
+  "verseEnd": 12,
+  "category": "miracles",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus pose une question : qu'est-ce qui est le plus facile, déclarer les péchés pardonnés ou guérir le corps ? Le pardon ne se voit pas, la guérison se voit. Il guérit donc le paralysé pour montrer que le Fils de l'homme a sur la terre le pouvoir de pardonner les péchés. L'homme se lève, prend son lit et sort devant tous, qui rendent gloire à Dieu.",
+   "en": "Jesus asks a question: which is easier, to declare sins forgiven or to heal the body? Forgiveness cannot be seen; healing can. So he heals the paralysed man to show that the Son of Man has authority on earth to forgive sins. The man gets up, takes his mat and walks out in front of everyone, who give glory to God."
+  },
+  "action": {
+   "fr": "Repère un changement visible que ta foi pourrait produire aujourd'hui dans ta façon d'agir avec quelqu'un.",
+   "en": "Pick one visible change your faith could make today in the way you treat someone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce miracle le signe qui confirme une réalité invisible, comme les sacrements rendent visible la grâce. Bède le Vénérable, cité dans la Catena Aurea, écrit qu'un signe charnel est donné pour prouver le signe spirituel. Le titre de « Fils de l'homme » y est lu comme l'annonce discrète de sa mission divine.",
+   "en": "The Catholic tradition sees in this miracle a sign that confirms an invisible reality, as the sacraments make grace visible. The Venerable Bede, quoted in the Catena Aurea, writes that a bodily sign is given to prove the spiritual one. The title \"Son of Man\" is read as a discreet announcement of his divine mission."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le Christ guérit d'abord l'âme, ce qu'il était venu chercher, puis le corps. Saint Jean Chrysostome, cité dans la Catena Aurea, explique que la parole est ainsi confirmée par l'œuvre devant ceux qui doutent. Le lit porté par l'homme guéri devient l'image d'un corps désormais au service du bien.",
+   "en": "The Orthodox tradition stresses that Christ first heals the soul, which he had come to seek, and then the body. Saint John Chrysostom, quoted in the Catena Aurea, explains that the word is thus confirmed by the deed before those who doubt. The mat carried by the healed man becomes an image of a body now at the service of the good."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ce miracle la preuve visible du pardon divin accordé par le Christ.",
+    "en": "Both traditions see in this miracle the visible proof of the divine forgiveness Christ grants."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:10",
+    "usage": "quote",
+    "quote": "A carnal sign therefore is given, that the spiritual sign may be proved"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:10",
+    "usage": "quote",
+    "quote": "His word might be confirmed by the work"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-13-16",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 13,
+  "chapterEnd": 2,
+  "verseEnd": 16,
+  "category": "justice-misericorde",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Au bord du lac, Jésus appelle Lévi, un collecteur de taxes, assis à son bureau. Ces collecteurs travaillaient pour l'occupant ou ses alliés et passaient pour des fraudeurs. Lévi se lève et le suit. Jésus partage ensuite un repas chez lui avec d'autres collecteurs et des pécheurs, ce qui choque les scribes et les pharisiens.",
+   "en": "By the lake, Jesus calls Levi, a tax collector sitting at his booth. Tax collectors worked for the occupying power or its allies and were seen as cheats. Levi gets up and follows him. Jesus then shares a meal at his house with other tax collectors and sinners, which shocks the scribes and the Pharisees."
+  },
+  "action": {
+   "fr": "Invite cette semaine à un café ou à un repas une personne que tu n'aurais pas spontanément choisie.",
+   "en": "This week, invite someone you would not naturally have chosen for a coffee or a meal."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'appel de Lévi, identifié à l'évangéliste Matthieu, le signe que personne n'est exclu de la miséricorde. Bède le Vénérable, cité dans la Catena Aurea, rappelle que suivre, c'est imiter, et que celui qui prenait le bien des autres quitte maintenant le sien. Le repas partagé annonce l'Eucharistie, offerte aux pécheurs pour leur guérison.",
+   "en": "The Catholic tradition sees in the call of Levi, identified with the evangelist Matthew, a sign that no one is excluded from mercy. The Venerable Bede, quoted in the Catena Aurea, recalls that to follow is to imitate, and that the man who used to take others' goods now leaves his own. The shared meal points to the Eucharist, offered to sinners for their healing."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe honore aussi Lévi comme l'apôtre et évangéliste Matthieu. Théophylacte d'Ohrid, cité dans la Catena Aurea, tire une leçon d'humilité du retrait de Jésus au bord de la mer : plus on fuit la gloire, plus elle vous poursuit. La table partagée avec les pécheurs montre un Dieu qui vient chercher l'homme là où il est.",
+   "en": "The Orthodox tradition also honours Levi as the apostle and evangelist Matthew. Theophylact of Ohrid, quoted in the Catena Aurea, draws a lesson of humility from Jesus going off to the sea: the more one flees glory, the more it pursues. The table shared with sinners shows a God who comes looking for people where they are."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la miséricorde du Christ qui appelle les pécheurs à le suivre.",
+    "en": "Both traditions see here the mercy of Christ calling sinners to follow him."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:14",
+    "usage": "quote",
+    "quote": "to follow is to imitate"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:13",
+    "usage": "quote",
+    "quote": "the more thou fliest from glory, the more she herself pursues thee"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-17-20",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 17,
+  "chapterEnd": 2,
+  "verseEnd": 20,
+  "category": "joie-paix",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus répond aux critiques par une image : « Ce ne sont pas ceux qui se portent bien qui ont besoin de médecin, mais les malades ». On lui demande ensuite pourquoi ses disciples ne jeûnent pas comme ceux de Jean et des pharisiens. Il se compare à l'époux d'une noce : tant qu'il est là, c'est la fête. Mais des jours viendront où l'époux sera enlevé, allusion probable à sa mort.",
+   "en": "Jesus answers the critics with an image: \"Those who are healthy have no need for a physician, but those who are sick.\" Then comes a question about fasting. Why do his disciples not fast like those of John and of the Pharisees? Jesus compares himself to the bridegroom at a wedding: while he is there, it is a feast. But days will come when the bridegroom is taken away, probably a hint at his death."
+  },
+  "action": {
+   "fr": "Choisis un petit jeûne cette semaine (un écran, un dessert, une plainte) et offre-le pour quelqu'un.",
+   "en": "Choose a small fast this week (a screen, a dessert, a complaint) and offer it for someone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le Christ le médecin des âmes et dans l'Église un hôpital pour les pécheurs plutôt qu'un club de justes. Elle lit l'annonce de l'époux enlevé comme le fondement du jeûne chrétien, vécu en particulier le Vendredi saint. Le jeûne y est une attente aimante, non une performance.",
+   "en": "The Catholic tradition sees in Christ the physician of souls and in the Church a hospital for sinners rather than a club of the righteous. It reads the announcement of the bridegroom taken away as the foundation of Christian fasting, lived especially on Good Friday. Fasting is a loving wait, not a performance."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime appeler le Christ l'Époux de l'Église et de l'âme. Elle garde un jeûne exigeant tout au long de l'année, compris comme une manière de désirer l'Époux et de libérer le cœur. Le jeûne n'y a de sens qu'uni à la prière et à l'aumône.",
+   "en": "The Orthodox tradition loves to call Christ the Bridegroom of the Church and of the soul. It keeps a demanding fast throughout the year, understood as a way of longing for the Bridegroom and freeing the heart. Fasting makes sense there only when joined to prayer and almsgiving."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le Christ le médecin et l'Époux, et fondent sur ce passage la pratique du jeûne.",
+    "en": "Both traditions see Christ as physician and Bridegroom, and ground the practice of fasting in this passage."
+   }
+  },
+  "sources": []
+ },
+ {
+  "key": "mrk-2-21-24",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 21,
+  "chapterEnd": 2,
+  "verseEnd": 24,
+  "category": "royaume-de-dieu",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus donne deux images : on ne coud pas une pièce neuve sur un vieil habit, et on ne met pas du vin nouveau dans de vieilles outres. La nouveauté qu'il apporte ne se laisse pas enfermer dans les anciennes formes. Puis, un jour de sabbat, ses disciples arrachent des épis en traversant un champ. Les pharisiens y voient un travail interdit ce jour-là.",
+   "en": "Jesus gives two images: you do not sew a new patch on an old garment, and you do not put new wine into old wineskins. The newness he brings cannot be locked into old forms. Then, on a Sabbath, his disciples pick ears of grain while crossing a field. The Pharisees see this as work forbidden on that day."
+  },
+  "action": {
+   "fr": "Repère une habitude vieille et usée dans ta vie spirituelle et ose la renouveler cette semaine.",
+   "en": "Find one old, worn-out habit in your spiritual life and dare to renew it this week."
+  },
+  "catholic": {
+   "fr": "La tradition catholique lit le vin nouveau comme la grâce de l'Évangile, qui demande un cœur renouvelé. Bède le Vénérable, cité dans la Catena Aurea, note que les disciples avaient faim, selon la nature humaine, car ils n'avaient même pas le temps de manger. La Loi est accomplie quand elle sert la vie.",
+   "en": "The Catholic tradition reads the new wine as the grace of the Gospel, which calls for a renewed heart. The Venerable Bede, quoted in the Catena Aurea, notes that the disciples were hungry, according to human nature, since they did not even have time to eat. The Law is fulfilled when it serves life."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit dans les outres neuves l'homme renouvelé par le baptême et l'Esprit. Saint Jean Chrysostome, cité dans la Catena Aurea, remarque que les disciples mangeaient une nourriture simple, non pour le plaisir, mais par nécessité. La vie nouvelle se vit dans la sobriété plus que dans les règles extérieures.",
+   "en": "The Orthodox tradition sees in the new wineskins the person renewed by baptism and the Spirit. Saint John Chrysostom, quoted in the Catena Aurea, remarks that the disciples ate simple food, not for pleasure but out of need. The new life is lived in sobriety more than in outward rules."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la nouveauté de l'Évangile, qui renouvelle l'homme de l'intérieur.",
+    "en": "Both traditions see here the newness of the Gospel, which renews people from within."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:23",
+    "usage": "quote",
+    "quote": "according to man's nature, they were hungry"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:23",
+    "usage": "quote",
+    "quote": "they ate simple food, not for pleasure, but on account of the necessity of nature"
+   }
+  ]
+ },
+ {
+  "key": "mrk-2-25-28",
+  "book": "MRK",
+  "chapterStart": 2,
+  "verseStart": 25,
+  "chapterEnd": 2,
+  "verseEnd": 28,
+  "category": "justice-misericorde",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus répond par l'exemple de David, qui, ayant faim, mangea les pains réservés aux prêtres. Marc nomme le grand prêtre Abiathar, alors que le livre de Samuel parle d'Ahimélec : les spécialistes discutent cette différence. La conclusion est claire. « Le sabbat a été fait pour l'homme, et non l'homme pour le sabbat », et le Fils de l'homme en est le maître.",
+   "en": "Jesus answers with the example of David, who, being hungry, ate the bread reserved for the priests. Mark names the high priest Abiathar, while the book of Samuel speaks of Ahimelech: scholars discuss this difference. The conclusion is clear. \"The Sabbath was made for man, not man for the Sabbath,\" and the Son of Man is its lord."
+  },
+  "action": {
+   "fr": "Garde dans ta semaine un vrai temps de repos, pensé comme un cadeau et non comme une obligation.",
+   "en": "Keep a real time of rest in your week, thought of as a gift and not as a duty."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le dimanche, jour de la résurrection, l'accomplissement du sabbat : un repos donné pour l'homme et pour Dieu. Bède le Vénérable, cité dans la Catena Aurea, appelle le Christ le vrai Roi et Prêtre, et le Seigneur du sabbat. Les règles religieuses y sont comprises au service de la personne.",
+   "en": "The Catholic tradition sees in Sunday, the day of the resurrection, the fulfilment of the Sabbath: a rest given for people and for God. The Venerable Bede, quoted in the Catena Aurea, calls Christ the true King and Priest, and the Lord of the Sabbath. Religious rules are understood as serving the person."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans le dimanche le jour du Seigneur ressuscité, qu'elle appelle souvent le huitième jour. Le Christ, maître du sabbat, y est confessé comme le Créateur qui a donné le repos à sa création. Le repos devient participation à la vie du Royaume.",
+   "en": "The Orthodox tradition also sees Sunday as the day of the risen Lord, often called the eighth day. Christ, lord of the Sabbath, is confessed as the Creator who gave rest to his creation. Rest becomes a sharing in the life of the Kingdom."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le Christ le Seigneur du sabbat et dans le dimanche le jour de la résurrection.",
+    "en": "Both traditions see Christ as Lord of the Sabbath and Sunday as the day of the resurrection."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 2",
+    "ref": "MRK 2:28",
+    "usage": "quote",
+    "quote": "the true King and Priest, and Lord of the sabbath"
+   }
+  ]
+ }
 ]
