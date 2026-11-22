@@ -8431,5 +8431,695 @@
     "quote": "For tears brought Peter by penitence to Christ"
    }
   ]
+ },
+ {
+  "key": "mrk-15-1-4",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 1,
+  "chapterEnd": 15,
+  "verseEnd": 4,
+  "category": "passion",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Dès le matin, les chefs des prêtres tiennent conseil avec les anciens, les scribes et tout le sanhédrin. Ils lient Jésus et le livrent à Pilate, le gouverneur romain. Pilate lui demande s'il est le roi des Juifs, et Jésus répond : « Tu le dis. » Les chefs des prêtres portent contre lui de nombreuses accusations. Pilate s'étonne qu'il ne réponde rien.",
+   "en": "Early in the morning, the chief priests hold a council with the elders, scribes and the whole Sanhedrin. They bind Jesus and hand him over to Pilate, the Roman governor. Pilate asks him whether he is the King of the Jews, and Jesus answers, \"So you say.\" The chief priests bring many accusations against him. Pilate is surprised that he answers nothing."
+  },
+  "action": {
+   "fr": "Quand tu es accusé, demande au Christ la grâce d'une parole juste ou d'un silence paisible.",
+   "en": "When you are accused, ask Christ for the grace of a right word or a peaceful silence."
+  },
+  "catholic": {
+   "fr": "La tradition catholique souligne que la Passion engage des acteurs précis, autorités religieuses et pouvoir romain, et que la responsabilité ne peut être attribuée à tout un peuple. Bède le Vénérable, cité dans la Catena Aurea, remarque que Pilate ne l'interroge que sur sa royauté, faute d'autre accusation. Le silence de Jésus révèle sa liberté.",
+   "en": "The Catholic tradition stresses that the Passion involves specific actors, religious authorities and Roman power, and that the responsibility cannot be laid on a whole people. The Venerable Bede, quoted in the Catena Aurea, notes that Pilate questions him only about his kingship, for lack of any other charge. Jesus' silence reveals his freedom."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante aux offices du Vendredi saint que ce sont nos péchés qui ont conduit le Christ à la croix. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que Pilate s'étonnait qu'un maître si éloquent, capable de réfuter ses accusateurs, ne réponde rien. Le Christ se tait pour accomplir sa Passion.",
+   "en": "The Orthodox tradition sings in the Good Friday services that it is our sins that brought Christ to the cross. Theophylact of Ohrid, quoted in the Catena Aurea, explains that Pilate wondered that so eloquent a teacher, able to refute his accusers, answered nothing. Christ keeps silent to fulfil his Passion."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans le silence du Christ sa liberté devant la Passion, qu'il accepte pour les péchés de tous.",
+    "en": "Both traditions see in Christ's silence his freedom before the Passion, which he accepts for the sins of all."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:2",
+    "usage": "quote",
+    "quote": "By Pilate's asking Him about no other accusation"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:5",
+    "usage": "quote",
+    "quote": "But Pilate wondered, because, though He was a teacher of the law, and eloquent"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-5-8",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 5,
+  "chapterEnd": 15,
+  "verseEnd": 8,
+  "category": "passion",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus ne répond plus rien, ce qui étonne Pilate. À chaque fête, le gouverneur relâche un prisonnier choisi par la foule. Il y a en prison un nommé Barabbas, arrêté avec des émeutiers pour un meurtre commis pendant une révolte. La foule monte et demande à Pilate d'accorder la grâce habituelle.",
+   "en": "Jesus no longer answers anything, which surprises Pilate. At every feast the governor releases a prisoner chosen by the crowd. In prison there is a man named Barabbas, arrested with rioters for a murder committed during an uprising. The crowd goes up and asks Pilate to grant the usual favour."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les prisonniers, coupables ou innocents.",
+   "en": "Today, pray for prisoners, guilty or innocent."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'échange entre Jésus et Barabbas une image du salut : l'innocent prend la place du coupable. Bède le Vénérable, cité dans la Catena Aurea, remarque que Pilate offre plusieurs occasions de relâcher Jésus, d'abord en opposant un brigand au Juste. La Glose explique la coutume de la grâce pascale.",
+   "en": "The Catholic tradition sees in the exchange between Jesus and Barabbas an image of salvation: the innocent takes the place of the guilty. The Venerable Bede, quoted in the Catena Aurea, notes that Pilate gives several chances to release Jesus, first by setting a robber against the Just One. The Gloss explains the custom of the Passover pardon."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple aussi dans cette scène l'innocent livré à la place du coupable. Chacun peut se reconnaître en Barabbas, libéré par la mort d'un autre. Le silence du Christ y est lu comme celui de l'agneau mené à l'abattoir.",
+   "en": "The Orthodox tradition also contemplates in this scene the innocent handed over in place of the guilty. Each person can recognise themselves in Barabbas, freed by another's death. Christ's silence is read here as that of the lamb led to the slaughter."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cet échange l'innocent qui prend la place du coupable.",
+    "en": "Both traditions see in this exchange the innocent taking the place of the guilty."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:7",
+    "usage": "quote",
+    "quote": "Pilate furnished many opportunities of releasing Jesus"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:6",
+    "usage": "quote",
+    "quote": "Which indeed he was accustomed to do, to obtain favour with the people"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-9-12",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 9,
+  "chapterEnd": 15,
+  "verseEnd": 12,
+  "category": "passion",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Pilate demande s'ils veulent qu'il relâche le roi des Juifs, car il sait que les chefs des prêtres l'ont livré par jalousie. Mais ceux-ci excitent la foule pour qu'il relâche plutôt Barabbas. Pilate demande alors ce qu'il doit faire de celui qu'ils appellent le roi des Juifs. Une foule manipulée devient l'instrument d'une injustice.",
+   "en": "Pilate asks whether they want him to release the King of the Jews, for he knows the chief priests handed him over out of envy. But they stir up the crowd to have him release Barabbas instead. Pilate then asks what he should do with the one they call the King of the Jews. A manipulated crowd becomes the instrument of an injustice."
+  },
+  "action": {
+   "fr": "Avant de suivre l'avis général aujourd'hui, demande-toi s'il est juste.",
+   "en": "Before going along with general opinion today, ask yourself whether it is just."
+  },
+  "catholic": {
+   "fr": "La tradition catholique enseigne que la mort du Christ ne peut être imputée ni à tous les Juifs de son temps ni à ceux d'aujourd'hui. Saint Augustin, cité dans la Catena Aurea, explique que Marc entend par roi des Juifs ce que Matthieu entend par le Christ. La jalousie des chefs montre comment le péché aveugle.",
+   "en": "The Catholic tradition teaches that Christ's death cannot be charged against all the Jews of his time nor against those of today. Saint Augustine, quoted in the Catena Aurea, explains that by King of the Jews Mark means what Matthew means by the Christ. The leaders' envy shows how sin blinds."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la faiblesse de Pilate, qui sait l'innocence de Jésus mais ne résiste pas. Elle voit dans la foule manipulée l'image de toute humanité qui choisit le mal par peur ou par entraînement. Chacun est appelé à se reconnaître pécheur, plutôt qu'à accuser autrui.",
+   "en": "The Orthodox tradition stresses the weakness of Pilate, who knows Jesus is innocent but does not resist. It sees in the manipulated crowd an image of all humanity choosing evil out of fear or going along with others. Each person is called to recognise themselves a sinner, rather than accuse others."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le péché de tous les hommes et refusent d'en accuser un peuple entier.",
+    "en": "Both traditions see here the sin of all people and decline to blame a whole people for it."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:12",
+    "usage": "quote",
+    "quote": "Mark means by King of the Jews what Matthew means by the word Christ"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-13-16",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 13,
+  "chapterEnd": 15,
+  "verseEnd": 16,
+  "category": "passion",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "La foule crie : « Crucifie-le! » Pilate demande quel mal il a fait, mais on crie plus fort encore. Voulant satisfaire la foule, Pilate relâche Barabbas, fait flageller Jésus et le livre pour être crucifié. Les soldats l'emmènent dans la cour du prétoire et rassemblent toute la cohorte. La justice cède devant la pression.",
+   "en": "The crowd shouts, \"Crucify him!\" Pilate asks what evil he has done, but they shout even louder. Wishing to please the crowd, Pilate releases Barabbas, has Jesus scourged and hands him over to be crucified. The soldiers lead him into the courtyard of the praetorium and gather the whole cohort. Justice gives way under pressure."
+  },
+  "action": {
+   "fr": "Ose aujourd'hui défendre une personne injustement critiquée.",
+   "en": "Today, dare to stand up for someone who is being criticised unfairly."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Pilate l'homme qui choisit sa tranquillité plutôt que la justice. Bède le Vénérable, cité dans la Catena Aurea, précise que Jésus fut flagellé sur l'ordre de Pilate, comme le rapporte Jean. Le Christ porte dans sa chair les coups de l'injustice humaine.",
+   "en": "The Catholic tradition sees in Pilate a man who chooses his own peace over justice. The Venerable Bede, quoted in the Catena Aurea, specifies that Jesus was scourged on Pilate's order, as John reports. Christ bears in his flesh the blows of human injustice."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la faute de celui qui cède. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que Pilate voulait satisfaire le peuple, c'est-à-dire faire sa volonté, et non ce qui était conforme à la justice et à Dieu. Toute autorité est appelée à résister à la pression injuste.",
+   "en": "The Orthodox tradition stresses the fault of the one who gives in. Theophylact of Ohrid, quoted in the Catena Aurea, writes that Pilate wished to satisfy the people, that is, to do their will, not what was agreeable to justice and to God. All authority is called to resist unjust pressure."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une autorité qui cède à la pression et le Christ qui porte les coups de l'injustice.",
+    "en": "Both traditions see here an authority giving in to pressure and Christ bearing the blows of injustice."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:15",
+    "usage": "quote",
+    "quote": "We must understand that Jesus was scourged by no other than Pilate himself"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:15",
+    "usage": "quote",
+    "quote": "He wished indeed to satisfy the people"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-17-20",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 17,
+  "chapterEnd": 15,
+  "verseEnd": 20,
+  "category": "passion",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Les soldats revêtent Jésus de pourpre et lui posent sur la tête une couronne d'épines tressée. Ils se moquent de lui. Ils le frappent à la tête avec un roseau, crachent sur lui et fléchissent le genou devant lui. Puis ils lui ôtent la pourpre, lui remettent ses propres vêtements et l'emmènent hors de la ville, vers le lieu où il sera crucifié.",
+   "en": "The soldiers dress Jesus in purple and put on his head a crown of thorns they have woven. They mock him with salutes: \"Hail, King of the Jews!\" They strike his head with a reed, spit on him and bow down before him. Then they take off the purple, put his own clothes back on him and lead him out to crucify him."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui devant une croix ou une image du Christ couronné d'épines.",
+   "en": "Today, pray before a cross or an image of Christ crowned with thorns."
+  },
+  "catholic": {
+   "fr": "La tradition catholique contemple dans cette dérision la royauté véritable du Christ, couronné d'épines. Bède le Vénérable, cité dans la Catena Aurea, explique qu'au lieu du diadème on lui met une couronne d'épines, et qu'au lieu du sceptre on lui donne un roseau. Les mystères douloureux du rosaire méditent cette scène.",
+   "en": "The Catholic tradition contemplates in this mockery the true kingship of Christ, crowned with thorns. The Venerable Bede, quoted in the Catena Aurea, explains that instead of a diadem they put on him a crown of thorns, and instead of a sceptre they give him a reed. The sorrowful mysteries of the rosary meditate on this scene."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe chante le Vendredi saint le Roi couronné d'épines, celui qui couronne les cieux d'étoiles. La moquerie des soldats proclame malgré eux sa royauté. Le Christ règne par l'humilité et la souffrance acceptée.",
+   "en": "The Orthodox tradition sings on Good Friday of the King crowned with thorns, the one who crowns the heavens with stars. The soldiers' mockery proclaims his kingship in spite of themselves. Christ reigns through humility and accepted suffering."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions contemplent dans cette dérision la royauté du Christ, qui règne par la croix.",
+    "en": "Both traditions contemplate in this mockery the kingship of Christ, who reigns through the cross."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:17",
+    "usage": "quote",
+    "quote": "But instead of the diadem, they put on Him a crown of thorns"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:19",
+    "usage": "quote",
+    "quote": "And for a royal sceptre they give Him a reed"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-21-24",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 21,
+  "chapterEnd": 15,
+  "verseEnd": 24,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les soldats obligent un passant, Simon de Cyrène, qui revient des champs, à porter la croix de Jésus. Ils le conduisent au Golgotha, le lieu du Crâne. Ils lui offrent du vin mêlé de myrrhe, mais il n'en prend pas. Puis ils le crucifient et se partagent ses vêtements en les tirant au sort.",
+   "en": "The soldiers force a passer-by, Simon of Cyrene, coming in from the country, to carry Jesus' cross. They lead him to Golgotha, the place of the Skull. They offer him wine mixed with myrrh, but he does not take it. Then they crucify him and divide his garments, casting lots for them."
+  },
+  "action": {
+   "fr": "Aide aujourd'hui quelqu'un à porter un fardeau, comme Simon de Cyrène.",
+   "en": "Today, help someone carry a burden, as Simon of Cyrene did."
+  },
+  "catholic": {
+   "fr": "La tradition catholique honore Simon de Cyrène dans la cinquième station du chemin de croix : tout chrétien est appelé à porter la croix avec le Christ. Bède le Vénérable, cité dans la Catena Aurea, voit dans le vin amer l'accomplissement du psaume. Il situe aussi le Golgotha hors de la ville.",
+   "en": "The Catholic tradition honours Simon of Cyrene in the fifth station of the Way of the Cross: every Christian is called to carry the cross with Christ. The Venerable Bede, quoted in the Catena Aurea, sees in the bitter wine the fulfilment of the psalm. He also places Golgotha outside the city."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe harmonise aussi les récits. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que Jésus porta d'abord sa croix lui-même, comme le dit Jean, jusqu'à ce qu'on force Simon à la porter. La croix devient l'arbre de vie, vénéré en particulier au troisième dimanche du Carême.",
+   "en": "The Orthodox tradition also harmonises the accounts. Theophylact of Ohrid, quoted in the Catena Aurea, explains that Jesus first bore his cross himself, as John says, until Simon was forced to carry it. The cross becomes the tree of life, venerated especially on the third Sunday of Lent."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient en Simon de Cyrène le disciple qui porte la croix avec le Christ.",
+    "en": "Both traditions see in Simon of Cyrene the disciple who carries the cross with Christ."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:23",
+    "usage": "quote",
+    "quote": "Bitter the vine which bore the bitter wine"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:22",
+    "usage": "quote",
+    "quote": "There are places without the city"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:21",
+    "usage": "quote",
+    "quote": "for He first bore the cross Himself"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-25-28",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 25,
+  "chapterEnd": 15,
+  "verseEnd": 28,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Il est neuf heures. L'inscription qui indique le motif de sa condamnation porte : « Le roi des Juifs. » Avec lui, on crucifie deux brigands, l'un à sa droite et l'autre à sa gauche, comme s'il était le pire d'entre eux. Ainsi s'accomplit l'Écriture : il a été compté parmi les malfaiteurs.",
+   "en": "It is nine o'clock. The inscription giving the charge against him reads: \"THE KING OF THE JEWS.\" With him they crucify two robbers, one on his right and one on his left, as if he were the worst of them. Thus the Scripture is fulfilled: he was counted among the transgressors."
+  },
+  "action": {
+   "fr": "Regarde aujourd'hui un crucifix et reconnais en lui ton roi.",
+   "en": "Look at a crucifix today and recognise in him your king."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'inscription une proclamation involontaire de la vérité : Jésus est roi sur la croix. Saint Augustin, cité dans la Catena Aurea, cite l'inscription placée au-dessus de lui. Placé entre deux brigands, le Christ se tient au milieu des pécheurs qu'il vient sauver.",
+   "en": "The Catholic tradition sees in the inscription an unintended proclamation of the truth: Jesus is king on the cross. Saint Augustine, quoted in the Catena Aurea, cites the inscription placed over him. Set between two robbers, Christ stands among the sinners he comes to save."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi l'inscription comme une vérité dite malgré ceux qui l'ont écrite. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique qu'on voulait ainsi lui reprocher la vaine gloire de s'être fait roi. Le Christ crucifié est représenté sur l'icône comme le Roi de gloire.",
+   "en": "The Orthodox tradition also reads the inscription as a truth spoken in spite of those who wrote it. Theophylact of Ohrid, quoted in the Catena Aurea, explains that they meant to reproach him for the vainglory of making himself king. Christ crucified is shown on the icon as the King of glory."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans l'inscription la vraie royauté du Christ, proclamée sur la croix.",
+    "en": "Both traditions see in the inscription the true kingship of Christ, proclaimed on the cross."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:26",
+    "usage": "quote",
+    "quote": "And the superscription of his accusation was written over"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:26",
+    "usage": "quote",
+    "quote": "They wrote this superscription, as the reason why He was crucified"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-29-32",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 29,
+  "chapterEnd": 15,
+  "verseEnd": 32,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les passants l'insultent en hochant la tête : lui qui détruit le Temple et le rebâtit en trois jours, qu'il se sauve en descendant de la croix ! Les chefs des prêtres et les scribes se moquent aussi. Il en a sauvé d'autres, disent-ils, et il ne peut se sauver lui-même. Ceux qui sont crucifiés avec lui l'insultent aussi.",
+   "en": "Passers-by insult him, shaking their heads: he who destroys the Temple and rebuilds it in three days should save himself by coming down from the cross! The chief priests and scribes mock him too. He saved others, they say, and he cannot save himself. Those crucified with him also insult him."
+  },
+  "action": {
+   "fr": "Quand on se moque de toi, unis cette humiliation à celle du Christ en croix.",
+   "en": "When people make fun of you, unite that humiliation with that of Christ on the cross."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces moqueries un aveu involontaire. Bède le Vénérable, cité dans la Catena Aurea, remarque qu'ils confessent malgré eux qu'il en a sauvé beaucoup : celui qui sauvait les autres aurait pu se sauver lui-même. C'est par amour qu'il ne descend pas de la croix.",
+   "en": "The Catholic tradition sees in this mockery an unwitting admission. The Venerable Bede, quoted in the Catena Aurea, notes that they confess in spite of themselves that he saved many: the one who saved others could have saved himself. It is out of love that he does not come down from the cross."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe aime la figure du bon larron, chantée dans les offices de la Semaine sainte. Théophylacte d'Ohrid, cité dans la Catena Aurea, propose que les deux l'aient d'abord insulté, puis que l'un, le reconnaissant innocent, ait repris l'autre. Saint Augustin, dans la Catena, harmonise de même Marc et Luc.",
+   "en": "The Orthodox tradition loves the figure of the good thief, sung in the Holy Week services. Theophylact of Ohrid, quoted in the Catena Aurea, suggests that both at first reviled him, then one, recognising him as innocent, rebuked the other. Saint Augustine, in the Catena, likewise harmonises Mark and Luke."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans ces moqueries l'amour du Christ, qui reste sur la croix pour sauver.",
+    "en": "Both traditions see in this mockery the love of Christ, who stays on the cross in order to save."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:31",
+    "usage": "quote",
+    "quote": "Thus also they confess, though against their will, that He saved many"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:32",
+    "usage": "quote",
+    "quote": "Or else, both at first reviled Him"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:32",
+    "usage": "quote",
+    "quote": "according to Luke one only reviled Him"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-33-36",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 33,
+  "chapterEnd": 15,
+  "verseEnd": 36,
+  "category": "psaumes-supplication",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "À la sixième heure, vers midi, les ténèbres couvrent tout le pays jusqu'à la neuvième heure. Alors Jésus crie d'une voix forte : « Éloï, Éloï, lama sabachthani? », c'est-à-dire « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné? » Ce sont les premiers mots du Psaume 22. Certains croient qu'il appelle Élie, et l'un d'eux lui tend une éponge imbibée de vinaigre.",
+   "en": "At the sixth hour, about noon, darkness covers the whole land until the ninth hour. Then Jesus cries out with a loud voice, \"Eloi, Eloi, lama sabachthani?\", which means, \"My God, my God, why have you forsaken me?\" These are the first words of Psalm 22. Some think he is calling Elijah, and one of them holds out a sponge soaked in vinegar."
+  },
+  "action": {
+   "fr": "Lis aujourd'hui le Psaume 22 en entier, jusqu'à sa fin pleine d'espérance.",
+   "en": "Read Psalm 22 in full today, right through to its hopeful ending."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce cri la prière du Christ qui prend sur lui la détresse humaine, en reprenant le Psaume 22 qui s'achève dans la louange. Saint Augustin, cité dans la Catena Aurea, note que Luc donne la cause des ténèbres, l'obscurcissement du soleil. Il harmonise aussi les récits sur l'éponge et Élie.",
+   "en": "The Catholic tradition sees in this cry the prayer of Christ taking human distress upon himself, using Psalm 22, which ends in praise. Saint Augustine, quoted in the Catena Aurea, notes that Luke gives the cause of the darkness, the darkening of the sun. He also harmonises the accounts of the sponge and Elijah."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne que le Fils n'est jamais séparé du Père. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Christ parle comme homme, en notre nom, car c'est nous qui étions abandonnés, non lui. Il ajoute que les ténèbres ne pouvaient être une éclipse, puisque c'était la pleine lune.",
+   "en": "The Orthodox tradition stresses that the Son is never separated from the Father. Theophylact of Ohrid, quoted in the Catena Aurea, writes that Christ speaks as man, in our name, for it is we who were forsaken, not he. He adds that the darkness could not have been an eclipse, since it was the full moon."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions entendent dans ce cri le Psaume 22, prière du Fils qui porte notre détresse sans être séparé du Père.",
+    "en": "Both traditions hear in this cry Psalm 22, the prayer of the Son who bears our distress without being separated from the Father."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:33",
+    "usage": "quote",
+    "quote": "Luke added to this account the cause of the darkness"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:36",
+    "usage": "quote",
+    "quote": "Matthew has not related, that the man who brought the sponge"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:34",
+    "usage": "quote",
+    "quote": "Or, He speaks this as man crucified by God for me"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:33",
+    "usage": "quote",
+    "quote": "If this had been the time for an eclipse"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-37-39",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 37,
+  "chapterEnd": 15,
+  "verseEnd": 39,
+  "category": "croix-salut",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus pousse un grand cri et expire. Le voile du Temple se déchire en deux, du haut en bas. Le centurion qui se tient en face de lui, voyant comment il est mort, déclare : « Assurément, cet homme était Fils de Dieu. » Un païen est le premier à confesser la foi au pied de la croix.",
+   "en": "Jesus cries out with a loud voice and breathes his last. The veil of the Temple is torn in two from top to bottom. The centurion standing opposite him, seeing how he died, declares, \"Truly this man was the Son of God!\" A pagan is the first to confess the faith at the foot of the cross."
+  },
+  "action": {
+   "fr": "Agenouille-toi un instant aujourd'hui, en silence, en mémoire de la mort du Christ.",
+   "en": "Kneel for a moment today, in silence, in memory of Christ's death."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans le voile déchiré l'accès à Dieu désormais ouvert à tous par la mort du Christ. Bède le Vénérable, cité dans la Catena Aurea, explique que le centurion s'émerveille de la manière dont le Seigneur rend l'esprit. La Glose ouvre ici le récit de ce qui suit la mort du Christ.",
+   "en": "The Catholic tradition sees in the torn veil access to God now open to all through Christ's death. The Venerable Bede, quoted in the Catena Aurea, explains that the centurion marvels at the way the Lord gives up his spirit. The Gloss opens here the account of what follows Christ's death."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe contemple le Christ qui meurt en maître de la mort. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que celui qui règne sur la mort et lui commande meurt avec puissance, comme son Seigneur. Le centurion est vénéré comme saint sous le nom de Longin.",
+   "en": "The Orthodox tradition contemplates Christ dying as master of death. Theophylact of Ohrid, quoted in the Catena Aurea, writes that he who rules over death and commands it dies with power, as its Lord. The centurion is venerated as a saint under the name of Longinus."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la mort du Christ le passage ouvert vers Dieu et la première confession de foi d'un païen.",
+    "en": "Both traditions see in Christ's death the way to God opened, and the first confession of faith by a pagan."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:39",
+    "usage": "quote",
+    "quote": "Now the cause of the centurion's wonder is clear"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:38",
+    "usage": "quote",
+    "quote": "After the Evangelist has related the Passion and the death of Christ"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:37",
+    "usage": "quote",
+    "quote": "He who both rules over death and commands it dies with power"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-40-43",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 40,
+  "chapterEnd": 15,
+  "verseEnd": 43,
+  "category": "marie-vie-de-jesus",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Des femmes regardent de loin : Marie de Magdala, Marie mère de Jacques le petit et de José, et Salomé. Elles suivaient et servaient Jésus en Galilée, avec beaucoup d'autres montées à Jérusalem. Le soir venu, Joseph d'Arimathie, membre respecté du conseil qui attendait lui aussi le Royaume, ose aller demander le corps de Jésus à Pilate. Les disciples se sont enfuis, mais les femmes restent.",
+   "en": "Some women are watching from afar: Mary Magdalene, Mary the mother of James the less and of Joses, and Salome. They had followed and served Jesus in Galilee, with many others who came up to Jerusalem. When evening comes, Joseph of Arimathea, a respected council member who was also waiting for the Kingdom, dares to go and ask Pilate for Jesus' body. The disciples have fled, but the women remain."
+  },
+  "action": {
+   "fr": "Remercie Dieu pour les femmes qui t'ont transmis la foi, et prie pour elles.",
+   "en": "Thank God for the women who passed on the faith to you, and pray for them."
+  },
+  "catholic": {
+   "fr": "La tradition catholique honore la fidélité de ces femmes, présentes à la croix quand les disciples ont fui. Bède le Vénérable, cité dans la Catena Aurea, souligne que Joseph n'était pas un homme obscur, puisqu'il put aller trouver le gouverneur et obtenir le corps. La Glose ouvre ici le récit de la sépulture.",
+   "en": "The Catholic tradition honours the faithfulness of these women, present at the cross when the disciples had fled. The Venerable Bede, quoted in the Catena Aurea, stresses that Joseph was not an obscure man, since he could go to the governor and obtain the body. The Gloss opens here the account of the burial."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête les saintes Myrophores et Joseph d'Arimathie le deuxième dimanche après Pâques. Théophylacte d'Ohrid, cité dans la Catena Aurea, loue l'audace de Joseph, qui ne pense pas à sa fortune ni à son rang. Il remarque que les disciples fuient tandis que les femmes restent.",
+   "en": "The Orthodox tradition celebrates the holy Myrrh-bearers and Joseph of Arimathea on the second Sunday after Pascha. Theophylact of Ohrid, quoted in the Catena Aurea, praises Joseph's boldness, who does not think of his fortune or his rank. He notes that the disciples flee while the women remain."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent la fidélité des femmes à la croix et le courage de Joseph d'Arimathie.",
+    "en": "Both traditions honour the faithfulness of the women at the cross and the courage of Joseph of Arimathea."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:43",
+    "usage": "quote",
+    "quote": "But it was not an obscure person"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:42",
+    "usage": "quote",
+    "quote": "After the passion and death of Christ, the Evangelist relates His burial"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:43",
+    "usage": "quote",
+    "quote": "He was bold with a praiseworthy boldness"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:40",
+    "usage": "quote",
+    "quote": "the disciples fly, and the women remain"
+   }
+  ]
+ },
+ {
+  "key": "mrk-15-44-47",
+  "book": "MRK",
+  "chapterStart": 15,
+  "verseStart": 44,
+  "chapterEnd": 15,
+  "verseEnd": 47,
+  "category": "croix-salut",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Pilate s'étonne que Jésus soit déjà mort. Il fait venir le centurion, qui le lui confirme, et il accorde le corps à Joseph. Joseph achète un linceul, descend Jésus de la croix, l'enveloppe et le dépose dans un tombeau taillé dans le roc. Il roule une pierre à l'entrée. Marie de Magdala et Marie mère de José regardent où on l'a mis.",
+   "en": "Pilate is surprised that Jesus is already dead. He summons the centurion, who confirms it, and grants the body to Joseph. Joseph buys a linen cloth, takes Jesus down from the cross, wraps him and lays him in a tomb cut in the rock. He rolls a stone against the entrance. Mary Magdalene and Mary the mother of Joses see where he is laid."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour un défunt, en confiant son corps et son âme au Christ mis au tombeau.",
+   "en": "Today, pray for someone who has died, entrusting their body and soul to Christ laid in the tomb."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans la confirmation du centurion la réalité de la mort du Christ. Bède le Vénérable, cité dans la Catena Aurea, donne un sens spirituel au linceul : le corps du Seigneur doit être enveloppé non d'or ou de soie, mais d'un linge pur. Le Samedi saint, l'Église veille au tombeau.",
+   "en": "The Catholic tradition sees in the centurion's confirmation the reality of Christ's death. The Venerable Bede, quoted in the Catena Aurea, gives the shroud a spiritual meaning: the Lord's body should be wrapped not in gold or silk, but in pure linen. On Holy Saturday the Church keeps vigil at the tomb."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe vénère l'épitaphios, image du Christ au tombeau, aux offices du Vendredi saint. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que Pilate s'étonne, pensant que Jésus vivrait longtemps sur la croix, comme les brigands. Les femmes qui regardent le tombeau seront les premières témoins de la résurrection.",
+   "en": "The Orthodox tradition venerates the epitaphios, an image of Christ in the tomb, in the Good Friday services. Theophylact of Ohrid, quoted in the Catena Aurea, explains that Pilate wonders, thinking Jesus would live long on the cross, as the thieves did. The women watching the tomb will be the first witnesses of the resurrection."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions confessent la mort réelle du Christ et veillent à son tombeau dans l'attente de Pâques.",
+    "en": "Both traditions confess Christ's real death and keep vigil at his tomb awaiting Easter."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:46",
+    "usage": "quote",
+    "quote": "the body of the Lord should not be wrapped in gold or gems"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 15",
+    "ref": "MRK 15:44",
+    "usage": "quote",
+    "quote": "For he thought that He should continue long alive upon the cross"
+   }
+  ]
  }
 ]
