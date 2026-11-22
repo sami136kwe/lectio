@@ -2352,5 +2352,818 @@
     "quote": "to take away all display, He suffered not all to be with Him"
    }
   ]
+ },
+ {
+  "key": "mrk-6-1-4",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 1,
+  "chapterEnd": 6,
+  "verseEnd": 4,
+  "category": "marie-vie-de-jesus",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus revient à Nazareth et enseigne à la synagogue. Ses compatriotes s'étonnent : d'où lui vient cette sagesse ? N'est-il pas le charpentier, le fils de Marie ? Ils sont scandalisés à son sujet. Jésus dit alors qu'un prophète n'est méprisé que dans sa patrie et parmi les siens.",
+   "en": "Jesus returns to Nazareth and teaches in the synagogue. The people of his town are amazed: where does this wisdom come from? Isn't he the carpenter, the son of Mary? They take offence at him. Jesus then says that a prophet is without honour only in his own country and among his own."
+  },
+  "action": {
+   "fr": "Regarde aujourd'hui avec un œil neuf une personne que tu crois trop bien connaître.",
+   "en": "Today, look with fresh eyes at someone you think you know too well."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce passage la vraie humanité du Christ, qui a travaillé de ses mains à Nazareth. Saint Augustin, cité dans la Catena Aurea, explique qu'on l'appelait charpentier parce qu'il était le fils d'un charpentier. La familiarité peut fermer les yeux sur le mystère.",
+   "en": "The Catholic tradition sees in this passage the true humanity of Christ, who worked with his hands in Nazareth. Saint Augustine, quoted in the Catena Aurea, explains that he was called a carpenter because he was the son of a carpenter. Familiarity can close our eyes to the mystery."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la patience du Christ envers les siens. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit qu'il revient dans sa patrie, sachant qu'on le mépriserait, pour qu'ils ne puissent pas dire : si tu étais venu, nous aurions cru. Dieu offre toujours une nouvelle chance.",
+   "en": "The Orthodox tradition stresses Christ's patience with his own people. Theophylact of Ohrid, quoted in the Catena Aurea, writes that he returns to his country, knowing they would despise him, so that they could not say: if you had come, we would have believed. God always offers a new chance."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici l'humanité humble du Christ à Nazareth et le danger de l'habitude qui empêche de croire.",
+    "en": "Both traditions see here the humble humanity of Christ at Nazareth and the danger of a familiarity that keeps people from believing."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:3",
+    "usage": "quote",
+    "quote": "they believed Him to be a carpenter, because He was the son of a carpenter"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:1",
+    "usage": "quote",
+    "quote": "not that He was ignorant that they would despise Him"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-5-7",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 5,
+  "chapterEnd": 6,
+  "verseEnd": 7,
+  "category": "apotres",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "À Nazareth, Jésus ne peut faire que peu de miracles : il guérit seulement quelques malades. Il s'étonne de leur manque de foi. Puis il parcourt les villages pour enseigner. Il appelle les Douze et les envoie deux par deux, avec autorité sur les esprits impurs.",
+   "en": "In Nazareth Jesus can do few miracles: he heals only a few sick people. He is amazed at their lack of faith. Then he goes round the villages teaching. He calls the Twelve and sends them out two by two, with authority over unclean spirits."
+  },
+  "action": {
+   "fr": "Fais cette semaine un acte de foi ou de service avec une autre personne, plutôt que seul.",
+   "en": "This week, do an act of faith or service together with someone else rather than alone."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'envoi deux par deux le signe que la mission est communautaire. Saint Grégoire le Grand, cité dans la Catena Aurea, explique que la charité ne peut exister à moins de deux, comme les deux commandements de l'amour. Bède ajoute que le Seigneur partage généreusement sa puissance avec ses disciples.",
+   "en": "The Catholic tradition sees in the sending out two by two a sign that mission is shared. Saint Gregory the Great, quoted in the Catena Aurea, explains that charity cannot exist between fewer than two, like the two commandments of love. Bede adds that the Lord generously shares his power with his disciples."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe remarque que le Christ prêche aussi dans les petits villages. Théophylacte d'Ohrid, cité dans la Catena Aurea, en tire une leçon : ne pas mépriser les petites choses et semer la parole même dans les villages humbles et délaissés. L'envoi à deux rend les apôtres plus actifs.",
+   "en": "The Orthodox tradition notes that Christ also preaches in the small villages. Theophylact of Ohrid, quoted in the Catena Aurea, draws a lesson from it: not to despise little things and to sow the word even in humble, forgotten villages. Being sent in pairs makes the apostles more active."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une mission partagée, confiée aux apôtres, qui rejoint aussi les lieux les plus humbles.",
+    "en": "Both traditions see here a shared mission, entrusted to the apostles, that reaches even the humblest places."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:7",
+    "usage": "quote",
+    "quote": "charity cannot be between less than two"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:7",
+    "usage": "quote",
+    "quote": "did not grudge His servants and their disciples His own virtues"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:6",
+    "usage": "quote",
+    "quote": "that we may learn not to despise little things"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-8-11",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 8,
+  "chapterEnd": 6,
+  "verseEnd": 11,
+  "category": "richesse-pauvrete",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus demande aux Douze de ne rien emporter, sauf un bâton : ni pain, ni sac, ni argent, pas même une seconde tunique. Ils doivent rester dans la maison qui les accueille. Là où on ne les reçoit pas, ils secoueront la poussière de leurs pieds, en témoignage. La pauvreté du messager laisse toute la place au message.",
+   "en": "Jesus tells the Twelve to take nothing but a staff: no bread, no bag, no money, not even a second tunic. They are to stay in the house that welcomes them. Where they are not received, they will shake the dust off their feet as a testimony. The messenger's poverty leaves all the room to the message."
+  },
+  "action": {
+   "fr": "Renonce aujourd'hui à un achat superflu et donne la somme à quelqu'un qui en a besoin.",
+   "en": "Today, give up an unnecessary purchase and give the money to someone in need."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces consignes la confiance du prédicateur en la Providence. Bède le Vénérable, cité dans la Catena Aurea, écrit que le prédicateur doit tellement se fier à Dieu qu'il est certain de ne pas manquer du nécessaire. Cette pauvreté inspire la vie religieuse et le ministère.",
+   "en": "The Catholic tradition sees in these instructions the preacher's trust in Providence. The Venerable Bede, quoted in the Catena Aurea, writes that the preacher should trust God so much that he is certain his needs will not go unmet. This poverty inspires religious life and ministry."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit aussi un témoignage par l'exemple. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que le Seigneur leur apprend à ne pas aimer recevoir des dons. Ceux qui les entendaient prêcher la pauvreté pouvaient l'accepter en voyant que les apôtres ne possédaient rien.",
+   "en": "The Orthodox tradition also reads here a witness by example. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the Lord teaches them not to be fond of receiving gifts. Those who heard them preach poverty could accept it, seeing that the apostles owned nothing."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la pauvreté du messager comme un témoignage de confiance en Dieu.",
+    "en": "Both traditions see here the messenger's poverty as a witness of trust in God."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:8",
+    "usage": "quote",
+    "quote": "such should be the preacher's trust in God"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:9",
+    "usage": "quote",
+    "quote": "Instructing them also by this means not to be fond of receiving gifts"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-12-15",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 12,
+  "chapterEnd": 6,
+  "verseEnd": 15,
+  "category": "onction-guerison",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Les Douze partent et appellent à la conversion. Ils chassent beaucoup de démons et oignent d'huile de nombreux malades, qui sont guéris. Le roi Hérode entend parler de Jésus. Certains disent que Jean-Baptiste est ressuscité, d'autres qu'il est Élie ou un prophète.",
+   "en": "The Twelve set out and call people to repent. They cast out many demons and anoint many sick people with oil, who are healed. King Herod hears about Jesus. Some say John the Baptist has risen, others that he is Elijah or a prophet."
+  },
+  "action": {
+   "fr": "Prie aujourd'hui pour les malades de ta paroisse et ceux qui les visitent.",
+   "en": "Today, pray for the sick in your parish and for those who visit them."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette onction l'annonce du sacrement des malades. Bède le Vénérable, cité dans la Catena Aurea, écrit que c'est une coutume ancienne de l'Église d'oindre les malades avec une huile consacrée par la bénédiction du prêtre. Le sacrement apporte réconfort, force et, si Dieu le veut, guérison.",
+   "en": "The Catholic tradition sees in this anointing a foreshadowing of the sacrament of the sick. The Venerable Bede, quoted in the Catena Aurea, writes that it is an ancient custom of the Church to anoint the sick with oil consecrated by priestly blessing. The sacrament brings comfort, strength and, if God wills, healing."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe célèbre l'Euchélaion, la sainte onction, pour la guérison de l'âme et du corps. Théophylacte d'Ohrid, cité dans la Catena Aurea, voit aussi dans l'huile la grâce du Saint-Esprit, qui soulage nos peines et donne lumière et joie spirituelle. L'onction est souvent reçue par tous au Mercredi saint.",
+   "en": "The Orthodox tradition celebrates the Euchelaion, the holy unction, for healing of soul and body. Theophylact of Ohrid, quoted in the Catena Aurea, also sees in the oil the grace of the Holy Spirit, which eases our labours and gives light and spiritual joy. The anointing is often received by all on Holy Wednesday."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans cette onction la racine du sacrement des malades, célébré en Occident et en Orient.",
+    "en": "Both traditions see in this anointing the root of the sacrament of the sick, celebrated in West and East."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:13",
+    "usage": "quote",
+    "quote": "an ancient custom of the holy Church"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:13",
+    "usage": "quote",
+    "quote": "the grace of the Holy Ghost, by which we are eased from our labours"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-16-19",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 16,
+  "chapterEnd": 6,
+  "verseEnd": 19,
+  "category": "martyrs-temoins",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Hérode est persuadé que Jean, qu'il a fait décapiter, est ressuscité. Marc raconte alors ce qui s'est passé. Hérode avait fait emprisonner Jean, car celui-ci lui reprochait d'avoir épousé Hérodiade, la femme de son frère. Hérodiade en voulait à Jean et cherchait à le faire mourir.",
+   "en": "Herod is convinced that John, whom he had beheaded, has risen. Mark then tells what had happened. Herod had put John in prison because John reproached him for marrying Herodias, his brother's wife. Herodias held it against John and sought to have him killed."
+  },
+  "action": {
+   "fr": "Demande la force de dire une vérité difficile avec respect, quand elle est nécessaire.",
+   "en": "Ask for the strength to speak a hard truth respectfully when it is needed."
+  },
+  "catholic": {
+   "fr": "La tradition catholique honore Jean-Baptiste comme martyr de la vérité et de la sainteté du mariage. Bède le Vénérable, cité dans la Catena Aurea, explique qu'Hérodiade craignait qu'Hérode ne se repente et que ce mariage illégitime soit rompu. La conscience troublée d'Hérode montre que la vérité ne se tait pas.",
+   "en": "The Catholic tradition honours John the Baptist as a martyr for the truth and for the holiness of marriage. The Venerable Bede, quoted in the Catena Aurea, explains that Herodias feared Herod might repent and the unlawful marriage be broken. Herod's troubled conscience shows that truth does not fall silent."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe fête la décollation du Précurseur le 29 août par un jour de jeûne strict. Le courage de Jean y est donné en exemple à tous ceux qui ont autorité. Sa parole libre devant le roi annonce celle des martyrs.",
+   "en": "The Orthodox tradition keeps the Beheading of the Forerunner on 29 August as a day of strict fasting. John's courage is held up as an example to all who hold authority. His free speech before the king foreshadows that of the martyrs."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions honorent Jean-Baptiste comme martyr de la vérité, qui défend la sainteté du mariage.",
+    "en": "Both traditions honour John the Baptist as a martyr for the truth, defending the holiness of marriage."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:19",
+    "usage": "quote",
+    "quote": "For Herodias was afraid, lest Herod should repent at some time"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-20-23",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 20,
+  "chapterEnd": 6,
+  "verseEnd": 23,
+  "category": "martyrs-temoins",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Hérode craint Jean, car il le sait juste et saint. Il le protège et l'écoute volontiers, même si ses paroles le troublent. Le jour de son anniversaire, il donne un banquet. La fille d'Hérodiade danse et lui plaît tant qu'il jure de lui donner tout ce qu'elle voudra, jusqu'à la moitié de son royaume. Un serment imprudent va tout précipiter.",
+   "en": "Herod fears John, knowing he is a just and holy man. He protects him and likes to listen to him, even though his words disturb him. On his birthday, he gives a banquet. Herodias' daughter dances and pleases him so much that he swears to give her whatever she wants, up to half his kingdom. A reckless oath will bring everything to a head."
+  },
+  "action": {
+   "fr": "Avant de promettre quelque chose sous l'émotion, attends un jour pour réfléchir.",
+   "en": "Before promising something on impulse, wait a day to think it over."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Hérode un homme partagé, attiré par la vérité mais incapable de rompre avec ses passions. La Glose ordinaire, citée dans la Catena Aurea, explique qu'il le craignait parce qu'il le révérait, le sachant juste envers les hommes et saint envers Dieu. Écouter la vérité ne suffit pas sans conversion.",
+   "en": "The Catholic tradition sees in Herod a divided man, drawn to the truth but unable to break with his passions. The Glossa Ordinaria, quoted in the Catena Aurea, explains that he feared him because he revered him, knowing him to be just with men and holy towards God. Listening to the truth is not enough without conversion."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la force destructrice des passions. Théophylacte d'Ohrid, cité dans la Catena Aurea, s'exclame : voyez quelle est la fureur de la convoitise ! Il voit aussi dans le banquet une scène où le mal mène la danse.",
+   "en": "The Orthodox tradition stresses the destructive force of the passions. Theophylact of Ohrid, quoted in the Catena Aurea, exclaims: see how great is the fury of lust! He also sees in the banquet a scene where evil leads the dance."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient en Hérode un cœur partagé, attiré par la vérité mais vaincu par ses passions.",
+    "en": "Both traditions see in Herod a divided heart, drawn to the truth but overcome by his passions."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Glossa Ordinaria",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:20",
+    "usage": "quote",
+    "quote": "He feared him, I say, because he revered him"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:20",
+    "usage": "quote",
+    "quote": "But see how great is the fury of lust"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-24-27",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 24,
+  "chapterEnd": 6,
+  "verseEnd": 27,
+  "category": "martyrs-temoins",
+  "difficulty": 3,
+  "explanation": {
+   "fr": "La jeune fille demande conseil à sa mère, qui lui dit de réclamer la tête de Jean-Baptiste. Elle revient aussitôt vers le roi avec cette demande. Le roi est attristé. Mais, à cause de ses serments et de ses invités, il n'ose pas refuser et envoie un garde décapiter Jean. La peur du regard des autres l'emporte sur la conscience.",
+   "en": "The girl asks her mother's advice, and she tells her to ask for the head of John the Baptist. She hurries back to the king with this request. The king is grieved. But because of his oaths and his guests, he does not dare say no, and sends a guard to behead John. Fear of what others think wins over conscience."
+  },
+  "action": {
+   "fr": "Repère une situation où tu agis par peur du regard des autres, et choisis d'y agir selon ta conscience.",
+   "en": "Spot a situation where you act out of fear of what others think, and choose to act there according to your conscience."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans cette scène la lâcheté qui fait le mal pour ne pas perdre la face. Bède le Vénérable, cité dans la Catena Aurea, remarque qu'Hérode veut rendre tous ses convives complices de sa faute. Il en tire une leçon : il est utile de penser souvent au jour de sa mort.",
+   "en": "The Catholic tradition sees in this scene the cowardice that does evil so as not to lose face. The Venerable Bede, quoted in the Catena Aurea, notes that Herod wants to make all his guests partakers in his guilt. He draws a lesson from it: it is useful to call often to mind the day of one's death."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la hâte du mal. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que la femme exige la tête tout de suite, car elle craint qu'Hérode ne se repente. Le Précurseur meurt comme il a vécu, en préparant le chemin du Christ, jusque dans la mort.",
+   "en": "The Orthodox tradition stresses the haste of evil. Theophylact of Ohrid, quoted in the Catena Aurea, explains that the woman demands the head at once, because she fears Herod may repent. The Forerunner dies as he lived, preparing the way for Christ, even in death."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici la lâcheté qui cède au mal, et le martyre de Jean qui annonce celui du Christ.",
+    "en": "Both traditions see here the cowardice that gives way to evil, and John's martyrdom foreshadowing Christ's."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:26",
+    "usage": "quote",
+    "quote": "he wishes to make all partakers in his guilt"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:25",
+    "usage": "quote",
+    "quote": "for she feared lest Herod should repent"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-28-31",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 28,
+  "chapterEnd": 6,
+  "verseEnd": 31,
+  "category": "silence-confiance",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "La tête de Jean est apportée sur un plat. Ses disciples viennent prendre son corps et le mettent au tombeau. Les apôtres reviennent auprès de Jésus et lui racontent tout ce qu'ils ont fait et enseigné. Jésus leur dit : « Venez à l'écart dans un lieu désert, et reposez-vous un peu. » Il y avait tant de monde qu'ils n'avaient pas le temps de manger.",
+   "en": "John's head is brought on a platter. His disciples come and take his body and lay it in a tomb. The apostles return to Jesus and tell him all they have done and taught. Jesus says to them, \"Come away into a deserted place, and rest awhile.\" There were so many people that they had no time to eat."
+  },
+  "action": {
+   "fr": "Prends aujourd'hui un vrai temps de repos avec Dieu, même court, sans écran.",
+   "en": "Today, take a real rest with God, even a short one, with no screen."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'invitation au repos l'équilibre entre l'action et la prière. Les apôtres rendent compte de leur mission à Jésus, qui les accueille. Saint Augustin, cité dans la Catena Aurea, note que le récit de la mort de Jean est placé en retour en arrière, pour expliquer la réaction d'Hérode.",
+   "en": "The Catholic tradition sees in the invitation to rest the balance between action and prayer. The apostles report on their mission to Jesus, who welcomes them. Saint Augustine, quoted in the Catena Aurea, notes that the account of John's death is told as a flashback, to explain Herod's reaction."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe y lit une leçon pour ceux qui servent. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que ceux qui travaillent pour la parole méritent du repos et ne doivent pas peiner sans cesse. Il invite aussi l'envoyé à revenir souvent vers celui qui l'envoie.",
+   "en": "The Orthodox tradition reads here a lesson for those who serve. Theophylact of Ohrid, quoted in the Catena Aurea, writes that those who labour in the word deserve rest and ought not to labour continually. He also invites the one who is sent to return often to the one who sends him."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le repos auprès du Christ comme une part nécessaire de la mission.",
+    "en": "Both traditions see here rest with Christ as a necessary part of the mission."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:30",
+    "usage": "quote",
+    "quote": "what is first related took place last"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:31",
+    "usage": "quote",
+    "quote": "they who labour in any work or in the word deserve rest, and ought not to labour continually"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-32-34",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 32,
+  "chapterEnd": 6,
+  "verseEnd": 34,
+  "category": "pouvoir-service",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Jésus et les apôtres partent en barque vers un lieu désert. Mais beaucoup les voient partir et arrivent avant eux à pied. En descendant, Jésus voit une grande foule. Il est pris de pitié, car ils sont comme des brebis sans berger. Alors il se met à les enseigner longuement.",
+   "en": "Jesus and the apostles leave by boat for a deserted place. But many see them leave and get there first on foot. As he comes ashore, Jesus sees a great crowd. He is moved with compassion, because they are like sheep without a shepherd. So he begins to teach them at length."
+  },
+  "action": {
+   "fr": "Quand on interrompt ton repos aujourd'hui, essaie d'accueillir la personne avec patience.",
+   "en": "When someone interrupts your rest today, try to welcome them with patience."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit en Jésus le bon berger, ému de compassion devant ceux qui sont perdus. Bède le Vénérable, cité dans la Catena Aurea, écrit que la vraie façon d'avoir pitié des pauvres est de leur ouvrir le chemin de la vérité par l'enseignement et de soulager leurs douleurs. La compassion passe ici d'abord par la parole.",
+   "en": "The Catholic tradition sees in Jesus the good shepherd, moved with compassion before those who are lost. The Venerable Bede, quoted in the Catena Aurea, writes that the real way of pitying the poor is to open to them the way of truth by teaching, and to relieve their pains. Here compassion comes first through the word."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe admire l'élan de la foule. Théophylacte d'Ohrid, cité dans la Catena Aurea, dit au lecteur : n'attends pas que le Christ t'appelle, mais devance-le, et va au-devant de lui. Le Christ répond à ce désir par sa compassion.",
+   "en": "The Orthodox tradition admires the eagerness of the crowd. Theophylact of Ohrid, quoted in the Catena Aurea, tells the reader: do not wait for Christ to call you, but outrun him and come before him. Christ answers this longing with his compassion."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ bon berger, plein de compassion pour la foule qui le cherche.",
+    "en": "Both traditions see here Christ the good shepherd, full of compassion for the crowd seeking him."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:34",
+    "usage": "quote",
+    "quote": "the real way of pitying the poor is to open to them the way of truth"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:33",
+    "usage": "quote",
+    "quote": "So do thou not wait for Christ till He Himself call you"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-35-38",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 35,
+  "chapterEnd": 6,
+  "verseEnd": 38,
+  "category": "eucharistie",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "L'heure est avancée et le lieu désert. Les disciples proposent de renvoyer la foule pour qu'elle aille acheter à manger. Jésus répond : « Donnez-leur vous-mêmes à manger. » Ils s'étonnent, car il faudrait une grosse somme. Il leur demande combien de pains ils ont : cinq, et deux poissons.",
+   "en": "It is late. The disciples suggest sending the crowd away to buy food. Jesus answers, \"You give them something to eat.\" They are astonished, since buying bread for so many people would cost a great deal of money. He asks how many loaves they have: five, and two fish."
+  },
+  "action": {
+   "fr": "Offre aujourd'hui à Dieu le peu que tu as (du temps, un talent) pour qu'il en fasse quelque chose.",
+   "en": "Today, offer God the little you have (time, a gift) so that he may make something of it."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'ordre de Jésus l'appel de l'Église à nourrir les hommes, corps et âme. Bède le Vénérable, cité dans la Catena Aurea, explique que Jésus les invite à reconnaître qu'ils n'ont pas de pain, pour que la grandeur du miracle soit mieux connue. Le peu offert devient la matière du don de Dieu.",
+   "en": "The Catholic tradition sees in Jesus' command the Church's call to feed people, body and soul. The Venerable Bede, quoted in the Catena Aurea, explains that Jesus invites them to admit they have no bread, so that the greatness of the miracle might become better known. The little that is offered becomes the matter of God's gift."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne l'ordre des dons. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que le Seigneur donne d'abord ce qui est le plus profitable, la nourriture de la parole de Dieu, puis la nourriture du corps. La liturgie suit le même ordre : la Parole, puis le Pain.",
+   "en": "The Orthodox tradition stresses the order of the gifts. Theophylact of Ohrid, quoted in the Catena Aurea, writes that the Lord first gives what is most profitable, the food of the word of God, then food for the body. The liturgy follows the same order: the Word, then the Bread."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ qui nourrit de sa parole puis du pain, et qui associe ses disciples à ce don.",
+    "en": "Both traditions see here Christ feeding first with his word then with bread, and involving his disciples in this gift."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:37",
+    "usage": "quote",
+    "quote": "that they might be able to testify that they had no bread"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:35",
+    "usage": "quote",
+    "quote": "first, what is most profitable, that is, the food of the word of God"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-39-41",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 39,
+  "chapterEnd": 6,
+  "verseEnd": 41,
+  "category": "eucharistie",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Jésus fait asseoir la foule par groupes sur l'herbe verte, par rangées de cent et de cinquante. Il prend les cinq pains et les deux poissons. Levant les yeux au ciel, il prononce la bénédiction, rompt les pains et les donne aux disciples pour qu'ils les distribuent. Ces gestes annoncent ceux de la dernière Cène.",
+   "en": "Jesus has the crowd sit down in groups on the green grass, in rows of hundreds and fifties. He takes the five loaves and the two fish. Looking up to heaven, he blesses, breaks the loaves and gives them to the disciples to hand out. These gestures foreshadow those of the Last Supper."
+  },
+  "action": {
+   "fr": "À ton prochain repas, prends le temps de bénir Dieu avant de manger.",
+   "en": "At your next meal, take time to bless God before eating."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ces gestes une annonce de l'Eucharistie : prendre, bénir, rompre, donner. Saint Grégoire le Grand, cité dans la Catena Aurea, voit dans les différents rangs les diverses Églises qui forment l'unique Église catholique. Saint Augustin harmonise les récits de Marc et de Luc sur ces groupes.",
+   "en": "The Catholic tradition sees in these gestures a foreshadowing of the Eucharist: taking, blessing, breaking, giving. Saint Gregory the Great, quoted in the Catena Aurea, sees in the different ranks the various churches that make up the one Catholic Church. Saint Augustine harmonises Mark's and Luke's accounts of these groups."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe voit aussi dans ce repas une image de la Divine Liturgie. Saint Jean Chrysostome, cité dans la Catena Aurea, explique que Jésus lève les yeux au ciel pour montrer que le pain vient du Père. La bénédiction des pains aux vêpres festives rappelle ce miracle.",
+   "en": "The Orthodox tradition also sees in this meal an image of the Divine Liturgy. Saint John Chrysostom, quoted in the Catena Aurea, explains that Jesus looks up to heaven to show that the bread comes from the Father. The blessing of loaves at festal Vespers recalls this miracle."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans la multiplication des pains une annonce de l'Eucharistie.",
+    "en": "Both traditions see in the multiplication of the loaves a foreshadowing of the Eucharist."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Gregory the Dialogist",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:40",
+    "usage": "quote",
+    "quote": "The different ranks in which those who ate lie down, mark out the divers churches"
+   },
+   {
+    "tradition": "catholic",
+    "author": "Augustine of Hippo",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:40",
+    "usage": "quote",
+    "quote": "But we need not be perplexed, though Luke says"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:41",
+    "usage": "quote",
+    "quote": "Now it was with fitness that He looked up to heaven"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-42-45",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 42,
+  "chapterEnd": 6,
+  "verseEnd": 45,
+  "category": "eucharistie",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Tous mangent et sont rassasiés. On ramasse douze paniers pleins de restes. Ceux qui ont mangé sont cinq mille hommes. Aussitôt, Jésus oblige ses disciples à monter dans la barque et à le précéder vers Bethsaïde, pendant qu'il renvoie la foule.",
+   "en": "All eat and are satisfied. Twelve full baskets of leftovers are gathered. Those who ate number five thousand men. Straight away Jesus makes his disciples get into the boat and go ahead of him to Bethsaida, while he sends the crowd away."
+  },
+  "action": {
+   "fr": "Ne gaspille rien aujourd'hui de ce que tu as reçu : nourriture, temps ou paroles.",
+   "en": "Waste nothing today of what you have received: food, time or words."
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans l'abondance des restes le don de Dieu qui dépasse nos besoins. Les douze paniers évoquent les Douze, chargés de distribuer ce pain à toutes les générations. Bède le Vénérable, cité dans la Catena Aurea, harmonise les lieux indiqués par Marc et par Luc.",
+   "en": "The Catholic tradition sees in the abundance of leftovers God's gift, which goes beyond our needs. The twelve baskets evoke the Twelve, charged with handing out this bread to every generation. The Venerable Bede, quoted in the Catena Aurea, harmonises the places given by Mark and Luke."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe lit aussi ces paniers comme un enseignement pour les apôtres. Théophylacte d'Ohrid, cité dans la Catena Aurea, explique que chaque apôtre, portant un panier sur l'épaule, pouvait reconnaître la merveille indicible. Le miracle devient une mémoire concrète.",
+   "en": "The Orthodox tradition also reads these baskets as a lesson for the apostles. Theophylact of Ohrid, quoted in the Catena Aurea, explains that each apostle, carrying a basket on his shoulder, could recognise the unspeakable wonder. The miracle becomes a concrete memory."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient dans les douze paniers la surabondance du don de Dieu confiée aux apôtres.",
+    "en": "Both traditions see in the twelve baskets the overflowing gift of God entrusted to the apostles."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:45",
+    "usage": "quote",
+    "quote": "we wonder how Mark says, that after the miracle of the loaves"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:43",
+    "usage": "quote",
+    "quote": "that each of the Apostles, carrying a basket on his shoulder, might recognise the unspeakable wonder"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-46-48",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 46,
+  "chapterEnd": 6,
+  "verseEnd": 48,
+  "category": "priere-du-seigneur",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Après avoir renvoyé la foule, Jésus monte sur la montagne pour prier. Le soir, la barque est au milieu de la mer et lui est seul à terre. Il voit les disciples peiner à ramer contre le vent. Vers la fin de la nuit, il vient vers eux en marchant sur la mer.",
+   "en": "After sending the crowd away, Jesus goes up the mountain to pray. In the evening the boat is in the middle of the sea, and he is alone on land. He sees the disciples straining at the oars against the wind. Towards the end of the night, he comes to them walking on the sea."
+  },
+  "action": {
+   "fr": "Après une journée chargée, prends cinq minutes seul pour prier avant de dormir.",
+   "en": "After a busy day, take five minutes alone to pray before you sleep."
+  },
+  "catholic": {
+   "fr": "La tradition catholique remarque que Jésus prie seul après l'action, et qu'il voit les siens même de loin. Bède le Vénérable, cité dans la Catena Aurea, écrit que l'amour du ciel semble souvent avoir abandonné les fidèles dans l'épreuve. Pourtant, le Christ vient au moment voulu.",
+   "en": "The Catholic tradition notes that Jesus prays alone after action, and that he sees his own even from afar. The Venerable Bede, quoted in the Catena Aurea, writes that the love of heaven often seems to have deserted the faithful in trouble. Yet Christ comes at the right moment."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne le lien entre prière et silence. Théophylacte d'Ohrid, cité dans la Catena Aurea, écrit que la prière demande le repos et le silence. Il ajoute que le Seigneur laisse ses disciples dans le danger toute la nuit pour leur apprendre la patience.",
+   "en": "The Orthodox tradition stresses the link between prayer and silence. Theophylact of Ohrid, quoted in the Catena Aurea, writes that prayer requires rest and silence. He adds that the Lord leaves his disciples in danger all night to teach them patience."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ en prière qui veille sur les siens et vient à eux dans l'épreuve.",
+    "en": "Both traditions see here Christ at prayer, watching over his own and coming to them in their trial."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:48",
+    "usage": "quote",
+    "quote": "Often then does the love of heaven seem to have deserted the faithful in tribulation"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:46",
+    "usage": "quote",
+    "quote": "for prayer requires rest and silence"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:48",
+    "usage": "quote",
+    "quote": "Now the Lord permitted His disciples to be in danger, that they might learn patience"
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-49-52",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 49,
+  "chapterEnd": 6,
+  "verseEnd": 52,
+  "category": "foi-doute",
+  "difficulty": 2,
+  "explanation": {
+   "fr": "Voyant Jésus marcher sur la mer, les disciples le prennent pour un fantôme et crient. Il leur parle aussitôt : « Rassurez-vous, c'est moi, n'ayez pas peur! » Il monte dans la barque et le vent tombe. Ils sont bouleversés. Marc note qu'ils n'avaient pas compris le miracle des pains, car leur cœur était endurci.",
+   "en": "Seeing Jesus walking on the sea, the disciples think he is a ghost and cry out. At once he speaks to them: \"Cheer up! It is I! Don't be afraid.\" He gets into the boat, the wind drops, and they are utterly amazed. Mark notes that they had not understood the miracle of the loaves, because their hearts were hardened."
+  },
+  "action": {
+   "fr": "Dans une peur présente, écoute intérieurement la parole : « C'est moi, n'ayez pas peur. »",
+   "en": "In a present fear, listen inwardly to the words: \"It is I, don't be afraid.\""
+  },
+  "catholic": {
+   "fr": "La tradition catholique voit dans ce récit le Christ qui vient au secours de son Église dans la tempête. Bède le Vénérable, cité dans la Catena Aurea, écrit que là où le Christ est présent par la grâce de son amour, les luttes des vices et du monde sont apaisées. La foi grandit lentement, même chez les apôtres.",
+   "en": "The Catholic tradition sees in this account Christ coming to the aid of his Church in the storm. The Venerable Bede, quoted in the Catena Aurea, writes that wherever Christ is present by the grace of his love, the struggles of vice and of the world are put to rest. Faith grows slowly, even in the apostles."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe souligne la force de la voix du Christ. Saint Jean Chrysostome, cité dans la Catena Aurea, écrit que, dès qu'ils le reconnurent à sa voix, leur peur les quitta. Le « c'est moi » rappelle le nom divin révélé à Moïse.",
+   "en": "The Orthodox tradition stresses the power of Christ's voice. Saint John Chrysostom, quoted in the Catena Aurea, writes that as soon as they knew him by his voice, their fear left them. The \"It is I\" recalls the divine name revealed to Moses."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici le Christ maître de la mer, dont la présence chasse la peur.",
+    "en": "Both traditions see here Christ as master of the sea, whose presence drives out fear."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:51",
+    "usage": "quote",
+    "quote": "In whatsoever heart, also, He is present by the grace of His love"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "John Chrysostom",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:50",
+    "usage": "quote",
+    "quote": "As soon then as they knew Him by His voice, their fear left them."
+   }
+  ]
+ },
+ {
+  "key": "mrk-6-53-56",
+  "book": "MRK",
+  "chapterStart": 6,
+  "verseStart": 53,
+  "chapterEnd": 6,
+  "verseEnd": 56,
+  "category": "onction-guerison",
+  "difficulty": 1,
+  "explanation": {
+   "fr": "Ils abordent à Génésareth. Les gens reconnaissent aussitôt Jésus et parcourent toute la région. On lui apporte les malades sur des brancards, partout où il passe. Dans les villages, les villes et les campagnes, on dépose les malades sur les places. Tous ceux qui touchent la frange de son vêtement sont guéris.",
+   "en": "They land at Gennesaret. People recognise Jesus at once and run through the whole region. The sick are brought to him on mats wherever he goes. In villages, towns and the countryside, the sick are laid in the marketplaces. All who touch the fringe of his garment are healed."
+  },
+  "action": {
+   "fr": "Accompagne aujourd'hui, par la prière ou un geste, une personne malade vers le Christ.",
+   "en": "Today, by prayer or a gesture, bring someone who is ill to Christ."
+  },
+  "catholic": {
+   "fr": "La tradition catholique admire la foi de ces gens qui portent les malades vers le Christ. Bède le Vénérable, cité dans la Catena Aurea, voit dans la frange du vêtement les plus petits commandements, ou l'humanité que le Christ a prise. Le moindre contact avec lui suffit à guérir.",
+   "en": "The Catholic tradition admires the faith of these people who carry the sick to Christ. The Venerable Bede, quoted in the Catena Aurea, sees in the hem of the garment the least of the commandments, or the human flesh Christ took. The slightest contact with him is enough to heal."
+  },
+  "orthodox": {
+   "fr": "La tradition orthodoxe remarque que les malades sont apportés au Christ, sans attendre qu'il vienne chez eux. Théophylacte d'Ohrid, cité dans la Catena Aurea, le souligne. Cette foi qui va au-devant du Christ est un modèle pour la prière d'intercession.",
+   "en": "The Orthodox tradition notes that the sick are brought to Christ, without waiting for him to come to their homes. Theophylact of Ohrid, quoted in the Catena Aurea, points this out. This faith that goes out to meet Christ is a model for intercessory prayer."
+  },
+  "divergence": {
+   "type": "agree",
+   "summary": {
+    "fr": "Les deux traditions voient ici une foi qui porte les malades au Christ et la guérison donnée par le simple contact avec lui.",
+    "en": "Both traditions see here a faith that carries the sick to Christ, and the healing given by mere contact with him."
+   }
+  },
+  "sources": [
+   {
+    "tradition": "catholic",
+    "author": "Bede",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:56",
+    "usage": "quote",
+    "quote": "by the hem of His garment the slightest of His commandments"
+   },
+   {
+    "tradition": "orthodox",
+    "author": "Theophylact of Ohrid",
+    "work": "Catena Aurea (Thomas Aquinas), Commentary on Mark",
+    "section": "Chapter 6",
+    "ref": "MRK 6:55",
+    "usage": "quote",
+    "quote": "For they did not call Him to their houses that He might heal them"
+   }
+  ]
  }
 ]
