@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { LectioCard, toSpeakable } from "@/components/LectioCard";
+import { LogionCard, toSpeakable } from "@/components/LogionCard";
 import { ReadMeta } from "@/components/ReadMeta";
 import { SpeakButton } from "@/components/SpeakButton";
 import { VoicePicker } from "@/components/VoicePicker";
@@ -282,7 +282,7 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
           aria-live="polite"
         >
           <p className="sr-only">{t.feed.position(index + 1, cards.length)}</p>
-          <LectioCard
+          <LogionCard
             key={`${current.id}-${shownCard?.language}`}
             card={shownCard ?? current}
             discovery={current.discovery}
@@ -291,7 +291,7 @@ export function Feed({ dailyGoal, mode = "feed", rereadQuery }: Props) {
             onFlipLanguage={() => void cardFlip.flip(current)}
           >
             {current.reread && <ReadMeta cardId={current.id} readCount={current.read_count ?? 1} />}
-          </LectioCard>
+          </LogionCard>
         </div>
       )}
 

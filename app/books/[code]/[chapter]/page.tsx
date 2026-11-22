@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { BOOK_BY_CODE, BOOKS } from "@/lib/bible/books";
 import { lxxLabel, psalmTitle } from "@/lib/bible/psalms";
 import { messagesFor } from "@/lib/i18n/server";
@@ -92,11 +92,11 @@ export default async function ChapterPage({ params }: Params) {
             <details open className="group">
               <summary className="cursor-pointer font-semibold text-accent">{t.reader.showReadings}</summary>
               <div className="mt-3">
-                <LectioCard card={b.card} variant="compact" headingLevel="h3" hidePassage>
+                <LogionCard card={b.card} variant="compact" headingLevel="h3" hidePassage>
                   <Link href={`/cards/${b.card.id}`} className="text-sm font-medium text-accent underline-offset-4 hover:underline">
                     {t.reader.openCard} →
                   </Link>
-                </LectioCard>
+                </LogionCard>
               </div>
             </details>
           ) : (

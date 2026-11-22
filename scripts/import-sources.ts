@@ -215,7 +215,7 @@ async function embedSources(db: ScriptDb) {
   const url = process.env.EMBEDDING_FUNCTION_URL ?? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/functions/v1/embed`;
   const secret = process.env.EMBEDDING_FUNCTION_SECRET;
   if (!secret) throw new Error("EMBEDDING_FUNCTION_SECRET is not set");
-  const embed = edgeFunctionEmbedder(url, secret, "Lectio-import/1.0");
+  const embed = edgeFunctionEmbedder(url, secret, "Logion-import/1.0");
   let done = 0;
   for (;;) {
     const { data, error } = await db.from("sources").select("id, author, work, text").is("embedding", null).eq("kind", "patristic").limit(64);

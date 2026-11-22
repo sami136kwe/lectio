@@ -1,6 +1,6 @@
-# Lectio : documentation complète
+# Logion : documentation complète
 
-Lectio est une application de microlecture biblique : un passage du Nouveau Testament ou des Psaumes, une explication simple, la lecture catholique et la lecture orthodoxe, l'usage liturgique vérifié, et une piste à méditer. Elle reprend le socle technique de Stash et remplace tout ce qui touche au contenu.
+Logion est une application de microlecture biblique : un passage du Nouveau Testament ou des Psaumes, une explication simple, la lecture catholique et la lecture orthodoxe, l'usage liturgique vérifié, et une piste à méditer. Elle reprend le socle technique de Stash et remplace tout ce qui touche au contenu.
 
 ## Sommaire
 
@@ -48,7 +48,7 @@ Scripts (tsx) ──────┤  import:bible · import:sources · seed:demo
 | `lib/content/` | Contrôles de contenu (style, attributions, citations, divergence) |
 | `lib/pipeline/` | Découpage en passages, prompts, schémas, modèle (batches), évaluation, exécution |
 | `lib/admin/` | File de relecture, CSV |
-| `components/LectioCard.tsx` | La carte |
+| `components/LogionCard.tsx` | La carte |
 | `supabase/migrations/` | Schéma, RLS, fonctions |
 | `supabase/seed/` | Thèmes, traditions, temps liturgiques, cartes d'exemple |
 
@@ -104,7 +104,7 @@ découpage déterministe ─▶ contexte (textes exacts + sources vérifiées) �
 
 1. **Découpage** (`lib/pipeline/segment.ts`) : 3 à 8 versets, coupure en fin de phrase, strophes des psaumes à « Pause », titres rattachés à la première strophe. Couverture vérifiée (aucun verset sauté ni dupliqué). 2 551 passages pour le NT et les Psaumes.
 2. **Contexte** : texte LSG, WEB, et pour les psaumes Douay-Rheims, Brenton, Giguet ; jusqu'à 4 sources orientales et 4 occidentales qui commentent ces versets.
-3. **Écriture** : `claude-sonnet-5-5` par défaut (`LECTIO_WRITER_MODEL`), via Message Batches (moitié prix), sortie JSON validée par Zod, les deux langues dans le même appel. Prompt : `lib/pipeline/prompt.ts` (règles, structure, un bon et un mauvais exemple).
+3. **Écriture** : `claude-sonnet-5-5` par défaut (`LOGION_WRITER_MODEL`), via Message Batches (moitié prix), sortie JSON validée par Zod, les deux langues dans le même appel. Prompt : `lib/pipeline/prompt.ts` (règles, structure, un bon et un mauvais exemple).
 4. **Contrôles** (`lib/pipeline/evaluate.ts`, `lib/content/checks.ts`) : style, vocabulaire polémique, longueurs, étiquette de divergence et équilibre à 30 %, attributions, citations exactes et courtes, 8 mots copiés au plus, aucune citation biblique hors du texte fourni, thème valide, sources connues.
 5. **Déduplication** : similarité d'embedding inférieure à 0,90 avec les explications et les lectures existantes (par langue et tradition).
 6. **Fidélité théologique** : second lot ; notes catholique, orthodoxe et globale, caricature, faits douteux. Publication si la plus basse des notes est d'au moins 8 et qu'aucun fait douteux n'est signalé ; sinon brouillon pour la relecture.
@@ -130,7 +130,7 @@ découpage déterministe ─▶ contexte (textes exacts + sources vérifiées) �
 | `/about` | Avertissement, méthode, sources |
 | `/admin` | Relecture théologique, échantillon, brouillons, exécutions, export/import |
 
-**La carte** (`components/LectioCard.tsx`) : référence et double numéro des psaumes, versets numérotés, version affichée (et mention si une autre a été prise), grec optionnel, explication, sélecteur Catholique / Orthodoxe / Les deux / Neutre (côte à côte sur grand écran, l'une sous l'autre sur téléphone), lectures avec mention « non encore relue » et références, texte de la Vulgate ou de la Septante sous chaque lecture pour les psaumes, étiquette de divergence, liturgie, piste à vivre.
+**La carte** (`components/LogionCard.tsx`) : référence et double numéro des psaumes, versets numérotés, version affichée (et mention si une autre a été prise), grec optionnel, explication, sélecteur Catholique / Orthodoxe / Les deux / Neutre (côte à côte sur grand écran, l'une sous l'autre sur téléphone), lectures avec mention « non encore relue » et références, texte de la Vulgate ou de la Septante sous chaque lecture pour les psaumes, étiquette de divergence, liturgie, piste à vivre.
 
 **Audio** : la carte est découpée en segments ; le texte biblique et le commentaire ne sont jamais dans le même segment et sont lus par deux voix du même moteur.
 

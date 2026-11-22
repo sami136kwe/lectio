@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { ReadMeta } from "@/components/ReadMeta";
 import { EmptyState, ErrorState, Spinner } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
@@ -204,13 +204,13 @@ export function HistoryList({ tree, progress }: { tree: CategoryNode[]; progress
             <ul className="grid gap-4 lg:grid-cols-2">
               {items.map((item) => (
                 <li key={item.card.id}>
-                  <LectioCard card={item.card} variant="compact" headingLevel="h2">
+                  <LogionCard card={item.card} variant="compact" headingLevel="h2">
                     <p className="text-xs text-muted">
                       {t.history.lastRead(dateFmt.format(new Date(item.last_read_at)))}
                       {item.is_stashed ? " · ★" : ""}
                     </p>
                     <ReadMeta cardId={item.card.id} readCount={item.read_count} />
-                  </LectioCard>
+                  </LogionCard>
                 </li>
               ))}
             </ul>

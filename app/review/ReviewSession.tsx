@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { EmptyState, ErrorState, Spinner } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
 import { apiFetch, localDay } from "@/lib/client/api";
@@ -75,7 +75,7 @@ export function ReviewSession() {
         <span role="status">{lastResult}</span>
       </div>
       {!revealed && <p className="font-medium">{t.review.question}</p>}
-      <LectioCard key={card.id} card={card} hideContent={!revealed} headingLevel="h2" />
+      <LogionCard key={card.id} card={card} hideContent={!revealed} headingLevel="h2" />
       {!revealed ? (
         <button type="button" className="btn-primary py-3" onClick={() => setRevealed(true)} autoFocus>
           {t.review.reveal}

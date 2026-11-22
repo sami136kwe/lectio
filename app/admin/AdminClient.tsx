@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import type { QueueItem } from "@/lib/admin/queue";
 import type { CardSummary } from "@/lib/cards";
 import { apiFetch } from "@/lib/client/api";
@@ -32,7 +32,7 @@ export function AdminCards({ cards }: { cards: AdminCard[] }) {
         const status = statuses[card.id!] || initial;
         return (
           <li key={card.id}>
-            <LectioCard card={card} variant="compact" headingLevel="h3">
+            <LogionCard card={card} variant="compact" headingLevel="h3">
               <div className="flex flex-wrap items-center gap-2 text-sm">
                 <span className={`chip ${status === "published" ? "text-ok" : status === "rejected" ? "text-danger" : ""}`}>{status}</span>
                 <span className="chip">
@@ -45,7 +45,7 @@ export function AdminCards({ cards }: { cards: AdminCard[] }) {
                   {t.admin.reject}
                 </button>
               </div>
-            </LectioCard>
+            </LogionCard>
           </li>
         );
       })}

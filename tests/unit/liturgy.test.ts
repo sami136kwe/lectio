@@ -22,7 +22,7 @@ describe("lectionary citations", () => {
     expect(parseCitation("Psalm 42:3,5;43:3,4")).toHaveLength(4);
   });
 
-  it("keeps the first form of alternatives and ignores books outside Lectio", () => {
+  it("keeps the first form of alternatives and ignores books outside Logion", () => {
     expect(parseCitation("John 1:1-18|John 1:1-5, 9-14")).toEqual([{ book: "JHN", chapterStart: 1, verseStart: 1, chapterEnd: 1, verseEnd: 18 }]);
     expect(parseCitation("Isaiah 2:1-5")).toBeNull();
     expect(parseCitation("nonsense")).toBeNull();

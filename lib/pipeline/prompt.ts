@@ -51,7 +51,7 @@ export type TheologyResult = z.infer<typeof TheologyOutput>;
 
 const example = DEMO_CARDS.find((c) => c.key === "marc-bapteme")!;
 
-export const WRITER_SYSTEM = `You write short Bible study cards for Lectio, a reading app for curious or believing people, in French and in English.
+export const WRITER_SYSTEM = `You write short Bible study cards for Logion, a reading app for curious or believing people, in French and in English.
 Each card is about one passage of the New Testament or the Psalms. You write the commentary only: the Bible text is shown by the app from the database.
 
 ABSOLUTE RULES

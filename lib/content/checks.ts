@@ -1,5 +1,5 @@
 /**
- * Rule-based checks on a Lectio card (no model involved). Used by the
+ * Rule-based checks on a Logion card (no model involved). Used by the
  * generation pipeline before publication, by check:db and by the tests on the
  * hand-written cards.
  */

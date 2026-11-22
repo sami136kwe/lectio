@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 
 /**
- * Lectio features: tradition switch, search by reference, reading in order,
+ * Logion features: tradition switch, search by reference, reading in order,
  * FR/EN without losing the position, daily deck (50 or unlimited, forward and
  * back), learn a verse. Needs `npm run setup` (Bible text, sources, demo cards).
  */

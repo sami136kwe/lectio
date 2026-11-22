@@ -1,4 +1,4 @@
--- Lectio: Row Level Security, read views and RPC functions.
+-- Logion: Row Level Security, read views and RPC functions.
 
 -- ---------------------------------------------------------------------------
 -- RLS on every table

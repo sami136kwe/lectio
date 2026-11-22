@@ -34,7 +34,7 @@ export async function fetchPinned(file: SourceFile): Promise<string> {
   let lastError: unknown;
   for (let attempt = 1; attempt <= 4; attempt++) {
     try {
-      const res = await fetch(file.url, { headers: { "User-Agent": "Lectio-import/1.0" } });
+      const res = await fetch(file.url, { headers: { "User-Agent": "Logion-import/1.0" } });
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${file.url}`);
       const buf = Buffer.from(await res.arrayBuffer());
       const got = sha(buf);

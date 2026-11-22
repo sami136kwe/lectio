@@ -14,8 +14,8 @@ const publicSchema = z.object({
 const serverSchema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(20),
   ANTHROPIC_API_KEY: z.string().min(10).optional(),
-  LECTIO_WRITER_MODEL: z.string().min(3).default("claude-sonnet-5-5"),
-  LECTIO_CHECKER_MODEL: z.string().min(3).default("claude-sonnet-5-5"),
+  LOGION_WRITER_MODEL: z.string().min(3).default("claude-sonnet-5-5"),
+  LOGION_CHECKER_MODEL: z.string().min(3).default("claude-sonnet-5-5"),
   MAX_BUDGET_USD: z.coerce.number().positive().default(10),
   EMBEDDING_FUNCTION_URL: z.url().optional(),
   /** Local Kokoro TTS server (npm run tts:kokoro), e.g. http://127.0.0.1:8788 */

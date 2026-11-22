@@ -51,7 +51,7 @@ describe("parseReference", () => {
     expect(parseReference("amour")).toBeNull();
     expect(parseReference("Jn 22")).toBeNull(); // John has 21 chapters
     expect(parseReference("Ps 151")).toBeNull(); // only in the Septuagint numbering
-    expect(parseReference("Gn 1,1")).toBeNull(); // outside Lectio
+    expect(parseReference("Gn 1,1")).toBeNull(); // outside Logion
     expect(parseReference("Jn 3,18-16")).toBeNull();
   });
 });

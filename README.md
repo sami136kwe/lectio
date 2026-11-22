@@ -1,8 +1,8 @@
-# Lectio
+# Logion
 
 **Un passage, deux traditions, quelques minutes par jour.**
 
-Lectio est une application web de lecture biblique en petites cartes. Chaque carte porte sur un court passage du **Nouveau Testament** ou des **Psaumes** et contient, dans cet ordre :
+Logion est une application web de lecture biblique en petites cartes. Chaque carte porte sur un court passage du **Nouveau Testament** ou des **Psaumes** et contient, dans cet ordre :
 
 1. la référence et le **texte biblique exact** (Louis Segond 1910 en français, World English Bible, King James ou Douay-Rheims en anglais), importé tel quel depuis des traductions du domaine public ;
 2. une **explication simple** du texte ;
@@ -13,11 +13,11 @@ Lectio est une application web de lecture biblique en petites cartes. Chaque car
 
 Pour les Psaumes, les deux numérotations sont affichées (« Psaume 23 (22 dans la Septante) ») et le texte rattaché à chaque tradition (Vulgate, Septante) est disponible sous chaque lecture.
 
-> Lectio est un outil de lecture et d'étude, pas un enseignement officiel d'une Église. Pour toute question de foi, référez-vous à l'autorité de votre Église.
+> Logion est un outil de lecture et d'étude, pas un enseignement officiel d'une Église. Pour toute question de foi, référez-vous à l'autorité de votre Église.
 
 📘 Documentation complète : [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md) · Sources et licences : [docs/SOURCES.md](docs/SOURCES.md)
 
-Lectio reprend l'architecture de **Stash** (Next.js, Supabase, répétition espacée, audio, historique, i18n) et en remplace le contenu.
+Logion reprend l'architecture de **Stash** (Next.js, Supabase, répétition espacée, audio, historique, i18n) et en remplace le contenu.
 
 ---
 
@@ -43,11 +43,11 @@ Page **admin** : file de relecture théologique (filtres par tradition, livre, d
 Il faut **Node.js 20.9+**, **Docker Desktop** (ouvert) et **Git**.
 
 ```bash
-git clone <adresse de votre dépôt> lectio
+git clone <adresse de votre dépôt> logion
 ```
 
 ```bash
-cd lectio
+cd logion
 ```
 
 ```bash
@@ -114,6 +114,6 @@ npm run seed:cards -- --local --book=MRK --resume --skip-dedup
 
 Les cartes passent par les mêmes contrôles que le pipeline : texte biblique injecté (jamais tiré de la mémoire du modèle), citations des Pères vérifiées mot pour mot, style, divergences. Une carte qui échoue reste en brouillon ou est rejetée. Elles arrivent toutes en « à relire » dans la page admin.
 
-- Modèle : `LECTIO_LOCAL_MODEL` (par défaut `qwen2.5:14b`). Avec 8 Go de mémoire, prenez `qwen2.5:7b` ; avec 32 Go ou plus, `qwen2.5:32b` écrit mieux.
+- Modèle : `LOGION_LOCAL_MODEL` (par défaut `qwen2.5:14b`). Avec 8 Go de mémoire, prenez `qwen2.5:7b` ; avec 32 Go ou plus, `qwen2.5:32b` écrit mieux.
 - Un modèle local est nettement moins fin qu'un grand modèle : attendez-vous à plus de rejets et relisez davantage.
 - Durée indicative sur un Mac M1/M2 avec le modèle 14b : une à deux minutes par passage (Marc : quelques heures ; tout le Nouveau Testament : plusieurs jours de calcul).

@@ -93,17 +93,19 @@ test("when no new card is left, the feed switches to re-reading with a clear mes
   await page.getByLabel("Mot de passe").fill("correct-horse-battery");
   await page.getByRole("button", { name: "Créer mon compte" }).click();
   await page.getByRole("button", { name: "Suivant" }).click();
-  await page.getByRole("checkbox", { name: /^Jésus/ }).check();
+  // The theme with the fewest cards: the other themes grow as content is written.
+  await page.getByRole("checkbox", { name: /^Psaumes/ }).check();
   await page.getByRole("button", { name: "Suivant" }).click();
   await page.getByRole("button", { name: "Commencer la lecture" }).click();
   await expect(page).toHaveURL(/\/feed/);
 
-  // Read every card of the demo content (12) until the feed has nothing more to show.
+  // Read every card (the feed also mixes in discovery cards from other themes) until nothing is left.
+  test.setTimeout(240_000);
   const allSeen = page.getByText("Vous avez tout lu pour l'instant");
   const next = page.getByRole("button", { name: "Suivant" });
-  for (let i = 0; i < 40 && !(await allSeen.isVisible()); i++) {
+  for (let i = 0; i < 1000 && !(await allSeen.isVisible()); i++) {
     if (await next.isEnabled()) await next.click();
-    await page.waitForTimeout(150);
+    await page.waitForTimeout(30);
   }
   await expect(allSeen).toBeVisible();
 

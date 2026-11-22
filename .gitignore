@@ -51,6 +51,6 @@ next-env.d.ts
 .vscode/
 .DS_Store
 
-# Lectio: downloaded Bible and source files
+# Logion: downloaded Bible and source files
 /.cache/
 /exports/

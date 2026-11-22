@@ -1,6 +1,6 @@
 /**
  * Export of the cards and their readings, for backup and external review:
- *   npm run export:cards                       -> exports/lectio-cards-<date>.json and .csv
+ *   npm run export:cards                       -> exports/logion-cards-<date>.json and .csv
  *   npm run export:cards -- --status=published
  *   npm run export:cards -- --review           -> also the theological review queue as CSV (re-import: npm run review:import)
  */
@@ -37,7 +37,7 @@ async function main() {
   const dir = join(process.cwd(), "exports");
   mkdirSync(dir, { recursive: true });
   const date = new Date().toISOString().slice(0, 10);
-  writeFileSync(join(dir, `lectio-cards-${date}.json`), JSON.stringify(out, null, 2));
+  writeFileSync(join(dir, `logion-cards-${date}.json`), JSON.stringify(out, null, 2));
 
   const header = ["card_id", "reference", "status", "category", "language", "explanation", "catholic", "orthodox", "divergence", "divergence_topic", "action", "catholic_review", "orthodox_review"];
   const rows = [header.join(",")];
@@ -59,8 +59,8 @@ async function main() {
       );
     }
   }
-  writeFileSync(join(dir, `lectio-cards-${date}.csv`), `﻿${rows.join("\r\n")}\r\n`);
-  console.log(`Exported ${out.length} cards to exports/lectio-cards-${date}.json and .csv`);
+  writeFileSync(join(dir, `logion-cards-${date}.csv`), `﻿${rows.join("\r\n")}\r\n`);
+  console.log(`Exported ${out.length} cards to exports/logion-cards-${date}.json and .csv`);
 
   if (hasFlag("review")) {
     const items = (out as { id: string; passages: { book_code: string; chapter_start: number; verse_start: number; chapter_end: number; verse_end: number }; card_perspectives: { id: string; language: string; tradition: string; body: string; divergence_type: string; divergence_topic: string | null; review_status: string; reviewer_note: string | null; perspective_sources: { usage: string; sources: { author: string; work: string; section: string } }[] }[] }[]).flatMap((c) =>
@@ -80,8 +80,8 @@ async function main() {
           reviewer_note: p.reviewer_note ?? "",
         })),
     );
-    writeFileSync(join(dir, `lectio-review-${date}.csv`), `﻿${toCsv(items)}`);
-    console.log(`Review queue: ${items.length} readings in exports/lectio-review-${date}.csv`);
+    writeFileSync(join(dir, `logion-review-${date}.csv`), `﻿${toCsv(items)}`);
+    console.log(`Review queue: ${items.length} readings in exports/logion-review-${date}.csv`);
   }
 }
 

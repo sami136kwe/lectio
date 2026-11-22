@@ -1,6 +1,6 @@
-# Sources et licences de Lectio
+# Sources et licences de Logion
 
-Tout ce que Lectio affiche comme texte biblique, citation d'un Père ou usage liturgique vient d'un fichier listé ici, téléchargé à un commit figé et vérifié par son empreinte SHA-256 (`lib/bible/versions.ts`, `scripts/import-sources.ts`). Date des imports de référence : **21 novembre 2026**.
+Tout ce que Logion affiche comme texte biblique, citation d'un Père ou usage liturgique vient d'un fichier listé ici, téléchargé à un commit figé et vérifié par son empreinte SHA-256 (`lib/bible/versions.ts`, `scripts/import-sources.ts`). Date des imports de référence : **21 novembre 2026**.
 
 ## 1. Texte biblique (`npm run import:bible`)
 

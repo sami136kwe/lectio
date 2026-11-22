@@ -1,6 +1,6 @@
 "use client";
 
-import { LectioCard, toSpeakable } from "@/components/LectioCard";
+import { LogionCard, toSpeakable } from "@/components/LogionCard";
 import { SpeakButton } from "@/components/SpeakButton";
 import { VoicePicker } from "@/components/VoicePicker";
 import type { CardSummary } from "@/lib/cards";
@@ -13,12 +13,12 @@ export function ReadableCard({ card, children }: { card: CardSummary; children?:
   const shown = show(card)!;
   const audio = useReadAloud(toSpeakable(shown));
   return (
-    <LectioCard key={`${shown.id}-${shown.language}`} card={shown} headingLevel="h1" reading={audio.reading} onFlipLanguage={() => void flip(card)}>
+    <LogionCard key={`${shown.id}-${shown.language}`} card={shown} headingLevel="h1" reading={audio.reading} onFlipLanguage={() => void flip(card)}>
       <div className="flex flex-wrap items-center gap-3">
         <SpeakButton state={audio.state} onToggle={audio.toggle} />
         <VoicePicker language={audio.language} voice={audio.voice} onChange={audio.setVoice} />
         {children}
       </div>
-    </LectioCard>
+    </LogionCard>
   );
 }

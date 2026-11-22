@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { cardsByIds } from "@/lib/cards";
 import { messagesFor } from "@/lib/i18n/server";
 import { getViewer } from "@/lib/session";
@@ -43,7 +43,7 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
       ) : (
         <div className="flex flex-col gap-6">
           {cards.map((card) => (
-            <LectioCard key={card.id} card={card} headingLevel="h2" />
+            <LogionCard key={card.id} card={card} headingLevel="h2" />
           ))}
         </div>
       )}

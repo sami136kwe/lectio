@@ -17,7 +17,7 @@ export async function GET(request: Request) {
     return new Response(`﻿${toCsv(toExportRows(items))}`, {
       headers: {
         "Content-Type": "text/csv; charset=utf-8",
-        "Content-Disposition": `attachment; filename="lectio-review-${date}.csv"`,
+        "Content-Disposition": `attachment; filename="logion-review-${date}.csv"`,
       },
     });
   } catch (error) {

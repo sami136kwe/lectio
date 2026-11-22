@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { CardSummary } from "@/lib/cards";
-import { LectioCard } from "./LectioCard";
+import { LogionCard } from "./LogionCard";
 import { useT } from "@/lib/i18n/client";
 
 export function CardGrid({ cards }: { cards: CardSummary[] }) {
@@ -11,11 +11,11 @@ export function CardGrid({ cards }: { cards: CardSummary[] }) {
     <ul className="grid gap-4 md:grid-cols-2">
       {cards.map((card) => (
         <li key={card.id}>
-          <LectioCard card={card} variant="compact" headingLevel="h3">
+          <LogionCard card={card} variant="compact" headingLevel="h3">
             <Link href={`/cards/${card.id}`} className="text-sm font-medium text-accent underline-offset-4 hover:underline">
               {t.common.openCard} →
             </Link>
-          </LectioCard>
+          </LogionCard>
         </li>
       ))}
     </ul>

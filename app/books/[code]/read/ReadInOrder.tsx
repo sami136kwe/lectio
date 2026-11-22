@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import type { CardSummary } from "@/lib/cards";
 import { apiFetch, localDay } from "@/lib/client/api";
 import { useT } from "@/lib/i18n/client";
@@ -25,7 +25,7 @@ export function ReadInOrder({ card, bookCode, previousHref }: { card: CardSummar
   }
 
   return (
-    <LectioCard key={card.id} card={card} headingLevel="h1">
+    <LogionCard key={card.id} card={card} headingLevel="h1">
       <div className="flex items-center justify-between gap-2">
         {previousHref ? (
           <Link href={previousHref} className="btn-ghost">
@@ -38,6 +38,6 @@ export function ReadInOrder({ card, bookCode, previousHref }: { card: CardSummar
           {t.common.next} →
         </button>
       </div>
-    </LectioCard>
+    </LogionCard>
   );
 }

@@ -15,9 +15,9 @@
  *   npm run seed:cards -- --last-errors      why passages of the last run were rejected (no model call)
  *   npm run seed:cards -- --local --book=MRK free, on your own machine with Ollama (no API key)
  *
- * --local: model LECTIO_LOCAL_MODEL (default qwen2.5:14b), Ollama at OLLAMA_HOST (default http://127.0.0.1:11434).
+ * --local: model LOGION_LOCAL_MODEL (default qwen2.5:14b), Ollama at OLLAMA_HOST (default http://127.0.0.1:11434).
  * Otherwise needs ANTHROPIC_API_KEY. Spending cap: MAX_BUDGET_USD (default 10).
- * Writer model: LECTIO_WRITER_MODEL (default claude-sonnet-5-5); checker: LECTIO_CHECKER_MODEL (same default).
+ * Writer model: LOGION_WRITER_MODEL (default claude-sonnet-5-5); checker: LOGION_CHECKER_MODEL (same default).
  */
 import { createInterface } from "node:readline/promises";
 import { edgeFunctionEmbedder, type Embedder } from "@/lib/ingestion/embeddings";
@@ -84,20 +84,20 @@ async function main() {
   let writer: PipelineModel;
   let checker: PipelineModel;
   if (local) {
-    const model = new OllamaModel({ model: process.env.LECTIO_LOCAL_MODEL ?? "qwen2.5:14b", host: process.env.OLLAMA_HOST });
+    const model = new OllamaModel({ model: process.env.LOGION_LOCAL_MODEL ?? "qwen2.5:14b", host: process.env.OLLAMA_HOST });
     if (!dryRun) await model.probe();
     writer = checker = model;
   } else {
-    const writerModel = process.env.LECTIO_WRITER_MODEL ?? "claude-sonnet-5-5";
+    const writerModel = process.env.LOGION_WRITER_MODEL ?? "claude-sonnet-5-5";
     writer = new AnthropicBatchModel({ model: writerModel, effort: "high" });
-    checker = new AnthropicBatchModel({ model: process.env.LECTIO_CHECKER_MODEL ?? writerModel, effort: "high" });
+    checker = new AnthropicBatchModel({ model: process.env.LOGION_CHECKER_MODEL ?? writerModel, effort: "high" });
   }
 
   let embed: Embedder | null = null;
   if (!hasFlag("skip-dedup") && !dryRun) {
     const secret = process.env.EMBEDDING_FUNCTION_SECRET;
     if (!secret) throw new Error("EMBEDDING_FUNCTION_SECRET is not set (or pass --skip-dedup)");
-    embed = edgeFunctionEmbedder(process.env.EMBEDDING_FUNCTION_URL ?? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/functions/v1/embed`, secret, "Lectio-seed/1.0");
+    embed = edgeFunctionEmbedder(process.env.EMBEDDING_FUNCTION_URL ?? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/functions/v1/embed`, secret, "Logion-seed/1.0");
     await embed(["probe"]).catch((e: unknown) => {
       throw new Error(`embedding service unavailable (${e instanceof Error ? e.message : String(e)}); fix it or pass --skip-dedup`);
     });

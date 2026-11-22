@@ -1,5 +1,5 @@
 /**
- * The books Lectio covers: the 27 books of the New Testament and the Psalms.
+ * The books Logion covers: the 27 books of the New Testament and the Psalms.
  * Codes are USFM/Paratext codes, as used by eBible.org files.
  */
 

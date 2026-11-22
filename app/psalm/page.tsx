@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { gregorianToJdn } from "@/lib/liturgy/calendar";
 import { psalmTitle } from "@/lib/bible/psalms";
 import { cardsByIds } from "@/lib/cards";
@@ -37,7 +37,7 @@ export default async function PsalmOfTheDay() {
         </p>
       </div>
       {cards.map((card) => (
-        <LectioCard key={card.id} card={card} headingLevel="h2" />
+        <LogionCard key={card.id} card={card} headingLevel="h2" />
       ))}
     </div>
   );

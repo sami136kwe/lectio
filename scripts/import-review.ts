@@ -1,7 +1,7 @@
 /**
  * Re-import of a reviewed CSV (exported from the admin page or with
  * `npm run export:cards -- --review`):
- *   npm run review:import -- path/to/lectio-review.csv
+ *   npm run review:import -- path/to/logion-review.csv
  */
 import { readFileSync } from "node:fs";
 import { applyReviewUpdates } from "@/lib/admin/apply";

@@ -1,5 +1,5 @@
 /**
- * Reference data for Lectio: the 8 theme categories and their subcategories,
+ * Reference data for Logion: the 8 theme categories and their subcategories,
  * the traditions, and the liturgical seasons.
  *
  * Applied by `npm run seed:categories` and by `npm run setup`. Upserts by slug

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { EmptyState } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
 import type { MainCategory } from "@/lib/categories";
@@ -110,7 +110,7 @@ export function StashList({ initialCards, initialNotes, categories }: Props) {
         <ul className="grid gap-4 lg:grid-cols-2">
           {visible.map((card) => (
             <li key={card.id}>
-              <LectioCard card={card} variant="compact" headingLevel="h2">
+              <LogionCard card={card} variant="compact" headingLevel="h2">
                 <NoteEditor cardId={card.id} initial={initialNotes[card.id] ?? ""} />
                 <button
                   type="button"
@@ -127,7 +127,7 @@ export function StashList({ initialCards, initialNotes, categories }: Props) {
                 >
                   {t.stash.remove}
                 </button>
-              </LectioCard>
+              </LogionCard>
             </li>
           ))}
         </ul>

@@ -125,7 +125,7 @@ function Reading({ perspective, tradition, text, reviewedOnly, cardLanguage }: {
   );
 }
 
-export function LectioCard({ card, discovery, variant = "full", hideContent, hidePassage, headingLevel = "h2", reading, onFlipLanguage, children }: Props) {
+export function LogionCard({ card, discovery, variant = "full", hideContent, hidePassage, headingLevel = "h2", reading, onFlipLanguage, children }: Props) {
   const t = useT();
   const prefs = useReadingPrefs();
   const [view, setView] = useState<TraditionView>(prefs.view);

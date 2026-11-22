@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { ErrorState, Spinner } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
 import { apiFetch, localDay } from "@/lib/client/api";
@@ -104,7 +104,7 @@ export function DeckReader({ day }: { day: string | null }) {
             {t.deck.position(deck.position, total)}
           </p>
           {current ? (
-            <LectioCard key={`${current.id}-${current.language}`} card={current} headingLevel="h2" onFlipLanguage={() => void flip(current)} />
+            <LogionCard key={`${current.id}-${current.language}`} card={current} headingLevel="h2" onFlipLanguage={() => void flip(current)} />
           ) : (
             <Spinner />
           )}

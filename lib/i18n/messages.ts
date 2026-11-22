@@ -4,7 +4,7 @@ export const LOCALES: Locale[] = ["fr", "en"];
 const plural = (n: number, one: string, many: string) => (n > 1 ? many : one);
 
 const fr = {
-  appName: "Lectio",
+  appName: "Logion",
   tagline: "Un passage, deux traditions, quelques minutes par jour.",
   nav: {
     feed: "Fil",
@@ -110,7 +110,7 @@ const fr = {
     invalid: "E-mail ou mot de passe incorrect.",
   },
   onboarding: {
-    title: "Bienvenue sur Lectio",
+    title: "Bienvenue sur Logion",
     stepLanguage: "Dans quelle langue lire ?",
     stepTradition: "Quelle lecture afficher ?",
     traditionHint: "Vous pourrez changer sur chaque carte et dans les réglages.",
@@ -316,9 +316,9 @@ const fr = {
     deleted: "Compte supprimé.",
   },
   about: {
-    title: "À propos de Lectio",
+    title: "À propos de Logion",
     disclaimer:
-      "Lectio est un outil de lecture et d'étude. Ce n'est pas un enseignement officiel d'une Église. Pour toute question de foi ou de vie chrétienne, référez-vous à l'autorité et aux pasteurs de votre Église.",
+      "Logion est un outil de lecture et d'étude. Ce n'est pas un enseignement officiel d'une Église. Pour toute question de foi ou de vie chrétienne, référez-vous à l'autorité et aux pasteurs de votre Église.",
     method:
       "Le texte biblique vient de traductions du domaine public, importées telles quelles. Les explications et les lectures sont rédigées avec l'aide d'un modèle d'intelligence artificielle, à partir de sources vérifiées, puis contrôlées automatiquement. Une lecture marquée « non encore relue » n'a pas été validée par une personne.",
     sources: "Traductions et sources",
@@ -403,7 +403,7 @@ const fr = {
 export type Messages = typeof fr;
 
 const en: Messages = {
-  appName: "Lectio",
+  appName: "Logion",
   tagline: "One passage, two traditions, a few minutes a day.",
   nav: {
     feed: "Feed",
@@ -509,7 +509,7 @@ const en: Messages = {
     invalid: "Wrong email or password.",
   },
   onboarding: {
-    title: "Welcome to Lectio",
+    title: "Welcome to Logion",
     stepLanguage: "Which language do you want to read in?",
     stepTradition: "Which reading should we show?",
     traditionHint: "You can change it on every card and in the settings.",
@@ -715,9 +715,9 @@ const en: Messages = {
     deleted: "Account deleted.",
   },
   about: {
-    title: "About Lectio",
+    title: "About Logion",
     disclaimer:
-      "Lectio is a tool for reading and study. It is not the official teaching of any Church. For any question of faith or Christian life, please turn to the authority and pastors of your own Church.",
+      "Logion is a tool for reading and study. It is not the official teaching of any Church. For any question of faith or Christian life, please turn to the authority and pastors of your own Church.",
     method:
       "The Bible text comes from public-domain translations, imported as they are. Explanations and readings are written with the help of an AI model from verified sources, then checked automatically. A reading marked “not yet reviewed” has not been validated by a person.",
     sources: "Translations and sources",

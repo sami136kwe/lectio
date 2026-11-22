@@ -1,4 +1,4 @@
--- Lectio: core schema.
+-- Logion: core schema.
 -- Bible text (imported deterministically), passages, cards and their readings
 -- per tradition, verified sources, liturgy, and the user tables inherited from Stash.
 -- Row Level Security and functions live in the next migration.
@@ -305,7 +305,7 @@ create table public.profiles (
   timezone text not null default 'UTC',
   include_reread boolean not null default false,
   reread_ratio smallint not null default 20 check (reread_ratio in (10, 20, 30, 50)),
-  -- Lectio
+  -- Logion
   tradition_view text not null default 'both' check (tradition_view in ('both', 'catholic', 'orthodox', 'neutral')),
   bible_version_fr text not null default 'LSG1910',
   bible_version_en text not null default 'WEB',

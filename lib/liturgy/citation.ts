@@ -5,7 +5,7 @@
  *
  * Partial verses ("12a", "19b") count as the whole verse. Alternatives
  * separated by "|" (long and short forms) keep the first, longest form.
- * Books outside Lectio (Old Testament except Psalms) return null.
+ * Books outside Logion (Old Testament except Psalms) return null.
  */
 import { BOOKS } from "@/lib/bible/books";
 import type { Range } from "@/lib/bible/reference";

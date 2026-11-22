@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { LectioCard } from "@/components/LectioCard";
+import { LogionCard } from "@/components/LogionCard";
 import { EmptyState, ErrorState, Spinner } from "@/components/States";
 import type { CardSummary } from "@/lib/cards";
 import { apiFetch, localDay } from "@/lib/client/api";
@@ -54,7 +54,7 @@ export function DailyChallenge() {
   return (
     <div className="flex flex-col gap-4">
       <p className="chip w-fit bg-accent-soft text-accent">🔥 {t.challenge.streak(data.streak)}</p>
-      <LectioCard card={card} headingLevel="h2">
+      <LogionCard card={card} headingLevel="h2">
         <label
           className={`flex cursor-pointer items-center gap-3 rounded-2xl border p-4 text-lg font-semibold ${
             data.completed ? "border-ok text-ok" : "border-line hover:bg-surface-2"
@@ -69,7 +69,7 @@ export function DailyChallenge() {
           />
           {data.completed ? t.challenge.completed : t.challenge.done}
         </label>
-      </LectioCard>
+      </LogionCard>
     </div>
   );
 }
