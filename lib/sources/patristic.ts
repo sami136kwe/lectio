@@ -36,6 +36,7 @@ export const PD_WORKS: PdWork[] = [
   { path: /^Polycarp of Smyrna\/Epistle to the Philippians/, work: "Epistle to the Philippians", translation: "Ante-Nicene Fathers, vol. 1 (1885)", tradition: "common" },
   { path: /^Justin Martyr\/(Dialogue with Trypho|First Apology|Second Apology)/, work: "Works", translation: "Ante-Nicene Fathers, vol. 1 (1885)", tradition: "common" },
   { path: /^Clement of Alexandria\/(The Stromata|The Instructor|Exhortation)/, work: "Works", translation: "Ante-Nicene Fathers, vol. 2 (1885)", tradition: "common" },
+  { path: /^Victorinus of Pettau\/Commentary on the Apocalypse of the Blessed John/, work: "Commentary on the Apocalypse", translation: "Ante-Nicene Fathers, vol. 7 (1886)", tradition: "common" },
 ];
 
 /** Letters and digits only, lowercase, without accents. */

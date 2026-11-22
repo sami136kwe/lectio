@@ -31,7 +31,7 @@ Nettoyage déterministe, et rien d'autre : normalisation Unicode NFC, espaces in
 
 Ce dépôt contient aussi des extraits de traductions modernes sous droits (au titre du fair use) et des traductions automatiques du Migne. Trois filtres successifs :
 
-1. **Liste blanche d'œuvres** traduites au XIXe siècle (`PD_WORKS` dans `lib/sources/patristic.ts`) : Ante-Nicene et Nicene and Post-Nicene Fathers de Schaff (Jean Chrysostome, Augustin *Harmony of the Gospels*, Léon le Grand, Irénée, Hilaire, Basile *Sur le Saint-Esprit*, Athanase, Cyprien, Ignace, Polycarpe, Justin, Clément d'Alexandrie, Origène *Commentaire sur Jean*), la *Catena Aurea* de Thomas d'Aquin dans l'édition de Newman (1841-1845), Cyrille d'Alexandrie sur Jean (Library of the Fathers, 1874-1885) et sur Luc (Payne Smith, 1859).
+1. **Liste blanche d'œuvres** traduites au XIXe siècle (`PD_WORKS` dans `lib/sources/patristic.ts`) : Ante-Nicene et Nicene and Post-Nicene Fathers de Schaff (Jean Chrysostome, Augustin *Harmony of the Gospels*, Léon le Grand, Irénée, Hilaire, Basile *Sur le Saint-Esprit*, Athanase, Cyprien, Ignace, Polycarpe, Justin, Clément d'Alexandrie, Origène *Commentaire sur Jean*, Victorin de Pettau *Commentaire sur l'Apocalypse*), la *Catena Aurea* de Thomas d'Aquin dans l'édition de Newman (1841-1845), Cyrille d'Alexandrie sur Jean (Library of the Fathers, 1874-1885) et sur Luc (Payne Smith, 1859).
 2. **Preuve mot pour mot** : chaque paragraphe de l'extrait doit se retrouver dans le texte complet du domaine public de l'œuvre citée. Cela écarte les extraits de traductions modernes rangés sous la même adresse (8 406 extraits rejetés).
 3. Toute page d'œuvre qui mentionne une traduction automatique (ChatGPT, etc.) est refusée.
 
